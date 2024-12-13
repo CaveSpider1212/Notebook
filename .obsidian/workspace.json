@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "1e3d4b151535a8ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "55e601fca3740f67",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5357ac142921f53",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "842b04ebe49abe99",
+    "type": "split",
+    "children": [
+      {
+        "id": "411f1cabf1a2cb0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5339f0cb0896fe38",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "dfd0b06c77b79523",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a2cb2a8408b82573",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 297.5
+  },
+  "right": {
+    "id": "0ce3a2263d311223",
+    "type": "split",
+    "children": [
+      {
+        "id": "c010b9756eab00fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18b8f9e35665321b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "96082506ebc730ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ea733e6e7cc714c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "968d757ff2995096",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5339f0cb0896fe38",
+  "lastOpenFiles": [
+    "repo/notebook",
+    "repo",
+    "New folder",
+    "WSU",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Projections.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/The Gram-Schmidt Process.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Least-Squares Problems.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Inner Product, Length, and Orthogonality.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Vector Equations.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Matrix Operations.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Inverses.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Properties of Determinants.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Introduction to Determinants.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 5/Characteristic Equation.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 5/Eigenvectors and Eigenvalues.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Cramer's Rule, Volume, and Linear Trnasformations.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Dimension and Rank.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Subspaces of Rn.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Characterizations of Invertible Matrices.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/The Matrix of a Linear Transformation.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Introduction to Linear Systems.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Solution Sets of Linear Systems.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Linear Independence.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Row Reduction and Echelon Forms.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/The Matrix Equation Ax = b.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Systems of Linear Equations.md",
+    "WSU FALL 2024 SEMESTER/POL_S 102/Peacekeeping & Nation Building.md",
+    "WSU FALL 2024 SEMESTER/POL_S 102/Civil Wars & Ethnic Conflict.md",
+    "WSU FALL 2024 SEMESTER/POL_S 102/Images/12.3.24 Civil War Chart.jpg",
+    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Affordances of engineering.pdf",
+    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/The what   how   why of English in the workplace  perspectives from Turkish engineers.pdf",
+    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Business Lingua Franca.pdf",
+    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Maximizing Diversity and Productivity.pdf",
+    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/English Language Iranian.pdf",
+    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 4 - Thermodynamics",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6",
+    "Pasted image 20241108154006.png",
+    "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.29.24 Democratic Transitions Chart.png",
+    "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.22.24 Democratic Transitions Chart.png",
+    "Untitled.canvas",
+    "PHYSICS 201/Untitled.canvas"
+  ]
+}
