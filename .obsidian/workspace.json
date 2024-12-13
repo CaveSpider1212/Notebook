@@ -11,10 +11,14 @@
             "id": "c5357ac142921f53",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/test.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "test"
             }
           }
         ]
@@ -166,8 +170,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5339f0cb0896fe38",
+  "active": "c5357ac142921f53",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/test.md",
+    "WSU SPRING 2025 SEMESTER",
     "repo/notebook",
     "repo",
     "New folder",
@@ -203,8 +209,6 @@
     "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Business Lingua Franca.pdf",
     "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Maximizing Diversity and Productivity.pdf",
     "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/English Language Iranian.pdf",
-    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 4 - Thermodynamics",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6",
     "Pasted image 20241108154006.png",
     "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.29.24 Democratic Transitions Chart.png",
     "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.22.24 Democratic Transitions Chart.png",
