@@ -22,7 +22,7 @@ $$3\begin{bmatrix} 2 \\ -1 \end{bmatrix} = \begin{bmatrix} 6 \\ -3 \end{bmatrix}
 
 ![[8.27.24 R2 Graph]]
 
-- Parallelogram rule for addition: *see [[Vectors#^60fd81]]*
+- Parallelogram rule for addition: *see [[WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 1 - Kinematics and Forces/Vectors#^60fd81]]*
 
 - Scaling vectors: multiply everything (height and width) of the vector by the scalar
   - Unit vector is any vector of length 1

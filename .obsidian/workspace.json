@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "55e601fca3740f67",
+        "id": "18917f90cf3ec091",
         "type": "tabs",
         "children": [
           {
-            "id": "c5357ac142921f53",
+            "id": "a2a7fbd4fb7beeb9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Coulomb's Law.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Coulomb's Law"
             }
           }
         ]
@@ -136,23 +140,14 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "850cb4e934897a7a",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,49 +157,54 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5339f0cb0896fe38",
+  "active": "a2a7fbd4fb7beeb9",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.9.25 Coulomb Example 2 Net Force.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.8.25 Equilateral Coulomb Net Force.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Coulomb's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.8.25 Coulomb Example 2 Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.8.25 Equilateral Coulomb Drawing.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Lines and Planes in Space.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Vectors.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.9.25 Line in Space.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.9.25 Parallelogram.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.9.25 Right Hand Rule.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.9.25 Vector Projection.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.7.25 Scalar Projection.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.7.25 Vector Graph.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Drawings/Drawing 2025-01-09 16.56.34.excalidraw.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Drawings/1.7.25 Vector Graph.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Introduction to Determinants.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Review.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Intro to Psychology.md",
+    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 4 - Thermodynamics/Heat Engines.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.8.25 Coulomb Spheres FBD.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.8.25 Coulomb Sphere Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Polarization.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.6.25 Wool Plastic Charging Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.6.25 Charging by Induction Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.6.25 Plastic Metal Charging Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.6.25 Polarization Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings",
+    "WSU SPRING 2025 SEMESTER/MATH 273",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122",
+    "WSU SPRING 2025 SEMESTER",
     "WSU SPRING 2025 SEMESTER/test.md",
     "WSU SPRING 2025 SEMESTER",
     "repo/notebook",
     "repo",
-    "New folder",
-    "WSU",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Projections.md",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/The Gram-Schmidt Process.md",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Least-Squares Problems.md",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Inner Product, Length, and Orthogonality.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Vector Equations.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Matrix Operations.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Inverses.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Properties of Determinants.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Introduction to Determinants.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 5/Characteristic Equation.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 5/Eigenvectors and Eigenvalues.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 3/Cramer's Rule, Volume, and Linear Trnasformations.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Dimension and Rank.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Subspaces of Rn.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 2/Characterizations of Invertible Matrices.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/The Matrix of a Linear Transformation.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Introduction to Linear Systems.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Solution Sets of Linear Systems.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Linear Independence.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Row Reduction and Echelon Forms.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/The Matrix Equation Ax = b.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Systems of Linear Equations.md",
-    "WSU FALL 2024 SEMESTER/POL_S 102/Peacekeeping & Nation Building.md",
-    "WSU FALL 2024 SEMESTER/POL_S 102/Civil Wars & Ethnic Conflict.md",
     "WSU FALL 2024 SEMESTER/POL_S 102/Images/12.3.24 Civil War Chart.jpg",
-    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Affordances of engineering.pdf",
-    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/The what   how   why of English in the workplace  perspectives from Turkish engineers.pdf",
-    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Business Lingua Franca.pdf",
-    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/Maximizing Diversity and Productivity.pdf",
-    "WSU FALL 2024 SEMESTER/ENGLISH 101/Essay 3 Materials/English Language Iranian.pdf",
     "Pasted image 20241108154006.png",
     "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.29.24 Democratic Transitions Chart.png",
     "WSU FALL 2024 SEMESTER/POL_S 102/Images/10.22.24 Democratic Transitions Chart.png",
