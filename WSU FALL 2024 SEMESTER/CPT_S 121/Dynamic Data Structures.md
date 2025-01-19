@@ -28,9 +28,11 @@ References:
 
 ### `malloc` Function
 
+^556d39
+
 (found in `<stdlib.h>`)
 
-`void *malloc(size_t size); // function prototype`
+`void *malloc(size_t size); // function prototype` ^75a6c8
 
 - The argument in the function prototype above indicates the amount of memory space needed to be allocated
 	- We can use the `sizeof` operator to determine this number
@@ -47,6 +49,8 @@ int *nump = (int *) malloc (sizeof (int));
 	- The stack goes away when the function is exited
 
 ### `calloc` Function
+
+^5ac23e
 
 (found in `<stdlib.h>`)
 
@@ -66,6 +70,8 @@ Point *struct_ptr = (Point *) calloc (10, sizeof(Point)); // dynamic allocation
 - Elements in array can be accessed using array notation as usual
 
 ### Freeing Allocated Memory
+
+^2b3cd9
 
 - Use the function `free(pointer)` to return the allocated memory pointed to by the pointer to the heap
 - Not freeing memory can lead to "memory leaks," which are a common source of run-time program bugs and slowing down a program's execution

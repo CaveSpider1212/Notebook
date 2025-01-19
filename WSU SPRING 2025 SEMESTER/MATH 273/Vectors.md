@@ -38,6 +38,13 @@ The vector is $\large{\left(\dfrac{\vec{u} \cdot \vec{v}}{|\vec{v}|}\right)\dfra
 
 ![[1.9.25 Vector Projection.png]]
 
+> [!tip] Scalar and Vector Projection
+> Scalar Projection:
+> $\displaystyle \text{scal}_{v} u = \frac{\vec{u} \cdot \vec{v}}{\left| \vec{v} \right|}$
+> 
+> Vector Projection:
+> $\displaystyle \text{proj}_v u = \left(\frac{\vec{u} \cdot \vec{v}}{\vec{v} \cdot \vec{v}}\right)\vec{v}$
+
 > [!example]
 > Compute $\vec{u} \cdot \vec{v}$ and find the angle between $\vec{u}$ and $\vec{v}$:
 > 
@@ -62,7 +69,7 @@ The vector is $\large{\left(\dfrac{\vec{u} \cdot \vec{v}}{|\vec{v}|}\right)\dfra
 > [!info] Cross-Product
 > The cross-product of $\vec{u}$ with $\vec{v}$ is a vector, denoted $\vec{u} \times \vec{v}$, with these properties:
 > 
-> 1. $\vec{u} \times \vec{v}$ is orthogonal to $\vec{u}$ and $\vec{v}$.
+> 1. $\vec{u} \times \vec{v}$ is orthogonal (perpendicular) to $\vec{u}$ and $\vec{v}$.
 > 2. The direction of $\vec{u} \times \vec{v}$ is determined by the "right-hand rule"
 > 
 > ![[1.9.25 Right Hand Rule.png]]
@@ -76,12 +83,18 @@ The vector is $\large{\left(\dfrac{\vec{u} \cdot \vec{v}}{|\vec{v}|}\right)\dfra
 > 2. $(au) \times (bv) = ab(u \times v)$
 > 3. $u \times (v + w) = (u \times v) + (u \times w)$
 > 4. $(u + v) \times w = (u \times w) + (v \times w)$
+> 
+> Note:
+> $\vec{i} \times \vec{j} = \vec{k}$
+> $\vec{j} \times \vec{i} = -\vec{k}$
+> $\vec{j} \times \vec{k} = \vec{i}$
+> $\vec{i} \times \vec{i} = 0$
 
 > [!info] How to do Cross Product
 > $$\vec{u} = \langle u_1, u_2, u_3 \rangle \hspace{7mm} \vec{v} = \langle v_1, v_2, v_3 \rangle$$
 > 
 > Distribute:
-> $\vec{u} \times \vec{v} = (u_1 \vec{i} + u_2\vec{j} + u_3\vec{k}) \times (v_1\vec{i} + v_2\vec{j} + v_3\vec{k}) = ...$
+> $\vec{u} \times \vec{v} = (u_1 \vec{i} + u_2\vec{j} + u_3\vec{k}) \times (v_1\vec{i} + v_2\vec{j} + v_3\vec{k}) = \langle u_2v_3 - u_3v_2, u_1v_3 - u_3v_1, u_1v_2 - u_2v_1 \rangle$ <--- after distributing and simplifying
 > 
 > Using matrix determinants (see [[Introduction to Determinants]]):
 > $\vec{u} \times \vec{v} = \text{det}\begin{bmatrix} \vec{i}&\vec{j}&\vec{k}\\u_1&u_2&u_3\\v_1&v_2&v_3 \end{bmatrix}$
@@ -99,9 +112,11 @@ The vector is $\large{\left(\dfrac{\vec{u} \cdot \vec{v}}{|\vec{v}|}\right)\dfra
 > [!example]
 > Find the area of triangle $T$, whose vertices are $A(5, 6, 2), B(7, 16, 4), C(6, 7, 3)$.
 > 
+> Side lengths (subtract):
 > $AC = \langle 1, 1, 1 \rangle \hspace{7mm} AB = \langle 2, 10, 2 \rangle$
 > 
+> Area of the parallelogram made by $AB$ and $AC$:
 > $\vec{AB} \times \vec{AC} = \langle 2, 10, 2 \rangle \times \langle 1, 1, 1 \rangle = \text{det} \begin{bmatrix} \vec{i}&\vec{j}&\vec{k} \\ 2&10&2 \\ 1&1&1 \end{bmatrix} = \langle 8, 0, -8 \rangle = 8 \langle 1, 0, -1 \rangle$
 > 
-> Area of $ABC$:
+> Area of $\triangle ABC$:
 > $\frac{1}{2} \left| 8 \langle 1, 0, -2 \rangle \right| = \frac{1}{2}(8) \left| \langle 1, 0, -1 \rangle \right| = 4\sqrt{2}$

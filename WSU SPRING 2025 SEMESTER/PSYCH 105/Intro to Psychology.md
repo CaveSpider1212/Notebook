@@ -132,3 +132,114 @@ Gestalt = "Whole
 - Provides psychological expertise in legal system
 - Informs judicial decision-making
 - Creates credible data for legal arguments
+
+### Developmental and Social Fields
+
+##### Developmental Psychology
+
+- Studies growth patterns across lifespan
+- Covers physical, cognitive, and social development
+- Specializes in specific life stages
+- Research from conception through late adulthood
+
+##### Social Psychology
+
+- Studies human interaction and relationships
+- Examines attitudes, persuasion, group influence
+- Researches prejudice, aggression, helping behavior
+- Focuses on social influences on behavior
+
+##### Personality Psychology
+
+- Studies individual differences
+- Examines thoughts, feelings, and behavior patterns
+- Diverse theoretical approaches
+- Links traits to behavior patterns
+
+### Cognitive and Biological Fields
+
+##### Cognitive Psychology
+
+- Studies mental processes
+- Focuses on learning, memory, thinking
+- Uses technology like MRI
+- Examples perception and problem-solving
+
+##### Biological/Physiological Psychology
+
+- Studies brain-behavior relationships
+- Investigates nervous system function
+- Researches sleep and drug effects
+- Examines neurological bases of behavior
+
+### Educational and Organizational Fields
+
+##### School Psychology
+
+- Focuses on learning environments
+- Promotes equal access to services
+- Addresses developmental and social issues
+- Works with children and families
+
+##### Educational Psychology
+
+- Studies learning processes
+- Assists with curriculum design
+- Helps with learning disabilities
+- Trains teachers
+
+##### Industrial/Organizational Psychology
+
+- Studies workplace behavior
+- Handles recruitment and training
+- Examines organizational development
+- Focuses on employee well-being
+
+### Specialized Fields
+
+##### Sport and Performance Psychology
+
+- Facilitates peak performance
+- Helps overcome obstacles
+- Works with athletes and performers
+- Enhances participation in activities
+
+##### Health Psychology
+
+- Studies health-behavior interactions
+- Focuses on medical adherence
+- Addresses stress management
+- Promotes disease prevention
+
+##### Cross-Cultural Psychology
+
+- Examines cultural differences
+- Studies behavioral variations
+- Compares different populations
+- Investigates cultural influences
+
+### Emerging and Specialized Fields
+
+##### Evolutionary Psychology
+
+- Links behavior to natural selection
+- Studies innate behaviors and genetic influences
+- Examines focuses on survival adaptations
+
+##### Positive Psychology
+
+- Studies well-being and happiness
+- Focuses on life-giving aspects
+- Examines resilience and gratitude
+
+##### Media Psychology
+
+- Studies media impact
+- Examines technology use
+- Researches social media effects and investigates digital interactions
+
+##### Consumer Psychology
+
+- Studies consumer decisions
+- Examines marketing effects and buying behavior
+- Focuses on consumer choices

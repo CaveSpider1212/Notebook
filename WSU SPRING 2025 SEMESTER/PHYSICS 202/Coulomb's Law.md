@@ -33,6 +33,10 @@ $$\vec{F}_{net} = \vec{F}_{1 \text{on} j} + \vec{F}_{2 \text{on} j} + \vec{F}_{3
 > $F_{coulomb} = ma_x$
 > $a_x = \frac{F_{coulomb}}{m} = \frac{K |q_1| |q_2|}{mr^2} = \frac{(8.99 \times 10^9) (10 \times 10^{-6}) (10 \times 10^{-6})}{(1.0)(1.0)^2} =$ 2.90 m/s$^2$
 
+> [!info] Important
+> If the vector is facing to the left, it is $-\hat{i}$, but if it is facing to the right, it is $+\hat{i}$.
+> If the vector is facing down, it is $-\hat{j}$, but if it is facing up, it is $+\hat{j}$.
+
 > [!example]
 > ![[1.8.25 Equilateral Coulomb Drawing]]
 > 
@@ -58,7 +62,8 @@ $$\vec{F}_{net} = \vec{F}_{1 \text{on} j} + \vec{F}_{2 \text{on} j} + \vec{F}_{3
 > 
 > The net force is
 > $\vec{F}_{net} = \vec{F}_{21} + \vec{F}_{31}$
-> $\hspace{8mm} = K \frac{|q_1| |q_2|}{r_{12}^2}(-\cos\theta \hat{i} + \sin\theta \hat{j}) + K \frac{|q_1| |q_3|}{r_{13}^2} \hat{i}$
+> $\hspace{8mm} = K \frac{|q_1| |q_2|}{r_{12}^2}(-\cos\theta \hat{i} + \sin\theta \hat{j}) + K \frac{|q_1| |q_3|}{r_{13}^2} \hat{i}$ <----- $\vec{F}_{21}$ is going to the left and up, so $\hat{i}$ (cosine) is negative and $\hat{j}$ (sine) is positive; $\vec{F}_{31}$ is only going to the right in the x direction, so there is only $\hat{i}$ which is positive
+> 
 > $\hspace{8mm} = \left(-K \frac{|q_1| |q_2|}{r_{12}^2} \cos\theta + K \frac{|q_1| |q_3|}{r_{13}^2}\right) \hat{i} + K \frac{|q_1| |q_2|}{r_{12}^2} \sin\theta \hat{j}$
 > $\cos\theta = \frac{0.04}{\sqrt{(0.04)^2 + (0.03)^2}} = \frac{4}{5}$
 > $\sin\theta = \frac{0.03}{\sqrt{(0.04)^2 + (0.03)^2}} = \frac{3}{5}$
