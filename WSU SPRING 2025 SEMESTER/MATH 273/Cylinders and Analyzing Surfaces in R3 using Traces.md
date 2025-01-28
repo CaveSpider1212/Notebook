@@ -22,9 +22,11 @@ $z = e^{-y}$
 
 ![[1.16.25 Cylinder 3.png]]
 
+Note: the cylinder is parallel to the same axis as the one whose variable is missing from the equation (for example, if the $x$ and $z$ variables are in the cylinder equation, but $y$ is missing, then the cylinder is parallel to the $y$-axis)
+
 ### Non-cylinder
 
-When all three variables are involved, picturing a surface is more complicated. It can often be accomplished using "traces." A trace of a surface is a curve which is formed by intersecting the surface with a plane of the form $x = k$, $y = k$, or $z = k$:
+When all three variables are involved, picturing a surface is more complicated. It can often be accomplished using "traces." A trace of a surface is a curve which is formed by intersecting the surface with a plane of the form $x = k$, $y = k$, or $z = k$ (basically setting one of those variables equal to 0 to get the equation of the trace):
 
 ![[1.16.25 Trace.png]]
 
@@ -53,3 +55,9 @@ When all three variables are involved, picturing a surface is more complicated. 
 > 
 > The surface:
 > ![[1.16.25 Example Surface.png]]
+
+> [!info]
+> The surface corresponding to an $xyz$ equation can be shifted by replacing each $x$ by $(x - a)$, each $y$ by $(y - b)$, and/or each $z$ by $(z - c)$.
+
+Conic sections reference table:
+![[Conic Sections Table.png]]
