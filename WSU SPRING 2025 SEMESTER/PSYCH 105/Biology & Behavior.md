@@ -215,3 +215,82 @@ created: 2025-1-24
 
 - **Cerebral cortex**: processes information and surrounds nearly all of the brain structure
 	- **Association areas**: involves region of cortex that integrates information from all over the brain
+
+### The Hemispheres
+
+- **Cortex**: includes largest, most highly developed part of brain
+	- Involved in intelligence, personality, thinking, perceiving, planning and organization, language, sensation, motor functions
+	- Divided into right and left hemispheres and connected by corpus callosum
+
+- How do we know what is what?
+	- The bumps or raised folds in the cortex are called <u>gyri</u>
+	- The valleys or creases in the cortex are called <u>sulci</u>
+		- Different sulci and gyri are sometimes responsible for different specific brain functions
+	- **Lateralization of function**: the idea that some functions are lateralized, or they are done entirely by one hemisphere rather than being shared by both
+
+- Lateralization - 2 hemispheres are specialized for different roles
+	- **Right hemisphere**: understanding abstract and humorous use of language, following conversations that change topics, recognizing faces, spatial and musical ability
+	- **Left hemisphere**: language
+	- Opposite of Generalization - left hemisphere plays a crucial role in language processing and right hemisphere plays a crucial role in managing visual spatial tasks
+- But: hemispheres constantly integrate and share information via corpus callosum
+	- **Corpus callosum**: band of white matter tracts which connect the hemispheres
+
+- Split brain
+- **Hemispherectomies**
+	- Exceptionally rate; last resort
+- **Callostomies (split-brain operations)**: right and left hemisphere disconnected
+- **Neuroplasticity**: brain undergoes constant alterations
+	- Physical adaptation and repair--even after hemispherectomy
+	- Growth of new connections and reorganization
+- **Stem cells**: responsible for creating new neurons
+
+### Frontal Lobe
+
+- Prefrontal Cortex (PFC): planning, decision making, higher order cognitive functions
+- Personality: Phineas Gage frontal lobe damage
+- Motor Cortex: Broca's Area
+
+### Parietal Lobe
+
+- Touch, taste, temperature, pain, sensory information
+- Somatosensory cortex
+- **Hemispheric neglect**: damage to the parietal lobe can result in a syndrome where patients ignore left, and only see right visual field
+
+### Occipital Lobe
+
+- Initial processing site for visual information
+- **Primary visual cortex**: connects to optic nerve where visual information is received and interpreted
+- **Blindsight**: damage to Occipital lobe can result in a syndrome where patients claim to be blind but respond to objects in visual field, visual pathways still intact but info doesn't reach the conscious level
+
+### Temporal Lobe
+
+- Primary processing of auditory information
+	- **Primary Auditory Cortex**
+	- Wernicke's Areas
+- Memory, language, emotion
+
+### Below the Cortex
+
+- The Limbic System
+	- Fuels basic drives (4 F's) - Hypothalamus
+	- Processes emotions - amygdala
+	- Processes memories - hippocampus
+	- **Hippocampus**: primarily responsible for creating new memories
+	- **Amygdala**: processes basic emotions, such as fear and aggression, as well as associated memories
+	- **Thalamus**: processes and relays sensory information to the appropriate areas of the cortex
+	- **Hypothalamus**: maintains a constant internal environment within a healthy range; helps regulate sleep-wake cycles, sexual behavior, and appetite
+- Brainstem and cerebellum
+	- **Reticular formation**: involves network of neurons running through the midbrain
+		- Controls levels of arousal and quickly analyzes sensory information on its way to the cortex
+			- Hindbrain
+			- Pons
+			- Medulla
+	- **Cerebellum**: involves muscle coordination and balance
+		- Alcohol interferes with function
+
+### Strokes
+
+- **Stroke**: occurs when blood supply to a part of the brain is interrupted or reduced
+	- Blockage or bursting of a blood vessel
+- Leading cause of brain damage
+	- Aphasia, blindsight, hemi neglect

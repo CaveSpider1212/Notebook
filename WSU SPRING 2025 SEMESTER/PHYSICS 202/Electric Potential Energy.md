@@ -3,6 +3,8 @@ tags: PHYSICS_202
 created: 2025-1-27
 ---
 
+### Electric Potential Energy
+
 Recall for mechanical potential energy
 $\Delta u = -W_c$ <---- $W_c$ is the work due to conservative forces
 
@@ -100,3 +102,74 @@ $\displaystyle W = \int_{s_i}^{s_f} \vec{F} \cdot \text{d}\vec{s}$
 > 
 > The kinetic energy at 0$\degree$ is
 > $K = E - u = -1 - (-2) =$ 1 $\micro$J
+
+### Electric Potential
+
+> [!tip] Electric Potential Formula
+> $$V = \frac{u}{q}$$
+> 
+> SI unit: volt (V) = J/C
+> The potential difference $\Delta V$ is the voltage.
+
+> [!example]
+> What potential difference is needed to accelerate a $He^+$ ion from rest to a speed of 2.0 x 10^6 m/s?
+> 
+> Conservation of Energy:
+> $E_f = E_i$
+> $K_f + u_f = K_i + u_i$ <---- $K_i$ = 0 since the particle starts at rest (so initial velocity is 0)
+> $u_f - u_i = -K_f$
+> $\Delta u = -K_f$
+> $q\Delta V = -K_f$
+> $\Delta V = \frac{1}{2q} mv^2$
+> $\hspace{9mm} = \frac{1}{2(1.6 \times 10^{-19})} (4)(1.661 \times 10^{-27})(2.0 \times 10^6)^2$
+> $\hspace{9mm} =$ -83,000 V = -83 kV
+
+> [!example]
+> There are two parallel plate capacitors (one negative and one positive). The negative one has 0 V electric potential and the positive one has 500 V electric potential. The electric field goes from the positive to the negative plate. There is a proton at the midpoint (where the initial electric potential would be 250 V) between the two going 200,000 m/s towards the positive plate, but it will end up curving back to the negative plate (final electric potential is 0 V).
+> 
+> What is the proton's speed as it collides with the negative plate?
+> 
+> Conservation of Energy:
+> $E_f = E_i$
+> $K_f + u_f = K_i + u_i$
+> $K_f = K_i - \Delta u$
+> $\frac{1}{2}mv_f^2 = \frac{1}{2}mv_i^2 - q\Delta V$
+> $v_f = \sqrt{v_i^2 - \frac{2q}{m}\Delta V}$
+> 
+> The voltage between the plates is:
+> $\Delta V = \frac{\Delta u}{q} = \frac{qEs}{q} = Es$ <--- The voltage increases linearly with the distance.
+> 
+> $v_f = \sqrt{(200,000)^2 - \frac{2(1.6 \times 10^{-19})}{1.67 \times 10^{-27}} (0 - 250)} =$ 2.96 x 10^5 m/s
+
+> [!example]
+> There is a bead with a positive charge with a radius of 3 mm. The potential difference ($\Delta V$) 5mm from the center of the bead is 500 V.
+> 
+> What is the charge on the bead?
+> 
+> The potential for a point charge is:
+> $V = \frac{u}{q} = \frac{\frac{q_1q_2}{4\pi\epsilon_0 r}}{q_2} = \frac{1}{4\pi\epsilon_0} \frac{q}{r}$
+> 
+> Thus,
+> $\Delta V = \frac{q}{4\pi\epsilon_0}(\frac{1}{r_f} - \frac{1}{r_i})$
+> $q = \frac{4\pi\epsilon_0 \Delta V}{(\frac{1}{r_f} - \frac{1}{r_i})}$
+> $\hspace{3.5mm} = \frac{4\pi(8.85 \times 10^{-12}) (500)}{(\frac{1}{0.003} - \frac{1}{0.005})}$
+> $\hspace{3.5mm} =$ 4.2 x 10^-10 C
+
+> [!example]
+> ![[1.29.25 Electric Potential Example 1]]
+> 
+> Find an expression for the electric potential at point P.
+> 
+> $V = \sum\limits_i \frac{1}{4\pi\epsilon_0} \frac{q_i}{r_i} \rightarrow \int \frac{1}{4\pi\epsilon_0} \frac{\text{d}q}{r}$ <--- where $\frac{\text{d}q}{Q} = \frac{\text{d}x}{L}$ and $r = d - x$
+> $\hspace{4mm} = \frac{1}{4\pi\epsilon_0} \int_{\frac{-L}{2}}^{\frac{L}{2}} \frac{\frac{Q}{L} \text{d}x}{d - x}$
+> $\hspace{4mm} = \frac{\frac{Q}{L}}{4\pi\epsilon_0} [-\ln(d - x)]_{\frac{-L}{2}}^{\frac{L}{2}}$
+> $\hspace{4mm} = \frac{Q}{4\pi\epsilon_0 L} \ln(\frac{d + \frac{L}{2}}{d - \frac{L}{2}})$
+
+> [!example]
+> ![[1.29.25 Electric Potential Example 2]]
+> 
+> Find an expression for the electric potential at point P.
+> 
+> $V = \frac{1}{4\pi\epsilon_0} \int \frac{\text{d}q}{r}$ <---- where $\frac{\text{d}q}{Q} = \frac{\text{d}y}{L}$ and $$r = \sqrt{y^2 + d^2}$$
+> $\hspace{4mm} = \frac{1}{4\pi\epsilon_0} \int_{\frac{-L}{2}}^{\frac{L}{2}} \frac{\frac{Q}{L} \text{d}y}{\sqrt{y^2 + d^2}}$
+> $\hspace{4mm} = \frac{Q}{4\pi\epsilon_0 L} [\ln(\sqrt{y^2 + d^2} + y)]_{\frac{-L}{2}}^{\frac{L}{2}}$ <--- evaluate this to get the answer
