@@ -147,4 +147,4 @@ Also, the curvature of a line (at all points) is 0.
 > 
 > So $\kappa = \frac{\left| \vec{r}' \times \vec{r}'' \right|}{\left| \vec{r}' \right|^3} = \frac{2}{(\sqrt{4t^2 + 1})^3} = \frac{2}{(4t^2 + 1)^{\frac{3}{2}}}$
 
-![[1.30.25 Formulas for Curves in Space.png]]
+![[1.30.25 Summary of Formulas Curves in Space.png]]

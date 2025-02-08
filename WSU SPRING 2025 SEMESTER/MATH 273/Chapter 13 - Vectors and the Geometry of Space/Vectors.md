@@ -1,6 +1,7 @@
 ---
 tags: MATH_273
 created: 2025-1-7
+description: Lesson 13.6
 ---
 
 Let $\overrightarrow{u} = (1, 2, 3) = \overrightarrow{i} + 2\overrightarrow{j} + 3\overrightarrow{k}$ and $\overrightarrow{v} = (2, -1, 4) = 2\overrightarrow{i} - \overrightarrow{j} + 4\overrightarrow{k}$

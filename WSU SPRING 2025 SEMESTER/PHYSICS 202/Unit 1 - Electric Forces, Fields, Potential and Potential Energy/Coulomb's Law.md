@@ -4,7 +4,7 @@ created: 2025-1-8
 ---
 
 > [!tip] Coulomb's Law
-> $$F_{1 \text{on} 2} = F_{2 \text{on} 1} = \frac{K(q_1)(q_2)}{r^2}$$
+> $$F_{1 \text{on} 2} = F_{2 \text{on} 1} = \frac{K \left| q_1 \right| \left| q_2 \right|}{r^2}$$
 > 
 > $K =$ 8.99 $\times$ 10$^9$ N m$^2$/C$^2$
 

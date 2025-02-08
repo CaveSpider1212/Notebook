@@ -10,7 +10,7 @@ description: Lesson 15.1
 > $25 - x^2 - y^2 \geq 0$
 > $25 \geq x^2 + y^2$
 > $x^2 + y^2 \leq 25$
-> (pg. 4 drawing)
+> ![[1.30.25 Domain Example Graph.png]]
 > 
 > $D = \{ (x, y): x^2 + y^2 \leq 25 \}$
 > 
@@ -31,11 +31,11 @@ description: Lesson 15.1
 > $\rightarrow x^2 > y$
 > $\rightarrow y < x^2$
 > 
-> (pg. 7 drawing)
+> ![[1.30.25 Example 2 Domain Graph 1.png]]
 > 
 > $D = \{ (x, y): y < x^2 \}$
 > 
-> (other pg. 7 drawing)
+> ![[1.30.25 Example 2 Domain Graph 2.png]]
 
 > [!example]
 > Sketch a graph of the function $f(x, y) = 6 - x - 2y$. Identify the surface by name, and state state its domain and range.
@@ -45,7 +45,7 @@ description: Lesson 15.1
 > $\rightarrow x + 2y + z = 6$ <---- this is a <u>plane</u>
 > 
 > Graph:
-> (pg. 8 drawing)
+> ![[WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 3 Graph.png]]
 > 
 > Domain of $f$: $R^2 = R \times R = (-\infty, \infty) \times (\infty, \infty) = (\infty, \infty)^2$
 > Range of $f$: $(\infty, \infty) = R$
@@ -65,10 +65,10 @@ description: Lesson 15.1
 > 
 > $y = 0$: $z = 2x^2$ <---- parabola
 > 
-> (pg. 10 drawing)
+> ![[1.30.25 Example 3 Graph 1.png]]
 > 
 > We can use the level curves of $h$ to form a "contour map" of $h$:
-> (pg. 11 drawing)
+> ![[1.30.25 Example 3 Contour Map.png]]
 
 > [!example]
 > Graph several level curves of the function in the given window. Label at least two level curves with their z-values.
@@ -80,10 +80,12 @@ description: Lesson 15.1
 > $z = 1$: $1 = x - y^2 \rightarrow x = y^2 + 1$
 > $z = k$: $k = x - y^2 \rightarrow x = y^2 + k$
 > 
-> (pg. 12 drawing)
+> ![[1.30.25 Example 4 Contour Map.png]]
 
 > [!example]
 > Find the domain. Describe it if possible: $p(x, y, z) = \sqrt{x^2 + y^2 + z^2 - 9}$
 > 
 > Domain: $x^2 + y^2 + z^2 - 9 \geq 0$
 > $\rightarrow x^2 + y^2 + z^2 \geq 9$ <---- all points $(x, y, z)$ on or outside of the sphere $x^2 + y^2 + z^2 = 9$
+
+**Level sets**: for a function $f(x_1, x_2, x_3, ..., x_n) = f(\vec{x})$, these are sets of the form $\{ \vec{x}: f(\vec{x}) = k \}$ for various $k$ levels

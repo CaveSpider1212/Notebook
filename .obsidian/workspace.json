@@ -4,67 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "6c5fe94a82abe9d3",
+        "id": "c3a48d36bb305613",
         "type": "tabs",
         "children": [
           {
-            "id": "7bf6d155528eb07d",
+            "id": "3040987422948225",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Intro to C Data Structures & Abstract Data Types.md",
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Limits & Continuity for f(x, y).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intro to C Data Structures & Abstract Data Types"
+              "title": "Limits & Continuity for f(x, y)"
             }
           },
           {
-            "id": "bc5d5301bb7a0bce",
+            "id": "4e2c9d77f29c593b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Partial Derivatives.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Linked Lists"
-            }
-          },
-          {
-            "id": "b0a4f01b0ce798bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Calculus with Space Curves, and Motion in Space.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Calculus with Space Curves, and Motion in Space"
-            }
-          },
-          {
-            "id": "d3a1df156bfbe2b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Functions of 2 or More Variables.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Functions of 2 or More Variables"
+              "title": "Partial Derivatives"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +54,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -203,53 +175,53 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d3a1df156bfbe2b4",
+  "active": "3040987422948225",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/MATH 273/Calculus with Space Curves, and Motion in Space.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Formulas for Curves in Space.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Electric Potential Energy.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Functions of 2 or More Variables.md",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/C Language Elements.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Space Curves (aka Vector-Valued Functions).md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Cylinders and Analyzing Surfaces in R3 using Traces.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Lines and Planes in Space.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Vectors.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.28.25 Re-parameterize.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.28.25 Curvature.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.28.25 Arc Length Function Graph.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.28.25 Arc Length.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.29.25 Electric Potential Example 2.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.29.25 Electric Potential Example 1.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Partial Derivatives.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Limits & Continuity for f(x, y).md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Exam 1 Review.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Biology & Behavior.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Intro to C Data Structures & Abstract Data Types.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.23.25 Acceleration Vector.png",
-    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 3 - Rotational Motion, Fluids, Oscillations & Waves/Rotational Dynamics.md",
-    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 3 - Rotational Motion, Fluids, Oscillations & Waves/Rotational Motion.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.27.25 Dipole Drawing.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.27.25 Point Charge Drawing.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.27.25 Parallel Plate Capacitor Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Electric Potential Energy.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Parallel-Plate Capacitor.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Learning and Behaviorism.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Electric Fields.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Gauss's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Coulomb's Law.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/2.6.25 Partial Derivative Graph.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Fields and Potentials.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Capacitance.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/2.5.25 Series Circuit Example.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/2.5.25 Series Circuit Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/2.5.25 Parallel Circuit Drawing.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/2.5.25 Spherical Capacitor Drawing.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 5/Characteristic Equation.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Functions of 2 or More Variables.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/2.4.25 Limit.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/2.4.25 Polar Coordinates.png",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/Strings.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Gauss's Law.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.23.25 Unit Tangent.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.23.25 Tangent Drawing.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings/1.22.25 Conductor Example Drawing.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/The Scientific Method in Psychology.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.21.25 Space Curve Example.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.21.25 Space Curve Graph 2.png",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/Computer Software & Software Development.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Cylinders and Analyzing Surfaces in R3 using Traces.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Lines and Planes in Space.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 14 - Vector-valued Functions",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Vectors.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 14 - Vector-valued Functions/Calculus with Space Curves, and Motion in Space.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 14 - Vector-valued Functions/Space Curves (aka Vector-Valued Functions).md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Summary of Formulas Curves in Space.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 4 Contour Map.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 3 Contour Map.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 3 Graph 1.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 3 Graph.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 2 Domain Graph 2.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/1.30.25 Example 2 Domain Graph 1.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Intro to C Data Structures & Abstract Data Types.md",
     "IMG_0063 2.heic",
     "IMG_0063 1.heic",
     "IMG_0063.heic",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings",
-    "WSU SPRING 2025 SEMESTER/MATH 273",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122",
     "Untitled.canvas",
     "PHYSICS 201/Untitled.canvas"
   ]

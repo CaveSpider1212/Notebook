@@ -155,6 +155,14 @@ $\displaystyle W = \int_{s_i}^{s_f} \vec{F} \cdot \text{d}\vec{s}$
 > $\hspace{3.5mm} = \frac{4\pi(8.85 \times 10^{-12}) (500)}{(\frac{1}{0.003} - \frac{1}{0.005})}$
 > $\hspace{3.5mm} =$ 4.2 x 10^-10 C
 
+> [!tip] Electric Potential due to Infinitesimal Charges
+> $$V = \int \frac{1}{4\pi\epsilon_0} \frac{\text{d}q}{r}$$
+> 
+> Ratios:
+> - Horizontal: $\frac{dq}{Q} = \frac{dx}{L}$
+> - Vertical: $\frac{dq}{Q} = \frac{dy}{L}$
+> - Circular: $\frac{dq}{Q} = \frac{Rd\phi}{L}$
+
 > [!example]
 > ![[1.29.25 Electric Potential Example 1]]
 > 
@@ -170,6 +178,6 @@ $\displaystyle W = \int_{s_i}^{s_f} \vec{F} \cdot \text{d}\vec{s}$
 > 
 > Find an expression for the electric potential at point P.
 > 
-> $V = \frac{1}{4\pi\epsilon_0} \int \frac{\text{d}q}{r}$ <---- where $\frac{\text{d}q}{Q} = \frac{\text{d}y}{L}$ and $$r = \sqrt{y^2 + d^2}$$
+> $V = \frac{1}{4\pi\epsilon_0} \int \frac{\text{d}q}{r}$ <---- where $\frac{\text{d}q}{Q} = \frac{\text{d}y}{L}$ and $r = \sqrt{y^2 + d^2}$
 > $\hspace{4mm} = \frac{1}{4\pi\epsilon_0} \int_{\frac{-L}{2}}^{\frac{L}{2}} \frac{\frac{Q}{L} \text{d}y}{\sqrt{y^2 + d^2}}$
 > $\hspace{4mm} = \frac{Q}{4\pi\epsilon_0 L} [\ln(\sqrt{y^2 + d^2} + y)]_{\frac{-L}{2}}^{\frac{L}{2}}$ <--- evaluate this to get the answer

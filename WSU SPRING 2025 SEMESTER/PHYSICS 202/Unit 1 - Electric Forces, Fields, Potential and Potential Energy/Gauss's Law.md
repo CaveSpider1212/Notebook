@@ -100,7 +100,7 @@ created: 2025-1-17
 ##### For multiple charges
 
 > [!tip] Gauss's Law
-> $$\Phi_E = \int \vec{E} \cdot d\vec{A} = \frac{Q_{in}}{\epsilon_0}$$
+> $$\Phi_E = \oint \vec{E} \cdot d\vec{A} = \frac{Q_{in}}{\epsilon_0}$$
 > 
 > This formula gives us the total electric flux through the surface.
 > 
@@ -186,7 +186,7 @@ created: 2025-1-17
 > 
 > By Gauss's Law
 > $\int \vec{E} \cdot d\vec{A} = \frac{Q_{in}}{\epsilon_0}$
-> $EA = \frac{Q_1 + Q_2}{\epsilon_0}$ <--- $E$ is 0 because either it is a conductor or it is in between the points which have opposite field strengths??
+> $EA = \frac{Q_1 + Q_2}{\epsilon_0}$ <--- $E$ is 0 because the electric field is inside the conductor, which would make the electric field 0
 > $\rightarrow Q_2 = -Q_1 =$ 7.1 nC
 > 
 > c)
