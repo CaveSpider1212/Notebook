@@ -32,7 +32,7 @@ A line is a space curve and a vector-valued function:
 > As $y$ and $z$ oscillate, $x = \frac{t}{\pi}$ grows linearly, so
 > ![[1.21.25 Non-Linear Example Graph.png]]
 
-> [!info]
+> [!tip]
 > A good way to graph space curves is to make a table with $t$, plus all of the parametric functions (x, y, z, etc.), with the values of all of those functions at $t$, and then use the coordinates of x, y, and z to sketch the function.
 
 > [!example]

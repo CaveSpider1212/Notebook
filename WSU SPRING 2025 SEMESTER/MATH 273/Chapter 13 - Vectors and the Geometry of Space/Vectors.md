@@ -23,10 +23,11 @@ Then:
 Recall:
 $\vec{u} \cdot \vec{v} = |\vec{u}| |\vec{v}| \cos\theta$
 
-So, $\vec{u} \cdot \vec{v}$ is
-- 0 when $\theta = \frac{\pi}{2}$
-- \>0 when $0 \leq \theta \lt \frac{\pi}{2}$
-- <0 when $\frac{\pi}{2} \lt \theta \leq \pi$
+> [!info] $u \cdot v$ and the Angle
+> $\vec{u} \cdot \vec{v}$ is:
+> - 0 when $\theta = \frac{\pi}{2}$
+> - \>0 when $0 \leq \theta \lt \frac{\pi}{2}$
+> - <0 when $\frac{\pi}{2} \lt \theta \leq \pi$
 
 By definition, $\vec{u}$ and $\vec{v}$ are perpendicular or orthogonal if and only if $\vec{u} \cdot \vec{v} = 0$.
 

@@ -4,6 +4,8 @@ created: 2025-2-4
 description: Lesson 15.2
 ---
 
+### Limits
+
 ![[2.4.25 Limit.png]]
 
 $\displaystyle \lim_{(x, y) \rightarrow (a, b)} f(x, y) = L$
@@ -64,6 +66,8 @@ Polar coordinates can sometimes be helpful for proving that $\displaystyle \lim_
 > 
 > $\lim_{r \rightarrow 0} \frac{(r\cos\theta)^2 (r\sin\theta)}{r^2}$
 > $= \lim_{r \rightarrow 0} r(\cos^2 \theta \sin\theta) = 0$
+
+### Continuity
 
 > [!info] Continuity
 > The function $f$ is continuous at the point $(a, b)$ provided
