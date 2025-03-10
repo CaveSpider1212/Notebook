@@ -1,7 +1,7 @@
 ---
 tags: CPT_S_122
 created: 2025-2-12
-description: Lesson 5.2
+description: Lesson 5.2 and 7.2
 ---
 
 ### Function Templates
@@ -93,3 +93,36 @@ int main(void)
 	- May be used to *validate* data
 - **Getters**: allow client to obtain/*get a copy* of the data members
 - There generally should be 1 setter function per data member, and 1 getter function per data member
+
+### Composition Relationship
+
+- A class can have objects of other classes as members -- this is composition
+- Composition is also referred to as a *has-a* relationship
+	- For example, a car *has-an* engine, a pencil *has-an* eraser, etc.
+
+### `const` Objects
+
+- Some objects need to be *mutable* and some do not *immutable*
+	- A *mutable* object's attributes may be modified after creation of the object
+	- An *immutable* object's attributes have to be set during construction and cannot be modified later
+		- Objects can be declared as immutable using the `const` keyword
+
+### `const` Member Functions
+
+- Getter/accessor functions in most cases should be declared as `const` member functions
+	- Example: `double getRealPart() const;`
+- `const` member functions cannot modify members of the object
+	- They also *cannot* call functions that try to modify members of the object
+- NOTE: `const` objects *cannot* call non-`const` member function, but non-`const` objects can call `const` member functions
+
+### Copy Constructors for `const` Objects
+
+- How do we copy a `const` object?
+	- We could use a copy constructor where the argument is a reference to a const object: `ComplexNumber (const ComplexNumber &copy);`
+
+### The "`this`" Pointer
+
+- Every object has access to a *pointer* called keyword `this`
+- It stores the address of the object
+- The pointer is not part of the object itself, but is an *implicit* argument (passed by the compiler) to each of the object's *non-static* member functions
+- It can be used *explicitly* to reference data members in order to avoid name conflicts

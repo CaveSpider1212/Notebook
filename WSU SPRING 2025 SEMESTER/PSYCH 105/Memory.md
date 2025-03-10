@@ -174,3 +174,73 @@ created: 2025-2-12
 - Efficient retrieval cues are those which reliably "call-up" the desired memory
 - Many memory "errors" are due to issues with retrieval cues
 	- Tip-of-the-tongue experience
+
+### Using Memories
+
+- **Recall**: retrieving a memory without a cue
+	- Essay tests
+- **Recognition**: identifying if new information is consistent with previously learned information or not
+	- Multiple choice tests
+- **Relearning**: re-encountering previously learning information
+- **Hyperthymesia** (aka **highly superior autobiographical memory** or HSAM): able to remember events from their lives with an incredibly high level of detail
+
+### Enhancing Recall
+
+- When conditions for recall are similar to conditions during initial memory acquisition, retrieval is more likely to succeed
+	- Matching mental/emotional states with when you learned the information will be helpful
+- Mnemonic Devices
+	- "Every Good Boy Does Fine"
+	- PEMDAS
+
+### Amnesia
+
+- **Amnesia**: memory loss
+	- **Retrograde Amnesia**: forgetting things before an event (e.g. TBI, surgery)
+	- **Anterograde Amnesia**: impairment forming new memories
+- H.M. had portions of his temporal lobes removed, including hippocampus
+	- Was unable to form new episodic or semantic memories
+	- Had some residual declarative knowledge (famous people)
+	- Retained capacity for procedural memories, but did not remember learning new motor actions
+
+### Eyewitness Misidentification
+
+- Work of Elizabeth Loftus shows us that, despite the confidence one may have in their memories, they may not be very accurate (**Misinformation Effect**)
+	- Implication for both criminal justice system and treatment of individuals who experience traumatic events
+
+### Repressed Memories
+
+- **Repression**: unconscious dismissal of a memory from conscious experience
+	- Originated with Freud
+- Techniques such as hypnotism used to "recover" lost memories
+- Many high-profile individuals remembering horrific traumatic experiences that never happened
+
+##### Schacter's Seven Sins of Memory
+
+- Transience
+	- Type: Forgetting
+	- Description: Accessibility of memory decreases over time
+	- Example: Forget events that occurred long ago
+- Absentmindedness
+	- Type: Forgetting
+	- Description: Forgetting caused by lapses in attention
+	- Example: Forget where your phone is
+- Blocking
+	- Type: Forgetting
+	- Description: Accessibility of information is temporarily blocked
+	- Example: Tip of the tongue
+- Misattribution
+	- Type: Distortion
+	- Description: Source of memory is confused
+	- Example: Recalling a dream memory as a walking memory
+- Suggestibility
+	- Type: Distortion
+	- Description: False memories
+	- Example: Result from leading questions
+- Bias
+	- Type: Distortion
+	- Description: Memories distorted by current belief system
+	- Example: Align memories to current beliefs
+- Persistence
+	- Type: Intrusion
+	- Description: Inability to forget undesirable memories
+	- Example: Traumatic events

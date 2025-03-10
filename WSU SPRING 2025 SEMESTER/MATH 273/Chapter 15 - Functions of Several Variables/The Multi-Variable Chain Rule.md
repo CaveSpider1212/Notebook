@@ -18,7 +18,7 @@ The "regular" chain rule: If $y = f(g(x))$, then $y = f(u)$ and $u = g(x)$, and 
 > 
 > $$\frac{\partial w}{\partial s} = \frac{\partial x}{\partial s} \cdot \frac{\partial w}{\partial x} + \frac{\partial y}{\partial s} \cdot \frac{\partial w}{\partial y} + \frac{\partial z}{\partial s} \cdot \frac{\partial w}{\partial z}$$
 > 
-> $$\frac{\partial w}{\partial t} = \frac{\partial x}{dt} \cdot \frac{dw}{dx} + \frac{dy}{dt} \cdot \frac{dw}{dy} + \frac{dz}{dt} \cdot \frac{dw}{dz}$$
+> $$\frac{\partial w}{\partial t} = \frac{\partial x}{\partial t} \cdot \frac{\partial w}{\partial x} + \frac{\partial y}{\partial t} \cdot \frac{\partial w}{\partial y} + \frac{\partial z}{\partial t} \cdot \frac{dw}{dz}$$
 
 > [!example]
 > Find $\frac{dz}{dt}$ if $z = x\sin(y)$, $x = t^2$, $y = 4t^3$.
