@@ -1,0 +1,202 @@
+{
+  "main": {
+    "id": "d484157ee009c761",
+    "type": "split",
+    "children": [
+      {
+        "id": "b7f94ded80ce463a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efe0286a2f42fece",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Binary Search Trees"
+            }
+          },
+          {
+            "id": "fd0f5a261cff60bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Double Integrals over Rectangular Regions"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3d127e7f73e36b12",
+    "type": "split",
+    "children": [
+      {
+        "id": "31f39693db74094e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "28870461f586f32b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4c74d269d9edb04b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "06a36ee8ef143a5a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5b66465cf66f15d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6e5da242d77e49ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8648657a3c19bd99",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Binary Search Trees"
+            }
+          },
+          {
+            "id": "6d356d477ba3de3b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Binary Search Trees"
+            }
+          },
+          {
+            "id": "c199a3f05738ca18",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ac05cd5ae9148e90",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Binary Search Trees"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "fd0f5a261cff60bd",
+  "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/The Magnetic Field.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.11.25 Torque Magnetic Field.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.11.25 Magnetic Current Carrying Wire.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Orders of Magnitude Table.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Delete from BST 2 children.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Insert BST.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 BST.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md"
+  ]
+}

@@ -174,3 +174,36 @@ The **Hall effect** is used to gain information about the charge carriers in a c
 
 > [!info] Drift Speed
 > $$v_d = \frac{J}{ne} = \frac{\frac{I}{A}}{ne} = \frac{I}{wtne}$$
+
+### Magnetic Forces on Current-Carrying Wires
+
+> [!info] Magnetic force on a current-carrying wire
+> ![[3.11.25 Magnetic Current Carrying Wire.png]]
+
+> [!tip] Magnetic Force
+> $$F = I \Delta x B$$
+> 
+> where $\Delta x$ is the length of the segment of the wire
+
+> [!tip] Force on length $l$ of a current-carrying wire
+> $$\vec{F}_{\text{wire}} = I \vec{l} \times \vec{B} = (IlB\sin\alpha, \text{direction \hspace{0.25mm} of \hspace{0.25mm} right-hand \hspace{0.25mm} rule})$$
+
+> [!info]
+> The right-hand for forces applies to a current-carrying wire. Point your right thumb in the direction of the current (parallel to $\vec{l}$) and your index finger in the direction of $\vec{B}$. Your middle finger is then pointing in the direction of the force $\vec{F}$ on the wire.
+
+> [!tip] Force exerted by the Lower Wire on the Upper Wire (2 parallel wires of length $l$)
+> $$F_{\text{parallel}} = I_1 l B_2 = I_1 l \frac{\mu_0 I_2}{2\pi d} = \frac{\mu_0 l I_1 I_2}{2\pi d}$$
+> 
+> where $r = d$
+
+> [!info]
+> Parallel wires carrying currents in the same direction attract each other; parallel wires carrying currents in opposite directions repel each other.
+
+### Forces and Torques on Current Loops
+
+![[3.11.25 Torque Magnetic Field.png]]
+
+> [!tip] Torque exerted by the Magnetic Field
+> $$\tau = 2Fd = 2(IlB)\left(\frac{1}{2} l \sin\theta\right)= (Il^2) B \sin\theta = mB\sin\theta$$
+> 
+> $$\vec{\tau} = \vec{m} \times \vec{B}$$
