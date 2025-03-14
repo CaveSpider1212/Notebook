@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "fd0f5a261cff60bd",
+            "id": "2b973a788cc3f5b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
-                "mode": "source",
+                "file": "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Double Integrals over Rectangular Regions"
+              "title": "Cognition & Intelligence"
             }
           }
         ],
@@ -184,18 +184,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "fd0f5a261cff60bd",
+  "active": "2b973a788cc3f5b1",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 3.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 2.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 1.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Coordinate Disks.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Coordinate.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Volume Example.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 3.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 2.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 1.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region 2.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/The Magnetic Field.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.11.25 Torque Magnetic Field.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.11.25 Magnetic Current Carrying Wire.png",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Orders of Magnitude Table.png",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Delete from BST 2 children.png",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 Insert BST.png",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images/3.10.25 BST.png",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md"
   ]

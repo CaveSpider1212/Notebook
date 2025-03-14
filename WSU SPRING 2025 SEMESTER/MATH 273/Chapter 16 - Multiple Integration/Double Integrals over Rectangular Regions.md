@@ -65,3 +65,16 @@ So, volume = $\int_a^b A(x) dx = \int_a^b (\int_c^d f(x, y)dy)dx$
 > 
 > Outer: $\int_0^1 \left(6y(4 + y^2)^{\frac{1}{2}} - 6y\left(1 + y^2\right)^{\frac{1}{2}}\right)dy$
 > $= 10\sqrt{5} - 4\sqrt{2} - 14$
+
+> [!example]
+> Compute the average value of $f(x, y) = e^{-y}$ over the region $R = {(x, y): 0 \leq x \leq 6, 0 \leq y \leq \ln(2)}$.
+> 
+> $\bar{f} = \frac{\iint_{R} f(x, y) dA}{\text{region\hspace{0.5mm}area}}$
+> 
+> Area of region: 6 ln(2)
+> 
+> $$\iint_R e^{-y} dA = \int_0^6 \int_0^{\ln(2)} e^{-y} dy dx$$
+> Inner: $\frac{1}{2}$
+> Outer: 3
+> 
+> So, $\bar{f} = \frac{3}{6\ln(2)} = \frac{1}{2\ln(2)} = \frac{1}{\ln(4)}$

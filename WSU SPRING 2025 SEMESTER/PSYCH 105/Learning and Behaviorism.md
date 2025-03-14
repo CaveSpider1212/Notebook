@@ -137,7 +137,7 @@ created: 2025-2-5
 - Edward Tolman
 	- Cognitive processes, although they cannot be directly observed, play a role in behavior
 		- *Cognitive maps*
-- **Latent learning**: learning that occurs but is not observable until there is motivation to demonstrate it
+- **Latent learning**: learning that occurs but is not observable until there is motivation to demonstrate it ^e9c8ed
 
 ###### Increasing the Likelihood of Imitation
 
