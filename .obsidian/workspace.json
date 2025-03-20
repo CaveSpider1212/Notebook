@@ -4,11 +4,123 @@
     "type": "split",
     "children": [
       {
-        "id": "b7f94ded80ce463a",
+        "id": "205f8009662dc922",
         "type": "tabs",
         "children": [
           {
-            "id": "efe0286a2f42fece",
+            "id": "27ced39c659b95ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Linked Lists"
+            }
+          },
+          {
+            "id": "07d159425614e044",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Stacks"
+            }
+          },
+          {
+            "id": "f8a54ccd924582d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Object-Oriented Programming and C++"
+            }
+          },
+          {
+            "id": "103e67fb06bc62ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Classes in C++"
+            }
+          },
+          {
+            "id": "59acabcf95bca4cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Queues.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Queues"
+            }
+          },
+          {
+            "id": "23ae104cf897a19a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Streams and File Processing in C++"
+            }
+          },
+          {
+            "id": "f4ec0d1956f702b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Operator Overloading"
+            }
+          },
+          {
+            "id": "446eccf3e3184dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Container Classes & Class Templates"
+            }
+          },
+          {
+            "id": "7af51e9f0e10ffd4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +132,8 @@
               "icon": "lucide-file",
               "title": "Binary Search Trees"
             }
-          },
-          {
-            "id": "2b973a788cc3f5b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Cognition & Intelligence"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,27 +281,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2b973a788cc3f5b1",
+  "active": "27ced39c659b95ba",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Queues.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 3.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 2.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Example Graph 1.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Coordinate Disks.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 Polar Coordinate.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Volume Example.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 3.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 2.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region Example 1.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.12.25 General Region 2.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/The Magnetic Field.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.19.25 Transformer.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.19.25 Induced Current Example 2.png",
+    "Pasted image 20250319184215.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.19.25 Induced Current 1.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.19.25 Example 1.png",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.18.25 Triple Integral Example 2 Region.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.18.25 Triple Integral Example 1 2D Region.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.18.25 Triple Integral Example Region 1.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.17.25 Eddy Currents.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.17.25 Faraday's Experiments.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Polarization.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Coulomb's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Electric Fields.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Parallel-Plate Capacitor.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Gauss's Law.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md"
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Motivation and Emotion.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
 }
