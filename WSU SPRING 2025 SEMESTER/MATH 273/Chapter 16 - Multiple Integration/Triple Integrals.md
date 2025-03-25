@@ -54,4 +54,15 @@ Note: The volume of a solid region (with bases at $z = g(x, y)$ and $z = h(x, y)
 > ![[3.18.25 Triple Integral Example 2 Region.png]]
 > 
 > Vol = $\iint_R (\sqrt{8 - x^2 - y^2} - \sqrt{x^2 + y^2}) dA$
-> $\int_0^{2\pi} \int_0^2 (\sqrt{8 - r^2} r) r dr d\theta = ...$
+> $\int_0^{2\pi} \int_0^2 (\sqrt{8 - r^2} - r) r dr d\theta = ...$
+
+> [!example]
+> Rewrite $\int_0^5 \int_{-1}^0 \int_0^{4x + 4} dy dx dz$ in the order $dz dx dy$.
+> 
+> ![[3.20.25 Rewrite Triple Integral Graph.png]]
+> 
+> $0 \leq y \leq 4$
+> $\frac{1}{4}y - 1 \leq x \leq 0$
+> $0 \leq z \leq 5$
+> 
+> Answer: $\int_0^4 \int_{\frac{1}{4}y - 1}^0 \int_0^5 dz dx dy$

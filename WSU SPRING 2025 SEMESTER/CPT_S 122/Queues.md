@@ -17,10 +17,15 @@ description: Lesson 6.2
 class Node
 {
 public:
+	// constructor/destructor
 	Node(const string newData = "");
 	~Node();
+
+	// getter functions
 	string getData() const;
 	Node* getNextPtr() const;
+
+	// setter function
 	void setNextPtr(Node* const newNextPtr);
 private:
 	string mJob;
