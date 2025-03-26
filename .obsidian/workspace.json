@@ -11,10 +11,14 @@
             "id": "e46edc7ff02a5a73",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Cylindrical & Spherical Coordinates"
             }
           }
         ]
@@ -165,8 +169,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28870461f586f32b",
+  "active": "e46edc7ff02a5a73",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinate Example.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinates.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/Drawing 2025-03-24 18.25.24.excalidraw.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
@@ -179,7 +185,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Frequency Graph.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Circuit Phasor.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Circuit.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC Capacitor Graph and Phasor.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
@@ -203,7 +208,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Coulomb's Law.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Electric Fields.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Parallel-Plate Capacitor.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Gauss's Law.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
 }
