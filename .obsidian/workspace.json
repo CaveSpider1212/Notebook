@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "06b32de5b7e10b84",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lenz's Law + Faraday's Law"
-            }
-          },
-          {
             "id": "73db65ef08f64a7c",
             "type": "leaf",
             "state": {
@@ -34,9 +20,37 @@
               "icon": "lucide-file",
               "title": "The Magnetic Field"
             }
+          },
+          {
+            "id": "fcf344336d5550d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Electromagnetic Induction"
+            }
+          },
+          {
+            "id": "06b32de5b7e10b84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lenz's Law + Faraday's Law"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,9 +198,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "73db65ef08f64a7c",
+  "active": "06b32de5b7e10b84",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit Phasor.png",
@@ -219,8 +235,6 @@
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
