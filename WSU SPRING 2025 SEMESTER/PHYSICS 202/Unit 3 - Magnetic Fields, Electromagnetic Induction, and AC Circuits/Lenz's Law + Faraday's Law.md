@@ -27,6 +27,9 @@ created: 2025-3-19
 > 
 > $$\epsilon = \left| \frac{d \Phi_m}{dt} \right|$$
 
+> [!tip] Faraday's Law
+> $$\epsilon = -N \frac{d \Phi_m}{dt}$$
+
 > [!example]
 > There is a current loop (induced going clockwise) inside a uniform and constant magnetic field.
 > $r = r_0 e^{-\beta t}$ (shrinking radius)

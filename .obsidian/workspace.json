@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "29c4ac8aa5d8de41",
+        "id": "56cdb17e2b99f6af",
         "type": "tabs",
         "children": [
           {
-            "id": "e46edc7ff02a5a73",
+            "id": "06b32de5b7e10b84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
-                "mode": "source",
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Cylindrical & Spherical Coordinates"
+              "title": "Lenz's Law + Faraday's Law"
+            }
+          },
+          {
+            "id": "73db65ef08f64a7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "The Magnetic Field"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -169,26 +184,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e46edc7ff02a5a73",
+  "active": "73db65ef08f64a7c",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit Phasor.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit Graph and Phasor.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Untitled.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Social.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinate Example.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinates.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/Drawing 2025-03-24 18.25.24.excalidraw.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LR Circuit Current Graph.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit Charge Current Graph.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LR Circuit.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 High-Pass Filter.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 Low-Pass Filter.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Frequency Graph.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Circuit Phasor.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 AC RC Circuit.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
@@ -199,15 +219,9 @@
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Polarization.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Coulomb's Law.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Electric Fields.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Parallel-Plate Capacitor.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
 }
