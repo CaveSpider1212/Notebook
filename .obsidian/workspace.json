@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "Lenz's Law + Faraday's Law"
             }
+          },
+          {
+            "id": "582e6cc9069a1ce6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -123,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +143,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for AC Circuit"
+              "title": "Backlinks for Inheritance"
             }
           },
           {
@@ -142,12 +152,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Binary Search Trees"
+              "title": "Outgoing links from Inheritance"
             }
           },
           {
@@ -171,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
+                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Binary Search Trees"
+              "title": "Outline of Inheritance"
             }
           }
         ]
@@ -198,10 +208,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "06b32de5b7e10b84",
+  "active": "582e6cc9069a1ce6",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
@@ -234,7 +246,6 @@
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
