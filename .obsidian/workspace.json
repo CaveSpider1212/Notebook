@@ -4,24 +4,137 @@
     "type": "split",
     "children": [
       {
-        "id": "d76349c97ed7e9f1",
+        "id": "729512e2f9bef7a2",
         "type": "tabs",
         "children": [
           {
-            "id": "cb4259e8d1ce7a1e",
+            "id": "7264e0ae912ef192",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Gradient and Directional Derivative.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Personality"
+              "title": "Gradient and Directional Derivative"
+            }
+          },
+          {
+            "id": "dfb60b71ec3c0f68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Tangent Planes, Linear Approximation, Total Differential.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tangent Planes, Linear Approximation, Total Differential"
+            }
+          },
+          {
+            "id": "b94bfc5245721700",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Finding Local Extrema for f(x, y).md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Finding Local Extrema for f(x, y)"
+            }
+          },
+          {
+            "id": "520e46072a4aa8ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Double Integrals over Rectangular Regions"
+            }
+          },
+          {
+            "id": "5c716b5e34c5926d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Double Integrals over General Regions"
+            }
+          },
+          {
+            "id": "d94ed13ee44ee43a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Double Integrals using Polar Coordinates"
+            }
+          },
+          {
+            "id": "4b7dbfcbe44409bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Triple Integrals"
+            }
+          },
+          {
+            "id": "d71cc25c4cd200eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Cylindrical & Spherical Coordinates"
+            }
+          },
+          {
+            "id": "af137e6b67e39ca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Relative Electrodynamics.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Relative Electrodynamics"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -169,12 +282,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "cb4259e8d1ce7a1e",
+  "active": "af137e6b67e39ca4",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Social.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
+    "3.31.25 Ampere's Law Surface.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.31.25 Reference Frames.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Relative Electrodynamics.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Gradient and Directional Derivative.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Cylindrical & Spherical Coordinates.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Finding Local Extrema for f(x, y).md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Tangent Planes, Linear Approximation, Total Differential.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Social.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
@@ -186,27 +309,17 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit Graph and Phasor.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Untitled.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinate Example.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinates.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/Drawing 2025-03-24 18.25.24.excalidraw.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LR Circuit Current Graph.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit Charge Current Graph.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LR Circuit.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Queues.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Binary Search Trees.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Operator Overloading.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Container Classes & Class Templates.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Streams and File Processing in C++.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
