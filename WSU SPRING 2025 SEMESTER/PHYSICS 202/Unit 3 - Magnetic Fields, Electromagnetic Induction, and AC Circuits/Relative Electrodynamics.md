@@ -92,5 +92,5 @@ Ampere's Law: $\oint \vec{B} \cdot d\vec{s} = \mu_0 I$ <--- $I$ is the current p
 > $\hspace{5.5mm} = \epsilon_0 \frac{d}{dt} (\frac{V_C C}{\epsilon_0})$
 > $\hspace{5.5mm} = C \frac{d V_C}{dt}$
 > $\hspace{5.5mm} = C \frac{d}{dt} (\epsilon e^{\frac{-t}{RC}})$
-> $\hsapce{5.5mm} = \frac{-\epsilon}{R} e^{\frac{-t}{RC}}$
+> $\hspace{5.5mm} = \frac{-\epsilon}{R} e^{\frac{-t}{RC}}$
 > $I_{d, max} = \frac{\epsilon}{R} = \frac{25}{150} =$ 0.17 A
