@@ -8,13 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c998e512cb655db3",
+            "id": "c1dff11faa5a3fa0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Electromagnetic (EM) Waves"
             }
           }
         ]
@@ -165,8 +169,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c998e512cb655db3",
+  "active": "c1dff11faa5a3fa0",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Developmental Psychology.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Finding Local Extrema for f(x, y).md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Gradient and Directional Derivative.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over Rectangular Regions.md",
@@ -201,8 +207,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit Charge Current Graph.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Stacks.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
