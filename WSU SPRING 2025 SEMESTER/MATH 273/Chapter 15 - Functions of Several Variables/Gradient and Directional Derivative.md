@@ -10,6 +10,13 @@ description: Lesson 15.5
 > $$\nabla f(x, y) = \langle f_x(x, y), f_y(x, y) \rangle$$
 > 
 > The gradient of $f$ is a field, meaning that the dimensions of its inputs and outputs are the same. Typically, the input to a field is thought of as a location, and the output is thought of as a vector associated with that input location.
+> 
+> The gradient tells us the direction of the greatest change of the function.
+
+> [!tip] Length of the Gradient at point $P$
+> $$\left| \nabla f(P) \right| = \frac{\Delta f}{\Delta x}$$
+> 
+> This value is a constant, telling us by how much the value of the function will change each time we move the variables in the direction of the gradient vector.
 
 > [!example]
 > Find the gradient of $g(x, y) = x^2 - 4x^2y - 8xy^2$ and evaluate the gradient at $P(-1, 2)$.
@@ -59,7 +66,11 @@ $\hspace{7mm} = \nabla f(a, b) \cdot \vec{u} = D_{\vec{u}} f(a, b) = \frac{\part
 > 4. $\nabla f(a, b, c)$ is orthogonal to the level surface of $f$ containing $(a, b, c)$, which has equation $f(x, y, z) = k = f(a, b, c)$.
 
 > [!tip] The Gradient and Level Curves
-> Given a function $f$ differentiable at $(a, b)$, the line tangent to the level curve of $f$ at $(a, b)$ is orthogonal to the gradient $\nabla f(a, b)$, provided $\nabla f(a, b) \neq 0$.
+> Given a function $f$ differentiable at $(a, b)$, the line tangent to the level curve of $f$ at $(a, b)$ is orthogonal to the gradient $\nabla f(a, b)$, provided $\nabla f(a, b) \neq 0$ .
+> 
+> Basically, this means the gradient of a point points in the direction perpendicular to the tangent of the curve at that point.
+> 
+> The gradient is greater at a point on a level curve with the steeper ascent.
 > 
 > ![[2.18.25 Level Curves.png]]
 
