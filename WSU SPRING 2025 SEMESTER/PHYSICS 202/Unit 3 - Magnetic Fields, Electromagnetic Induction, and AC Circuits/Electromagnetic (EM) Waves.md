@@ -24,8 +24,9 @@ created: 2025-4-2
 > 3. The wave travels in vacuum at $c = \frac{1}{\sqrt{\epsilon_0 \mu_0}}$, the speed of light.
 > 4. $E = cB$ at any point in the wave.
 
+> [!info] Poynting Vector and Intensity
 > Define the Poynting vector (rate of energy transfer per unit area) as:
-> $$\vec{S} = \frac{1}{\mu_0} \vec{E} \times \vec{B}$$
+> $$\vec{S} = \frac{1}{\mu_0} (\vec{E} \times \vec{B})$$
 > 
 > where $\vec{S}$ is in the direction of wave propagation.
 > 
@@ -62,11 +63,13 @@ The plane of polarization is in the plane of the electric field.
 > $I_{trans} = \frac{1}{2}I_0$
 
 > [!tip] Malus's Law
-> Intensity:
-> $$I_{\text{trans}} = I_0 \cos^2 \theta$$
+> Intensity (if $n > 1$)::
+> $$I_{\text{trans, n}} = I_{n-1} \cos^2 \theta$$
 > 
-> Unpolarized light intensity:
-> $$I_{\text{trans}} = \frac{1}{2} I_0$$
+> $\theta$ is the angle of the polarizer with respect to the previous filter
+> 
+> Unpolarized light intensity (Intensity if $n = 1$):
+> $$I_{\text{trans, 1}} = \frac{1}{2} I_0$$
 
 > [!example]
 > There is a natural light with intensity $I_0$ that goes through a vertical polarizer and comes out with an intensity of $I_1$. That polarized light then goes through a 45-degree tilted polarizer and comes out with an intensity of $I_2$. Then it goes through a horizontal polarizer and comes out with an intensity of $I_3$.
