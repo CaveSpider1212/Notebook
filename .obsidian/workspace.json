@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f5cd6eeff173a5d9",
+        "id": "01e66c36c3c8e677",
         "type": "tabs",
         "children": [
           {
-            "id": "c1dff11faa5a3fa0",
+            "id": "01fb2c6aa78486e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Electromagnetic (EM) Waves"
+              "title": "Integrals over Curves"
             }
           }
         ]
@@ -169,10 +169,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c1dff11faa5a3fa0",
+  "active": "01fb2c6aa78486e2",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Vectors.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Integral Field Tangent.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 2 Sketch.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 1 Sketch.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Gradient Field.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Vector Fields Graph.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Vectors.md",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Developmental Psychology.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Finding Local Extrema for f(x, y).md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Gradient and Directional Derivative.md",
@@ -194,19 +204,10 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Efficiency of Algorithms.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit Phasor.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Series RLC Circuit.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit Graph and Phasor.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.26.25 Inductor Circuit.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinate Example.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/3.25.25 Spherical Coordinates.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/Drawing 2025-03-24 18.25.24.excalidraw.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LR Circuit Current Graph.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.24.25 LC Circuit Charge Current Graph.png",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Memory.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]
