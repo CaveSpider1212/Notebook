@@ -22,6 +22,11 @@ Here, where $\nabla (x^2 - xy^2 + 2y) = \langle 2x - y^2, -2xy + 2 \rangle$, the
 
 ![[4.3.25 Gradient Field.png]]
 
+> [!info]
+> To find the points of vector field $\vec{F}$ tangent to a curve $C$, evaluate $\nabla C \cdot \vec{F}$. The point on $F$ is tangent to $C$ at any point where the dot product is 0. If the dot product is never 0, then there are no points tangent to $C$ in $F$.
+> 
+> To find the points on $\vec{F}$ normal to $C$, first find a vector $\langle a, b \rangle$ at which $\nabla C \cdot \langle a, b \rangle = 0$, and then evaluate $\langle a, b \rangle \cdot \vec{F} = 0$. If the dot product of $\langle a, b \rangle$ and $\vec{F}$ is always zero, then $F$ is always orthogonal to the tangent vector of $C$, so $F$ is normal to $C$ at all points.
+
 > [!example]
 > For $\vec{F}(x, y) = \langle x, y \rangle$ and the curve $C = {(x, y): x = 1}$,
 > 

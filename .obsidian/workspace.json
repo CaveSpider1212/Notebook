@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "d23961199d6b430b",
+        "id": "3625a7560ac4e09d",
         "type": "tabs",
         "children": [
           {
-            "id": "8b2cc2d7e8e2d7f8",
+            "id": "8f984e3c0ae7020f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Wave Optics"
+              "title": "Vector Fields"
+            }
+          },
+          {
+            "id": "e5fd6e22ef9ebbf5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Integrals over Curves"
             }
           }
         ]
@@ -169,20 +183,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8b2cc2d7e8e2d7f8",
+  "active": "8f984e3c0ae7020f",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Diffraction Grating.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit 2.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit 1.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit Experiment.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Developmental Psychology.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Polymorphism.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Integral Field Tangent.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 2 Sketch.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 1 Sketch.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Gradient Field.png",
@@ -203,7 +217,6 @@
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Lines and Planes in Space.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Limits & Continuity for f(x, y).md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Relative Electrodynamics.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/3.31.25 Ampere's Law Surface.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Social.md",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
