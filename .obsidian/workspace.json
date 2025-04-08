@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "3625a7560ac4e09d",
+        "id": "3117d39d6cdf506d",
         "type": "tabs",
         "children": [
           {
-            "id": "8f984e3c0ae7020f",
+            "id": "9dec4208ff5774c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vector Fields"
+              "title": "Wave Optics"
             }
           },
           {
-            "id": "e5fd6e22ef9ebbf5",
+            "id": "dda41ed3317bf343",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
-                "mode": "preview",
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Exam 4 Review.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Integrals over Curves"
+              "title": "Exam 4 Review"
             }
           }
         ]
@@ -183,11 +183,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8f984e3c0ae7020f",
+  "active": "9dec4208ff5774c8",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Exam 4 Review.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.7.25 Circular Aperture.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuits.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Inductance.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Relative Electrodynamics.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.7.25 Michelson Interferometer.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.7.25 Single Slit Diffraction.png",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Health Psychology.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Diffraction Grating.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.4.25 Double Slit 2.png",
@@ -197,14 +209,9 @@
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Polymorphism.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Integral Field Tangent.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 2 Sketch.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Example 1 Sketch.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Gradient Field.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.3.25 Vector Fields Graph.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic (EM) Waves.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Vectors.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Finding Local Extrema for f(x, y).md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Gradient and Directional Derivative.md",
@@ -213,14 +220,6 @@
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Tangent Planes, Linear Approximation, Total Differential.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals over General Regions.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Double Integrals using Polar Coordinates.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Lines and Planes in Space.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 15 - Functions of Several Variables/Limits & Continuity for f(x, y).md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Relative Electrodynamics.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Personality.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Social.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Cognition & Intelligence.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/AC Circuit.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]

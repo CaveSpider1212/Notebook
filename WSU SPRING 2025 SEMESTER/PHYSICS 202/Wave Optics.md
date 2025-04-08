@@ -112,3 +112,80 @@ The paths are nearly parallel.
 > $\lambda = \frac{d}{m} \sin(\tan^{-1} (\frac{y}{L}))$
 > $\hspace{4mm} = \frac{1.667 \times 10^{-6}}{2} \sin(\tan^{-1} (\frac{1.606}{1.5}))$
 > $\hspace{4mm} =$ 6.09 x 10^-7 m = 609 nm
+
+### Single Slit
+
+![[4.7.25 Single Slit Diffraction.png]]
+
+> [!info] Single Slit Formulas
+> The path difference is
+> $\Delta r = \frac{a}{2}\sin\theta$
+> 
+> Similarly, a wavefront could be paired with one $\frac{a}{2p}$ where $p = 1, 2, 3, ...$.
+> 
+> Maximum destructive interference occurs where $\Delta r = \frac{\lambda}{2}$
+> $\rightarrow \frac{a}{2p}\sin\theta = \frac{\lambda}{2}$
+> $\rightarrow a \sin\theta = p \lambda$
+> 
+> The position of the dark fringe is
+> $y_p= L \tan\theta_p$
+
+> [!example]
+> There is a pattern on a wall where there are 5 peaks in intensity and the peak at the center is the highest, and in between $y = 1$ cm and $y = 2$ cm. The wavelength is 600 nm and the length is 2.0 m. What is the width of the slit?
+> 
+> We want to look at where $p = 1$, at the minimum value closest to the peak intensity to the right.
+> 
+> $a = \frac{p \lambda}{\sin\theta}$
+> $\hspace{4mm} = \frac{p \lambda}{\sin(\tan^{-1} (\frac{y}{L}))}$
+> $\hspace{4mm} = \frac{(1) (600 \times 10^{-9})}{\sin(\tan^{-1} (\frac{0.005}{2.0}))}$
+> $\hspace{4mm} =$ 2.4 x 10^-4 m
+
+### Circular Aperture
+
+What it looks like:
+![[4.7.25 Circular Aperture.png]]
+
+> [!info] Circular Aperture Formulas
+> The diameter of bright central maximum is
+> $w = \frac{2.44 \lambda L}{D}$ <--- where $D$ is the diameter of the circle and $L$ is the length of the light
+> 
+> The first dark fringe is located at
+> $\theta_1 = \frac{1.22 \lambda}{D}$
+> $y_1 = \frac{1.22 \lambda L}{D}$
+
+> [!example]
+> There are 5 peaks with the third peak being the maximum from $y = 1$ cm to $y = 2$ cm. The wavelength is 500 nm and the length is 1.0 m. What is the diameter of the circular aperture?
+> 
+> $w = \frac{2.44 \lambda L}{D}$
+> $D = \frac{2.44 \lambda L}{w}$
+> $\hspace{5mm} = \frac{2.44 (500 \times 10^{-9}) (1.0)}{0.01}$
+> $\hspace{5mm} =$ 0.122 mm = 1.22 x 10^-4 m
+
+### Michelson Interferometer
+
+![[4.7.25 Michelson Interferometer.png]]
+
+> [!info] Michelson Interferometer
+> The path difference is
+> $\Delta r = 2L_2 - 2L_1$
+> 
+> For constructive interference
+> $\Delta r = m \lambda, m = 0, \pm 1, \pm 2, ...$
+> $\rightarrow L_2 - L_1 = \frac{m \lambda}{2}$
+
+> [!example]
+> There is a Michelson interferometer, but there is a piece of glass inserted in the path of the waves traveling horizontally. The glass has a length of 0.10 mm. The wavelength of the waves is 500 nm. The glass causes the fringe position o shift by 200 fringes. What is the index of refraction of the glass?
+> 
+> When the waves travel through the piece of glass, the wavelength changes by $\frac{\lambda}{n}$, where $n$ is the index of refraction.
+> 
+> Number of wavelength without glass is:
+> $m_1 = \frac{2d}{\lambda}$
+> 
+> Number of wavelengths with glass is:
+> $m_2 = \frac{2d}{\frac{\lambda}{n}}$
+> 
+> The difference is:
+> $\Delta m = m_2 - m_1 = n \frac{2d}{\lambda} - \frac{2d}{\lambda} = \frac{2d}{\lambda} (n - 1)$
+> $\rightarrow n = \frac{\lambda}{2d} \Delta m + 1$
+> $\hspace{10.5mm} = \frac{500 \times 10^{-9}}{2 (0.10 \times 10^{-3})} (200) + 1$
+> $\hspace{10.5mm} =$ 1.5
