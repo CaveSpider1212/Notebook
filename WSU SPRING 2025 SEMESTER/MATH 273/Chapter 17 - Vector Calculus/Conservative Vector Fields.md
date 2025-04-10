@@ -33,7 +33,7 @@ description: Lesson 17.3
 > 
 > Finding $\varphi$:
 > 
-> Need to find the antiderivative of $ex^2 + 4xy + 2$ with respect to $x$, and then find the antiderivative of $2x^2 - 5$ with respect to $y$.
+> Need to find the antiderivative of $3x^2 + 4xy + 2$ with respect to $x$, and then find the antiderivative of $2x^2 - 5$ with respect to $y$.
 > 
 > $\varphi(x, y) = (x^2 + 2x^2 y + 2x) + (-5y)$
 
@@ -56,7 +56,7 @@ description: Lesson 17.3
 
 > The Fundamental Theorem of Calc for Line Integrals:
 > 
-> Suppose $C$ is $\vec{r}(t) = \langle x(t), y(t), z(t) \rangle$ for $a \leq t \leq b$, and $C$ lies in a region where $\vec{F} = \nabla \varphi(x, y, z) = \langle \varphi_x, \varphi_y, \varphi_z$.
+> Suppose $C$ is $\vec{r}(t) = \langle x(t), y(t), z(t) \rangle$ for $a \leq t \leq b$, and $C$ lies in a region where $\vec{F} = \nabla \varphi(x, y, z) = \langle \varphi_x, \varphi_y, \varphi_z \rangle$.
 > 
 > ![[4.8.25 Fundamental Theorem.png]]
 > 
@@ -67,3 +67,41 @@ description: Lesson 17.3
 > $= \varphi(x(t), y(t), z(t)) |_{t = a}^{t = b}$
 > $= \varphi(\vec{r}(b)) - \varphi(\vec{r}(a))$
 > $= \varphi(B) - \varphi(A)$
+
+> [!info] Fundamental Theorem for Line Integrals
+> Let $R$ be a region in $R^2$ or $R^3$ and let $\varphi$ be a differentiable potential function defined on $R$. If $F = \nabla \varphi$ (which means $F$ is conservative), then
+> 
+> $$\displaystyle \int_C F \cdot T ds = \int_C F \cdot dr = \varphi(B) - \varphi(A)$$
+> 
+> for all points $A$ and $B$ in $R$ and all piecewise-smooth oriented curves $C$ in $R$ from $A$ to $B$.
+
+> [!example]
+> Evaluate $\int_C (x^3 dx + y^3 dy)$, where $C$ is $\vec{r}(t) = \langle 1 + \sin t, \cos^2 t \rangle$, for $0 \leq t \leq \frac{\pi}{2}$.
+> 
+> <u>Option 1</u>
+> Note that $\vec{F} = \nabla(\frac{1}{4}x^4 + \frac{1}{4}y^4)$, so:
+> $\int_C \vec{F} \cdot \vec{T} ds = \varphi\left(\vec{r}\left(\frac{\pi}{2}\right)\right) - \varphi(\vec{r}(0))$
+> 
+> $\vec{r}\left(\frac{\pi}{2}\right) = \langle 2, 0 \rangle$
+> $\vec{r}(0) = \langle 1, 1 \rangle$
+> 
+> $\varphi(2, 0) - \varphi(1, 1)$
+> 
+> $\left(\frac{1}{4}x^4 + \frac{1}{4}y^4\right) |_{(1, 1)}^{(2, 0)} = \frac{7}{2}$
+> 
+> <u>Option 2</u>
+> $\int_C \vec{F} \cdot \vec{r}'(t) dt = \int \langle x^3, y^3 \rangle \cdot \langle \cos t, -2 \sin t \cos t \rangle dt$
+> $= \int_0^{\frac{\pi}{2}} \langle (1 + \sin t)^3, (\cos^2 t)^3 \rangle \cdot \langle \cos t, -2 \sin t \cos t \rangle = ... = \frac{7}{2}$
+> 
+> <u>Option 3</u>
+> $\int_C (x^3 dx + y^3 dy)$
+> $= \int_1^2 x^3 dx + \int_1^0 y^3 dy = ... = \frac{7}{2}$ <--- got limits of integration from plugging in 0 and $\frac{\pi}{2}$ into $r(t)$
+
+> [!example]
+> Evaluate $\int_C \vec{F} \cdot d\vec{r}$, where $\vec{F} = \langle x, y^2 \rangle$ and $C$ is the triangle with vertices (1, 0), (0, 1), and (0, -1) oriented counterclockwise.
+> 
+> ![[4.10.25 Fundamental Theorem Example.png]]
+> 
+> Note: $\vec{F} = \langle x, y^2 \rangle = \nabla(\frac{1}{2}x^2 + \frac{1}{3}y^3)$, so $\oint_C \vec{F} \cdot \vec{T} ds = \varphi(\text{end}) - \varphi(\text{start}) = 0$ <--- because the end and start points of the curve are the same
+
+![[4.10.25 Conservative Vector Fields Summary.png]]
