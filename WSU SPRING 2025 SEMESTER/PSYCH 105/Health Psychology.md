@@ -112,3 +112,77 @@ Also **finances**
 	- Persists for months/years, comes and goes, disrupts normal patterns (sleep, appetite), result of disease or injury, not adaptive
 	- Examples: Arthritis, migraines, back problems
 	- More complex prognosis, often requiring ongoing treatment/management
+
+### Treating Pain
+
+1. Medication Options:
+	- Over-the-counter medications
+	- Painkillers
+2. Surgical Solutions:
+	- Pain pump infusions
+	- Spinal cord stimulation implants
+	- TENS units
+	- Bioelectric therapy
+3. Non-Medical Approaches:
+	- Massage therapy
+	- Acupuncture
+	- Psychotherapy -- behavior modification
+	- Physical therapy/exercise
+
+### Complementary and Alternative Medicine (CAMS)
+
+**Complementary**: Used alongside conventional medicine
+**Alternative**: Used in place of conventional medicine
+
+- Natural products:
+	- Herbs, probiotics, vitamins
+- Mind and body practices:
+	- Massage therapy, chiropractic care, yoga, acupuncture
+- Other approaches:
+	- Traditional healers, Ayurvedic medicine, Traditional Chinese medicine, Homeopathy, Naturopathy
+
+### Stress and Coping: A Conceptual Model
+
+1. **Demand**: Anything with potential to exceed a person's resources
+2. **Resources**: What we use to manage demands
+3. **Strain**: Pressure experienced when resources are insufficient
+4. **Problem-focused Coping**: Finding solutions to demands
+5. **Stress**: Magnified strain; intense emotional reaction
+6. **Emotion-focused Coping**: Managing emotional reactions to stress
+
+##### Types of Demand
+
+1. Daily Hassles: Petty annoyances that take a daily toll
+	- Pressure, frustration, conflict
+2. Stressors: Environmental demands requiring change or adaptation
+	- Change, extreme stressors, self-imposed stress
+
+##### Resources
+
+***Resources** are specific to the particular demand, and can become depleted as demands accumulate.*
+
+Examples:
+- Time management
+- Financial reserves
+- Knowledge and skill
+- Social support networks
+- Physical health and energy
+- Access to information or experts
+
+##### Problem-Focused Coping (PFC)
+
+- **Confrontation**: Attacking a problem head-on
+	- Example: Taking a training course to learn a new job skill
+- **Compromise**: Finding solutions that work for all parties
+	- Example: Agreeing to see different movies on different weekends
+- **Withdrawal**: Avoiding a situation when other coping forms aren't practical
+	- Example: Dropping a course that's too difficult
+
+##### Emotion-Focused Coping (EFC)
+
+1. **Wishful Thinking**: Hoping a bad situation resolves itself
+2. **Distancing**: Choosing not to deal with a situation temporarily
+3. **Emphasizing the Positive**: Focusing on good aspects and downplaying negatives
+4. **Self-Blame**: Attributing problems to personal failings
+5. **Tension Reduction**: Behaviors aimed at reducing stress (comfort foods, exercise)
+6. **Self-Isolation**: Withdrawing from social situations
