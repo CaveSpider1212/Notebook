@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cc2942fecfbf758c",
+        "id": "1a656cf97f4cd59b",
         "type": "tabs",
         "children": [
           {
-            "id": "46c3538a7699d4f4",
+            "id": "5fe6a888e694f7e1",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,25 +165,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46c3538a7699d4f4",
+  "active": "5fe6a888e694f7e1",
   "lastOpenFiles": [
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Polymorphism.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Ray Optics.md",
-    "4.11.25 Finding Virtual Image.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Convex Mirror.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Concave Mirror.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Lens.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Spherical Surface Refraction.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Diverging Lens.png",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.14.25 Converging Lens.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Green's Theorem.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Conservative Vector Fields.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Polymorphism.md",
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Finding Virtual Image.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Image from Refraction.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Total Internal Reflection.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Refraction Graph Reversed.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Refraction Graph.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Refraction.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Plane Mirror.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Diffuse Reflection.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Spectral Reflection.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.11.25 Reflection.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Green's Theorem.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Conservative Vector Fields.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Exam 3 Review.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Health Psychology.md",

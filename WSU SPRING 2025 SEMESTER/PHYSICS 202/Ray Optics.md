@@ -79,3 +79,71 @@ $l = s_o \tan \theta_1 = s_i \tan \theta_2$ <--- $s_o = s$ and $s_i = s'$ in the
 For small angles $\tan\theta \approx \sin\theta$:
 $s_o \sin\theta_1 = s_i \sin\theta_2$
 $s_i = \frac{\sin\theta_1}{\sin\theta_2}s_o$
+
+### Thin Lenses: Ray Tracing
+
+![[4.14.25 Converging Lens.png]]
+Focal point, $f > 0$
+
+![[4.14.25 Diverging Lens.png]]
+Focal point, $f < 0$
+
+For $s_o > f$, real and inverted.
+For $s_o < f$, virtual and erect.
+
+### Lateral Magnification
+
+> [!info] Lateral Magnification
+> $$m = \frac{h_i}{h_o} = -\frac{s_i}{s_o}$$
+> 
+> $m > 0$: erect image
+> $m < 0$: inverted image
+
+### Thin Lenses: Refraction Theory
+
+![[4.14.25 Spherical Surface Refraction.png]]
+$\theta_1 = \alpha + \phi$
+$\theta_2 = \phi - \beta$
+
+> Snell's Law (small angle approximation, $\sin \theta = \theta$)
+> $n_1 \theta_1 = n_2 \theta_2$
+> $n_1 (\alpha + \phi) = n_2 (\phi - \beta)$
+> $\frac{n_1}{s_o}+ \frac{n_2}{s_i} = \frac{n_2 - n_1}{R}$
+
+> [!tip] Refraction Theory Equation
+> $$\frac{n_1}{s_o}+ \frac{n_2}{s_i} = \frac{n_2 - n_1}{R}$$
+
+![[4.14.25 Lens.png]]
+
+> [!tip] Thin-Lens Equation
+> $$\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$$
+
+> [!tip] Lens Maker's Equation
+> $$\frac{1}{f} = (n - 1) (\frac{1}{R_1} - \frac{1}{R_2})$$
+
+### Spherical Mirrors
+
+Concave Mirror:
+![[4.14.25 Concave Mirror.png]]
+
+Convex Mirror:
+![[4.14.25 Convex Mirror.png]]
+
+> [!tip] Mirror Equation
+> $$\frac{1}{s_0} + \frac{1}{s_i} = \frac{1}{f}$$
+> 
+> $$f = \frac{R}{2}$$
+
+> [!example]
+> A 2.0-cm-length object is 15 cm in front of a converging lens that has a 20 cm focal length. Where is the image?
+> 
+> $\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$
+> $\frac{1}{s_i} = \frac{1}{f} - \frac{1}{s_i}$
+> $\frac{1}{s_i} = \frac{s_o - f}{f s_o}$
+> $s_i = \frac{f s_o}{s_o - f} = \frac{(20)(15)}{15 - 20} =$ -60 cm
+
+> [!example]
+> An object is 30 cm in front of a convex mirror with a focal length of 20 cm. Where is the image?
+> 
+> $\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$
+> $s_i = \frac{f s_o}{s_o - f} = \frac{(-20)(30)}{30 + 20} =$ -12 cm
