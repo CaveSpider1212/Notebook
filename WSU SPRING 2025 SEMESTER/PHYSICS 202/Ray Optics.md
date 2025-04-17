@@ -117,6 +117,9 @@ $\theta_2 = \phi - \beta$
 
 > [!tip] Thin-Lens Equation
 > $$\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$$
+> 
+> $s_o$ is the distance of the object to the left of the lens
+> $s_i$ is the distance of the image to the right of the lens
 
 > [!tip] Lens Maker's Equation
 > $$\frac{1}{f} = (n - 1) (\frac{1}{R_1} - \frac{1}{R_2})$$
