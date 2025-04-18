@@ -3,6 +3,8 @@ tags: PHYSICS_202
 created: 2025-4-16
 ---
 
+### Multiple Lenses
+
 > [!example]
 > There are 2 converging lenses separated by 10 cm. The first lens has a focal length of 40 cm, and the second lens has a focal length of 20 cm. The object is 15 cm to the left of the first lens. Where is the image?
 > 
@@ -92,3 +94,83 @@ Far-sightedness (Hyperopia):
 > 
 > b) the pupil is fully contracted to 1.5 mm?
 > $\text{f-number} = \frac{f}{D} = \frac{24}{0.15} =$ 16
+
+### Magnifying Glasses
+
+![[4.18.25 Magnifier.png]]
+
+> [!info] Angular Magnification
+> $$M = \frac{25 \hspace{0.5mm} \text{cm}}{s_o} \approx \frac{25 \hspace{0.5mm} \text{cm}}{f}$$
+
+### Microscope
+
+![[4.18.25 Microscope.png]]
+
+If we have 2 lenses (one for the objective lens and one for the eyepiece lens), then the lens with the larger magnification is the objective lens in a microscope.
+
+> [!info] Total Angular Magnification
+> $$M = m_{\text{obj}} M_{\text{eye}} = -\frac{L}{f_{\text{obj}}} \frac{25 \hspace{0.5mm} \text{cm}}{f_{\text{eye}}}$$
+
+> [!example]
+> You are asked to build a 12x microscope from a 2.0x and 4.0x magnifying lens. What will be the length of the microscope?
+> 
+> The objective lens is the 4.0x lens.
+> 
+> The focal lengths are:
+> $m = {25 \text{cm}}{f}$
+> $\rightarrow f_{\text{obj}} = \frac{25 \text{cm}}{4} =$ 6.25 cm
+> $\rightarrow f_{\text{eye}} = \frac{25 \text{cm}}{2} =$ 12.5 cm
+> 
+> The length of the tube is:
+> $M = \frac{L}{f_{\text{obj}}} \frac{25 \text{cm}}{f_{\text{eye}}}$
+> $\rightarrow L = M \frac{f_{\text{obj}} f_{\text{eye}}}{25 \text{cm}}$
+> $\hspace{11mm} = (12) \frac{(6.25)(12.5)}{25 \text{cm}} =$ 3 cm
+
+### Telescope
+
+![[4.18.25 Telescope.png]]
+
+If we have 2 lenses (one for the objective lens and one for the eyepiece lens), then the lens with the smaller magnification is the objective lens in a telescope.
+
+> [!info] Magnification
+> $$m = \frac{-f_{\text{obj}}}{f_{\text{eye}}}$$
+> 
+> A negative sign for magnification indicates that the image is inverted.
+
+> [!example]
+> You've been asked to build a telescope from a 2.0x and 5.0x magnifying lens. What is the length and magnification of the telescope?
+> 
+> The objective lens is the 2.0x lens.
+> 
+> The focal lengths are:
+> $f_{\text{eye}} = \frac{25\text{cm}}{5.0} =$ 5.0 cm
+> $f_{\text{obj}} = \frac{25\text{cm}}{2.0} =$ 12.5 cm
+> 
+> The length of the telescope is:
+> $L = f_{\text{eye}} + f_{\text{obj}} = 5.0 + 12.5 =$ 17.5 cm <--- the focal points coincide in a telescope, so you can just add the focal lengths
+> 
+> The magnification is:
+> $m = \frac{-f_{\text{obj}}}{f_{\text{eye}}} = \frac{-(12.5)}{(5)} =$ -2.5
+
+### Angular Resolution
+
+Replace the lens with a circular aperture:
+![[4.18.25 Resolution.png]]
+
+![[4.18.25 Resolved.png]]
+
+> [!info] Angular Resolution
+> $$\theta_{\text{min}} = \frac{\frac{w}{2}}{f} = \frac{1.22 \lambda}{D}$$
+> 
+> $w$ is the width between the 2 dots
+
+> [!example]
+> The Hubble Space Telescope has a mirror of 2.4 m. Suppose the telescope is used to photograph stars at the center of the galaxy 30,000 light years away using red light with a wavelength of 650 nm. What is the distance between the stars that are marginally resolved?
+> 
+> The angular resolution is:
+> $\theta_{\text{min}} = \frac{1.22 \lambda}{D} = \frac{1.22(650 \times 10^{-9})}{2.4} =$ 3.3 x 10^-7 rad
+> 
+> For small angles ($\tan\theta = \theta$):
+> $s = r\tan\theta = r\theta = (30,000 \hspace{1mm} \text{light years})(3.3 \times 10^{-7})$
+> $\hspace{3.5mm} = 9.9 \times 10^{-3} \hspace{1mm} \text{light years} (\frac{9.4 \times 10^{12} \text{km}}{1 \hspace{1mm} \text{light year}})$
+> $\hspace{3.5mm} =$ 9.3 x 10^10 km
