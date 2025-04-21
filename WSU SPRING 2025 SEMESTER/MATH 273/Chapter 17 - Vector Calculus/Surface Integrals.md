@@ -43,7 +43,7 @@ description: Lesson 17.6, 17.7, 17.8
 > $\iint_S \vec{F} \cdot \vec{n} dS$
 > $z = g(x, y) = \cos y, g_x = 0, g_y = -\sin y$
 > 
-> $$\iint_S \vec{F} \cdot d\vec{S} = \iint_S \vec{F} \cdot \langle -g_x, -g_y, 1 \rangle dA$$
+> $\iint_S \vec{F} \cdot d\vec{S} = \iint_S \vec{F} \cdot \langle -g_x, -g_y, 1 \rangle dA$
 > $\iint_D \langle e^{-y}, 2z, xy \rangle \cdot \langle 0, \sin y, 1 \rangle dA$
 > $= \int_0^4 \int_{-\pi}^{\pi} (0 + 2\cos y \sin y + xy) dy dx = ... = 0$
 

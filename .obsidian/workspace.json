@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b65cde0a57ec45f1",
+        "id": "ee281a09a46e6c8b",
         "type": "tabs",
         "children": [
           {
-            "id": "ff2ab949138f465d",
+            "id": "5cd3c172f27da37b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -165,8 +165,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff2ab949138f465d",
+  "active": "5cd3c172f27da37b",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Psychological Disorders and Treatment.md",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Images",
+    "WSU SPRING 2025 SEMESTER/PSYCH 105/Images/4.20.25 Abnormal Disorder Diagnosis Table.png",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 16 - Multiple Integration/Triple Integrals.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Surface Integrals.md",
+    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Green's Theorem.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Ray Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Optical Instruments.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolved.png",
@@ -174,18 +180,14 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Magnifier.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Telescope.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Microscope.png",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Psychological Disorders and Treatment.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Polymorphism.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Wave Optics.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Green's Theorem.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Conservative Vector Fields.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Surface Integrals.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Stokes' Theorem.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Green's Theorem Circulation Form.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Green's Theorem Flux Form.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Divergence Theorem.png",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Surface Integral Example 1.png",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Exception Handling in C++.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Integrals over Curves.md",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus/Vector Fields.md",
@@ -202,7 +204,6 @@
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Classes in C++.md",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Object-Oriented Programming and C++.md",
-    "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 13 - Vectors and the Geometry of Space/Vectors.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
     "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
   ]

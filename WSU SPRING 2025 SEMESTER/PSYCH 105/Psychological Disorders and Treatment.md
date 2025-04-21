@@ -1,10 +1,50 @@
 ---
 tags: PSYCH_105
 created: 2025-4-16
+description: Includes Module 15 in the textbook
 ---
 # Textbook
 
+### Understanding Abnormal Behavior
 
+> [!info] Key Takeaways
+> - Abnormal behavior is a combination of personal distress, psychological dysfunction, deviance from social norms, dangerousness to self and others, and costliness to society.
+> - Abnormal psychology is the scientific study of abnormal behavior, with the intent to be able to predict reliably, explain, diagnose, identify the causes of, and treat maladaptive behavior.
+> - The study of psychological disorders is called psychopathology.
+> - Mental disorders are characterized by psychological dysfunction, which causes physical and/or psychological distress or impaired functioning, and is not an expected behavior according to societal or cultural standards
+
+### Classifying Mental Disorders
+
+> [!info] Key Takeaways
+> - Classification, or how we organize or categorize things, provides us with a nomenclature, or naming system, to structure our understanding of mental disorders in a meaningful way.
+> - Epidemiology is the scientific study of the frequency and causes of diseases and other health-related states in specific populations.
+> - Prevalence is the percentage of people in a population that has a mental disorder or can be viewed as the number of cases divided by the total number of people in the sample.
+> - Incidence indicates the number of new cases in a population over a specific period.
+> - Comorbidity describes when two or more mental disorders are occurring at the same time and in the same person.
+> - The etiology is the cause of a disorder while the course is its particular pattern and can be acute, chronic, or time-limited.
+> - Prognosis is the anticipated course the mental disorder will take.
+
+### Diagnosing and Classifying Abnormal Behavior
+
+![[4.20.25 Abnormal Disorder Diagnosis Table.png]]
+
+### Treatment of Mental Disorders
+
+> [!info] Key Takeaways
+> - Anyone can seek treatment and we all can benefit from it at some point in our lives.
+> - Psychotherapy is when psychologists apply scientifically validated procedures to help a person feel better and develop healthy habits.
+
+### Mood Disorders
+
+> [!info] Key Takeaways
+> - Symptoms of depression fall into one of four categories – mood, behavioral, cognitive, and physical.
+> - Persistent Depressive Disorder shares symptoms with Major Depressive Disorder though they are usually not as severe and ebb and flow over a period of at least two years.
+> - An individual is diagnosed with bipolar I disorder if they have ever experienced a manic episode and are diagnosed with bipolar II disorder if the criteria has only been met for a hypomanic episode.
+> - A manic episode is characterized by a specific period in which an individual reports abnormal, persistent, or expansive irritable mood for nearly all day, every day, for at least one week.
+> - A hypomanic episode is characterized by abnormally and persistently elevated, expansive, or irritable mood and energy levels, though not as extreme as in mania, and must be present for at least four days. It is also not severe enough to cause impairments or hospitalization.
+> - Cyclothymic disorder includes periods of hypomanic and mild depressive symptoms without meeting the criteria for a depressive episode which lasts two or more years and is interrupted by periods of normal moods.
+> - Treatment of depressive disorders include psychopharmacological options such as anti-depressant mediations, SSRIs, tricyclic antidepressants, and MAOIs and/or psychotherapy options to include CBT, behavioral activation (BA), and interpersonal therapy (IPT). A combination of the two main approaches often works best, especially in relation to maintenance of wellness.
+> - Treatment of bipolar disorder involves mood stabilizers such as Lithium and psychological interventions with the goal of medication adherence, as well as social skills training and problem-solving skills.
 
 # Lecture
 
