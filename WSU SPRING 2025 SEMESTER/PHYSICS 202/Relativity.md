@@ -93,3 +93,27 @@ Thus, $\Delta x' = \frac{c}{2} \Delta t' = \frac{c}{2} \sqrt{1 - \frac{v^2}{c^2}
 > $u = \frac{u' + v}{1 + \frac{u' v}{c^2}}$
 > $\hspace{4mm} = \frac{0.9 + 0.8}{1 + \frac{(0.9)(0.8)}{c^2}}$
 > $\hspace{4mm} =$ 0.988$c$
+
+### Relativistic Energy and Momentum
+
+> [!info] Relativistic Momentum
+> $$p = \gamma m v$$
+> 
+> where $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$
+
+> Spacetime invariant
+> $S^2 = c^2 (\Delta t)^2 - (\Delta x)^2 =$ invariant
+> 
+> $(\frac{m}{\Delta \tau})^2 s^2 = (mc)^2 (\frac{\Delta t}{\Delta \tau})^2 - (\frac{m \Delta x}{\Delta \tau})^2 = (mc)^2 \gamma^2 - p^2 =$ invariant
+> 
+> $(\gamma mc^2)^2 - (pc)^2 =$ invariant
+> 
+> In the frame where the particle is at rest ($p = 0$ and $\gamma = 1$):
+> $(\gamma mc^2)^2 - (pc)^2 = (mc^2)^2$
+> 
+> Assume $v \ll 0$:
+> $\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}} = 1 + \frac{1}{2} \frac{v^2}{c^2}$
+> $\rightarrow \gamma mc^2 = mc^2 + \frac{1}{2} mv^2 + ... = E$ <--- $mc^2$ is the rest energy and $\frac{1}{2} mv^2$ is the kinetic energy
+> 
+> Therefore,
+> $E^2 - (pc)^2 = (mc^2)^2$

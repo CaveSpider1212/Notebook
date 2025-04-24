@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "13e55318a2c82d06",
+        "id": "001fe482c59665f1",
         "type": "tabs",
         "children": [
           {
-            "id": "daa3334841d5e39a",
+            "id": "48fffa6ec77e210c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Relativity"
+            }
+          },
+          {
+            "id": "322fd793ba37fa8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WSU SPRING 2025 SEMESTER/PHYSICS 202/Final Exam Review.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Final Exam Review"
             }
           }
         ]
@@ -169,8 +183,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "daa3334841d5e39a",
+  "active": "48fffa6ec77e210c",
   "lastOpenFiles": [
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Final Exam Review.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Relativity.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
