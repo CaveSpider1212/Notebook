@@ -135,6 +135,15 @@ SI unit of magnetic field strength: 1 tesla = 1 T = 1 N/A m
 
 > [!tip] Ampere's Law
 > $$\oint \vec{B} \cdot d\vec{s} = \mu_0 I_{\text{through}}$$
+> 
+> Let $R$ be the radius of the wire loop and $r$ be the radius of the Amperian loop:
+> If $r < R$, then $\frac{I_{through}}{I} = \frac{A_{amperian}}{A}$.
+> If $r > R$, then $I_{through} = I$.
+
+> [!info] Current in an Amperian Loop
+> If the entire current is enclosed within the Amperian loop, then $I = I_{through}$ (the current in the wire is the total current).
+> 
+> If only part of the charge distribution is within the Gaussian surface, then $\frac{I_{through}}{I} = \frac{A_{amperian}}{A}$ (ratio of the areas of the wire loop and Amperian loop).
 
 > [!info] Magnetic Field inside a Solenoid
 > $$B_{\text{solenoid}} = \frac{\mu_0 NI}{l} = \mu_0 nI$$

@@ -126,10 +126,10 @@ $\theta_2 = \phi - \beta$
 
 ### Spherical Mirrors
 
-Concave Mirror:
+Concave Mirror ($f > 0$):
 ![[4.14.25 Concave Mirror.png]]
 
-Convex Mirror:
+Convex Mirror ($f < 0$):
 ![[4.14.25 Convex Mirror.png]]
 
 > [!tip] Mirror Equation
@@ -150,3 +150,29 @@ Convex Mirror:
 > 
 > $\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$
 > $s_i = \frac{f s_o}{s_o - f} = \frac{(-20)(30)}{30 + 20} =$ -12 cm
+
+> [!info] Real and Virtual Images
+> Lenses: If the image distance is negative, that means it is on the **same side of the lens as the object** and is a **virtual and upright** image (however if $m$ is negative then it is inverted). If the image distance is positive, then it is a **real** image and on the opposite side of the object.
+> 
+> Mirrors: If the image distance is negative, then the image is located **behind the mirror** and is **virtual and upright**. If the image distance is positive, then it is a **real** image and on the same side as the object.
+
+### Multiple Lenses
+
+> [!example]
+> There are 2 converging lenses separated by 10 cm. The first lens has a focal length of 40 cm, and the second lens has a focal length of 20 cm. The object is 15 cm to the left of the first lens. Where is the image?
+> 
+> The image from the first lens is located at:
+> $\frac{1}{s_o} + \frac{1}{s_i} = \frac{1}{f}$
+> $s_i = \frac{s_o f}{s_o - f} = \frac{(15)(40)}{15 - 40} =$ -24 cm
+> 
+> The image from the second lens is located at:
+> $s_i = \frac{s_o f}{s_o - f} = \frac{(24 + 10) (20)}{(24 + 10) - 20} =$ 49 cm <--- the 24 comes from 24 cm, since the image is located 24 cm away from the first lens to the left, and the 10 comes from 10 cm, the distance separating the lenses; The image starts from 34 cm to the left of the second lens
+
+> [!example]
+> There is a converging lens and a diverging lens placed 160 cm apart. The converging lens has a focal length of 40 cm, and the diverging lens has a focal length of -40 cm. The image is 60 cm to the left of the converging lens. Where is the image?
+> 
+> The image from the first lens is located at:
+> $s_i = \frac{s_o f_1}{s_o - f_1} = \frac{(60) (40)}{60 - 40} =$ 120 cm
+> 
+> The image from the second lens is located at:
+> $s_i = \frac{s_o f_2}{s_o - f_2} = \frac{(160 - 120) (-40)}{(160 - 120) - (-40)} =$ -20 cm <--- the 160 comes from the lenses being 160 cm apart, and the 120 cm comes from the image being 120 cm to the right of the converging lens; the image starts from 40 cm to the left of the diverging lens

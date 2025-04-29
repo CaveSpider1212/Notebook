@@ -38,6 +38,11 @@ created: 2025-3-24
 > 
 > Thus, $I_C = \frac{V_C}{X_C}$, but $i_c \neq \frac{v_C}{X_C}$.
 
+> [!info] Voltage Drop across a Capacitor (AC Circuits)
+> $$\Delta V_C = I X_C = \frac{I}{\omega C}$$
+> 
+> $I$: peak current
+
 > [!example]
 > There is a capacitor circuit where the AC source has a peak voltage of 2.2 V and a frequency of 250 kHz. What is the capacitance if the peak current is 330 $\mu$A?
 > 
@@ -105,6 +110,11 @@ created: 2025-3-24
 > 
 > Thus, $I_L = \frac{V_L}{X_L}$.
 
+> [!info] Voltage Drop across an Inductor (AC Circuits)
+> $$\Delta V_C = I X_L = I \omega L$$
+> 
+> $I$: peak current
+
 > [!example]
 > There is a series circuit with 10 V AC source operating at 100 kHz and an inductor with 20 mH inductance. What is the peak current?
 > 
@@ -122,7 +132,7 @@ created: 2025-3-24
 > ![[3.26.25 Series RLC Circuit Phasor.png]]
 > 
 > The current is:
-> $i = I \cos(\omega t - \varphi)$ <--- where $\tan\varphi = \frac{V_L - V_C}{V_R} = \frac{(X_L - X_C)I}{IR} = \frac{X_L - X_C}{R}$ and $\varphi$ is the phase angle
+> $i = I \cos(\omega t - \varphi)$ <--- where $\tan\varphi = \frac{V_L - V_C}{V_R} = \frac{(X_L - X_C)I}{IR} = \frac{X_L - X_C}{R}$ and $\varphi$ is the phase angle (the angle between the current and EMF)
 > 
 > The peak voltage is:
 > $\epsilon_0 = (V_R^2 + (V_L - V_C)^2)^{\frac{1}{2}}$
@@ -135,6 +145,12 @@ created: 2025-3-24
 > $X_L = X_C$
 > $\rightarrow \omega L = \frac{1}{\omega C}$
 > $\rightarrow \omega = \frac{1}{\sqrt{LC}}$ (resonance frequency)
+
+> [!tip] Peak Voltage and Current
+> $$\epsilon_0 = I Z$$
+> 
+> $I$: peak current
+> $Z$: impedance
 
 > [!example]
 > There is a series RLC circuit with a 10 V power supply, 10 $\ohm$ resistance, 10 mH inductance, and 10 $\mu$F capacitance.

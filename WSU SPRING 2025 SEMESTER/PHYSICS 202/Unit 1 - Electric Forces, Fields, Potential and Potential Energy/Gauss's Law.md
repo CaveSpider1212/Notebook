@@ -106,6 +106,11 @@ created: 2025-1-17
 > 
 > Note: the shape of the surface (the area) does not affect the total electric flux
 
+> [!info] Charge in a Gaussian Surface
+> If the entire charge distribution is enclosed within the Gaussian surface, then $Q = Q_{in}$ (the charge enclosed is the total charge).
+> 
+> If only part of the charge distribution is within the Gaussian surface, then $\frac{Q_{in}}{Q} = \frac{V_{gauss}}{V_{dist}}$ (ratio of the volumes of the surface/object with the charge distribution and the Gaussian surface).
+
 > [!example]
 > Find the electric field of an infinite wire with linear charge density, $\lambda$.
 > 

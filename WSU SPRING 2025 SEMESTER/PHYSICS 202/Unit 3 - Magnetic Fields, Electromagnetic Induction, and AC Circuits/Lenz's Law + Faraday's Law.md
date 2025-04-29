@@ -13,7 +13,7 @@ created: 2025-3-19
 > 	- Increasing flux: the induced magnetic field points opposite the applied magnetic field
 > 	- Decreasing flux: the induced magnetic field points in the same direction as the applied magnetic field.
 > 	- Steady flux: there is no induced magnetic field.
-> 4. **Determine the direction of the induced current.** Use the right-hand rule to determine the current direction in the loop that generates the induced magnetic field you found in step 3.
+> 4. **Determine the direction of the induced current.** Use the right-hand rule to determine the current direction in the loop that generates the induced magnetic field you found in step 3 (thumb points in direction of induced magnetic field, fingers curl around direction of induced current).
 
 > ![[3.19.25 Example 1.png]]
 > ![[3.19.25 Induced Current 1.png]]

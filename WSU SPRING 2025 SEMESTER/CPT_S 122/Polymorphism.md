@@ -50,9 +50,9 @@ Importance of virtual functions:
 ```
 Character *pGameChar = NULL; // there is a render() function in Character, the base class
 
-pGameChar = new Alien; // Alien is derived from Character
+pGameChar = new Alien; // Alien is derived from Character (Alien has its own implementation of render())
 
-pGameChar->render(); // if render() was not declared as virtual in the Character class, the program would run the render() function of the pointer's type (Character)
+pGameChar->render(); // if render() was not declared as virtual in the Character class, the program would run the render() function of the pointer's type (Character); Since render() is a virtual function, the program will call Alien's implementation of it instead
 ```
 
 Importance of virtual destructors:

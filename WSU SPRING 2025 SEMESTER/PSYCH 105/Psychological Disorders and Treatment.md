@@ -236,3 +236,20 @@ Thoughts and urges that are intrusive and unwanted (**obsessions**) and/or the n
 - Medications: Disulfiram (causes unpleasant reaction), Naltrexone (reduces cravings/pleasure), Acamprosate (reduces withdrawal/craving)
 - Medical supervision needed for potentially life-threatening withdrawal
 - Therapy approaches: CBT (triggers/coping), Motivational Enhancement (strengthens change motivation), Contingency Management (rewards abstinence), 12-Step Programs (AA)
+
+## Study Guide
+
+- List four signs of a psychological disorder
+	- Feeling sad or down for an extended period
+	- Significant changes in sleep or eating habits
+	- Social withdrawal or avoidance
+	- Trouble concentrating or thinking
+- How many disorders (approximately) are in the DSM-5-TR?
+	- More than 400
+- Requirements for Major Depressive Disorder diagnosis:
+	- Must experience at least five of the symptoms during a two-week period, including either a depressed mood or a loss of interest/pleasure in almost all activities
+- Key difference between Bipolar I and Bipolar II disorders:
+	- Bipolar I: full-blown manic episodes (more severe, usually causes a higher level of impairment)
+	- Bipolar II: hypomanic episodes (less severe than Bipolar I and doesn't cause the same level of impairment)
+- Persistent Depressive Disorder requires symptoms for at least:
+	- Two years in adults, one year in children/adolescents

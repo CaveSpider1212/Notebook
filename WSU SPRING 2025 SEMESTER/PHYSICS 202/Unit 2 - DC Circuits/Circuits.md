@@ -5,16 +5,17 @@ created: 2025-2-14
 
 ### Kirchhoff's Laws
 
-1. Junction: $\sum I_{in} = \sum I_{out}$
-2. Loop: $\Delta V_{loop} = 0$
+> [!info] Kirchhoff's Laws
+> 1. Junction: $\sum I_{in} = \sum I_{out}$
+> 2. Loop: $\Delta V_{loop} = 0$
 
 > For ideal batteries or capacitors -
 > 
-> If the travel of the loop is from the negative to positive end of the battery:
-> $\Delta V = \epsilon$
+> If the travel of the loop is from the negative to positive end of the battery/capacitor:
+> $\Delta V = \epsilon$ (batteries) or $\Delta V = \frac{Q}{C}$ (capacitors)
 > 
-> If the travel of the loop is from the positive to negative end of the battery:
-> $\Delta V = -\epsilon$
+> If the travel of the loop is from the positive to negative end of the battery/capacitor:
+> $\Delta V = -\epsilon$ (batteries) or $\Delta V = \frac{-Q}{C}$ (capacitors)
 
 > For resistors -
 > 
@@ -276,5 +277,9 @@ Grounding does not affect the circuit for one ground.
 > $\hspace{4mm} = \frac{8.0 \times 10^{-6}}{2.0 \times 10^{-6}} (0.08)$
 > $\hspace{4mm} =$ 0.32 W
 
-> [!info] Capacitors in a Steady-State Circuit
-> After the switch has been closed for a long time, the capacitors serve as open circuits once they are fully charged, so no current flows through them.
+> [!info] Capacitors in a Steady-State Circuit (Relating to Open/Closed Switches)
+> After the switch has been open or closed for a long time, the capacitors serve as open circuits once they are fully charged, so no current flows through them.
+> 
+> Note: The voltage drops across the capacitor may be different when the switch has been open or closed for a long time.
+> 
+> Note: The voltage drop is also 0 as soon as the switch is closed since the capacitor would initially have no charge (it charges over time).

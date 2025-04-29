@@ -10,7 +10,7 @@ The "regular" chain rule: If $y = f(g(x))$, then $y = f(u)$ and $u = g(x)$, and 
 > 
 > ![[2.13.25 Chain 1.png]]
 > 
-> $$\frac{dz}{dt} = \frac{dx}{dt} \cdot \frac{\partial z}{\partial z} + \frac{dy}{dt} \cdot \frac{\partial z}{\partial y}$$
+> $$\frac{dz}{dt} = \frac{dx}{dt} \cdot \frac{\partial z}{\partial x} + \frac{dy}{dt} \cdot \frac{\partial z}{\partial y}$$
 
 > What if $w = f(x, y, z)$, $x = g(s, t)$, $y = h(s, t)$, $z = k(s, t)$?
 > 

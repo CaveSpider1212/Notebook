@@ -40,6 +40,16 @@ $y_m = \frac{m \lambda L}{d}$
 > $$I = cA^2 = 4c a^2 \cos^2\left(\frac{\pi d}{\lambda L} y\right) = 4 I_1 \cos^2(\frac{\pi d}{\lambda L} y)$$
 > where $I_1 = ca^2$ (the intensity of one wave) and $c$ is a constant
 
+> [!tip] Double-Slit Equation
+> $$d \sin\theta_m = m \lambda$$
+> 
+> $d$: width between the centers of the two fringes
+> $\theta_m$: angle to a bright fringe
+> $m$: mode of a bright fringe
+> $\lambda$: wavelength of the light
+> 
+> $y$: distance from the central maximum to a bright fringe
+
 Ideally, the intensity of the fringes would have equal intensity. In reality, the fringe intensity decreases as we go away from the slits because the light from a single slit is not uniform.
 
 > [!example]
@@ -129,6 +139,14 @@ The paths are nearly parallel.
 > 
 > The position of the dark fringe is
 > $y_p= L \tan\theta_p$
+
+> [!tip] Single-Slit Equation
+> $$a \sin\theta_p = p \lambda$$
+> 
+> $a$: width of the slit
+> $\theta_p$: angle to dark fringe
+> $p$: mode of dark fringe
+> $\lambda$: wavelength of the light
 
 > [!example]
 > There is a pattern on a wall where there are 5 peaks in intensity and the peak at the center is the highest, and in between $y = 1$ cm and $y = 2$ cm. The wavelength is 600 nm and the length is 2.0 m. What is the width of the slit?
