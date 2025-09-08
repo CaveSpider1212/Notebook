@@ -77,7 +77,7 @@ Note: Truth table columns should be in alphabetical order, and should follow the
 > **Contradiction**: Statement that is false under every possible interpretation
 > $$p \hspace{2mm} \land \sim p$$
 
-![[9.7.25 Laws of Equivalence.png]]
+![[9.7.25 Laws of Equivalence.png]] ^bdfe26
 
 > [!example]
 > Prove that $\sim (\sim p \land q) \land (p \hspace{2mm} \lor \sim q) \equiv p \hspace{2mm} \lor \sim q$.
