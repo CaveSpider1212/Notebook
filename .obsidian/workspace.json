@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e95732c978658f68",
+        "id": "8cc79488ac257399",
         "type": "tabs",
         "children": [
           {
-            "id": "4dd553d0f7e0c41c",
+            "id": "57acbbe63b4c12b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
+                "file": "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Arguments"
+              "title": "Intermolecular Forces (IMFs)"
             }
           }
         ]
@@ -170,11 +170,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4dd553d0f7e0c41c",
+  "active": "57acbbe63b4c12b6",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
+    "UMD FALL 2025 SEMESTER/CHEM 134",
+    "UMD FALL 2025 SEMESTER/ENES 210/Value Proposition.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
+    "UMD FALL 2025 SEMESTER/ENES 210",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images",
@@ -201,9 +206,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Ray Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Optical Instruments.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Wave Optics.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Psychological Disorders and Treatment.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Health Psychology.md",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Developmental Psychology.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Images",
@@ -215,7 +217,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Microscope.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Images and Drawings/4.17.25 Stokes' Theorem.png",
     "WSU SPRING 2025 SEMESTER/MATH 273/Chapter 17 - Vector Calculus",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Images"
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits"
   ]
 }
