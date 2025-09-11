@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8cc79488ac257399",
+        "id": "8583a88664748c1d",
         "type": "tabs",
         "children": [
           {
-            "id": "57acbbe63b4c12b6",
+            "id": "7b1b0c5caca0d2ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
+                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Intermolecular Forces (IMFs)"
+              "title": "Inheritance"
             }
           }
         ]
@@ -170,22 +170,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "57acbbe63b4c12b6",
+  "active": "7b1b0c5caca0d2ec",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
-    "UMD FALL 2025 SEMESTER/CHEM 134",
-    "UMD FALL 2025 SEMESTER/ENES 210/Value Proposition.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
-    "UMD FALL 2025 SEMESTER/ENES 210",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
+    "UMD FALL 2025 SEMESTER/ENES 210/Value Proposition.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
+    "UMD FALL 2025 SEMESTER/CHEM 134",
+    "UMD FALL 2025 SEMESTER/ENES 210",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
-    "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
     "UMD FALL 2025 SEMESTER/CMSC 250",
     "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 1 - Kinematics and Forces/Drag.md",
@@ -205,7 +206,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 2 - DC Circuits/Current.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Ray Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Optical Instruments.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics/Wave Optics.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Images",
