@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8583a88664748c1d",
+        "id": "01e5c1ae352b78a6",
         "type": "tabs",
         "children": [
           {
-            "id": "7b1b0c5caca0d2ec",
+            "id": "7029541cfbeb1fe4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Inheritance"
+              "title": "New tab"
             }
           }
         ]
@@ -170,20 +166,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7b1b0c5caca0d2ec",
+  "active": "7029541cfbeb1fe4",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Value Proposition.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CHEM 134",
     "UMD FALL 2025 SEMESTER/ENES 210",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",

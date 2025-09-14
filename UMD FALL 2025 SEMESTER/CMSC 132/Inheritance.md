@@ -4,7 +4,7 @@ created: 2025-9-11
 description: 9/8, 9/10 notes
 ---
 
-Define new class from existing oneusing `extends`.
+Define new class from existing one using `extends`.
 
 Subclass inherits fields and methods from superclass, but can also define new fields and methods of their own.
 
@@ -50,4 +50,65 @@ However, they are bad design.
 > The type of object the method is called on determine which method is called (NOT the type of reference).
 > --> This decision is made during runtime, called dynamic method binding.
 > 
-> Note: Static methods can NOT be overridden
+> Note: Static methods, final methods, or private methods (since they can't be seen) can NOT be overridden
+
+If a subclass doesn't override a superclass method, it inherits the superclass method instead (allowing subclass objects to use it).
+
+> [!tip] Which method is called?
+> Superclass reference --> Superclass object: **Superclass method**
+> Subclass reference --> Subclass object: **Subclass method**
+> Superclass reference --> Subclass object: **Subclass method**
+> Subclass reference --> Superclass object: **Invalid**
+
+> [!example]
+> ```
+> class Vehicle {
+> 	public void travel() {
+> 		...
+> 	}
+> }
+> ```
+> 
+> ```
+> class Car extends Vehicle {
+> 	public void travel() {
+> 		...
+> 	}
+> 	
+> 	public void vroom() {
+> 		...
+> 	}
+> }
+> ```
+> 
+> ```
+> Vehicle v = new Vehicle();
+> Car c = new Car();
+> Vehicles vc = new Car();
+> 
+> v.travel(); // calls the travel() method in Vehicle
+> c.travel(); // calls the travel() method in Car
+> vc.travel(); // calls the travel() method in Car
+> 
+> (Vehicle c).travel(); // calls the travel() method in Car (because it is a superclass reference to a subclass object)
+> 
+> c.vroom(); // calls the vroom() method in Car
+> ((Vehicle) c).vroom(); // error?
+> ```
+
+> [!tip] Method overloading vs. overriding
+> **Method overloading**: same class, different arguments, resolved during compilation
+> 
+> **Method overriding**: different classes (class and subclass), same arguments, resolved during runtime
+
+> [!info] `protected`
+> Methods or fields that are `protected` can be accessed by a class or any descendant subclasses, but nowhere else.
+> 
+> It is a good idea to make superclass fields `protected`.
+
+> [!info] `super`
+> `super` refers to the superclass of a subclass.
+> 
+> `super()`: calls the superclass constructor
+> `super.x`: access the superclass's "x" field (if it doesn't exist in the superclass, uses the subclass' "x" field instead)
+> `super.y()`: calls the superclass' "y" method
