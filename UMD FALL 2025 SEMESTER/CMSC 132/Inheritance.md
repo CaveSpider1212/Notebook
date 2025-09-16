@@ -50,6 +50,8 @@ However, they are bad design.
 > The type of object the method is called on determine which method is called (NOT the type of reference).
 > --> This decision is made during runtime, called dynamic method binding.
 > 
+> When a subclass overrides a superclass method, the name and argument list must be the same, but the return type can be different.
+> 
 > Note: Static methods, final methods, or private methods (since they can't be seen) can NOT be overridden
 
 If a subclass doesn't override a superclass method, it inherits the superclass method instead (allowing subclass objects to use it).
@@ -112,3 +114,37 @@ If a subclass doesn't override a superclass method, it inherits the superclass m
 > `super()`: calls the superclass constructor
 > `super.x`: access the superclass's "x" field (if it doesn't exist in the superclass, uses the subclass' "x" field instead)
 > `super.y()`: calls the superclass' "y" method
+
+A class can also be made `final` (but there can't be any subclasses), which prevents inheritance/polymorphism and increases security.
+
+> [!info] `Object` class
+> All classes have an ancestor class called `Object`.
+> 
+> This class has no fields, but it does have methods (allowing the subclasses to override these methods and make them usable).
+> 
+> Some examples of methods in the `Object` class include `equals()` and `toString()`.
+
+> [!info] Interfaces
+> **Interface**: collection of method signatures, constants, and optional default and static methods
+> 
+> Classes implement interfaces.
+
+> [!tip] Interfaces vs. Inheritance
+> - Instantiating
+> 	- We can instantiate a class
+> 	- We can NOT instantiate an interface
+> - How many can there be?
+> 	- Classes can implement an unlimited number of interfaces
+> 	- In Java, classes can only have one superclass
+> - What does the reference refer to?
+> 	- Interface references can refer to anything implementing an interface
+> 	- Superclass references can refer to either objects of their class or subclasses
+> - What do we need to implement/override?
+> 	- When a class implements interfaces, we need to implement all non-static and non-default methods
+> 	- Subclasses are not required to override/implement any methods of the superclass
+> - What is visible to a reference of interfaces/superclasses?
+> 	- Only things mentioned in the interface is visible from a reference to an interface
+> 	- Anything in a subclass and all non-private things in a superclass are visible from a reference to a superclass
+> - What is in a class that implements interfaces vs. a subclass?
+> 	- A class implementing an interface has all methods in the interface, but may also have other methods
+> 	- A subclass has all inherited methods and fields from the superclass, but may have overridden methods from the superclass and also added other fields/methods

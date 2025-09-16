@@ -34,4 +34,73 @@ Factors affecting dispersion forces:
 
 Partial charges interact with full charges (since full charges are involved, this is the strongest of the IMFs).
 
+### Solutions
 
+> [!info] Solution
+> **Solutions** are homogenous mixture, consisting of only one phase (aqueous/dissolved).
+> 
+> Contains two components: solvent (majority) and solute (minority)
+> 
+> Notes:
+> - Entropy favors mixture or solute formation
+> - IMFs can disfavor or favor solution formation
+> 
+> To determine solubility between the solute and solvent particles, we need to compare the relative strength of the IMFs.
+
+**Miscibility**: how two liquids can mix at any proportion
+
+### IMF Properties
+
+> [!info] Surface Tension
+> **Surface tension** is the energy to form a surface.
+> 
+> Units: N/m or J/m^2 (force per unit distance or energy per area)
+
+> [!info] Viscosity
+> **Viscosity** is the resistance to flow.
+> 
+> Molecules with stronger IMFs have greater resistance to move around, so they have higher viscosity.
+
+> [!info] Melting/Boiling Point
+> Molecules with stronger IMFs also have higher melting/boiling points because more energy/heat is required to break the IMFs.
+
+### Vaporization/Phases
+
+> [!info] Enthalpy
+> **Enthalpy** ($\Delta H$) is the heat absorbed or released from the system.
+> 
+> $\Delta H_{\text{vap}}$: heat of vaporization
+> $\Delta H_{\text{fus}}$: heat of fusion
+> 
+> Note: Positive enthalpy means heat is absorbed, and negative enthalpy means heat is release
+
+The rate of vaporization in an open container depends on:
+- Temperature: temperature correlates with vapor pressure (less temperature = less vapor pressure and vice versa)
+- Surface of surface area
+- Weaker IMFs: less heat/energy needed to break IMFs, so easier to vaporize
+
+In closed-container vaporization, when the rate of condensation equals the rate of evaporation: $P \rightarrow P_{\text{vap}}$ (vapor pressure)
+- Vapor pressure defined for specific molecule and temperature
+
+> [!example]
+> Calculate the energy required to change 50.0 g of ice from -30.0$\degree$C to liquid at 73.0$\degree$C.
+> 
+> $\Delta H_{\text{fus}} =$ 333 J/g
+> $\Delta H_{\text{vap}} =$ 2256 J/g
+> Specific heat capacity of ice: 2.06 J/(g\*K)
+> Specific heat capacity of water: 4.184 J/(g\*K)
+> 
+> 1. $(2.06)(50.0)(0\degree - (-30\degree)) =$ 3090 J <--- energy required to heat ice to 0$\degree$C
+> 2. $(333)(50) =$ 16650 J <--- energy required to change ice from solid to liquid
+> 3. $(4.184)(50.0)(73\degree - 0\degree) =$ 15271.6 J <--- energy required to heat water to 73$\degree$C
+> 
+> Total energy: $\sum E = E_1 + E_2 + E_3 = (3090) + (16650) + (15271.6) =$ 35,011.6 J
+
+> [!info] Phase Diagrams
+> **Phase diagrams** tell us which phase or phases are stable at a particular temperature.
+> 
+> They contain regions for the different phases, with lines (fusion, sublimation, and vaporization curves) separating the regions.
+> 
+> These curves indicate the temperatures and pressures at which two phases coexist in equilibrium.
+> 
+> **Triple point**: point where all three lines intersect (and also where all phases coexist in equilibrium)
