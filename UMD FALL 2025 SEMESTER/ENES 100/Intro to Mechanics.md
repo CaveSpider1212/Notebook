@@ -26,7 +26,7 @@ description: 9/11 notes
 > 
 > Newton's Third Law: Equal and Opposite Reactions applies here
 
-> [!info] Frictional Force
+> [!info] Frictional Force ($F_f$)
 > **Frictional Force**: Force resisting motion between two surfaces
 > 
 > Always opposite of direction of motion
@@ -35,9 +35,66 @@ description: 9/11 notes
 > 
 > $\mu$: coefficient of friction
 
-> [!info] Torque
+> [!info] Torque ($\tau$)
 > **Torque**: Measure of force that causes an object to rotate about an axis
 > 
 > Units: N\*m, lbf-in
 > 
 > $$\tau = F \times d$$
+
+> [!info] Rolling Resistance ($F_{RR}$)
+> **Rolling resistance** goes against the motion of a wheel/circular object that is rolling.
+> 
+> $$F_{RR} = C_{RR} \times F_N$$
+> 
+> $C_{RR}$: coefficient of rolling resistance
+
+> [!info] Tractive Force ($F_{T}$)
+> **Tractive force**: force that a vehicle generates to overcome friction, rolling resistance, drag, and gravity
+
+### Speed
+
+> [!info] Linear Motion
+> **Position/displacement** (m):
+> $$s = x_1 - x_0$$
+> 
+> **Velocity** (m/s):
+> $$v = \frac{x_1 - x_0}{t_1 - t_0}$$
+> 
+> **Acceleration** (m/s^2):
+> $$a = \frac{v_1 - v_0}{t_1 - t_0}$$
+
+> [!info] Angular Motion
+> **Angular position** (rad):
+> $$\Delta \theta = \theta_1 - \theta_0$$
+> 
+> **Angular velocity** (rad/s):
+> $$\omega = \frac{\theta_1 - \theta_0}{t_1 - t_0}$$
+> 
+> **Angular acceleration** (rad/s^2):
+> $$\alpha = \frac{\omega_1 - \omega_0}{t_1 - t_0}$$
+> 
+> Note: 1 revolution = 2$\pi$ radians; motor speeds usually in RPM
+
+> [!tip] Relationship between Linear and Angular Motion
+> $$x = \theta \times r$$
+> $$v = \omega \times r$$
+
+### Motor Selection
+
+Motors convert electrical to rotational (mechanical) energy.
+
+As the load (torque) increases, the speed (rotational velocity) slows down.
+
+> [!info] Motor Curves
+> Show the relationship between motor speed (RPM) on y-axis and torque (N-cm) on the x-axis.
+> 
+> **No load speed** is the motor's speed when there is no load/torque (y-intercept of the graph).
+> 
+> **Stall torque** is the torque on the motor when the motor stalls (when the motor speed is 0, also x-intercept of the graph).
+
+Things to consider with motors:
+- Cost (too cheap/expensive)
+- Weight
+- Mechanical considerations (how to mount to OTV, connect wheels, etc.)
+- Electrical characteristics (can battery connect, do we have enough power/energy, etc.)
