@@ -35,3 +35,40 @@ Examples:
 
 Negation: Move the negation sign inside with the predicate and flip each quantifier
 $\sim(\forall x)(\exists y)[Q(x, y)] \equiv (\exists x) \sim(\exists y) [Q(x, y)] \equiv (\exists x)(\forall y)[\sim Q(x, y)]$
+
+### Translating English to First Order Logic
+
+> [!example]
+> Let $C =$ {Creatures on Earth}
+> Let $B(x) =$ "$x$ is a Bear", where $x \in C$
+> 
+> - There is at least one Bear: $(\exists x)[B(x)]$
+> - There are no Bears: $\sim(\exists x)[B(x)] \equiv (\forall x)[\sim B(x)]$
+> - There is at most one Bear: $(\forall x, y)[(B(x) \land B(y)) \rightarrow (x = y)]$ <--- "For all Creatures $x$ on Earth, if $x$ is a Bear and $y$ is a Bear then they are both the same Bear"
+> - There is exactly one Bear: $(\exists x)[B(x) \land (\forall y)[B(y) \rightarrow x = y]]$ <--- "There exists a Creature $x$ such that $x$ is a Bear and for all Creatures $y$, if $y$ is a Bear then $y$ and $x$ are the same Bear"
+> - There are at least two Bears: $(\exists x)(\exists y)[B(x) \land B(y) \land x \neq y]$ <--- "There exists a Creature $x$ and a Creature $y$ such that $x$ and $y$ are both Bears and are not the same Bear"
+
+### Free vs. Bound Variables
+
+Free variables are not bound by quantifiers (statements can't have these).
+
+Bound variables are.
+
+### Interpretations of Statements
+
+> [!info] Interpretations
+> An "interpretation" of a statement is:
+> 1. A choice of domain(s)
+> 2. An assignment of meaning to the predicate symbol(s)
+
+> [!example]
+> $P(a, b)$ means "$a + b = 0$"
+> $P(a, b)$ also means "$a$ is the additive inverse of $b$"
+> $(\forall a)(\exists b)[P(a, b)]$ means "Every number has an additive inverse"
+> 
+> True for $R$ and $Z$, false for $N$
+
+### Closure
+
+> [!info]
+> A binary operation on a set is closed if, for any two elements chosen in the set, the result of the operation on those two elements is also within the same set.

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "890ec360648178d5",
+        "id": "b72ac3c96db567b3",
         "type": "tabs",
         "children": [
           {
-            "id": "eabc116a7d0b4512",
+            "id": "ea3e6f2c78e37e24",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,16 +166,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eabc116a7d0b4512",
+  "active": "ea3e6f2c78e37e24",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CMSC 132/Error Handling and Exceptions.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/ENES 100/Intro to Mechanics.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Abstract Classes.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Problem.md",
     "UMD FALL 2025 SEMESTER/ENES 100",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
@@ -202,7 +203,6 @@
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Electromagnetic Induction.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/Lenz's Law + Faraday's Law.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 1 - Electric Forces, Fields, Potential and Potential Energy/Gauss's Law.md",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 3 - Magnetic Fields, Electromagnetic Induction, and AC Circuits/The Magnetic Field.md",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Images",
