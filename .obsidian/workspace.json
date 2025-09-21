@@ -11,10 +11,14 @@
             "id": "ea3e6f2c78e37e24",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2025 SEMESTER/ENES 100/Intro to Mechanics.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Intro to Mechanics"
             }
           }
         ]
@@ -168,11 +172,11 @@
   },
   "active": "ea3e6f2c78e37e24",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Error Handling and Exceptions.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/ENES 100/Intro to Mechanics.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Abstract Classes.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Problem.md",

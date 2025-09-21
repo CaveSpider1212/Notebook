@@ -26,7 +26,7 @@ Present in all molecules/atoms, and is the weakest of the IMFs.
 
 Factors affecting dispersion forces:
 1. Polarizability: how easy to shift electron density and induce a dipole
-	1. Larger atoms/molecules have higher polarizability
+	1. Larger atoms/molecules have higher polarizability since they have more electrons, so stronger dispersion forces
 2. Size
 	1. More compact atoms/molecules have weaker dispersion forces
 
@@ -46,6 +46,8 @@ Partial charges interact with full charges (since full charges are involved, thi
 > - IMFs can disfavor or favor solution formation
 > 
 > To determine solubility between the solute and solvent particles, we need to compare the relative strength of the IMFs.
+> - Substances with similar IMFs dissolve each other the best
+> - If the strongest IMF is not the same, we need to compare the strengths of the strongest common IMF between the two substances (stronger IMF = more soluble)
 
 **Miscibility**: how two liquids can mix at any proportion
 
@@ -76,11 +78,11 @@ Partial charges interact with full charges (since full charges are involved, thi
 
 The rate of vaporization in an open container depends on:
 - Temperature: temperature correlates with vapor pressure (less temperature = less vapor pressure and vice versa)
-- Surface of surface area
+- Surface area (greater surface area = higher rate)
 - Weaker IMFs: less heat/energy needed to break IMFs, so easier to vaporize
 
 In closed-container vaporization, when the rate of condensation equals the rate of evaporation: $P \rightarrow P_{\text{vap}}$ (vapor pressure)
-- Vapor pressure defined for specific molecule and temperature
+- Vapor pressure defined for specific molecule and temperature (depends on temperature and strength of IMFs...higher temperature or weaker IMFs mean higher vapor pressure)
 
 > [!example]
 > Calculate the energy required to change 50.0 g of ice from -30.0$\degree$C to liquid at 73.0$\degree$C.
