@@ -48,7 +48,7 @@ Constructive proofs of existence are essentially providing a method or algorithm
 > **Claim**: $2^{66} - 1$ is composite.
 > 
 > **Proof**:
-> $2^{66} - 1$ is composite.
+> $2^{66} - 1 = (2^{33} - 1)(2^{33} + 1)$.
 > Since each of these factors is greater than 1 (and less than $2^{66} - 1$), each is a "non-trivial" factor, hence $2^{66} - 1$ is composite, as desired.
 
 ### Proofs by Exhaustion (Cases)

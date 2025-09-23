@@ -98,3 +98,24 @@ Things to consider with motors:
 - Weight
 - Mechanical considerations (how to mount to OTV, connect wheels, etc.)
 - Electrical characteristics (can battery connect, do we have enough power/energy, etc.)
+
+### Turning
+
+There are several ways to steer the OTV:
+- Spin one wheel forward and another wheel backward
+	- Problem: high frictional load on wheels that aren't spinning (because they're being dragged on the floor)
+- Turn the wheels on their axle
+	- Problem: higher turning radius
+- Have wheels (like Mecanum wheels) that can go forward/backward or sideways
+	- Problem: expensive
+- Have a tank-like design where two wheels/tread spins forward and the other spins backward
+	- Problem: complicated design
+
+Other considerations:
+- Driven wheels (with a motor) should be grippy while idler wheels should be slick to reduce friction
+- Wheel spacing on the chassis matters
+	- Longer and less wide spacing: better for driving straight but poor turning radius/control
+	- Shorter and wider spacing: better for turning radius and control, but not as good at driving straight
+	- Balanced (square): best
+- Wheels should be rigidly mounted to the motors with removable hardware (they can turn axially or rotationally)
+
