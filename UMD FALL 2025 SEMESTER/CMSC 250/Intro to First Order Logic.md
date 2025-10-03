@@ -43,7 +43,7 @@ $\sim(\forall x)(\exists y)[Q(x, y)] \equiv (\exists x) \sim(\exists y) [Q(x, y)
 > Let $B(x) =$ "$x$ is a Bear", where $x \in C$
 > 
 > - There is at least one Bear: $(\exists x)[B(x)]$
-> - There are no Bears: $\sim(\exists x)[B(x)] \equiv (\forall x)[\sim B(x)]$
+> - There are no Bears: $\sim(\exists x)[B(x)] \equiv (\forall x)[\sim B(x)]$ <--- "For all creatures on Earth, they are not Bears"
 > - There is at most one Bear: $(\forall x, y)[(B(x) \land B(y)) \rightarrow (x = y)]$ <--- "For all Creatures $x$ on Earth, if $x$ is a Bear and $y$ is a Bear then they are both the same Bear"
 > - There is exactly one Bear: $(\exists x)[B(x) \land (\forall y)[B(y) \rightarrow x = y]]$ <--- "There exists a Creature $x$ such that $x$ is a Bear and for all Creatures $y$, if $y$ is a Bear then $y$ and $x$ are the same Bear"
 > - There are at least two Bears: $(\exists x)(\exists y)[B(x) \land B(y) \land x \neq y]$ <--- "There exists a Creature $x$ and a Creature $y$ such that $x$ and $y$ are both Bears and are not the same Bear"
@@ -67,8 +67,3 @@ Bound variables are.
 > $(\forall a)(\exists b)[P(a, b)]$ means "Every number has an additive inverse"
 > 
 > True for $R$ and $Z$, false for $N$
-
-### Closure
-
-> [!info]
-> A binary operation on a set is closed if, for any two elements chosen in the set, the result of the operation on those two elements is also within the same set.

@@ -89,3 +89,37 @@ If you were to plot any of the concentration terms ($[A]$, $\ln{[A]}$, $\frac{1}
 **Activation energy** is the energetic barrier to reach the transition state (high energy, short-lived) of reactants. A higher activation energy means a slower reaction (and also decreases $e^{\frac{-E_a}{RT}}$)
 
 Higher temperatures lead to a faster reaction (likely due to more energy), and $e^{\frac{-E_a}{RT}}$ increases.
+
+The **frequency factor** is the number of approaches to the energy barrier per unit time.
+
+> [!info] Frequency Factor
+> $$A = pz$$
+> 
+> $p$: Steric/orientation factor (between 0 and 1)
+> $z$: Collision frequency
+
+### Arrhenius Plot
+
+> [!info]
+> $$\ln k = \ln A + \frac{-E_a}{R}(\frac{1}{T})$$
+> 
+> The equation is written in slope-intercept form, so we can graph $\frac{1}{T}$ (x-axis) against $\ln k$ (y-axis), and the slope would be $\frac{-E_a}{R}$ (since $R$ is a constant, we can calculate the activation energy this way).
+
+> [!tip]
+> $$\frac{-E_a}{R} = \frac{\ln(\frac{k_2}{k_1})}{(\frac{1}{T_2} - \frac{1}{T_1})}$$
+> 
+> We can use this equation to calculate activation energy if we have 2 values of the rate constant and temperature each (or calculate one of those if we have activation energy).
+
+### Reaction Mechanism
+
+The reaction mechanism isn't obvious from the overall reaction equation and requires a sequence of steps (elementary steps).
+
+To get an overall reaction, we need to break it down into **elementary steps** which shows how the reactant molecules and intermediates actually interact, not just how the products end up.
+
+The slow step of a reaction is the one that dictates the rate of reaction.
+
+![[9.30.25 Elementary Steps Table.png]]
+
+If you have the rate law of a reaction, then you can use it to find the first elementary step.
+
+The **intermediate** is the substance/compound that is produced in one elementary step reaction and consumed in another, and doesn't appear in the overall reaction

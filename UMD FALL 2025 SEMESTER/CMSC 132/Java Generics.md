@@ -72,3 +72,9 @@ The `?` can be followed by `super` (meaning `ArrayList<? super Vehicle>` stands 
 Wildcard type parameters can be used in reference declarations (and in some cases method return values), but they can't be used when instantiating objects.
 
 One limitation is that you can't add new elements to a data structure with a wildcard type parameter.
+
+### Before Generics
+
+Before generics were introduced in Java, library classes handled data as `Objects`, and `Objects` had to be downcast to the desired type when returned from library classes.
+
+Java implements generics using **type erasure**, which is when Java removed information about types

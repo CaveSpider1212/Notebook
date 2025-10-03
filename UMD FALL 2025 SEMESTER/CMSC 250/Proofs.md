@@ -4,6 +4,13 @@ created: 2025-9-22
 description: 9/19, 9/22 notes
 ---
 
+### Closure
+
+> [!info]
+> A binary operation on a set is closed if, for any two elements chosen in the set, the result of the operation on those two elements is also within the same set.
+
+![[9.17.25 Closure Table.png]]
+
 ### Writing Proofs
 
 A good proof should have:
@@ -12,6 +19,16 @@ A good proof should have:
 - Step by step derivation starting with premises/assumptions and ending with the desired conclusion
 - Each step must logically follow the step above
 - There should be a clear justification for each step
+
+##### Important notes relating to proofs
+
+$a \vert b$: "$a$ divides $b$" or "$a$ is a factor of $b$" or "$b$ is a multiple of $a$"
+$a \vert b$ if and only if $b = ak$ for some $k \in Z$ or $N$ (depending on the domain)
+
+If $a$ is even, then it can be expressed as $a = 2k$ for some $k \in Z$.
+If $a$ is odd, then it can be expressed as $a = 2k + 1$ for some $k \in Z$.
+
+If $a$ is composite, then it has "non-trivial" factors (factors other than 1 and itself), and if $A$ is a polynomial, we can see if it is composite if it can be factored.
 
 ### Rules of Inference with Quantifiers
 
@@ -32,6 +49,8 @@ A good proof should have:
 > 
 > $P(a)$
 > $\therefore (\forall x \in D)[P(x)]$
+> 
+> Note: When proving these, it is important to say something like "Let $a \in D$, selected arbitrarily" followed by proving how $a$ makes the statement true and concluding it, ending with something like "Since $a$ was selected arbitrarily, the proposition holds for any element in $D$"
 
 ### Constructive Proofs of Existence
 
@@ -70,6 +89,8 @@ Proof by exhaustion is essentially using "brute force" to try and prove a claim,
 > 
 > These cases exhaust all possibilities, and in no case is there an integer solution to $a^2 + b^2 = 7$.
 
+The last sentence ("These cases exhaust all possibilities...") is important for proofs by exhaustion.
+
 > [!example]
 > **Claim**: 23 cannot be written as the sum of 8 non-negative cubes.
 > 
@@ -81,3 +102,50 @@ Proof by exhaustion is essentially using "brute force" to try and prove a claim,
 > Case "*There are exactly two 8's*": We need the other six terms to sum to 7. Again that's impossible. The other six terms are less than or equal to one, so their sum could only reach 6, which is short of reaching 7.
 > 
 > These cases are exhaustive and in no case is it possible to obtain 8 non-negative cubes that sum to 23.
+
+### Proving Implications
+
+"If $P$ then $Q$"
+
+> [!info]  Proving Implications
+> Claim: If $P$ then $Q$
+> 
+> Proof: Assume $P$
+> ...
+> $Q$
+
+> [!info] Proving Implications (Universal Generalization)
+> Claim: $(\forall x \in D)$ \[If $P(x)$ then $Q(x)$]
+> 
+> Proof: Let $a \in D$, selected arbitrarily.
+> Assume $P(x)$ holds. \[I will show $Q(x)$]
+> ...
+> $Q(a)$
+> $\therefore P(a) \rightarrow Q(a)$.
+> Since $a$ was selected arbitrarily, the proposition holds for any element in $D$.
+
+### Proof by Contrapositive
+
+Since $P \rightarrow Q \equiv \sim Q \rightarrow \sim P$, assume $\sim Q$ first.
+
+> [!info] Proof by Contrapositive
+> Claim: If $P$ then $Q$.
+> Proof: I will prove by contraposition.
+> Assume $\sim Q$.
+> ...
+> $\sim P$
+
+### Proofs of Biconditional Statements
+
+To prove $P \leftrightarrow Q$, a [[Conditionals and Biconditional Statements#^8139f1|biconditional statement]], show that $P \rightarrow Q$ is true in one part, then show $Q \rightarrow P$ in another part.
+
+### Proofs by Contradiction
+
+To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
+
+> [!info] Proofs by Contradiction
+> Claim: $P$
+> 
+> Proof: Suppose (BWOC, by way of contradiction) $\sim P$.
+> ...
+> Contradiction
