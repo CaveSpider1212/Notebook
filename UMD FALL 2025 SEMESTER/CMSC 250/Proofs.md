@@ -157,6 +157,10 @@ To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
 > - $n$ can be expressed as the product of primes ("existence")
 > - The prime factorization of $n$ is unique ("uniqueness")
 
+In proofs, can be written as:
+- $n = 2^{e1} \times 3^{e2} \times 5^{e3} \times ... \times p_k^{ek}$ (the exponents can be 0)
+- $n = p_1^{e1} \times p_2^{e2} \times p_3^{e3} \times ... \times p_k^{ek}$
+
 ##### "Uniqueness"
 
 If $a = b$ then $a$ and $b$ share the same prime factorization.

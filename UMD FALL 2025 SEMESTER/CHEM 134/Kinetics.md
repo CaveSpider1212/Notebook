@@ -14,7 +14,7 @@ description: 9/23 notes
 
 The reaction is in equilibrium when the concentrations of the products and reactants "level out" over time (i.e. neither is increasing or decreasing).
 
-$$K = \frac{[C]^c [D]^d}{[A]^a [B]^b}$$
+$$K = \frac{[C]^c [D]^d}{[A]^a [B]^b}$$ ^cb4d11
 
 ### Collision Model
 

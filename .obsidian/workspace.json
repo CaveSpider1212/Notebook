@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "96c646e6d705db61",
+        "id": "6769dcd07cb478c7",
         "type": "tabs",
         "children": [
           {
-            "id": "c09d9c6f7e4a6810",
+            "id": "1b2a5aa54b2baf9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linear Data Structures"
+              "title": "New tab"
             }
           }
         ]
@@ -170,9 +166,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c09d9c6f7e4a6810",
+  "active": "1b2a5aa54b2baf9b",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Untitled.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Team Strategy and Founders.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Product-Market Fit.md",
@@ -182,13 +182,11 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inner Classes.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/ENES 100/Electronics.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/ENES 210/Competition.md",
@@ -198,7 +196,6 @@
     "UMD FALL 2025 SEMESTER/ENES 100/Intro to Mechanics.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Problem.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Value Proposition.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/ENES 100",
     "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
     "UMD FALL 2025 SEMESTER/CHEM 134",
@@ -207,7 +204,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Images",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
     "UMD FALL 2025 SEMESTER/CMSC 250",
-    "WSU FALL 2024 SEMESTER/PHYSICS 201/Unit 1 - Kinematics and Forces/Drag.md",
     "UMD FALL 2025 SEMESTER/CMSC 132",
     "UMD FALL 2025 SEMESTER",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
