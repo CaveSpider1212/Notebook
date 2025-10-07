@@ -27,7 +27,7 @@ class Node {
 }
 ```
 
-If we want to have the `List` class access `Node` fields, make `Node` an inner class inside the `List` class so that they can access each other's private fields.
+If we want to have the `List` class access `Node` fields, make `Node` an inner class inside the `List` class so that they can access each other's private fields. It's probably best to make it a `private static` inner class as well.
 
 ### Linked List Insertion
 
@@ -42,7 +42,7 @@ If we want to delete a node, find the previous node and set it's next node to th
 Standard linked list:
 ```
 class List {
-	static class Node {
+	private static class Node {
 		private Object data;
 		private Node next;
 		...

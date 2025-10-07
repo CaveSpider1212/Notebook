@@ -9,6 +9,14 @@ description: 9/3, 9/5 notes
 - Use `private` keyword (for variables, methods, etc.)
 - Use getter and setter methods to modify or access private fields
 
+### Runtime Stack vs. Heap
+
+The runtime stack and heap are the two areas of memory in a Java program.
+
+Local variables and parameters (of a method/function) are stored in the runtime stack.
+
+The heap contains all objects and arrays.
+
 ### Copying Objects
 
 - **Reference copy**: Makes a copy of the reference of an object
@@ -46,3 +54,11 @@ description: 9/3, 9/5 notes
 > 	tongueLength = copyAardvark.tongueLength;
 > }
 > ```
+
+### `static`
+
+Static fields means that it is a field that is shared among all objects of a class and isn't tied to a specific object.
+
+Static methods means that it has no current object, so it *cannot refer to the object's non-static fields*. 
+
+This means non-static fields *can only be used in non-static methods*, while static fields can be used in *both static and non-static methods*.

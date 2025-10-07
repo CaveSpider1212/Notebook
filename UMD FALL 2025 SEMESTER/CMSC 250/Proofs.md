@@ -149,3 +149,38 @@ To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
 > Proof: Suppose (BWOC, by way of contradiction) $\sim P$.
 > ...
 > Contradiction
+
+### Fundamental Theorem of Arithmetic
+
+> [!tip] Fundamental Theorem of Arithmetic
+> For any $n > 1$:
+> - $n$ can be expressed as the product of primes ("existence")
+> - The prime factorization of $n$ is unique ("uniqueness")
+
+##### "Uniqueness"
+
+If $a = b$ then $a$ and $b$ share the same prime factorization.
+
+### Modular Congruence
+
+> [!info] Modulo Operations
+> "$a$ mod $n$" represents the remainder when $a$ is divided by $n$.
+> 
+> The result is always between $0$ and $n - 1$.
+
+$a \equiv_{n} b$: $a$ mod $n$ $=$ $b$ mod $n$
+
+> [!tip] Congruence Theorem
+> For all $a, b \in N$, the following are equivalent:
+> 1. $a \equiv_{n} b$
+> 2. $n \vert (a - b)$
+> 3. $(\exists k \in Z)[a = b + kn]$
+
+### Modular Arithmetic Theorem (MAT)
+
+> [!tip] Modular Arithmetic Theorem (MAT)
+> Let $a, b, c, d, n \in Z$, and $n > 1$. Suppose $a \equiv_{n} c$ and $b \equiv_{n} d$. Then:
+> 1. $(a + b) \equiv_{n} (c + d)$
+> 2. $(a - b) \equiv_{n} (c - d)$
+> 3. $ab \equiv_{n} cd$
+> 4. $a^m \equiv_{n} c^m$ for all $m \geq 1$

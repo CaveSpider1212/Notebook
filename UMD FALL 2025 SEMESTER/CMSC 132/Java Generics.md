@@ -6,7 +6,7 @@ description: 9/22 notes
 
 "**Generic programming**" refers to writing code (or creating data structures) that can be used with different types of data.
 
-Generic programming is done through inheritance or generic type parameters/variables.
+Generic programming is done through [[UMD FALL 2025 SEMESTER/CMSC 132/Inheritance|inheritance]] or generic type parameters/variables.
 
 ### Generic Type Parameters
 
@@ -35,7 +35,7 @@ We can use generic type parameters as references, method parameters, or method r
 
 Note: We can NOT make a new object of a generic type in a generic class (like saying `T value = new T()`)
 
-We can only call methods on a generic parameter type if they are methods in the object class.
+We can only call methods on a reference to a generic parameter type if they are methods in the `Object` class.
 
 Use generic type parameters if you want to use different types in the class.
 

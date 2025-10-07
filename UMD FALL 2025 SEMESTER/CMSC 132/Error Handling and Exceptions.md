@@ -14,7 +14,7 @@ If we have tests, and our code fails some tests, the first thing we should immed
 > Looks at whether each line (or statement) of the program was executed at least once in the tests.
 
 > [!info] Branch Coverage
-> Measures what percentage of the control points (i.e. conditions) in some code being tested were executed in all possible ways by a set of tests of it (for example if an if statement was tested when it was true or false).
+> Measures what percentage of the control points (i.e. conditions) in some code being tested were executed in all possible ways by a set of tests of it (for example if an if statement was tested when it was both true and false).
 
 > [!info] Path Coverage
 > Measures what percentage of all the different execution sequences through some code were executed by a set of tests of it (for example, all possible execution sequences of a method must be tested).
@@ -57,14 +57,16 @@ One way a method can handle an error is to propagate it back to the caller in so
 > If an exception were to occur in a `try` block:
 > 1. Execution leaves the try block and jumps straight to the first `catch` block associated with the `try` block whose exception matches the type that was thrown (either same type or a supertype), meaning nothing below the point where the exception occurred is executed.
 > 2. If there's a matching `catch` block, its code is executed.
-> 	a. If there is no matching `catch` block, the execution returns from the method that's running and the same procedure occurs in the method that called it, and if the execution goes back to the `main()` method then the JVM will; terminate the program
-> 	b. If a `try` block has an associated `finally` block it is executed before transferring control to the caller.
+> 	1. If there is no matching `catch` block, the execution returns from the method that's running and the same procedure occurs in the method that called it until a matching `catch` block is found, and if the execution goes back to the `main()` method then the JVM will terminate the program. 
+> 	2. If a `try` block has an associated `finally` block it is executed before transferring control to the caller.
 > 3. The `finally` block's code is executed if there is one
 
 ### Types of Exceptions
 
 > [!info] Checked Exceptions
 > **Checked exception**: checked at compile time, and these are the ones we explicitly throw and catch and use try-catch blocks with
+> 
+> The "catch-or-declare" policy for checked exceptions means that if a method's code were to throw an exception, it must either be handled locally with a `catch` block or the method must have `throws` in the signature, which forces the method calling it to handle it themselves using this policy.
 
 > [!info] Unchecked Exceptions
 > **Unchecked exception**: checked at runtime, and not required to be thrown and caught/use try-catch blocks with them (JVM will handle it instead).

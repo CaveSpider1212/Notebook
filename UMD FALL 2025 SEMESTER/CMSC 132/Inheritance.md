@@ -26,7 +26,7 @@ Subclass follows "is-a" relationship with superclass
 Superclass reference can refer to both superclass and subclass objects (but this isn't true the other way around)
 --> This is because subclass objects already are superclass objects.
 
-"\[reference] `instanceof` \[class-name]" tests if a reference is an *instance* of a class (whether directly of that class or a subclass of that class).
+"\[reference] `instanceof` \[class-name]" tests if a reference is an *instance* of a class (whether directly of that class or a subclass of that class, or whether a reference implements an interface).
 
 "\[reference].`getClass()`" returns the exact class the reference is a part of, and can be compared using `.equals()` or `==`, etc. (comparison only returns true when the exact classes are the same; subclasses do NOT count).
 
@@ -95,7 +95,7 @@ If a subclass doesn't override a superclass method, it inherits the superclass m
 > (Vehicle c).travel(); // calls the travel() method in Car (because it is a superclass reference to a subclass object)
 > 
 > c.vroom(); // calls the vroom() method in Car
-> ((Vehicle) c).vroom(); // error?
+> ((Vehicle) c).vroom(); // error because it is a superclass reference to a subclass object, so vroom() needs to be present in the superclass for it to work
 > ```
 
 > [!tip] Method overloading vs. overriding
@@ -133,7 +133,7 @@ A class can also be made `final` (but there can't be any subclasses), which prev
 > - Instantiating
 > 	- We can instantiate a class
 > 	- We can NOT instantiate an interface
-> - How many can there be?
+> - How many can a class have?
 > 	- Classes can implement an unlimited number of interfaces
 > 	- In Java, classes can only have one superclass
 > - What does the reference refer to?
