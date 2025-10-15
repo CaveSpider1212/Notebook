@@ -188,3 +188,22 @@ $a \equiv_{n} b$: $a$ mod $n$ $=$ $b$ mod $n$
 > 2. $(a - b) \equiv_{n} (c - d)$
 > 3. $ab \equiv_{n} cd$
 > 4. $a^m \equiv_{n} c^m$ for all $m \geq 1$
+
+### Quotient-Remainder Theorem
+
+> [!tip] Quotient-Remainder Theorem
+> $$(\forall a \in Z)(\forall n \in Z^+)(\exists q, r \in Z)[(a = qn + r) \land (0 \leq r \leq n)]$$
+> 
+> "We can find $q$ so that $r$ comes out between $0$ and $n - 1$."
+
+### Proofs with Floor and Ceiling
+
+> [!info] Floor
+> $\lfloor x \rfloor$: Floor of $x$ (rounded down)
+> 
+> Definition: For all $x \in R$, $\lfloor x \rfloor$ is the unique integer such that $\lfloor x \rfloor \leq x \lt \lfloor x \rfloor + 1$.
+
+> [!info] Ceiling
+> $\lceil x \rceil$: Ceiling of $x$ (rounded up)
+> 
+> Definition: For all $x \in R$, $\lceil x \rceil$ is the unique integer such that $\lceil x \rceil - 1 \lt x \leq \lceil x \rceil$.

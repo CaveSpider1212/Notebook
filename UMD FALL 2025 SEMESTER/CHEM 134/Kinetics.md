@@ -123,3 +123,26 @@ The slow step of a reaction is the one that dictates the rate of reaction.
 If you have the rate law of a reaction, then you can use it to find the first elementary step.
 
 The **intermediate** is the substance/compound that is produced in one elementary step reaction and consumed in another, and doesn't appear in the overall reaction
+
+### Catalysts
+
+**Catalysts** increase the rate of a reaction and are not created or destroyed in the process.
+
+> [!info] Homogeneous Catalysts
+> Homogeneous catalysis is when the catalyst and the reactants are in the same phase.
+> 
+> - Gas phase catalyst combined with gas phase reactants
+> - Solution based reaction with both reactants and catalyst in solution
+> - Catalysis of ozone depletion is homogeneous
+
+> [!info] Heterogeneous Catalysts
+> Heterogeneous catalysis is when the catalysts and reactants are in different phases.
+> 
+> - Gas phase reaction with a solid surface acting as a catalyst
+> - Solution phase reaction (reactants are dissolved solutes) with a solid surface acting as a catalyst
+
+The most common heterogeneous systems are when gases or solutes (in solution) react on a solid surface. These catalyzed reactions proceed through four steps:
+- Adsorption: The reactants associate with the surface
+- Diffusion: The reactants migrate around the surface
+- Reaction: The reactants collide and react
+- Desorption: The product desorbs (opposite of adsorbs) and departs from the surface

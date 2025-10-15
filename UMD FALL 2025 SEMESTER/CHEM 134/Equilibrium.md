@@ -52,6 +52,17 @@ $$\rightarrow A \rightleftharpoons 3C$$
 
 then the equilibrium constant equations (or values) of the individual reactions can be multiplied to get the $K$ equation/value for the combined equation.
 
+> [!example]
+> $A(g) + B(g) \rightleftharpoons AB(g)$ -- $K_{C1} =$ 0.24
+> $AB(g) + A(g) \rightleftharpoons A_2B(g)$ -- $K_{C2} =$ 3.8
+> $2A(g) + B(g) \rightleftharpoons A_2B(g)$ -- $K_{C3} =$ ?
+> 
+> The $AB(g)$ on the products side of Equation 1 and the reactants side of Equation 2 can be cancelled out, and the $A(g)$ in the reactants of both Equation 1 and 2 can be added together.
+> 
+> The 2 $A(g)$ and 1 $B(g)$ are still there in the reactants sides of the equations, and the $A_2B(g)$ is still there on the products side, and Equations 1 and 2 can be added together to get Equation 3, so the $K_C$ values can be multiplied.
+> 
+> $K_{C3} = K_{C1} \times K_{C2} = 0.24 \times 3.8 =$ 0.912
+
 ### $K_P$
 
 > [!info] $K_P$
@@ -62,6 +73,8 @@ then the equilibrium constant equations (or values) of the individual reactions 
 > Note: $K_P$ is not necessarily equal to $K_C$
 > 
 > $$K_P = K_C (RT)^{c + d - (a + b)}$$
+
+Note: $K_P = K_C$ when $(RT)^{c + d - (a + b)} = 0$, so either the temperature needs to be 0 or there needs to be no change in the moles of gas between the products and reactants in the equation.
 
 ### Unknown $K$
 

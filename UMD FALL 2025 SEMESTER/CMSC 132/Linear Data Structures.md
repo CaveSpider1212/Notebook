@@ -140,3 +140,36 @@ Disadvantages:
 - More work to insert or remove elements in the middle of a list (need to move elements around)
 - More work to grow or shrink the array
 - Tricky to insert and remove elements at both ends if needed
+
+`ArrayList` allows for easy access to elements while also having the ability to expand its size.
+
+### Linked Implementation of a List
+
+Advantages:
+- Elements can be easily inserted and removed anywhere in a list
+
+Drawbacks:
+- Indexing is not possible to do efficiently, requires traversing from the head
+	- **Indexing** is finding an element immediately in a list with a number
+- It requires more memory space (1-2 additional references per element stored)
+
+Java has a `LinkedList` library class (both it and the `ArrayList` classes have a common superclass, `AbstractList`)
+
+### Linked List Data Type
+
+It is possible to have the data field in `Node` classes be of type `Object`, but we can make it of the desired type, like `int`, or even make `Node` a generic class and have the data field be a generic type.
+
+### Implementing `equals()`
+
+The `equals()` method compares whether two objects have the same state, or values of all of their fields.
+
+If an `equals()` method is not explicitly written, then the `equals()` method in the `Object` class is run, which checks if the memory addresses of the two objects are equal (not the values).
+
+Five things that an `equals()` method must do or have:
+1. Parameter has to be of type `Object`
+2. Must handle the parameter being `null` by returning false (so that the program won't have an error if `null` is passed in)
+3. Must ensure its parameter is an object of the class the method is in (using `instanceof` or `getClass()`) so that objects of two completely different instances/classes aren't being compared
+4. Must cast its parameter to the class the method is in so that the program can access the object's fields
+5. If the parameter is valid, must compare all fields of the casted parameter to the fields of the current object, returning true if they have all the same values, and false otherwise
+
+We don't want to compare objects using reference comparison, and can't compare objects by comparing string representations either.
