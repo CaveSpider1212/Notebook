@@ -33,7 +33,7 @@ $K$ has no units, but is calculated with either Molarity (M) for chemical reacti
 > 
 > $$K = \frac{[C]^3}{[A] [B]^2}$$
 > 
-> then $nA + 2nB \rightleftharpoons 3nc$ would have an equilibrium constant of:
+> then $nA + 2nB \rightleftharpoons 3nC$ would have an equilibrium constant of:
 > 
 > $$K' = \frac{[C]^{3n}}{[A]^n [B]^{2n}} = (\frac{[C]^3}{[A] [B]^2})^n = K^n$$
 
@@ -80,7 +80,7 @@ Note: $K_P = K_C$ when $(RT)^{c + d - (a + b)} = 0$, so either the temperature n
 
 If we have initial concentrations and one equilibrium concentration, we can use ICE (initial, change, equilibrium) tables to determine the equilibrium constants and find $K$ from there.
 
-Find the change between the equilibrium constant and the initial, and then use the concentration of that and other reactants/products as well as whether they are being used or produced to find the other change values.
+Find the change between the equilibrium concentration and the initial, and then use the concentration of that and other reactants/products as well as whether they are being used or produced to find the other change values.
 
 > [!example]
 > $$A(g) \rightleftharpoons 2B(g)$$

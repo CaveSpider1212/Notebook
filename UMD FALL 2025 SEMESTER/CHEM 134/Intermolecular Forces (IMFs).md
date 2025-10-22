@@ -49,12 +49,14 @@ Partial charges interact with full charges (since full charges are involved, thi
 > - Substances with similar IMFs dissolve each other the best
 > - If the strongest IMF is not the same, we need to compare the strengths of the strongest common IMF between the two substances (stronger IMF = more soluble)
 
-**Miscibility**: how two liquids can mix at any proportion
+**Miscibility**: how two liquids can mix at any proportion (molecules have higher miscibility if they have similar IMFs)
 
 ### IMF Properties
 
 > [!info] Surface Tension
 > **Surface tension** is the energy to form a surface.
+> 
+> Molecules with stronger IMFs have greater surface tension.
 > 
 > Units: N/m or J/m^2 (force per unit distance or energy per area)
 

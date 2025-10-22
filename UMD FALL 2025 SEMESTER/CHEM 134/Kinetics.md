@@ -48,6 +48,14 @@ Rates depend on concentration of reactants but how it is must be experimentally 
 > $A$: reactant
 > $n$: rate order (0, 1, 2, also possibly noninteger)
 
+Units of $k$ in a zero-order reaction: M/s
+Units of $k$ in a first-order reaction: 1/s
+Units of $k$ in a second-order reaction: 1/(Ms)
+
+Plug 0, 1, or 2 into the above equation for $n$ to get these units (note: the rate has units of M/s)
+
+Note: If there are multiple reactants that each have an order, then add up the individual orders to get the overall order of the reaction
+
 ### Using Initial Rates to Determine Reaction Order
 
 **1st order reactions**: When the concentration of a reactant is doubled, the initial rate also doubles (rate of change of initial rate is the same as the rate of change of concentration)
@@ -75,6 +83,8 @@ If you were to plot any of the concentration terms ($[A]$, $\ln{[A]}$, $\frac{1}
 
 > [!tip] Half-Life of 1st Order Reaction
 > $$t_{\frac{1}{2}} = \frac{0.693}{k}$$
+
+To find the half-life equation of a zero- or second-order reaction, substitute in $\frac{1}{2} [A]_0$, or half of the initial calculation, for $[A]_t$ in the respective integrated rate law and solve for $t$.
 
 ### Arrhenius Equation
 

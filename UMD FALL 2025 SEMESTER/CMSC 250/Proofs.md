@@ -52,6 +52,8 @@ If $a$ is composite, then it has "non-trivial" factors (factors other than 1 and
 > 
 > Note: When proving these, it is important to say something like "Let $a \in D$, selected arbitrarily" followed by proving how $a$ makes the statement true and concluding it, ending with something like "Since $a$ was selected arbitrarily, the proposition holds for any element in $D$"
 
+^227eab
+
 ### Constructive Proofs of Existence
 
 Constructive proofs of existence are essentially providing a method or algorithm to demonstrate that some mathematical thing exists through an explicit example or formula.
@@ -106,6 +108,7 @@ The last sentence ("These cases exhaust all possibilities...") is important for 
 ### Proving Implications
 
 "If $P$ then $Q$"
+Assume $P$, then based on that assumption prove $Q$.
 
 > [!info]  Proving Implications
 > Claim: If $P$ then $Q$
@@ -157,6 +160,8 @@ To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
 > - $n$ can be expressed as the product of primes ("existence")
 > - The prime factorization of $n$ is unique ("uniqueness")
 
+##### "Existence"
+
 In proofs, can be written as:
 - $n = 2^{e1} \times 3^{e2} \times 5^{e3} \times ... \times p_k^{ek}$ (the exponents can be 0)
 - $n = p_1^{e1} \times p_2^{e2} \times p_3^{e3} \times ... \times p_k^{ek}$
@@ -192,9 +197,15 @@ $a \equiv_{n} b$: $a$ mod $n$ $=$ $b$ mod $n$
 ### Quotient-Remainder Theorem
 
 > [!tip] Quotient-Remainder Theorem
-> $$(\forall a \in Z)(\forall n \in Z^+)(\exists q, r \in Z)[(a = qn + r) \land (0 \leq r \leq n)]$$
+> $$(\forall a \in Z)(\forall n \in Z^+)(\exists q, r \in Z)[(a = qn + r) \land (0 \leq r \lt n)]$$
 > 
 > "We can find $q$ so that $r$ comes out between $0$ and $n - 1$."
+
+For example, if $17 \vert 5$ were to be "3 remainder 2", then:
+- $a$ (dividend): 17
+- $q$ (quotient): 3
+- $n$ (divisor): 5
+- $r$ (remainder): 2
 
 ### Proofs with Floor and Ceiling
 

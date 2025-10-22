@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a865d6677f30f09",
+        "id": "7db5caaa7de052fa",
         "type": "tabs",
         "children": [
           {
-            "id": "7a76ba1605e2413b",
+            "id": "45a11804a4559fee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Linear Data Structures"
-            }
-          },
-          {
-            "id": "9f60f09b8170e2d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Recursion"
+              "title": "New tab"
             }
           }
         ]
@@ -184,17 +166,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7a76ba1605e2413b",
+  "active": "28870461f586f32b",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/ENES 210/Advisers and Partners.md",
-    "UMD FALL 2025 SEMESTER/ENES 210/Team Strategy and Founders.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Untitled.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
+    "UMD FALL 2025 SEMESTER/ENES 210/Advisers and Partners.md",
+    "UMD FALL 2025 SEMESTER/ENES 210/Team Strategy and Founders.md",
     "UMD FALL 2025 SEMESTER/ENES 210/Product-Market Fit.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Abstract Classes.md",
@@ -210,11 +196,7 @@
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/ENES 210/Competition.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
-    "UMD FALL 2025 SEMESTER/ENES 100/Intro to Mechanics.md",
-    "UMD FALL 2025 SEMESTER/ENES 210/Problem.md",
     "UMD FALL 2025 SEMESTER/ENES 100",
     "UMD FALL 2025 SEMESTER/CHEM 134",
     "UMD FALL 2025 SEMESTER/ENES 210",
