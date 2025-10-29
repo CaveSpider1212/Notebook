@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-21
-description: Video lecture
+description: Video lecture (Slides part of Lecture 23)
 ---
 
 **Efficiency** has to do with how many resources are used by an algorithm, and two ways to measure it are benchmarking and asymptotic analysis.

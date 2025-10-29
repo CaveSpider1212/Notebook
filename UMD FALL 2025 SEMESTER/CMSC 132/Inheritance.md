@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-9-11
-description: 9/8, 9/10 notes
+description: 9/8, 9/10, 9/12, 9/15 notes (Lectures 3, 4, 5, and 6)
 ---
 
 Define new class from existing one using `extends`.

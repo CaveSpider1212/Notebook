@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-8
-description: 9/8 notes
+description: 9/8, 9/10 notes (Lectures 3 and 4)
 ---
 
 > [!info] Argument

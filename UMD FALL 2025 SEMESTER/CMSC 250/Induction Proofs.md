@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-10-21
-description: 10/15 notes
+description: 10/15, 10/17, 10/20, 10/22 notes (Lectures 17, 18, 19, and 20)
 ---
 
 Induction is another way (along with [[Proofs#^227eab | universal generalization]]) to prove universally quantified statements.
@@ -16,6 +16,8 @@ Induction is another way (along with [[Proofs#^227eab | universal generalization
 > - Inductive Hypothesis: Select an arbitrary constant $k \in N$. Assume $P(k)$ is true.
 > - Inductive Step: I must show $P(k + 1)$.
 > - Prove $P(k + 1)$, based on the assumption that $P(k)$ is true.
+
+Note: Make $k$ equal to what the base case was set to, and make the base case the lowest value in the domain.
 
 ### Strong Induction
 

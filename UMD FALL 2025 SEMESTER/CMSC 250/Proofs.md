@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-22
-description: 9/19, 9/22 notes
+description: 9/19, 9/22, 9/24, 10/1, 10/3, 10/6, 10/8, 10/10 notes (Lectures 8, 9, 10, 11, 12, 13, 14, 15, and 16)
 ---
 
 ### Closure
@@ -29,6 +29,8 @@ If $a$ is even, then it can be expressed as $a = 2k$ for some $k \in Z$.
 If $a$ is odd, then it can be expressed as $a = 2k + 1$ for some $k \in Z$.
 
 If $a$ is composite, then it has "non-trivial" factors (factors other than 1 and itself), and if $A$ is a polynomial, we can see if it is composite if it can be factored.
+
+If $a$ is rational, then it can be written as the result of dividing 2 integers where the denominator isn't 0.
 
 ### Rules of Inference with Quantifiers
 
@@ -206,6 +208,8 @@ For example, if $17 \vert 5$ were to be "3 remainder 2", then:
 - $q$ (quotient): 3
 - $n$ (divisor): 5
 - $r$ (remainder): 2
+
+Use this if we are trying to prove a statement relating to "mod" or divisibility.
 
 ### Proofs with Floor and Ceiling
 

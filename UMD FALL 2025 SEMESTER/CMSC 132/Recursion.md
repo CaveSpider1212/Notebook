@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-8
-description: 10/8, 10/10 notes
+description: 10/8, 10/10, 10/15, 10/17 notes (Lectures 16, 17, 18, and 19)
 ---
 
 ### What is Recursion?

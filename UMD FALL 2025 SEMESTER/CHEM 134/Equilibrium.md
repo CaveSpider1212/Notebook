@@ -78,7 +78,7 @@ Note: $K_P = K_C$ when $(RT)^{c + d - (a + b)} = 0$, so either the temperature n
 
 ### Unknown $K$
 
-If we have initial concentrations and one equilibrium concentration, we can use ICE (initial, change, equilibrium) tables to determine the equilibrium constants and find $K$ from there.
+If we have initial concentrations and one equilibrium concentration, we can use ICE (initial, change, equilibrium) tables to determine the equilibrium constants and find $K$ from there. ^63aca6
 
 Find the change between the equilibrium concentration and the initial, and then use the concentration of that and other reactants/products as well as whether they are being used or produced to find the other change values.
 

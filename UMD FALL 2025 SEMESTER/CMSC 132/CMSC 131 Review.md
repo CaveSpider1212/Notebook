@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-9-7
-description: 9/3, 9/5 notes
+description: 9/3, 9/5, 9/8 notes (Lectures 1, 2, and 3)
 ---
 
 ### Keeping Data Private

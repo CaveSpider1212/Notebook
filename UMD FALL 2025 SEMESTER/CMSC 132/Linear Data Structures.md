@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-1
-description: 9/29 notes
+description: 9/29, 10/1, 10/3, 10/8 notes (Lectures 12, 13, 14, 16)
 ---
 
 A **list** is an abstraction of an expandable group of elements where each element has a position or index (there is a one-to-one relationship between elements).

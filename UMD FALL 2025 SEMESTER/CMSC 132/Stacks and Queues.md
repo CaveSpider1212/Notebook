@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-21
-description: 10/17 notes
+description: 10/17, 10/20 notes (Lectures 19 and 20)
 ---
 
 ### Stacks

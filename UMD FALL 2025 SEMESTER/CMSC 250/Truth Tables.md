@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-7
-description: 9/5 notes
+description: 9/5 notes (Lecture 2)
 ---
 
 **Interpretation** or **Truth valuation**: Assignment of T/F to every variable in a statement

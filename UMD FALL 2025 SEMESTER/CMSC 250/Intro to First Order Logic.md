@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-14
-description: 9/12, 9/15 notes
+description: 9/12, 9/15, 9/17 notes (Lectures 5, 6, 7, and 8)
 ---
 
 > [!info] Predicate

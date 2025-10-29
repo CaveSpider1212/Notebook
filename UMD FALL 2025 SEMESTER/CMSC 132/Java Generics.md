@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-9-22
-description: 9/22 notes
+description: 9/22, 9/26 notes (Lectures 9 and 11)
 ---
 
 "**Generic programming**" refers to writing code (or creating data structures) that can be used with different types of data.

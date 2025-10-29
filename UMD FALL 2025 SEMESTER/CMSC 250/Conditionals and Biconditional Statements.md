@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-8
-description: 9/8 notes
+description: 9/8 notes (Lecture 3)
 ---
 
 > [!info] Conditional Statement

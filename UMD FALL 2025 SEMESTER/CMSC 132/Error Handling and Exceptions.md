@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-9-19
-description: 9/17, 9/19 notes
+description: 9/17, 9/19 notes (Lectures 7 and 8)
 ---
 
 ### Tests

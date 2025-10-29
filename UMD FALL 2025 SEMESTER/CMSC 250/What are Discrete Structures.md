@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-9-7
-description: 9/3 notes
+description: 9/3 notes (Lecture 1)
 ---
 
 - **Structure** or **Model**: mathematical construct consisting of

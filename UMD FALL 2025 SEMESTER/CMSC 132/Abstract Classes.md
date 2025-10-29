@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-9-15
-description: 9/15 notes
+description: 9/15, 9/17 notes (Lectures 6 and 7)
 ---
 
 > [!info] `abstract`

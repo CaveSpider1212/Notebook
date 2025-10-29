@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-1
-description: 9/26 notes
+description: 9/26, 9/29 notes (Lectures 11 and 12)
 ---
 
 An **inner class** is defined in the scope of another class, and can access all fields and methods of the outer class (even if they are private). Likewise, **outer classes** can use private fields of inner class objects and call private inner class methods on them.
