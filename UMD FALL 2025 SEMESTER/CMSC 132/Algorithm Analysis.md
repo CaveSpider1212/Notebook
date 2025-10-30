@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-21
-description: Video lecture (Slides part of Lecture 23)
+description: Video lecture (Slides part of Lectures 23 and 24)
 ---
 
 **Efficiency** has to do with how many resources are used by an algorithm, and two ways to measure it are benchmarking and asymptotic analysis.
@@ -75,3 +75,41 @@ Characteristics
 - It's the operation central to the functioning of the algorithm
 - It's contained inside the most deeply nested loops (or recursive calls)
 - It's executed as often as any other part of the algorithm
+
+### Best Case and Worst Case
+
+- The **best case** is the smallest number of operations required
+- The **worst case** is the largest number of operations required
+- The **average case** is the number of operations required for the "typical" case
+
+### Efficiency of Searching an Array or List
+
+- Sequential (linear) search
+	- Array: $O(n)$
+	- Linked: $O(n)$
+	- No difference if the array/linked list is ordered/sorted or not
+- Binary search: $O(\log n)$
+	- Requires the list/array to be ordered
+	- Can be performed with an ordered linked list, but it is impractical since we can't find the middle element by the index
+
+> Efficiency of array operations:
+> 
+> |Operation|Unsorted array|Sorted array
+> |-|-|-
+> |Lookup/insertion|$n + 1 = O(n)$|$\log(n) + n + O(n)$
+> |Insertion only (without lookup)|$O(1)$|$O(n)$
+> |Lookup and deletion|$n + 1 = O(n)$|$\log(n) + n = O(n)$
+> |Deletion only|$O(1)$|$O(n)$
+> |Indexing|$O(1)$|$O(1)$
+
+> Efficiency of linked list operations:
+> 
+> |Operation|Unordered linked list
+> |-|-
+> |Lookup and insertion|$n + 1 = O(n)$
+> |Insertion only|$O(1)$
+> |Lookup and deletion|$n + 1 = O(n)$
+> |Deletion only|$O(1)$
+> |Indexing|$O(n)$
+
+It does not make a difference in the algorithm efficiency if the list is ordered or not.

@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-22
-description: 10/22, 10/24, 10/27 notes (Lectures 21, 22, and 23)
+description: 10/22, 10/24, 10/27, 10/29 notes (Lectures 21, 22, 23, and 24)
 ---
 
 **Trees** are self-referential data structures that have a one-to-many relationship between elements.
