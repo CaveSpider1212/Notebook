@@ -76,6 +76,13 @@ Characteristics
 - It's contained inside the most deeply nested loops (or recursive calls)
 - It's executed as often as any other part of the algorithm
 
+> [!tip] Algorithm Time Function Tips
+> If multiplying $n$ $k$ times is involved, then generally that loop/sub-loop runs $n^k$ times.
+> 
+> If addition or subtraction by $k$ is involved, then generally that loop or sub-loop runs $\frac{n}{k}$ times.
+> 
+> If multiplying or dividing $n$ by $k$ each iteration is involved, then generally that loop/sub-loop runs $\log_k(n)$ times.
+
 ### Best Case and Worst Case
 
 - The **best case** is the smallest number of operations required
@@ -92,24 +99,30 @@ Characteristics
 	- Requires the list/array to be ordered
 	- Can be performed with an ordered linked list, but it is impractical since we can't find the middle element by the index
 
-> Efficiency of array operations:
+> [!info] Efficiency of array operations:
 > 
 > |Operation|Unsorted array|Sorted array
 > |-|-|-
-> |Lookup/insertion|$n + 1 = O(n)$|$\log(n) + n + O(n)$
+> |Lookup (search) and insertion|$n + 1 = O(n)$|$\log(n) + n = O(n)$
 > |Insertion only (without lookup)|$O(1)$|$O(n)$
-> |Lookup and deletion|$n + 1 = O(n)$|$\log(n) + n = O(n)$
+> |Lookup (search) and deletion|$n + 1 = O(n)$|$\log(n) + n = O(n)$
 > |Deletion only|$O(1)$|$O(n)$
 > |Indexing|$O(1)$|$O(1)$
 
-> Efficiency of linked list operations:
+> [!info] Efficiency of linked list operations:
 > 
 > |Operation|Unordered linked list
 > |-|-
-> |Lookup and insertion|$n + 1 = O(n)$
+> |Lookup (search) and insertion|$n + 1 = O(n)$
 > |Insertion only|$O(1)$
-> |Lookup and deletion|$n + 1 = O(n)$
+> |Lookup (search) and deletion|$n + 1 = O(n)$
 > |Deletion only|$O(1)$
 > |Indexing|$O(n)$
+> 
+> It does not make a difference in the algorithm efficiency if the list is ordered or not.
 
-It does not make a difference in the algorithm efficiency if the list is ordered or not.
+### Patterns Useful for Time Complexity Analysis
+
+$$1 + 2 + 3 + ... + n = \frac{n (n + 1)}{2}$$
+$$(n - 1) + (n - 2) + (n - 3) + ... + 1 = \frac{n (n - 1)}{2}$$
+$$1 + 2 + 4 + 8 + ... + n \approx 2n$$

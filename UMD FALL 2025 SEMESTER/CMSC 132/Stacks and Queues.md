@@ -8,7 +8,7 @@ description: 10/17, 10/20 notes (Lectures 19 and 20)
 
 A **stack** is a restricted list where elements can only be accessed or removed from one end, and only added at the same end.
 
-This means elements are removed in the *opposite* order of insertion, resulting in LIFO behavior.
+This means elements are removed in the *opposite* order of insertion, resulting in LIFO (last-in, first-out) behavior.
 
 Operations:
 - Push: Add element (to the top)
@@ -30,7 +30,7 @@ Implementations:
 
 A **queue** is a restricted list where elements can only be accessed or removed from one end, and only added at the opposite end.
 
-This means elements are removed *in order* of insertion, resulting in FIFO behavior.
+This means elements are removed *in order* of insertion, resulting in FIFO (first-in, first-out) behavior.
 
 Operations:
 - Enqueue: Add an element to the back of a queue

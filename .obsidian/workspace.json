@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01b9809e9c3141d9",
+        "id": "a97de679bee785df",
         "type": "tabs",
         "children": [
           {
-            "id": "13080538496652e0",
+            "id": "23249c31e6957da3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,22 +166,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13080538496652e0",
+  "active": "23249c31e6957da3",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Untitled.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Images",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inner Classes.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Error Handling and Exceptions.md",
@@ -190,10 +196,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
-    "UMD FALL 2025 SEMESTER/ENES 210/Advisers and Partners.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
@@ -208,11 +210,9 @@
     "UMD FALL 2025 SEMESTER",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Images",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Images/4.20.25 Abnormal Disorder Diagnosis Table.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolved.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolution.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Magnifier.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Telescope.png"
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Magnifier.png"
   ]
 }

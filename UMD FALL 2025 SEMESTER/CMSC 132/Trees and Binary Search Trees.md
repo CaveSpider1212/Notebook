@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-22
-description: 10/22, 10/24, 10/27, 10/29 notes (Lectures 21, 22, 23, and 24)
+description: 10/22, 10/24, 10/27, 10/29, 10/31 notes (Lectures 21, 22, 23, 24, and 25)
 ---
 
 **Trees** are self-referential data structures that have a one-to-many relationship between elements.
@@ -51,8 +51,10 @@ public class Tree {
 
 - A *depth-first* traversal visits elements as far ahead as possible before backing up
 	- A **preorder** traversal visits/processes an element first, then its left child, then its right child
+		- Note: The root node would be the first node in a preorder traversal; useful for if we want to construct a binary tree from a preorder traversal
 	- An **inorder** traversal visits an element's left child, then the element itself, then its right child
 	- A **postorder** traversal visits an element's left child, then its right child, then the element itself
+		- Note: The root node would be the last node in a postorder traversal; useful for if we want to construct a binary tree from a postorder traversal
 - A *breadth-first* traversal visits elements according to how far away they are from the root
 	- Algorithm:
 		- Create a queue
@@ -83,3 +85,33 @@ Inserting a value `X`:
 2. If `X` is not in the tree the search will end at an element `Y`
 3. If `X < Y`, add a new leaf element containing `X` as the new left child of `Y`
 4. If `X > Y`, add a new leaf element containing `X` as the new right child of `Y`
+
+### Binary Search Tree Deletion
+
+1. Perform a search for the value `X` to be deleted
+2. If `X` is a leaf, just remove `X`
+3. Else (must delete an interior element)
+	1. Replace `X` with...
+		1. the largest value `Y` in its left subtree OR
+		2. with the smallest value `Z` in its right subtree
+	2. Then delete the replacement value (`Y` or `Z`) from the subtree it came from (recursively)
+
+### Balanced and Degenerate Binary Trees
+
+A **balanced** binary tree has (mostly) two children per element.
+- Note: The height of a balanced tree is $O(\log (n))$
+
+A **degenerate** binary tree has (mostly) one child per element (more like a list).
+- Note: The height of a degenerate tree is $O(n)$
+
+### Efficiency of Binary Search Tree Operations
+
+- Search or lookup (average case)
+	- Balanced tree: $O(\log(n))$
+	- Degenerate tree: $O(n)$
+- Lookup and insertion (average case)
+	- Balanced tree: $O(\log(n))$
+	- Degenerate tree: $O(n)$
+- Lookup and deletion (average case)
+	- Balanced tree: $O(\log(n))$
+	- Degenerate tree: $O(n)$

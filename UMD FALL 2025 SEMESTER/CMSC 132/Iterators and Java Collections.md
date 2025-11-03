@@ -32,7 +32,7 @@ public interface Iterator<E> {
 
 `next()` should return some element
 
-`remove()` is optional; can be called once after each call to `next()` to remove the element that `next()` just returned
+`remove()` is optional; can be called once (but *only* once) after each call to `next()` to remove the element that `next()` just returned
 
 ### Creating iterators without problems
 
@@ -44,14 +44,7 @@ Let's say `MyIterator` is a class that implements `Iterator` and `MyList` is a l
 
 ### The Iterator Design Pattern
 
-Definition: Move through a collection of objects without knowing its internal representation
-
-Where to use and benefits:
-- Use a standard interface to represent data objects
-- Allows changing how a class stores data without other classes that are using it (iterating over the data) having to change
-- Allows easily substituting one class for another (as long as both implement the pattern)
-
-Need to distinguish variations in the traversal of an aggregate.
+See [[Design Patterns#^3e6c80]]
 
 ### The Java Collections Framework
 
@@ -75,6 +68,8 @@ Part of the Java library consisting of:
 	- Find the kth element
 	- Find the largest element
 	- Sort the elements
+
+![[11.2.25 Collections Hierarchy.png]]
 
 ### Important `Collections` methods
 
