@@ -148,3 +148,75 @@ $$pOH = -\log{[OH^-]}$$
 $$pH + pOH = 14.00$$
 
 The above makes sense because $[H_3O^+] [OH^-] = 1 \times 10^{-14}$.
+
+### Solutions of Strong Acid
+
+For strong acids and bases, we can assume complete dissociation, so this simplifies our calculations. We can simply assume that whatever concentration of strong acid (or base) we have in solution, we have the *same* concentration of hydronium ions (or hydroxide ions).
+
+$$[HA] = [H_3 O^+]$$
+$$[HB] = [OH^-]$$
+
+### Salts with Acid-Base Properties: Anions
+
+Salts are composed of ions, and sometimes those ions can act as acids or bases.
+
+Anions can be considered conjugate bases of acids (which is just the acid with the proton removed, not necessarily basic).
+
+One way to tell if an anion acts as a base is to add a proton to the structure, then ask yourself if you have a strong or weak acid (the weaker the acid, the stronger the conjugate base).
+
+If you want to know the $K_b$ of your anion:
+1. Add a proton to identify the corresponding acid.
+2. Look up the $K_a$ of the corresponding acid, and solve for $K_b$.
+
+$$K_b = \frac{K_w}{K_a} = \frac{1 \times 10^{-14}}{K_a}$$
+
+$$pK_a = -\log K_a$$
+$$pK_b = -\log K_b$$
+$$pK_a + pK_b = 14$$
+
+Thus, you have two types of anions:
+1. Conjugate base of strong acids (like $Cl^-$), which have a neutral contribution to a salt solution. They are not proton acceptors.
+2. Conjugate base of weak acids (like $F^-$), which have a basic contribution to a salt solution. They are weak proton acceptors (weakly basic).
+
+### Salt with Acid-Base Properties: Cations
+
+Cations can be considered conjugate acids of bases, and can be put into three categories:
+1. Counterions of strong bases
+2. Conjugate acids of weak bases
+3. Small, highly charged metals
+
+##### Counterions of strong bases
+
+The cations (counterions) associated with these strong bases will not ionize water to form hydronium ions, so they have a neutral effect.
+
+##### Conjugate acids of weak bases
+
+If you can take away a proton from the cation and form a weak base, it is generally a weak acid.
+
+##### Small highly charged metals
+
+The smaller and more charged, the more acidic.
+
+The highly charged cations interact strongly with the partial negative charge on water forming a shell of water. The cations draw electron density away from the partial positive charge on the $H$ end of the water. This weakens the $OH$ bond and other water molecules can accept a proton from shell of water.
+
+If the anion is neutral and the cation is acidic, the solution will be acidic. If the cation is neutral and the anion is basic, the solution will be basic. If both ions are acidic or basic, it depends on the relative strength of each. That way, we can determine the $pH$ of the salt solution.
+
+### Predicting Acid Strength
+
+We need to examine both electronegativity and bond strength to predict acid strength.
+
+##### Electronegativity
+
+Electronegativity increases from left to right on the periodic table. The most electronegative conjugate base is the most stable, so the more stable product is favored and the acid will dissociate to form more product, giving us a stronger acid.
+
+Therefore, more electronegative means stronger acid.
+
+##### Bond strength
+
+Bond strength decreases as you go down the periodic table. If bond strength decreases, the proton can be removed more easily, and acid strength increases.
+
+### Lewis Acids and Bases
+
+The Lewis acid and base definition focuses on the electron pair instead of the proton:
+- A Lewis acid accepts an electron pair
+- A Lewis base donates an electron pair

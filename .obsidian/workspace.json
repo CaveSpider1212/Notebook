@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a97de679bee785df",
+        "id": "789540ae479e1280",
         "type": "tabs",
         "children": [
           {
-            "id": "23249c31e6957da3",
+            "id": "1b688772d0ea8ee8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Acids and Bases"
             }
           }
         ]
@@ -166,15 +170,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "23249c31e6957da3",
+  "active": "1b688772d0ea8ee8",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
+    "Untitled.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Untitled.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
@@ -190,12 +200,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Inner Classes.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Error Handling and Exceptions.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Abstract Classes.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Inheritance.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
