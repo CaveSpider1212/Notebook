@@ -146,6 +146,9 @@ To prove $P \leftrightarrow Q$, a [[Conditionals and Biconditional Statements#^8
 
 ### Proofs by Contradiction
 
+^15cc00
+
+
 To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
 
 > [!info] Proofs by Contradiction
@@ -154,6 +157,9 @@ To prove $P$ is true, prove that $\sim P$ will lead to a contradiction.
 > Proof: Suppose (BWOC, by way of contradiction) $\sim P$.
 > ...
 > Contradiction
+
+^6578a5
+
 
 ### Fundamental Theorem of Arithmetic
 

@@ -127,12 +127,20 @@ $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 $K_a$ and $K_b$ are the equilibrium constants used for acids and bases, respectively.
 
+> [!info] Finding $K_a$
+> $$HA(aq) \rightarrow H_3O^+(aq) + A^-(aq)$$
+> $$K_a = \frac{[H_3O^+] [A^-]}{[HA]}$$
+
+> [!info] Finding $K_b$
+> $$B(aq) + H_2O(l) \rightarrow BH^+(aq) + OH^-(aq)$$
+> $$K_b = \frac{[BH^+] [OH^-]}{[B]}$$
+
 A common way of characterizing an acid or a base is with $pK_a$ and $pK_b$:
 
 $$pK_a = -\log{K_a}$$
 $$pK_b = -\log{K_b}$$
 
-The lower the $pK_a$ (or $pK_b$) is, the more acid (or basic) the acid (or base) is.
+The lower the $pK_a$ (or $pK_b$) is, the more acidic (or basic) the acid (or base) is.
 
 ### pH and pOH
 
@@ -178,6 +186,8 @@ Thus, you have two types of anions:
 1. Conjugate base of strong acids (like $Cl^-$), which have a neutral contribution to a salt solution. They are not proton acceptors.
 2. Conjugate base of weak acids (like $F^-$), which have a basic contribution to a salt solution. They are weak proton acceptors (weakly basic).
 
+Note: For a salt to form a basic solution in water, its anion has to be a conjugate base where it can be used in a basic reaction (making that conjugate base a conjugate acid) that forms $OH^-$.
+
 ### Salt with Acid-Base Properties: Cations
 
 Cations can be considered conjugate acids of bases, and can be put into three categories:
@@ -214,6 +224,8 @@ Therefore, more electronegative means stronger acid.
 ##### Bond strength
 
 Bond strength decreases as you go down the periodic table. If bond strength decreases, the proton can be removed more easily, and acid strength increases.
+
+Therefore, the lower you go on the periodic table, the weaker the bond strength, and therefore the stronger the acid.
 
 ### Lewis Acids and Bases
 

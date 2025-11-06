@@ -79,4 +79,21 @@ If any `NonEmptyTree` object does not have any left or right children, then it p
 
 The advantage is that it saves memory (we don't need to have `EmptyList` objects each time a `NonEmptyTree` doesn't have a left/right child).
 
-Making the constructor private ensures that only one object of a class can ever be created, as well as making the object static(?)
+Making the constructor private ensures that only one object of a class can ever be created, as well as making the object static
+
+```
+public class Single {
+	// Declares the unique instance of the class
+	private static Single uniqueObj = new Single();
+	
+	// Constructor is private, so it can only be accessed from this class
+	private Single() {
+		...
+	}
+	
+	// Returns a reference to the unique instance of the class
+	public static Single getInstance() {
+		return uniqueObj;
+	}
+}
+```

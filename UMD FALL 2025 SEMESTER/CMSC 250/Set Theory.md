@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-11-3
-description: 10/31, 11/3 notes (Lectures 23, 24)
+description: 10/31, 11/3, 11/5 notes (Lectures 23, 24, 25)
 ---
 
 Examples: $A = {1, 2, 3}$ or $B = {x \in Z | -4 < x < 4}$
@@ -65,7 +65,7 @@ The empty set $\emptyset$ has no elements, so $\emptyset = {}$.
 
 ### Disjoint Sets
 
-If $A$ and $B$ were disjoint, then $A$ and $B$ have no elements in common and $A \cap B = \emptyset$.
+If $A$ and $B$ were disjoint, then $A$ and $B$ have no elements in common and $A \cap B = \emptyset$. ^29cfda
 
 ### Ordered n-tuples
 
@@ -91,6 +91,16 @@ $n(A \times B) = n(A) \times n(B)$
 > ...
 > $\therefore x \in B$
 
+The above proof also frequently resembles the following proof:
+> [!info] Subset Relationship Alternative Proof
+> Claim: $A \subseteq B$
+> 
+> Proof:
+> $x \in A \rightarrow S1$
+> $\hspace{13.5mm} \rightarrow S2$
+> $\hspace{13.5mm} \rightarrow S3$
+> $\hspace{13.5mm} ...$
+> $\hspace{13.5mm} \rightarrow x \in B$
 
 ### Proving Set Equality
 
@@ -101,7 +111,7 @@ $n(A \times B) = n(A) \times n(B)$
 > $x \in A \leftrightarrow \text{S1}$
 > $\hspace{13.5mm} \leftrightarrow \text{S2}$
 > $\hspace{13.5mm} \leftrightarrow \text{S3}$
-> ...
+> $\hspace{13.5mm} ...$
 > $\hspace{13.5mm} \leftrightarrow x \in B$
 
 Note: $A = B \leftrightarrow A \subseteq B \land B \subseteq A$
@@ -115,6 +125,8 @@ Note: $A = B \leftrightarrow A \subseteq B \land B \subseteq A$
 > Part II. \[Show $B \subseteq A$]
 > ...
 
+It is a good idea to use [[Proofs#^6578a5|proof by contradiction]] when dealing with empty sets and equality.
+
 ### Powersets
 
 $P(A)$ is the set of **all** subsets of $A$
@@ -127,3 +139,6 @@ Note: $n(P(X)) = 2^x$ (giving us the size of the powerset), where $x$ is the siz
 > $P(\emptyset) = {\emptyset}$
 > 
 > $P({\emptyset}) = {\emptyset, {\emptyset}}$
+
+> [!info] Definition of Powerset
+> $$A \subseteq B \leftrightarrow A \in P(B)$$
