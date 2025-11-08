@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1e24c33e2cac679d",
+        "id": "2bcda5ca24f137f8",
         "type": "tabs",
         "children": [
           {
-            "id": "3f7efa4af02beff0",
+            "id": "df8c0cff6b1e2181",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Polymorphic Data Structures"
+              "title": "New tab"
             }
           }
         ]
@@ -170,15 +166,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3f7efa4af02beff0",
+  "active": "df8c0cff6b1e2181",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Probability.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Counting.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
@@ -194,14 +193,11 @@
     "Untitled.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Untitled.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
-    "UMD FALL 2025 SEMESTER/CMSC 250/What are Discrete Structures.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",

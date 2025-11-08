@@ -125,7 +125,7 @@ Note: $A = B \leftrightarrow A \subseteq B \land B \subseteq A$
 > Part II. \[Show $B \subseteq A$]
 > ...
 
-It is a good idea to use [[Proofs#^6578a5|proof by contradiction]] when dealing with empty sets and equality.
+It is a good idea to use [[Proofs#^6578a5|proof by contradiction]] when dealing with empty sets and equality, meaning if we were to prove $A = \emptyset$, we would start off by saying $x \in A$ by way of contradiction.
 
 ### Powersets
 
