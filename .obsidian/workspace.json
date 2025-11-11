@@ -11,10 +11,14 @@
             "id": "df8c0cff6b1e2181",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Hashing, Sets, and Maps"
             }
           }
         ]
@@ -168,11 +172,11 @@
   },
   "active": "df8c0cff6b1e2181",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Counting.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
