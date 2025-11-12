@@ -6,7 +6,7 @@ description: 9/23 notes
 
 ### Defining Kinetics and Thermodynamics
 
-**Thermodynamics** gives us information about the energy of our initial and final states, as well as spontaneity of the reaction (Gibbs free energy, $\Delta G \degree = -RT \ln{K}$, negative means more spontaneous).
+**Thermodynamics** gives us information about the energy of our initial and final states, as well as spontaneity of the reaction (Gibbs free energy, $\Delta G \degree = -RT \ln{K}$, negative means more spontaneous). ^886eb9
 
 **Kinetics** tells us about the intermediate states and speed of the reaction.
 
