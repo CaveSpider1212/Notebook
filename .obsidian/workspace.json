@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "97b30ada07fcfc38",
+        "id": "c05641039ea9bb59",
         "type": "tabs",
         "children": [
           {
-            "id": "ae6e4ba06ad08d07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Hashing, Sets, and Maps"
-            }
-          },
-          {
-            "id": "9a4d242e2d5d8bb0",
+            "id": "0e37b1320d39d56b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,15 +170,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ae6e4ba06ad08d07",
+  "active": "0e37b1320d39d56b",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Electrochemistry.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",

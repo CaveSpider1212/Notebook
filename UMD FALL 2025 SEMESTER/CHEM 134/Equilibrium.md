@@ -104,6 +104,8 @@ Find the change between the equilibrium concentration and the initial, and then 
 > 
 > Although the equation is the same, $Q$ isn't necessarily at equilibrium.
 
+^ac9ee7
+
 If you know $K$, and
 - $Q > K$: higher concentration of products, so reaction will go towards reactants (reverse)
 - $Q < K$: higher concentration of reactants, so reaction will go towards products (forward)

@@ -30,7 +30,13 @@ The salt bridge has electrolytes preventing charge buildup, and neutralizes the 
 
 The correct notation for a galvanic cell is: "Anode | electrolyte of anode || electrolyte of cathode | cathode".
 
+Since electrons flow from the anode to the cathode, that means the anode should be the reactant and the cathode should be the product if we were to make a balanced chemical equation out of a galvanic cell.
+
 ### Cell Potential
+
+Electrons flow from a position of higher to lower potential energy. The greater the difference, the greater the tendency for electrons to flow. This difference is the **cell potential**, which depends on relative tendencies for the reactants to become oxidized or reduced.
+
+The cell potential tells us if a redox reaction is spontaneous (positive) or nonspontaneous (negative).
 
 > [!info] Cell Potential
 > $$E^{\degree}_{cell} = E^{\degree}_{red} - E^{\degree}_{ox}$$
@@ -51,5 +57,89 @@ Higher potential means more likely to gain electrons
 
 ### Gibbs Free Energy
 
+Gibbs free energy also tells us how much electrical energy can be supplied by the redox reaction (or how much it requires).
+
 > [!info] Gibbs Free Energy
-> $$\Delta G^{\degree} = -n F E^{\degree}_{cell}$$
+> $$\Delta G^{\degree} = -RT\ln{K} = -n F E^{\degree}_{cell}$$
+> 
+> Gibbs free energy ($\Delta G^{\degree}$), cell potential ($E^{\degree}_{cell}$) and the equilibrium constant ($K$) are all related to each other.
+
+A spontaneous reaction or process will perform work, while a nonspontaneous process requires an input of energy to proceed.
+
+The change in Gibbs free energy allows us to predict spontaneity, with a negative value indicating a spontaneous process and a positive value indicating a nonspontaneous process.
+
+The two equations for Gibbs free energy can be set equal to each other to obtain this equation:
+
+$$E^{\degree}_{cell} = \frac{0.0592 V}{n} \log{K}$$
+
+For a spontaneous reaction: $\Delta G^{\degree} < 0$, $E^{\degree} > 0$, and $K > 1$.
+
+### Nernst Equation
+
+Changing the concentrations of the reactants and products so that they are not 1 M will affect the free energy change, $\Delta G$. Similarly, $E_{cell}$, the voltage for the cell, will be different when the ion concentrations are not 1 M. In that case, the system would no longer be in its standard state.
+
+We can use $Q$, the [[Equilibrium#^ac9ee7|reaction quotient]], to predict spontaneity at nonstandard conditions.
+
+To adjust for nonstandard conditions, we add an additional term using $Q$:
+
+$$\Delta G = \Delta G^{\degree} + RT \ln{Q}$$
+$$-nFE_{cell} = -nFE^{\degree}_{cell} + RT \ln{Q}$$
+
+> [!info] Nernst Equation
+> $$E_{cell} = E^{\degree}_{cell} - \frac{0.0592 V}{n} \log{Q}$$
+
+### Concentration Cells
+
+It is possible to get a spontaneous reaction when the oxidation and reduction reactions are the same, if the electrolyte concentrations are different. Electrons will flow from the electrode in the less concentrated solution to the electrode in the more concentrated solution.
+
+Oxidation of the electrode in the less concentrated solution will increase the ion concentration in the solution, and reduction of the solution ions at the electrode in the more concentrated solution reduces the ion concentration. Eventually the cell will become nonspontaneous when the concentrations become equal in both cells.
+
+The only way to drive electron flow is if the cell potential is positive, and log must be negative for that, so $Q$ must be less than one. Therefore, the lower concentration of ions are treated as the products, and this concentration will increase as the reaction proceeds.
+
+### Electrolysis
+
+In electrolysis, we use electrical energy to overcome the energy barrier of a nonspontaneous reaction, allowing it to occur. The reaction that takes place is the opposite of the spontaneous process.
+
+Electrolysis can be used for fuel cells, metal extraction, etc.
+
+For the reaction to proceed, the compound must be in molten (liquid) state. Cations are reduced at the cathode to the metal elemental form, and anions are oxidized at the anode to nonmetal elemental form. Electrodes are normally graphite.
+
+### Electroplating
+
+Electroplating is when a layer of metal is deposited on a surface.
+
+The amount (mass, in grams) of metal that can be deposited onto a surface can be found if we know the amount of current (in C/s) applied and the time (in seconds) it's applied for, and is given by the following equation:
+
+$$\text{time} \times \text{current} \times \frac{1 \text{mol} \hspace{2mm} e^-}{96485 \text{C}} \times \frac{1 \text{mol metal}}{\text{mol} \hspace{2mm} e^-} \times \text{molar mass} = \text{mass metal}$$
+
+### Batteries: Alkaline Dry Cell
+
+Batteries are a type of voltaic cell. The alkaline dry cell is a common, nonrechargable battery.
+
+**Anode**: Batteries are composed of an inner shell made of $Zn$ or $Mg$, which becomes oxidized.
+
+$$Zn(s) + 2 OH^- (aq) \rightarrow Zn(OH)_2 (s) + 2 e^-$$
+
+**Cathode**: A graphite or brass rod is immersed in $MnO_2$ in a $KOH$ electrolyte paste. $MnO_2$ is reduced.
+
+$$2 MnO_2 (s) + 2 H_2 O (l) + 2 e^- \rightarrow Mn O(OH) (s) + 2 OH^- (aq)$$
+
+### Lithium Ion Batteries
+
+Lithium ion batteries are used in portable electronic devices and electric vehicles, and are rechargeable and have a long life, light weight, and large energy density. However, it could overheat, and there are environmental and human rights issues associated with lithium extraction.
+
+The anode is lithium atom-intercalated graphite. The cathode is a $Li$-transition metal oxide such as cobalt oxide associated with lithium, and the transition metal gets reduced.
+
+Unlike most batteries, $Li$ ion itself migrates from anode to cathode (through an electrolyte) accompanied by a corresponding migration of electrons from anode to cathode.
+
+### Fuel Cells
+
+Instead of a closed compartment like a battery, in a fuel cell, the reactants, $H_2$ and $O_2$, must be constantly added.
+
+The anode and cathode are both $Pt$-coated metal. The electrolyte is an $OH^-$ solution.
+
+Anode reaction: $2 H_2 (g) + 4 OH^- (aq) \rightarrow 4 H_2O (l) + 4 e^-$
+
+Cathode reaction: $O_2 (g) + 2 H_2 O (l) + 4 e^- \rightarrow 4 OH^- (aq)$
+
+Overall reaction: $2 H_2 (g) + O_2 (g) \rightarrow 2 H_2 O (l)$
