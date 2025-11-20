@@ -99,7 +99,7 @@ The division method can be used as a compression function, but does not scatter 
 
 ### Writing hash functions in Java
 
-The `Object` class' `hashCode()` returns a numerical hash value for any object, so classes like `HashSet`, `HashMap`, etc. use it as their hash function.
+The `Object` class' `hashCode()` returns the object's memory address as the numerical hash value for any object, so classes like `HashSet`, `HashMap`, etc. use it as their hash function.
 
 However, a class can override the default `hashCode()` method with a user-defined version, but it must satisfy Java's "`hashCode()` contract" by working with `equals()`.
 

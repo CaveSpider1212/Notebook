@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e37b1320d39d56b",
+            "id": "4d0f10f7a57c915a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
+                "file": "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Graphs"
+              "title": "Hashing, Sets, and Maps"
             }
           }
         ]
@@ -170,13 +170,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0e37b1320d39d56b",
+  "active": "4d0f10f7a57c915a",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CHEM 134/Electrochemistry.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Electrochemistry.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
@@ -192,14 +194,12 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Ideal and Real Gases.md",
     "Untitled.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",

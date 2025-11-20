@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-11-17
-description: 11/14, 11/17 notes (Lectures 31 and 32)
+description: 11/14, 11/17, 11/19 notes (Lectures 31, 32, 33)
 ---
 
 A **graph** consists of a set of **vertices** (or nodes) with a set of **edges** that connect them.
@@ -80,3 +80,14 @@ Two approaches to address the above issues:
 	- Initialize the tag on all vertices to false
 	- Set the tag on a vertex to true as it's processed
 	- When traversing, skip vertices with tag = true
+
+### Shortest path in a graph
+
+**Dijkstra's algorithm** finds the paths with the lowest sum of edge weights from a starting from a starting vertex $X$ to *all* the other vertices in a graph.
+
+It uses several data structures:
+- A set of vertices `processed` with known shortest paths from the starting vertex (the vertices that have been processed so far)
+- An array of costs `D` storing the cost of the shortest path from the starting vertex to each vertex `V` currently in `processed`, in `D[V]`
+- An array `predecessors` storing the predecessor on the shortest path from the starting vertex to each vertex `V` in `processed`, in `predecessors[V]`
+	- This is updated whenever a new (lower) cost path is discovered
+	- It remembers the actual path with lowest cost
