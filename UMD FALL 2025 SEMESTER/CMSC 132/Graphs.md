@@ -59,6 +59,8 @@ A directed graph's adjacency matrix is a $k \times k$ matrix, where $k$ is the n
 
 For each vertex, store either a list, set, or map of its neighbors (i.e. successors). In addition, for a weighted graph, also store the weight of each edge.
 
+For a weighted graph, use an adjacency map over an adjacency set. For an unweighted graph, an adjacency set is fine.
+
 For an undirected graph with edge ($a \leftrightarrow b$), vertices $a$ and $b$ need to store each other as neighbors. For a directed graph with edge ($a \rightarrow b$), vertex $a$ needs to store vertex $b$ as a neighbor.
 
 ### Graph Traversal
@@ -81,6 +83,12 @@ Two approaches to address the above issues:
 	- Set the tag on a vertex to true as it's processed
 	- When traversing, skip vertices with tag = true
 
+For a breadth-first search, add a vertex into a *queue*, remove the first element from the queue, then process it (how it's processed depends on whether we are using a set or tags), and then add all of its neighbors to the queue and repeat.
+
+For a depth-first, do the same thing but with a *stack* instead.
+
+For a depth-first recursive search, call the recursive method for each neighbor of a vertex.
+
 ### Shortest path in a graph
 
 **Dijkstra's algorithm** finds the paths with the lowest sum of edge weights from a starting from a starting vertex $X$ to *all* the other vertices in a graph.
@@ -91,3 +99,54 @@ It uses several data structures:
 - An array `predecessors` storing the predecessor on the shortest path from the starting vertex to each vertex `V` in `processed`, in `predecessors[V]`
 	- This is updated whenever a new (lower) cost path is discovered
 	- It remembers the actual path with lowest cost
+
+Algorithm:
+- Have an empty set `processed`, plus an empty array `predecessors` and array `D` to begin with
+- While there are some vertices in the graph that are not in `processed`, find the vertex `u` that isn't in `processed` that has the smallest value of `D[u]`, then add `u` to `processed`
+- For each neighbor `n` of `u` that is not in `processed`, if `D[n]` is greater than `D[u]` plus the cost to get from `u` to `n`, then set `D[n]` to `D[u]` plus the cost of the edge from `u` to `n`, then set the predecessor of `n` to `u`
+
+### Factors affecting graph algorithm efficiency
+
+- The efficiency of graph algorithms can depend on what graph representation is used, or what graphs it is run on (what the graphs look like)
+- Graphs are more complex than other data structures because they have two components: vertices and edges
+- A graph could be large or small
+- A graph could have many edges relative to the number (*dense*) or have few edges relative to the number of vertices (*sparse*), meaning we need to consider the number of vertices and edges separately
+- `n` will be used to represent the number of vertices, while `m` will be used to represent the number of edges
+
+### Graph Representations - Memory Usage
+
+> Graph type|Adjacency matrix|Adjacency list|Adjacency set or map
+> -|-|-|-|
+> Undirected|$\frac{1}{2}(n^2 + n) = O(n^2)$|$2 \times m = O(m)$|$2 \times m = O(m)$
+> Directed|$n^2 = O(n^2)$|$m = O(m)$|$m = O(m)$
+
+If there are a lot more vertices compared to edges, then an adjacency matrix is a bad choice since there is a lot of unused space. An adjacency list/set/map is a better choice for memory.
+
+### Graph Operations - Running Time
+
+Assuming edges can be found in adjacency matrices quickly, lists are in increasing order by vertex name, hashing is used for sets/maps, and the edges of graphs are distributed as evenly as possible throughout graphs, then the average complexity of operations for a directed graph with `n` vertices and `m` edges is:
+
+> Operation|Adjacency matrix|Adjacency list|Adjacency set or map
+> -|-|-|-|
+> Inserting an edge|$O(1)$|$O(\frac{m}{n})$|$O(1)$
+> Deleting an edge|$O(1)$|$O(\frac{m}{n})$|$O(1)$
+> Finding an edge|$O(1)$|$O(\frac{m}{n})$|$O(1)$
+> Iterating through the neighbors of a vertex|$O(n)$|$O(\frac{m}{n})$|$O(\frac{m}{n})$
+
+### Types of Graph Algorithms
+
+Algorithms can be neighbor-based (meaning iterating through the vertices, then iterating through the neighbors for each vertex and doing something with the neighbor) or connection-based (iterating through the vertices, then for each vertex iterating through the vertices again and seeing if there is an edge between the inner loop vertex and outer loop vertex).
+
+For neighbor-based algorithms, using an adjacency matrix is slower since we have to iterate through each row, and also each column of that row, to see the neighbors of a vertex (however adjacency lists/sets/maps are faster).
+
+For connection-based algorithms, using an adjacency matrix is faster since we can instantly look up in the array to see if two vertices have an edge.
+
+### Efficiency of Graph Algorithms
+
+DFS and BFS can be implemented so they're efficient
+- For the iterative versions, each (reachable) vertex will be processed, and a loop iterates over the neighbors of each vertex being processed (this would be $O(n + m)$, or linear in the size of the graph)
+
+The efficiency of Dijkstra's algorithm depends on what is used to store vertices
+- If it's coded inefficiently, Dijkstra's algorithm would take $O(n^2)$
+- If things are done efficiently, it can be coded to run in $O((n + m) \log(n))$
+- Using a heap to store the vertices (where the smallest vertex can be removed each time) can make this algorithm efficient

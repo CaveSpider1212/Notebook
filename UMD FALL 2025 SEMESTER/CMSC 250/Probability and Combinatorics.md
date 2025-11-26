@@ -71,7 +71,7 @@ When doing problems with events using the Addition Rule, we can solve it by eith
 ### Inclusion-Exclusion Principle
 
 > [!info] Inclusion-Exclusion Principle
-> If there are two sets/events, then:
+> If there are two events that are independent of each other, then, if one or the other were to happen at the same time:
 > 
 > $$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$
 > $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
@@ -146,6 +146,8 @@ In sets or "combinations," *repeats are not allowed* and *order doesn't matter*.
 > [!info] Formula for Combinations
 > $$C(n, r) = \begin{pmatrix} n \\ r \end{pmatrix} = \frac{P(n, r)}{r!} = \frac{n!}{(n - r)! r!}$$
 
+Generally, if the elements *are* "distinguishable," then repeats are not allowed, making it a combination problem.
+
 > [!example]
 > A box of Crayola crayons has 64 unique crayons. You grab 7 of them randomly to put in your backpack.
 > 
@@ -162,6 +164,8 @@ In "multisets" (sets with repeats/bags), *repeats are allowed* and *order doesn'
 
 > [!info] Formula for Multisets
 > $$\begin{pmatrix} n + r - 1 \\ r \end{pmatrix} = \frac{P(n + r - 1, r)}{r!} = \frac{(n + r - 1)!}{(n - 1)! r!}$$
+
+Generally, if it says the elements are "indistinguishable," that means that repeats are allowed, making it a multiset problem.
 
 > [!example]
 > Your bag of nuts contains 10 walnuts, 8 hazelnuts, 12 pecans, and 5 almonds.

@@ -54,7 +54,7 @@ Proper subset: $A \subset B$ means $A \subseteq B \land A \neq B$
 
 ### Empty Set
 
-The empty set $\emptyset$ has no elements, so $\emptyset = {}$.
+The empty set $\emptyset$ has no elements, so $\emptyset = \{ \}$.
 
 1. For any set $X$: $[\emptyset \subseteq X]$
 2. For any set $X$: $[X \cup \emptyset = X]$
@@ -134,11 +134,11 @@ $P(A)$ is the set of **all** subsets of $A$
 Note: $n(P(X)) = 2^x$ (giving us the size of the powerset), where $x$ is the size of the set $X$.
 
 > [!example]
-> $P({a, b, c}) = {\emptyset, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}$
+> $P(\{ a, b, c \}) = \{ \emptyset, \{ a \}, \{ b \}, \{ c \}, \{ a, b \}, \{ a, c \}, \{ b, c \}, \{ a, b, c \} \}$
 > 
-> $P(\emptyset) = {\emptyset}$
+> $P(\emptyset) = \{ \emptyset \}$
 > 
-> $P({\emptyset}) = {\emptyset, {\emptyset}}$
+> $P(\{ \emptyset \}) = \{ \emptyset, \{\emptyset \} \}$
 
 > [!info] Definition of Powerset
 > $$A \subseteq B \leftrightarrow A \in P(B)$$
