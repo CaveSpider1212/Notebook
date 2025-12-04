@@ -4,17 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "2de9061a24ca9ed7",
+        "id": "437596a04f67fcaa",
         "type": "tabs",
         "children": [
           {
-            "id": "4f98ace5ee73f81c",
+            "id": "a3bfd95c6e00ed9f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Organic Chemistry"
+            }
+          },
+          {
+            "id": "b7864c21c1817991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Functions"
             }
           }
         ]
@@ -74,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "e5b66465cf66f15d",
@@ -166,26 +185,26 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f98ace5ee73f81c",
+  "active": "a3bfd95c6e00ed9f",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Electrochemistry.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java Generics.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Polymorphic Data Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",

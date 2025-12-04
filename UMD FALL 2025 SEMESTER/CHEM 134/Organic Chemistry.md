@@ -73,3 +73,58 @@ Alkanes are also known as paraffins. Their structure is saturated, which means t
 
 4. List branches alphabetically. Do not count n-, sec-, t-; count iso.
 5. Use prefix if more than one of the same group are present (di-, tri-, tetra-, penta-, hexa-). Do not count in alphabetizing.
+
+### Alkenes and Alkynes
+
+Alkenes and alkynes are known as unsaturated hydrocarbons. **Alkenes** contain $C=C$ double bonds and form a trigonal planar structure, and are also know as olefins. **Alkynes** contain $C \equiv C$ triple bonds and are also known as acetylenes, and they have a linear structure.
+
+##### Naming alkenes and alkynes
+
+1. Find the longest continuous carbon chain with the double or triple bond. Combine parent prefix with the suffix "-ene" for an alkene and "-yne" for an alkyne
+2. Number the chain from end closest to a multiple bond.
+3. Number in front of main name indicates first carbon of multiple bond.
+4. Name branches as alkyl groups. Locate each branch by preceding its name with the carbon number on the chain.
+5. List branches alphabetically. (Do not count n-, sec-, t-; count iso.)
+6. Use prefix if more than one of the same group present. (di-, tri-, tetra-, penta-, hexa-) (Do not count in alphabetizing.)
+
+### Cis-trans isomerism
+
+**Geometric isomers** are a type of stereoisomer that applies to molecules with double bonds. The rotation around a double bond is highly restricted, so if groups have different spatial orientation about the double bond they cannot easily convert into the other form.
+
+When like groups on the doubly bonded carbons are on the same side of the double bond, we call this a *cis* configuration. When like groups on the doubly bonded carbons on opposite sides, we call this a *trans* configuration.
+
+### Function Groups
+
+A **functional group** is a group of atoms that shows a characteristic influence on the physical and chemical properties of the molecule. Generally, the reactions that a compound will perform are determined by what functional groups it has. Some major types include alcohols, ketones, aldehydes, carboxylic acids, amines, esters, and ethers.
+
+**Alcohols** are compounds with at least one -$OH$ group (hydroxyl group). Alcohols can form hydrogen bonds because of the -$OH$ group, and they are generally polar and water-soluble. As the hydrocarbon part of the molecule gets longer or larger, the alcohol will become less water-soluble.
+
+**Carboxylic acids** are weak organic acids with all the characteristics of a weak acid, such as having a sour taste. They contain both carbonyl ($C = O$) and a hydroxyl (-$OH$) group. Like all weak acids, carboxylic acids become partially deprotonated, giving up a proton and becoming negatively charged. We call the deprotonated group carboxylate.
+
+**Amines** behave as weak bases. All amines contain a nitrogen atom with a lone pair and are bonded to three substituent groups. The nitrogen lone pair is where the amine can accept a proton.
+
+### Polymers
+
+**Polymers** are very large molecules made by the repeated linking together of small molecules or **monomers**. There are natural polymers, which include proteins (made up of monomers called amino acids) and DNA (made up of monomers called nucleotides). The simplest example of a synthetic polymer is polyethylene.
+
+Synthetic polymers include two types that involve different polymerization reactions: addition and condensation.
+
+### Addition polymerization
+
+1. **Initiation**: An initiator molecule is dissociated into a highly reactive radical initiator with an unpaired electron. This radical starts the polymer chain by activating the monomer, which now has an unpaired electron.
+2. **Propagation**: The chain grows as the reactive end of the chain adds a new monomer and continues for up to thousands of monomers.
+3. **Termination**: Two radicals encounter each other and bond. This eliminates the unpaired electron ends, and the chain stops growing.
+
+### Structural and mechanical properties of polymers
+
+Polyethylene can take a variety of forms depending on the connectivity and molecular weight. The connectivity can differ in that the polymer can have a linear or branched structure. The molecular weight changes depending on the length of the polymer chains.
+
+High Density Polyethylene, HDPE, has a linear structure, which allows the chains to fit closely together creating a dense, strong material that can be used for the rigid plastic found in bottles and toys.
+
+Ultra-high molecular weight polyethylene, UHMWPE, which is linear with hundreds of thousands of monomer units, is very strong and can be used in bullet-proof vests.
+
+Low Density Polyethylene, LDPE, has a branched structure, which means it is less dense and loosely packed. LDPE is more flexible and good for plastic film, etc.
+
+### Tacticity
+
+When the monomer is not symmetric, each monomer can be oriented in different ways, which affects the overall arrangement of the polymer. Depending on how the methyl group is positioned on each monomer unit, you can have an **isotactic** (same side), **syndiotactic** (alternating sides), or **atactic** (random) structure.

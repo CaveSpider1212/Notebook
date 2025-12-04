@@ -55,6 +55,8 @@ For an unweighted graph, the array elements can just be booleans. For a weighted
 
 A directed graph's adjacency matrix is a $k \times k$ matrix, where $k$ is the number of vertices, while an undirected graph's adjacency matrix is a staircase.
 
+The rows and columns are labeled with the vertices of the graph. In a directed graph, if there is a value in a row, then there is an edge going out of the corresponding vertex. If there is a value in a column, then there is an edge going into the corresponding vertex.
+
 ##### Adjacency list, set, or map
 
 For each vertex, store either a list, set, or map of its neighbors (i.e. successors). In addition, for a weighted graph, also store the weight of each edge.
@@ -85,9 +87,9 @@ Two approaches to address the above issues:
 
 For a breadth-first search, add a vertex into a *queue*, remove the first element from the queue, then process it (how it's processed depends on whether we are using a set or tags), and then add all of its neighbors to the queue and repeat.
 
-For a depth-first, do the same thing but with a *stack* instead.
+For an iterative depth-first search, do the same thing but with a *stack* instead.
 
-For a depth-first recursive search, call the recursive method for each neighbor of a vertex.
+For a recursive depth-first search, call the recursive method for each neighbor of a vertex. A good way to approach this is to add the vertex to the processed set (or set its tag to "true"), then go to the next neighbor, and keep going until it has no unprocessed/untagged neighbors, then go back starting from the end of the processed vertices until we reach a vertex that does have an unprocessed/untagged neighbor, and keep going from there until all vertices have been processed/tagged.
 
 ### Shortest path in a graph
 
@@ -110,7 +112,7 @@ Algorithm:
 - The efficiency of graph algorithms can depend on what graph representation is used, or what graphs it is run on (what the graphs look like)
 - Graphs are more complex than other data structures because they have two components: vertices and edges
 - A graph could be large or small
-- A graph could have many edges relative to the number (*dense*) or have few edges relative to the number of vertices (*sparse*), meaning we need to consider the number of vertices and edges separately
+- A graph could have many edges relative to the number of vertices (*dense*) or have few edges relative to the number of vertices (*sparse*), meaning we need to consider the number of vertices and edges separately
 - `n` will be used to represent the number of vertices, while `m` will be used to represent the number of edges
 
 ### Graph Representations - Memory Usage
@@ -137,7 +139,7 @@ Assuming edges can be found in adjacency matrices quickly, lists are in increasi
 
 Algorithms can be neighbor-based (meaning iterating through the vertices, then iterating through the neighbors for each vertex and doing something with the neighbor) or connection-based (iterating through the vertices, then for each vertex iterating through the vertices again and seeing if there is an edge between the inner loop vertex and outer loop vertex).
 
-For neighbor-based algorithms, using an adjacency matrix is slower since we have to iterate through each row, and also each column of that row, to see the neighbors of a vertex (however adjacency lists/sets/maps are faster).
+For neighbor-based algorithms, using an adjacency matrix is slower since we have to iterate through each element in a row to see the neighbors of a vertex, even if there is no edge between some of the vertices. Adjacency lists/sets/maps are faster since we only iterate through the vertices there are edges with.
 
 For connection-based algorithms, using an adjacency matrix is faster since we can instantly look up in the array to see if two vertices have an edge.
 

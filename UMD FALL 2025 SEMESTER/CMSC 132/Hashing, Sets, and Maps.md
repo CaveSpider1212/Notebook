@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-11-7
-description: 11/7, 11/10, 11/12 notes (Lecture 28, 29, 30) plus Sets & Maps handout
+description: 11/7, 11/10, 11/12, 11/14 notes (Lecture 28, 29, 30, 31) plus Sets & Maps handout
 ---
 
 # Hashing
@@ -46,6 +46,7 @@ Collisions can be handled in one of several ways:
 Each element of the hash table stores not just a single value, but a collection of values
 - Each table entry is called a **bucket**
 - Each bucket can be implemented using a list (the elements hashing to the same bucket are placed in the same list), or a binary search tree, or some other data structure
+- If more than one element goes inside a bucket, have the data structure point to all of the other elements in that same hash table position
 
 ##### Linear probing
 
@@ -85,6 +86,8 @@ Insertion/search pseudocode:
 	- `hashFn2()` is the secondary hash function
 - Store data in `hashTable[index]`
 
+If we want to find what value(s) hash to position $X$ in a hash table using 2 probes with double hashing, we need to find $h_1$ (value of the first hash function) and $h_2$ (value of the second hash function) such that $h_1 + h_2 = X$. First, get the positions in the hash table before $X$ that are occupied. Then, for each of those positions, find the range of values that would equal that position in the first hash function (which would be $h_1$), and see if any of them equal $h_2$ in the second hash function. If any of them do, then that value hashes to position $X$ using 2 probes with double hashing.
+
 ### What makes a hash function good?
 
 Hashing every key to 0 (using the function `hashFunction(key) = 0`) would satisfy the definition of a hash function (mapping a key to a value), but it isn't exactly a good one (because every key has the same value, so it's hard to access using a key and collisions will occur).
@@ -114,6 +117,18 @@ However, a class can override the default `hashCode()` method with a user-define
 > 
 > If a class implements the `Comparable` interface and there is a `compareTo()` method, the `hashCode()` method should be consistent with this (along with `equals()`).
 
+Note: The default `equals()` and `hashCode()` methods do satisfy the hash code contract since two objects would be considered equal only if their memory addresses are equal, and the default hash code function uses the memory addresses of the objects and the two objects that are equal would have the same memory addresses, so their hash code values are equal as well.
+
+If we override `equals()` in a Java class, it's a good idea to override `hashCode()` as well (otherwise we won't be able to correctly put objects of the class into a Java library set or use them as keys for a map).
+
+### Important issues about hashing
+
+Generally, the hash table should be big enough such that it has a load factor of no greater than 0.7-0.75 (after that, performance starts to degrade), so about $N/0.7$ or $N/0.75$ spaces (where $N$ is the maximum number of items that we know).
+
+If a hash table becomes too full and we want to move the values to another larger hash table, then we need to rehash/reinsert each individual key into the new table.
+
+All data access operations (insertions, lookups, and deletions) can be done very fast in hash tables ($O(1)$ time), but the tradeoff is that it requires more memory.
+
 # Sets
 
 **Sets** are data structures in which the elements have no relationship between them (i.e. no predecessors or successors) or ordering (i.e. no front or top or back), and is only a collection of elements.
@@ -137,9 +152,9 @@ Java has several classes for sets, including `HashSet`, `LinkedHashSet`, and `Tr
 
 `HashSet` is the primary Java library set class and is implemented using a hash table (so the elements must implement the `hashCode()` method). If you iterate over the elements in a `HashSet` they will not be iterated over in any predictable order.
 
-`LinkedHashSet` is a subclass of `HashSet` that supports ordering of elements (using a linked list), meaning the elements of a `LinkedHashSet` will be iterated over in the order they were added to it. However, it requires more memory than a `HashSet` and its operations may take slightly longer to perform.
+`LinkedHashSet` is a subclass of `HashSet` that supports ordering of elements (using a linked list), meaning the elements of a `LinkedHashSet` will be iterated over in the order they were added to it. However, it requires more memory than a `HashSet` and its operations may take slightly longer to perform (since it also involves maintaining the linked list along with the hash table).
 
-`TreeSet` uses a binary search tree to store elements, so its elements will be iterated over in increasing order. Elements in a `TreeSet` must be comparable (unlike the other two classes). The operations of a `TreeSet` are slower than those of a `HashSet` or a `LinkedHashSet`.
+`TreeSet` uses a binary search tree to store elements, so its elements will be iterated over in increasing order. Elements in a `TreeSet` must be comparable (unlike the other two classes). The operations of a `TreeSet` are slower than those of a `HashSet` or a `LinkedHashSet` since it must maintain the sorted order.
 
 # Maps
 
@@ -158,8 +173,10 @@ A **map** is an unordered collection or set of keys, where each key has an assoc
 > - `Set<K> keySet()`: Returns a `Set` containing all of the keys in the map
 > - `Collection<V> values()`: Returns a `Collection` containing all of the values in the map (the `Collection` must be able to support duplicates since there could be duplicate values)
 
-Note: If we modify a key set, then the map that the key set was generated from will also be modified.
+Note: If we modify a key set, then the map that the key set was generated from will also be modified. The same applies to the collection of values.
 
 Java has several classes for sets, including `HashMap`, `LinkedHashMap`, and `TreeMap`. They do the same thing as the classes mentioned above for the `Set` interface except with maps instead.
 
-Maps could also be implemented using two parallel unsorted arrays, or we could sort them by key, or using a single array of key/value pairs (objects)
+Maps could also be implemented using two parallel unsorted arrays, or we could sort them by key, or using a single array of key/value pairs (objects).
+
+Binary search trees are often used to implement maps, where each nonempty element contains a key, the associated value, and left and right child references. Because of this, it is necessary that we are able to compare the key (by having a generic type extend `Comparable` or using a `Comparator`).

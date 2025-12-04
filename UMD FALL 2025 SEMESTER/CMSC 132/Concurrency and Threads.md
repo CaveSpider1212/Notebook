@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-11-19
-description: 11/19, 11/21, 11/24 notes (Lecture 33, 34, 35)
+description: 11/19, 11/21, 11/24, 12/1 notes (Lecture 33, 34, 35, 36)
 ---
 
 ### Processes
@@ -200,3 +200,39 @@ void myMethod() {
 
 // the above two do the same thing
 ```
+
+### Synchronization issue #1
+
+Mutual exclusion depends on threads acquiring the *same* lock. There's no synchronization if threads obtain different locks.
+
+### Synchronization issue #2
+
+A sequence of actions may have to be performed atomically to avoid a race condition or data race. The lock must be held for the duration of the transaction.
+
+Local variables are not shared by multiple threads (they are individual per thread).
+
+### Synchronization issue #3
+
+**Deadlock** occurs when a thread holding a lock is unable to obtain a lock held by another thread, and vice versa.
+
+A thread `t` holding a lock can be waiting for an action to be performed by another thread, which is also waiting for `t`'s lock, so the threads are unable to continue execution.
+
+In general, a thread should avoid holding a lock for a long time, and avoid trying to hold more than one lock at the same time.
+
+### Synchronization issue #4
+
+Synchronization incurs runtime overhead, so excessive use will reduce performance.
+
+Only use the minimum synchronization necessary to ensure correct results.
+
+### Common mistakes with threads
+
+If there is a thread object reference `t1` and `t1.sleep(2000)` is called, the `main()` thread is the one that sleeps for two seconds.
+
+If we want to run a thread, we need to call `start()`, NOT `run()`. `run()` is called automatically when a thread is started.
+
+Do not write your own `start()` method. The `Thread` class `start()` method knows how to create a thread, and have it call the `run()` method automatically.
+
+### Thread-safe
+
+Code is considered **thread-safe** if it works correctly when executed by multiple threads concurrently.
