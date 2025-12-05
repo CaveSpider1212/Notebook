@@ -76,9 +76,9 @@ Repeats are allowed, and order matters
 
 ### The Cartesian Product
 
-The Cartesian product of sets $A$ and $B$ is defined as
+The Cartesian product of sets $A$ and $B$ is defined as ^194a34
 
-$$A \times B = {(a, b) | a \in A \land b \in B}$$
+$$A \times B = \{ (a, b) | a \in A \land b \in B \}$$ ^83f6dd
 
 $n(A \times B) = n(A) \times n(B)$
 

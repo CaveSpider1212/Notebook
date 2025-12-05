@@ -91,6 +91,8 @@ Alkenes and alkynes are known as unsaturated hydrocarbons. **Alkenes** contain $
 
 **Geometric isomers** are a type of stereoisomer that applies to molecules with double bonds. The rotation around a double bond is highly restricted, so if groups have different spatial orientation about the double bond they cannot easily convert into the other form.
 
+A molecule has geometric isomers if it has a rigid structure (such as a carbon-carbon double bond or a ring), and each of the two carbons has two different groups attached to it.
+
 When like groups on the doubly bonded carbons are on the same side of the double bond, we call this a *cis* configuration. When like groups on the doubly bonded carbons on opposite sides, we call this a *trans* configuration.
 
 ### Function Groups
@@ -108,6 +110,8 @@ A **functional group** is a group of atoms that shows a characteristic influence
 **Polymers** are very large molecules made by the repeated linking together of small molecules or **monomers**. There are natural polymers, which include proteins (made up of monomers called amino acids) and DNA (made up of monomers called nucleotides). The simplest example of a synthetic polymer is polyethylene.
 
 Synthetic polymers include two types that involve different polymerization reactions: addition and condensation.
+
+Addition polymers include polyethylene and can also have different functional groups substituted for the $H$. Condensation polymers include copolymers which have more than one type of monomer.
 
 ### Addition polymerization
 
@@ -128,3 +132,12 @@ Low Density Polyethylene, LDPE, has a branched structure, which means it is less
 ### Tacticity
 
 When the monomer is not symmetric, each monomer can be oriented in different ways, which affects the overall arrangement of the polymer. Depending on how the methyl group is positioned on each monomer unit, you can have an **isotactic** (same side), **syndiotactic** (alternating sides), or **atactic** (random) structure.
+
+This variation influences the mechanical properties of the polymer.
+
+### Condensation Polymer
+
+Condensation polymers are formed from condensation reactions:
+- To form a polymer, the monomers need to have functional groups on either end
+- The monomers can have two different types of functional groups on either end and bond end to end
+- Or more than one type of monomer can link together each with a different functional group. These are **copolymers**

@@ -112,7 +112,3 @@ A bijective function does have a total inverse function.
 > Let $f : X \rightarrow Y$ and $g : Y \rightarrow Z$.
 > 
 > $(g \circ f) : X \rightarrow Z$ where $(\forall x \in X) [(g \circ f) (x) = g(f(x))]$
-
-### Pigeon Hole Principle
-
-A function from a finite set to a *smaller* finite set *cannot be one-to-one*.

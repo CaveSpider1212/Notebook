@@ -11,6 +11,8 @@ description: 9/12, 9/15, 9/17 notes (Lectures 5, 6, 7, and 8)
 > 
 > Example: P(x) = "x is even"
 
+^8581ba
+
 Logical connectives can be used to join predicates to make more complex predicates.
 
 > [!tip] Universal Quantifier ($\forall$)
