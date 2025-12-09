@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7f63f894d86f7ae9",
+        "id": "7924eae01fd8ad8c",
         "type": "tabs",
         "children": [
           {
-            "id": "c56e377bd44bbcb9",
+            "id": "e35a0c95f3188203",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,14 +166,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c56e377bd44bbcb9",
+  "active": "e35a0c95f3188203",
   "lastOpenFiles": [
     "UMD FALL 2025 SEMESTER/CMSC 250/Relations.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
+    "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Untitled.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
@@ -194,9 +197,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Equilibrium.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Kinetics.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Intermolecular Forces (IMFs).md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",

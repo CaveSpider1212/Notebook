@@ -66,13 +66,13 @@ Alkanes are also known as paraffins. Their structure is saturated, which means t
 > 9|non-
 > 10|dec-
 
-2. Number the chain from end closest to a branch. If the first branches are at equal distance, use next substituent.
+2. Number the chain from end closest to a branch. If the first branches are at equal distance, use next substituent. Number the chains such that the branches would have the lower number.
 3. Name branches as alkyl groups. Locate each branch by preceding its name with the carbon number on the chain.
 
 ![[11.25.25 Structural Formula.png]]
 
 4. List branches alphabetically. Do not count n-, sec-, t-; count iso.
-5. Use prefix if more than one of the same group are present (di-, tri-, tetra-, penta-, hexa-). Do not count in alphabetizing.
+5. Use prefix if more than one of the same group are present (di-, tri-, tetra-, penta-, hexa-). Do not count in alphabetizing. Also, add the number of all branches separated with a comma.
 
 ### Alkenes and Alkynes
 
@@ -81,11 +81,11 @@ Alkenes and alkynes are known as unsaturated hydrocarbons. **Alkenes** contain $
 ##### Naming alkenes and alkynes
 
 1. Find the longest continuous carbon chain with the double or triple bond. Combine parent prefix with the suffix "-ene" for an alkene and "-yne" for an alkyne
-2. Number the chain from end closest to a multiple bond.
+2. Number the chain from end closest to a multiple bond. Number them such that the first carbon of the multiple bond has a lower number.
 3. Number in front of main name indicates first carbon of multiple bond.
 4. Name branches as alkyl groups. Locate each branch by preceding its name with the carbon number on the chain.
 5. List branches alphabetically. (Do not count n-, sec-, t-; count iso.)
-6. Use prefix if more than one of the same group present. (di-, tri-, tetra-, penta-, hexa-) (Do not count in alphabetizing.)
+6. Use prefix if more than one of the same group present. (di-, tri-, tetra-, penta-, hexa-) (Do not count in alphabetizing.) Also, add the number of all branches separated with a comma.
 
 ### Cis-trans isomerism
 

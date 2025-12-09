@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-12-4
-description: 12/1, 12/3 notes (Lecture 33, 34)
+description: 12/1, 12/3, 12/5, 12/8 notes (Lecture 33, 34, 35, 36)
 ---
 
 ### Pigeon Hole Principle
@@ -50,7 +50,9 @@ Relations can involve any number of sets (unary, binary, ternary, etc.).
 > [!info] Reflexive
 > **Reflexive**: $(\forall a \in A) [a R a]$
 > 
-> **Irreflexive**: $(\forall a \in A) [a R a]$
+> All elements must be related to itself.
+> 
+> **Irreflexive**: $(\forall a \in A) [a \cancel{R} a]$
 
 > [!info] Symmetric
 > **Symmetric**: $(\forall a, b \in A) [a R b \rightarrow b R a]$
@@ -59,3 +61,44 @@ Relations can involve any number of sets (unary, binary, ternary, etc.).
 
 > [!info] Transitive
 > **Transitive**: $(\forall a, b, c \in A) [(a R b \land b R c) \rightarrow a R c]$
+
+> [!info] Total
+> **Total**: $(\forall a, b \in A) [a R b \lor b R a]$
+> 
+> Any two elements in the set need to be related to each other
+
+### Types of Binary Relations
+
+> [!info] Equivalence Relation
+> A binary relation is an **equivalence relation** if it is:
+> - Reflexive
+> - Symmetric
+> - Transitive
+> 
+> An equivalence relation partition the domain into "equivalence classes."
+> $$[a] = \{ x \in A | x R a \}$$
+
+> [!info] Partial Order
+> A binary relation is a **partial order** if it is:
+> - Reflexive
+> - *Antisymmetric*
+> - Transitive
+> 
+> A partial order is when there are multiple "streams" that all "flow" in one direction, with no cycles.
+
+> [!info] Total Order
+> A binary relation is a **total order** if it is:
+> - Total (which implies reflexive) (this means every element in the set must be related to one another)
+> - Antisymmetric
+> - Transitive
+> 
+> Essentially, a total order is a partial order that is also total.
+> 
+> A total order is sometimes called a "linear order" since it looks linear.
+
+> [!info] Well Order
+> A binary relation, $R$, is a **well order** over $S$ if:
+> - It is a total order
+> - Every non-empty subset of $S$ has a *least* element
+> 
+> A well order is linear with no infinite descending chains.

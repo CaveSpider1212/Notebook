@@ -136,6 +136,8 @@ It may be needed in multithreaded programs to get the results desired.
 
 A thread can wait for another one to terminate (which is one form of synchronization) by calling the `join()` method (in the `Thread` class).
 
+To clarify, if `t1.join()` were to be called in the `main()` method (which is a thread itself) for example, then `main()` will wait for `t1` to finish running before running itself.
+
 `public final void join()`:
 - Doesn't return until the thread that it's called on has terminated
 - Throws an `InterruptedException` (a checked exception) if interrupted
@@ -203,7 +205,9 @@ void myMethod() {
 
 ### Synchronization issue #1
 
-Mutual exclusion depends on threads acquiring the *same* lock. There's no synchronization if threads obtain different locks.
+Mutual exclusion depends on threads acquiring the *same* lock. There's no synchronization if threads obtain different locks. This would happen if the object used in the lock was not static.
+
+To fix this, make sure the object used as the lock is static (making it shared).
 
 ### Synchronization issue #2
 
