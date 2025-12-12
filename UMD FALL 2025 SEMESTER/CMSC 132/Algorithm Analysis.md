@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-21
-description: Video lecture (Slides part of Lectures 23 and 24)
+description: Video lecture (Slides part of Lectures 23 and 24), 12/10 notes (Lecture 40)
 ---
 
 **Efficiency** has to do with how many resources are used by an algorithm, and two ways to measure it are benchmarking and asymptotic analysis.
@@ -126,3 +126,16 @@ Characteristics
 $$1 + 2 + 3 + ... + n = \frac{n (n + 1)}{2}$$
 $$(n - 1) + (n - 2) + (n - 3) + ... + 1 = \frac{n (n - 1)}{2}$$
 $$1 + 2 + 4 + 8 + ... + n \approx 2n$$
+
+### Additional complexity measures
+
+- Big-O ($O(...)$) is an upper bound on the amount of work.
+	- For example, $3n^2 + 6n - 2$ is $O(n^2)$, but it's also $O(n^3)$, $O(2^n)$, $O(n!)$, etc.
+	- $3n^2 + 6n - 2$ isn't big-$O$ of anything smaller than $O(n^2)$, so that is its big-O notation
+- Big-Omega ($\Omega (...)$) is a lower bound on the amount of work
+	- For example, $3n^2 + 6n - 2$ is $\Omega(n^2)$, but it's also $\Omega(n)$, $\Omega(\log n)$, $\Omega(1)$, etc.
+	- $3n^2 + 6n - 2$ is not big-$\Omega$ of anything larger than $\Omega(n^2)$, so that is its big-Omega
+- Big-Theta ($\Theta(...)$) is a combined bound on the amount of work -- it represents the closest possible (tight or exact) bound
+	- $3n^2 + 6n - 2$ is $\Theta(n^2)$, because it's $O(n^2)$ and it's also $\Omega(n^2)$
+	- $3n^2 + 6n - 2$ is only $\Theta(n^2)$, not of any other function
+

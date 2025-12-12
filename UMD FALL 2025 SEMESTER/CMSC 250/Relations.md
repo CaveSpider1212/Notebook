@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-12-4
-description: 12/1, 12/3, 12/5, 12/8 notes (Lecture 33, 34, 35, 36)
+description: 12/1, 12/3, 12/5, 12/8, 12/10 notes (Lecture 33, 34, 35, 36, 37)
 ---
 
 ### Pigeon Hole Principle
@@ -102,3 +102,31 @@ Relations can involve any number of sets (unary, binary, ternary, etc.).
 > - Every non-empty subset of $S$ has a *least* element
 > 
 > A well order is linear with no infinite descending chains.
+
+### Numbers representing "infinity"
+
+##### Ordinals
+
+**Ordinals** are numbers used to describe the *shape* of (really complex) *lists*..
+
+The ordinals are used for indexing "lists" that go beyond just $N$.
+
+Any well-ordering is "isomorphic" to one of the ordinals.
+
+##### Cardinals
+
+**Cardinals** are numbers used to measure the *size* of a *set*.
+
+> [!info]
+> If $f$ is one-to-one then $|A| \leq |B|$.
+> 
+> If $f$ is onto then $|A| \geq |B|$.
+> 
+> If $f : A \rightarrow B$ is a bijection then $|A| = |B|$.
+
+$\aleph_0$ ("aleph-null") is the symbol used to denote the cardinality (size) of the natural numbers (so $|N| = \aleph_0$).
+
+$\aleph_0$ is the smallest *infinite cardinal*. Any infinite set that has size $\aleph_0$ is said to be *countable*.
+
+> [!info]
+> Adding an element to an infinite set does not make it bigger.

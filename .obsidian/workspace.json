@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7924eae01fd8ad8c",
+        "id": "5e6d57e869a691a7",
         "type": "tabs",
         "children": [
           {
-            "id": "e35a0c95f3188203",
+            "id": "322194ad7a8b6758",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,12 +166,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e35a0c95f3188203",
+  "active": "322194ad7a8b6758",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Relations.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Organic Chemistry.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Untitled.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
@@ -196,7 +197,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images",
     "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images",

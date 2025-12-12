@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-12-9
-description: 12/5, 12/8 notes (Lecture 38, 39)
+description: 12/5, 12/8, 12/10 notes (Lecture 38, 39, 40)
 ---
 
 ### Sorting
@@ -20,6 +20,8 @@ A *comparison* sort only uses pairwise key comparisons.
 Comparison sorts have a lower bound efficiency of $n \log n$, meaning it cannot be done more efficiently than that.
 
 A *linear* sort is more efficient than a comparison sort, but requires knowing additional information in advance about the keys to be sorted.
+
+Linear sorts have a lower bound efficiency of $n$.
 
 ### Bubble sort
 
@@ -109,6 +111,8 @@ This algorithm can be done in-place or not in-place.
 
 It involves comparing keys against the pivot value, so it's a comparison sort.
 
+This is not a stable sort since the partitioning does not take into account their original positions.
+
 ### Merge sort
 
 - Approach:
@@ -124,3 +128,39 @@ Merge sort has $O(n \log n)$ efficiency in all cases. The worst case occurs when
 This algorithm requires extra memory for the merge operation, so it is NOT in-place.
 
 It involves comparing two keys at once when merging the elements, so it is a comparison sort.
+
+It can be stable.
+
+### Counting sort
+
+- Sorts keys with values over the range $0 ... k$
+- Approach:
+	- Count the number of occurrences of each key
+	- Calculate the number of keys that are less than or equal to each key
+	- Place keys in their sorted location using the number of keys counted
+		- If there are $x$ keys less than or equal to key $y$, put $y$ in the $x$th position
+		- Decrement $x$ in case there are more instances of the key $y$
+
+Counting sort has $O(n + k)$ efficiency, where $n$ is the number of elements being sorted and $k$ is the highest key. The number of operations depends on whether $n$ or $k$ is bigger.
+
+This is not a comparison sort as two values are never compared at once. This is a linear sort since we must know information about the keys beforehand.
+
+This is not in-place since there are other arrays that are created in this algorithm.
+
+It can be stable.
+
+### Radix sort
+
+- Decompose each key $K$ into components $K_1, K_2, ..., K_d$
+	- Component $d$ is the least significant
+	- Each component has values over range $0 ... c$
+- Example key components would be characters for keys that are strings, or digits for keys that are numbers
+- Approach: Sort the keys by component, from the least significant to the most significant
+
+Radix sort has $O(d \times (n + c)) \approx O(n)$ efficiency in the average and worst cases.
+
+This is not a comparison sort since it does not directly compare pairs of items. Instead, it distributes elements into "buckets" based on the value of their current digit without comparing any two elements in the original list, so it's a linear sort.
+
+This is not in-place since it requires additional memory space (buckets or arrays) to store the elements during each pass.
+
+It can be stable since the elements' positions relative to each other are taken into account while sorting.
