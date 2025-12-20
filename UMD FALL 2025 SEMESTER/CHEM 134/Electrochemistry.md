@@ -1,7 +1,7 @@
 ---
 tags: CHEM_134
 created: 2025-11-11
-description: 11/11 notes
+description: 11/11, 11/18 notes
 ---
 
 ### Redox Reactions
@@ -28,7 +28,7 @@ Oxidation takes place at the anode, while reduction takes place in the cathode. 
 
 The salt bridge has electrolytes preventing charge buildup, and neutralizes the solutions.
 
-The correct notation for a galvanic cell is: "Anode | electrolyte of anode || electrolyte of cathode | cathode".
+The correct notation for a galvanic cell is: "Anode | electrolyte of anode || electrolyte of cathode | cathode". The anode is the reducing agent, while the electrolyte of the cathode is the oxidizing agent.
 
 Since electrons flow from the anode to the cathode, that means the anode should be the reactant and the cathode should be the product if we were to make a balanced chemical equation out of a galvanic cell.
 
@@ -98,7 +98,7 @@ The only way to drive electron flow is if the cell potential is positive, and lo
 
 ### Electrolysis
 
-In electrolysis, we use electrical energy to overcome the energy barrier of a nonspontaneous reaction, allowing it to occur. The reaction that takes place is the opposite of the spontaneous process.
+In electrolysis, we use electrical energy to overcome the energy barrier of a nonspontaneous reaction, allowing it to occur. The reaction that takes place is the opposite of the spontaneous process. This is an electrolytic cell.
 
 Electrolysis can be used for fuel cells, metal extraction, etc.
 

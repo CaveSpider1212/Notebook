@@ -77,4 +77,4 @@ One limitation is that you can't add new elements to a data structure with a wil
 
 Before generics were introduced in Java, library classes handled data as `Objects`, and `Objects` had to be downcast to the desired type when returned from library classes.
 
-Java implements generics using **type erasure**, which is when Java removed information about types
+Java implements generics using **type erasure**, which is when Java removes information about types during compilation.

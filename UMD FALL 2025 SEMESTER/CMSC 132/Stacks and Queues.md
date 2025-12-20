@@ -46,4 +46,4 @@ A **deque** is a double-ended queue, so elements can be added, accessed, or remo
 
 Implementations:
 - Linked: Add elements to the tail (back) of a list, and remove elements from the head (front) of the list
-- Array: Need to use a "circular" array where `q[0]` follows `q[capacity - 1]`, and increment the front position by saying `front = (front + 1) % capacity`
+- Array: Need to use a "circular" array where `q[0]` follows `q[capacity - 1]`, and increment the front position by saying `front = (front + 1) % capacity` each time an element is deleted

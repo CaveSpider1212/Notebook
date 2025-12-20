@@ -1,7 +1,7 @@
 ---
 tags: CHEM_134
 created: 2025-9-23
-description: 9/23 notes
+description: 9/23, 9/30 notes
 ---
 
 ### Defining Kinetics and Thermodynamics
@@ -75,7 +75,7 @@ Found using calculus/integration
 > 1st order: $\ln{[A]_t} = -kt + \ln{[A]_0}$
 > 2nd order: $\frac{1}{[A]_t} = kt + \frac{1}{[A]_0}$
 
-If you were to plot any of the concentration terms ($[A]$, $\ln{[A]}$, $\frac{1}{[A]_0}$), whichever graph is linear corresponds with the order of the reaction.
+If you were to plot any of the concentration terms ($[A]$, $\ln{[A]}$, $\frac{1}{[A]_0}$) vs. time, whichever graph is linear corresponds with the order of the reaction.
 
 ### Half-Life
 

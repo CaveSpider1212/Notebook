@@ -1,7 +1,7 @@
 ---
 tags: CHEM_134
 created: 2025-10-28
-description: 10/28 notes
+description: 10/28, 11/04 notes
 ---
 
 **Acids**:

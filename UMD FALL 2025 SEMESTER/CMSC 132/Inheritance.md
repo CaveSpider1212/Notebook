@@ -40,9 +40,22 @@ However, they are bad design.
 > 
 > Downcasting only valid when superclass reference refers to subclass object.
 > 
+> ```
+> Animal a1 = new Dog();
+> Animal a2 = new Animal();
+> 
+> Dog d1 = (Dog) a1; // valid, since a1 is already a Dog object
+> Dog d2 = (Dog) a2; // invalid, since a2 is an Animal object, not a Dog object
+> ```
+> 
 > **Upcasting**: Subclass object --> superclass type
 > 
 > Always valid since a subclass object is already a superclass object.
+> 
+> ```
+> Dog d1 = new Dog();
+> Animal a1 = dog; // valid, since a Dog is already an Animal
+> ```
 
 > [!info] Method Overriding
 > Instead of `instanceof` or `getClass()`, best to use **method overriding**, where a subclass redefines methods in a superclass (the overridden method takes precedence over the original superclass version).

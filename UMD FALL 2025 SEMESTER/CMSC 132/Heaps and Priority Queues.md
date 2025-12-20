@@ -64,3 +64,18 @@ A priority queue can be implemented as a heap:
 	- Lower value = higher priority
 	- A min heap keeps highest priority items in front
 - Another way to implement it is a sorted linked list or array
+
+### The `Comparator` Interface
+
+(not related to heaps)
+
+```
+public interface Comparator<T> {
+	int compare(T o1, T o2);
+	boolean equals(Object obj);
+}
+```
+
+Similar to `compareTo()`, `compare(A, B)` should also return a negative value if `A < B`, 0 if `A == B`, and a positive value if `A > B`.
+
+This also imposes an ordering on objects of a class, and a `Comparator` can be used as a parameter to the `Collections.sort()` method to sort a collection in a particular order.

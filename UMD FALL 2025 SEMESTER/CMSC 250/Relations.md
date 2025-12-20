@@ -19,7 +19,7 @@ Relations can involve any number of sets, but most frequently they are **binary*
 
 ### Binary Relations vs. Predicaates
 
-A **binary relation** is a *set* (such as $R = \{ (\text{bear}, \text{acorn}, (\text{bear}, \text{fish}), (\text{squirrel}, \text{acorn}), (\text{whale}, \text{fish}), (\text{whale}, \text{plankton}) \}$).
+A **binary relation** is a *set* (such as $R = \{ (\text{bear}, \text{acorn}), (\text{bear}, \text{fish}), (\text{squirrel}, \text{acorn}), (\text{whale}, \text{fish}), (\text{whale}, \text{plankton}) \}$).
 
 A **predicate** is a Boolean expression (see [[Intro to First Order Logic#^8581ba]]).
 
@@ -112,6 +112,18 @@ Relations can involve any number of sets (unary, binary, ternary, etc.).
 The ordinals are used for indexing "lists" that go beyond just $N$.
 
 Any well-ordering is "isomorphic" to one of the ordinals.
+
+There are three kinds of ordinals:
+- 0
+- Successor ordinals, like $7$, $\omega + 1$, $\omega + 77$, $\omega^{\omega^2} + \omega + 10$, etc. (has something added to it, meaning it comes after another ordinal)
+- Limit ordinals: Anything that does not have a predecessor, like $\omega$ or $\omega^{\omega^2}$, etc. (doesn't have anything added to it)
+
+> [!info] Well-Ordering Proof
+> If you want to prove a claim about a Well-Ordering, index it with the ordinals, then as follows:
+> 
+> Base case (0): Prove the claim is true for 0
+> Constructor #1: For any successor, $\alpha + 1$, assume the claim holds for $\alpha$. Use that to prove it holds for $\alpha + 1$.
+> Constructor #2: For any limit ordinal $\lambda$, assume the claim holds for all ordinals less than $\lambda$. Use that to prove it holds for $\lambda$.
 
 ##### Cardinals
 

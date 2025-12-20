@@ -26,7 +26,7 @@ public class OuterClass {
 
 Inner class objects must be instantiated with an object of the enclosing outer class.
 
-Inner classes are useful for private helper classes and being automatically linked to the outer class.
+Inner classes are useful for private helper classes and being automatically linked to the outer class (they have an implicit reference to the instance of the enclosing outer class)
 
 ### Using an inner class
 

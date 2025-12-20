@@ -1,7 +1,7 @@
 ---
 tags: CHEM_134
 created: 2025-9-10
-description: 9/9 notes
+description: 9/9, 9/16 notes
 ---
 
 ### Dipole-Dipole

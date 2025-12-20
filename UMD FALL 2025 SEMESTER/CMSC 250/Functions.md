@@ -93,7 +93,7 @@ A bijective function does have a total inverse function.
 > 
 > Claim: $f$ is not onto.
 > 
-> Proof: Find an element of the codomain such that for all $x \in D$, $f(x)$ is not equal to that element.
+> Proof: Find an element of the codomain such that for all $x \in D$, $f(x)$ is not equal to that element. Prove this by contradiction.
 
 ### Proving a function is a bijection
 

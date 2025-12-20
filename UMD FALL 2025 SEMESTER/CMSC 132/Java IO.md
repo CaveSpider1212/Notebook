@@ -7,8 +7,8 @@ description: Lecture 28 notes
 ### Files
 
 There are two methods of storing data in external files:
-- Text files
-- Binary files
+- Text files: Stores data in human-readable characters
+- Binary files: Contains bytes which represent data in a format specific to a particular program or system
 
 At the low level, all files are stored in binary (0 or 1).
 
@@ -21,7 +21,7 @@ There are several  Java I/O classes in the package `java.io`, which can be categ
 	- An input object (input stream) reads a stream of data from a file
 	- An output object (output stream) writes a stream of data to a file
 - Whether they deal with text or binary data
-- Whether they're *buffered*
+- Whether they're *buffered* (when memory space is temporarily used to store data before it is read to or from I/O devices for efficiency)
 - What units of data they operate upon
 
 ### The `File` class
@@ -82,6 +82,11 @@ The `OutputStream` class is the (abstract) superclass of all classes representin
 	- A `FileInputStream` reads bytes from a file
 	- A `BufferedInputStream` causes the input of a binary stream to be buffered
 	- A `DataInputStream` reads data from a binary stream and converts it into primitive types or strings
+- Advantages:
+	- Read/write files faster than text files
+	- Can store complex data types
+- Drawbacks
+	- Not human-readable
 
 ### Object Serialization
 

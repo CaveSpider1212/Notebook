@@ -1,7 +1,7 @@
 ---
 tags: CMSC_132
 created: 2025-10-21
-description: Video lecture (Slides part of Lectures 23 and 24), 12/10 notes (Lecture 40)
+description: Video lecture (Slides part of Lectures 23 and 24), 12/10, 12/12 notes (Lecture 40, 41)
 ---
 
 **Efficiency** has to do with how many resources are used by an algorithm, and two ways to measure it are benchmarking and asymptotic analysis.
@@ -139,3 +139,114 @@ $$1 + 2 + 4 + 8 + ... + n \approx 2n$$
 	- $3n^2 + 6n - 2$ is $\Theta(n^2)$, because it's $O(n^2)$ and it's also $\Omega(n^2)$
 	- $3n^2 + 6n - 2$ is only $\Theta(n^2)$, not of any other function
 
+### Other important complexity categories
+
+- Categories
+	- P: Deterministic polynomial time
+	- Exponential: Requires exponential time
+	- Decidable: Can be solved by an algorithm
+	- Undecidable: Not solvable
+	- NP: Nondeterministic polynomial time
+
+If a problem has an algorithm that solves it in time X, then the problem is said to be in X.
+
+### Some NP problems
+
+- Traveling salesperson (TSP)
+- Knapsack problem
+- Boolean satisfiability
+
+All have no known polynomial time general solution (but a possible solution to any of them can be checked or verified, meaning to see if it's correct, in polynomial time).
+
+### What if a problem is not in P?
+
+The fact that a problem can't be solved in polynomial time means that no algorithm or program can solve *all* cases of it *exactly*, in a *reasonable* amount of time, but there might be an algorithm that always runs quickly and gives close approximations or quickly gives exact answers.
+
+### Algorithm strategies
+
+- Problem type
+	- Satisfying: Find any working solution to the problem
+	- Optimization: Find the best solution
+
+> [!info] Recursive algorithms
+> This approach is based on reapplying an algorithm to its subproblems.
+
+> [!info] Backtracking algorithms
+> This approach is based on recursive depth-first search.
+> 
+> Approach:
+> - Test whether a solution has been found; if so, return it
+> - Otherwise for each choice that can be made:
+> 	- Recurse on that choice
+> 	- If the recursion returns a solution, return it
+> - If no choices remain, return failure
+
+> [!info] Divide and conquer algorithms
+> This approach is based on dividing a problem into subproblems.
+> 
+> Approach:
+> - Divide a problem into smaller subproblems
+> 	- The subproblems must be of the same type
+> 	- The subproblems do not need to overlap
+> - Solve each subproblem (usually recursively)
+> - Combine the subproblems' solutions to solve the original problem
+> 
+> Used in merge sort or quick sort
+
+> [!info] Dynamic programming algorithms
+> This approach is based on remembering past results, to avoid having to recompute them.
+> 
+> Approach:
+> - Divide a problem into smaller subproblems
+> 	- The subproblems must be of the same type
+> 	- The subproblems *must* overlap
+> - Solve each subproblem recursively
+> 	- This may simply look up the solution (if it was previously solved)
+> - Combine the subproblems' solutions to solve the original problem
+> - Store the solution if not already solved
+> 
+> Generally applied to optimization problems (Dijkstra's algorithm is an example)
+
+> [!info] Greedy algorithms
+> This approach is based on trying the best current (local) choice whenever an algorithm has multiple options it can select from
+> 
+> Approach:
+> - At each step of the algorithm choose the best local option
+> 
+> Avoid backtracking and exponential time ($O(2^n)$).
+> 
+> Sometimes choosing a local optimum leads to the global optimum (but sometimes not).
+> 
+> Somewhat used in Dijkstra's algorithm
+
+> [!info] Brute-force algorithm
+> This approach is based on trying all possible solutions.
+> 
+> Approach:
+> - Generate and evaluate all possible solutions until:
+> 	- A satisfactory solution is found
+> 	- The best solution is found (if can be determined)
+> 	- All possible solutions are found, returning the best one
+> 	- Return failure if no satisfactory solution (or no solution) was found
+> 
+> Generally the most expensive approach ($O(n!)$ complexity).
+
+> [!info] Branch and bound algorithms
+> This approach is based on limiting search using current best solution.
+> 
+> Approach:
+> - Keep track of the best solution seen so far
+> - Eliminate (*prune*) partial solutions that can't improve upon the best solution seen so far
+> 
+> Reduces the search space, but is not guaranteed to avoid exponential time ($O(2^n)$)
+
+> [!info] Heuristic algorithm
+> This approach is based on trying to guide search for solution.
+> 
+> A heuristic is a rule of thumb.
+> 
+> Approach:
+> - Generate and evaluate possible solutions using rule of thumb
+> - Stop if a satisfactory solution is found
+> 
+> This can reduce complexity but is not guaranteed to yield the best solution

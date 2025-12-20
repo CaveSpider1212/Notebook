@@ -56,7 +56,7 @@ Other variations include:
 - **Circular linked list**: Tail node points to head node
 - **Ordered list**: The nodes are ordered by their value
 - **Doubly linked list**: Each node has a next and previous node reference
-- **Maintaining a tail reference**
+- **Maintaining a tail reference**: The list has both head and tail reference
 - **Dummy head node**: First node in the list doesn't have a value and is never used
 
 ### Ordered Lists

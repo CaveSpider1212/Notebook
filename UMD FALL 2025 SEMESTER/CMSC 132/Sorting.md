@@ -37,6 +37,8 @@ It is in-place since no additional memory is involved.
 
 This algorithm is inefficient.
 
+This sort is stable since if two elements are equal, the elements are not moved (they're only moved if the left element is greater than the right).
+
 ### Selection sort
 
 - Approach:
@@ -52,6 +54,8 @@ It is in-place since no additional memory is involved.
 
 This algorithm is always inefficient.
 
+This sort can be stable since the minimum element does not change if an element equal to the minimum is found (only changes when a value *less* than the minimum is found).
+
 ### Insertion sort
 
 - Approach:
@@ -63,6 +67,8 @@ Insertion sort has $O(n^2)$ efficiency in the average and worst cases (when the 
 It involves comparing two keys at a time, so it's a comparison sort.
 
 It is in-place since no extra memory is involved.
+
+This sort can be stable since the current element will keep being moved to the left while it is less than the previous element (does not stop if an element is equal to it, so the relative order is preserved).
 
 ### Tree sort
 
@@ -129,7 +135,7 @@ This algorithm requires extra memory for the merge operation, so it is NOT in-pl
 
 It involves comparing two keys at once when merging the elements, so it is a comparison sort.
 
-It can be stable.
+It can be stable because if two elements are equal, then the first element will always go in the left sub-array and be first in the merged array.
 
 ### Counting sort
 

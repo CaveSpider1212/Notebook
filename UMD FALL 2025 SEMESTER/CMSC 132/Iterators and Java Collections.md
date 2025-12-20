@@ -7,7 +7,7 @@ description: 10/20, 10/22 notes (Lectures 20 and 21)
 ### Iterating
 
 Suppose we have a class storing a number of data elements. We would like to be able to process (iterate over) the elements, maybe from outside the class, without knowing exactly how they're being stored
-- Why? (ANSWER LATER!!)
+- This allows us to keep the internal representation of the class private
 - Mechanism in Java: the `Iterable` interface
 
 ```

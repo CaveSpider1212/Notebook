@@ -98,7 +98,7 @@ Find the change between the equilibrium concentration and the initial, and then 
 ### Reaction Quotient
 
 > [!info] Reaction quotient
-> The **reaction quotient** ($Q$) helps determine the direction of reaction.
+> The **reaction quotient** ($Q$) tells us the ratio of products to reactants at any given moment, helps determine the direction of reaction at that moment.
 > 
 > $$Q = \frac{[C]^c [D]^d}{[A]^a [B]^b}$$
 > 
@@ -115,5 +115,5 @@ If you know $K$, and
 
 The direction a reaction will proceed depends on:
 - Concentration: increasing the concentration on one side (reactants or products) pushes the reaction towards the other side, so the reaction rate in that direction is increased
-- Temperature
+- Temperature: adding heat shifts the reaction towards the reactants for exothermic reactions and towards the products for endothermic reactions
 - Pressure and volume (for gases): increased pressure shifts the reaction towards the products, decreased pressure shifts it towards the reactants

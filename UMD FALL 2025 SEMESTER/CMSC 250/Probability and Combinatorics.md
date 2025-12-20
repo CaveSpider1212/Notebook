@@ -1,7 +1,7 @@
 ---
 tags: CMSC_250
 created: 2025-11-5
-description: 11/5, 11/7, 11/10 notes (Lecture 25, 26, 27)
+description: 11/5, 11/7, 11/10, 11/12 notes (Lecture 25, 26, 27, 28)
 ---
 
 ### Probability
