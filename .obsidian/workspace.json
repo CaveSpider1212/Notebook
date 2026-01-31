@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a26b021eab4308b6",
+        "id": "2376573522609fd6",
         "type": "tabs",
         "children": [
           {
-            "id": "d27fe4aee88b4f94",
+            "id": "a85c4bffec96fe0a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introduction to C"
             }
           }
         ]
@@ -166,8 +170,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d27fe4aee88b4f94",
+  "active": "a85c4bffec96fe0a",
   "lastOpenFiles": [
+    "WSU FALL 2024 SEMESTER/CPT_S 121/Modular Programming.md",
+    "WSU FALL 2024 SEMESTER/CPT_S 121/Dynamic Data Structures.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290",
+    "UMD SPRING 2026 SEMESTER/INAG 110 1-27 temporary notes.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
+    "UMD SPRING 2026 SEMESTER/INAG 110",
+    "UMD SPRING 2026 SEMESTER/ENEE 244",
+    "UMD SPRING 2026 SEMESTER",
+    "Untitled.base",
     "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
@@ -189,11 +204,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Iterators and Java Collections.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Stacks and Queues.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Recursion.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Linear Data Structures.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Inner Classes.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
@@ -204,12 +214,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
     "UMD FALL 2025 SEMESTER/ENES 100",
     "UMD FALL 2025 SEMESTER/CHEM 134",
-    "UMD FALL 2025 SEMESTER/ENES 210",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Images",
-    "UMD FALL 2025 SEMESTER/CMSC 250",
-    "UMD FALL 2025 SEMESTER/CMSC 132",
-    "UMD FALL 2025 SEMESTER",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Unit 4 - Optics",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
     "WSU SPRING 2025 SEMESTER/PSYCH 105/Images/4.20.25 Abnormal Disorder Diagnosis Table.png",
     "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolved.png",
