@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-1-28
-description: 1/26 notes (Slide set 1)
+description: 1/26, 1/28 notes (Slide set 1)
 ---
 
 ### Base 2 numbers and conversion to base 10
@@ -70,3 +70,59 @@ Similar method as above, but keep multiplying.
 Multiply the fractional number by the base. You will likely get a number that is a fraction, so take either 0 or 1 and add the fractional part to it. Repeat with the fractional part, and keep going until the carry-over fraction is zero. Finally, read out the 0 or 1 from top to bottom.
 
 (see slides)
+
+### Complements of numbers
+
+There are two kinds of complements of a number $N$ for a radix (base) $r$:
+- Radix complement: $r^n - N$ (where $n$ is the number of digits in $N$)
+- Diminished radix complement: $r^n - 1 - N$
+	- Easier to complement, since we don't need to borrow when subtracting
+
+### Radix complements
+
+The radix complement is simply the diminished radix complement + 1.
+
+If the number is a fraction, then remove the radix point, convert, then restore the fraction point.
+
+> [!info]
+> Two's complement of two's complement gives back the number.
+> 
+> This is important because all computers represent negative integers as their two's complement of their magnitude (absolute value). This changes the representation of negative numbers and allows much simpler circuits for arithmetic, since subtraction can be performed using a circuit for addition.
+> 
+> The first bit (most significant bit) of a two's complement tells us if the number is positive (first bit is 0) or negative (first bit is 1).
+
+### Subtraction with complements
+
+Do subtraction by replacing negative numbers with their two's complement, then just do addition.
+
+If we wanted to compute $M - N$, the steps are as follows:
+1. Represent as $M + (-N)$
+2. Replace by radix complement: $M + r^n - N$
+3. Discard any carry out of the most significant digit (which represents $r^n$)
+
+There are two cases (both of which are correct);
+- If $M \geq N$, then $r^n$ is a carry-out of the most significant bit, so the answer is $M - N$
+- If $M < N$, then the answer is negative, so $r^n - (N - M)$ is correct (since it is the two's complement of $M - N$)
+
+> [!example] Subtraction Example #1 (Binary)
+> **Question**:
+> Compute $11110 - 01001$ (on a 6-bit computer).
+> 
+> **Solution**:
+> Represent the negative number ($01101$) as two's complement by flipping the bit and adding 1.
+> $01001$ is actually $001001$ in this case since it is a 6-bit computer. Flipping the bits would get $110110$ and adding 1 would get $110111$.
+> Likewise, $11110$ is actually $011110$.
+> 
+> $011110 + 110111$ using binary addition would get us $1010101$, but since this is a 6-bit computer (and the answer is 7 bits), the most significant bit needs to be discarded, so the final answer is $010101$ or $10101$, or 21.
+
+> [!example] Subtraction Example #2 (Binary)
+> **Question**:
+> Compute $10001 - 10111$ (on a 6-bit computer).
+> 
+> **Solution**:
+> The complement of the second number (which becomes $010111$) is $101000$, and adding 1 to that gets us $101001$.
+> 
+> $010001 + 101001$ gets us $111010$. Since the first bit is 1, the number is negative, so we need to take the two's complement of this number to get the absolute value of the answer.
+> 
+> The two's complement of $111010$ is $000110$, or $00110$, so the answer is $-00110$ (which equals -6).
+

@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-1-28
-description: 1/27 notes
+description: 1/27, 1/29 notes
 ---
 
 Most computers have 4 basic, physical components:

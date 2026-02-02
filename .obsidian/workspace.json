@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2376573522609fd6",
+        "id": "afb890277873dce7",
         "type": "tabs",
         "children": [
           {
-            "id": "a85c4bffec96fe0a",
+            "id": "d4df404247b084c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introduction to C"
+              "title": "New tab"
             }
           }
         ]
@@ -170,15 +166,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a85c4bffec96fe0a",
+  "active": "28870461f586f32b",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
+    "UMD SPRING 2026 SEMESTER/INAG 110 1-27 and 1-29 temporary notes.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
     "WSU FALL 2024 SEMESTER/CPT_S 121/Modular Programming.md",
     "WSU FALL 2024 SEMESTER/CPT_S 121/Dynamic Data Structures.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290",
-    "UMD SPRING 2026 SEMESTER/INAG 110 1-27 temporary notes.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
     "UMD SPRING 2026 SEMESTER/INAG 110",
     "UMD SPRING 2026 SEMESTER/ENEE 244",
     "UMD SPRING 2026 SEMESTER",
@@ -203,7 +200,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Trees and Binary Search Trees.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
