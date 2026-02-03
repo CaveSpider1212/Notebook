@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7a9626a291cae73a",
+        "id": "30fdeb9b91f81e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "d47da0574b7d1c4c",
+            "id": "f551132535fe113d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d47da0574b7d1c4c",
+  "active": "f551132535fe113d",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
@@ -199,7 +200,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
