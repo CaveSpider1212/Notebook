@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "afb890277873dce7",
+        "id": "7a9626a291cae73a",
         "type": "tabs",
         "children": [
           {
-            "id": "d4df404247b084c9",
+            "id": "d47da0574b7d1c4c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "28870461f586f32b",
+  "active": "d47da0574b7d1c4c",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
     "UMD SPRING 2026 SEMESTER/INAG 110 1-27 and 1-29 temporary notes.md",
@@ -198,8 +200,6 @@
     "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Concurrency and Threads.md",
     "UMD FALL 2025 SEMESTER/CMSC 132/Graphs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",

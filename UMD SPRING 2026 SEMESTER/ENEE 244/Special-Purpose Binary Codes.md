@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-1-31
-description: 1/28 notes (Slide set 2)
+description: 1/28, 2/2 notes (Slide set 2)
 ---
 
 ### Bits and combinations in binary numbers
@@ -70,6 +70,8 @@ More recently, the 16-bit Unicode character set has been developed, which encode
 
 Sometimes, errors may occur in transmission across a noisy medium. We would like to detect if a received quantity is corrupted. This is possible with **error detection codes**.
 
+If the received quantity is corrupted, then request a re-transmission.
+
 For binary numbers: Add an extra bit to the data word being transmitted, called a **parity bit**.
 
 We can have an odd or even parity:
@@ -83,5 +85,7 @@ Then the data word along with the parity bit is transmitted.
 Upon receipt, if computed parity bit at the destination is not equal to the received parity bit from the medium, then an error is detected.
 
 A single parity bit works only for 1-bit errors.
+
+This is possible for data words of any length.
 
 On error, a retransmit is requested.
