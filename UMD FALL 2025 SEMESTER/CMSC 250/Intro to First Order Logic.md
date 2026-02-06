@@ -31,6 +31,8 @@ $\sim(\exists x) [F(x)] \equiv (\forall x)[\sim F(x)]$
 
 ### Nested Quantifiers
 
+^c4d74e
+
 Examples:
 - $(\forall x \in D) (\exists y \in D) [S(x, y)]$ --> "For all $x$ in $D$, there exists a $y$ in $D$ such that $S(x, y)$ holds"
 - $(\exists x \in D) (\forall y \in D) [T(x, y)]$ --> "There exists an $x$ in $D$ for all $y$ in $D$ such that $T(x, y)$ holds"

@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-2-3
-description: 2/3 notes
+description: 2/3, 2/5 notes
 ---
 
 Every programming language should have:
@@ -56,3 +56,27 @@ It can be casted to a specific pointer type, but only the same type as the varia
 They are automatically allocated by the compiler with a *fixed size*.
 
 The name of the array represents the *memory address where the array starts* (so the first element).
+
+### Pointer/Array Relationship
+
+Arrays:
+- Allocated by the compiler at a *fixed location*
+- The bare name references the starting address of the array
+- Must use square braces \[] to index into them
+
+Pointers:
+- Can point to anything, can change, must be manually directed
+- Can use either square braces \[] or dereferencing to index into them
+
+Interchangeability:
+- In most cases, functions that require an array can have a pointer passed into it, and vice versa
+- This works because array variables are passed as their starting memory address, which is a pointer value
+
+### Pointer Arithmetic
+
+Assigning an array name to a pointer sets the pointer value to the address of the first element of the array.
+
+"Adding" to a pointer increases the position at which it points:
+- Adding 1 to an integer pointer points to the next `int`, add 4 bytes
+- Adding 1 to a double pointer points to the next `double`, add 8 bytes
+

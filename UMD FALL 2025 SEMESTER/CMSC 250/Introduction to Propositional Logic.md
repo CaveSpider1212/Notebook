@@ -11,6 +11,8 @@ description: 9/3 notes (Lecture 1)
 > - Disjunction ("or"): $\lor$
 > - Negation ("not"): $\sim$
 
+^27f6d3
+
 > [!tip] Rules of Precedence
 > 1. $\sim$ has precedence over $\land$ and $\lor$
 > 2. $\land$ and $\lor$ have the same precedence. They are NOT performed from left-to-right, so use parentheses to clarify (ex: $x \land (y \lor z)$)

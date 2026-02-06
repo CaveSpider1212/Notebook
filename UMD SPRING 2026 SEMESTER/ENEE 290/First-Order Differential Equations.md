@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-2-2
-description: 2/2 notes (Lecture 2)
+description: 2/2, 2/4 notes (Lecture 2, 3)
 ---
 
 ### What are Differential Equations?
@@ -69,3 +69,36 @@ $$y = e^{-ax} \int^{x} e^{at} g(t) dt + Ce^{-ax}$$
 
 $$y = \mu(x)^{-1} (\int^{x} \mu(t) g(t) dt + C)$$
 $$\mu(x) = e^{\int^{x} p(t) dt}$$
+
+### Uniqueness of Solution
+
+^7633b7
+
+> [!tip] Uniqueness of a Solution Theorem
+> Suppose that the functions $p$ and $g$ are continuous on an open interval $(a, b)$ containing $x_0$. Then, there exists a *unique* solution $y = u(x)$ that satisfies the equation
+> 
+> $$y' + p(x)y = g(x)$$
+> 
+> for $x \in (a, b)$ and the initial condition $y(x_0) = y_0$
+
+^779d7e
+
+### Separable Equations
+
+Convenient to write $y' = f(x, y)$ in the form
+
+$$M(x, y) + N(x, y) \frac{dy}{dx} = 0$$
+$$M(x) + N(y) \frac{dy}{dx} = 0$$
+$$M(x) dx = -N(y) dy$$
+
+If we can find the antiderivatives of $M$ and $N$, the solution can be obtained in the implicit form $H_1 (x) + H_2 (y) = C$ without derivatives
+
+- Steps:
+	- Rewrite differential equation in the form $M(x) dx = -N(y) dy$
+	- Integrate both sides of the equation written in the above form
+	- Substitute the given initial condition to determine the arbitrary constant
+	- Solve for $y$ to determine the solution, and make sure it satisfies the initial condition
+
+> [!info] General Solution of Separable Equations
+> $$\int N(y) dy = \int M(x) dx + C$$
+> $$\int_{x_0}^{x} M(t) dt = \int_{y_0}^{y} -N(t) dt + C$$
