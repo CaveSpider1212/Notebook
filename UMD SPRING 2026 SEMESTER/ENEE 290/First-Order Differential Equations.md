@@ -57,18 +57,56 @@ There is no general method to find solutions for regular first-order differentia
 
 $$y' + ay = 0 \leftrightarrow y' = -ay$$
 
-The general solution is given by $y = c \times e^{-ax}$, where $c$ is some constant.
+The general solution is given by $y = ce^{-ax}$, where $c$ is some constant.
 
-To obtain a particular solution, we need to specify an *initial condition* given by a pair $(x_0, y_0)$ such that $y_0 = u(x_0) = c \times e^{-ax_0}$
+To obtain a particular solution, we need to specify an *initial condition* given by a pair $(x_0, y_0)$ such that $y_0 = u(x_0) = ce^{-ax_0}$
 
 ##### Case \#2: $p(x) = a \neq 0$
 
 $$y = e^{-ax} \int^{x} e^{at} g(t) dt + Ce^{-ax}$$
 
+> [!example]
+> Find the general and particular solutions of $y' - 5y = 3$ ($y(0) = 2$)
+> 
+> $a = -5$
+> $g(x) = 3$
+> $x_0 = 0$
+> 
+> General solution:
+> $y = e^{-ax} \int_{x_0}^{x} e^{at} g(t) dt + Ce^{-ax}$
+> $\hspace{3.75mm} = e^{5x} \int_0^x 3e^{-5t} dt + Ce^{5x}$
+> $\hspace{3.75mm} = \left(\frac{-3}{5} e^{5x}\right)(e^{-5x} - 1) + Ce^{5x}$
+> $\hspace{3.75mm} = \left(\frac{-3}{5} + \frac{3}{5} e^{5x}\right)+ Ce^{5x}$
+> $\hspace{3.75mm} = e^{5x} \left(C + \frac{3}{5}\right)- \frac{3}{5}$
+> $\hspace{3.75mm} = Ce^{5x} - \frac{3}{5}$
+> 
+> Particular solution:
+> $y(0) = Ce^{5(0)} - \frac{3}{5} = 2 \rightarrow C = 2 + \frac{3}{5} = \frac{13}{5}$
+> $y = \frac{13}{5} e^{5x} - \frac{3}{5} = \frac{13e^{5x} - 3}{5}$
+
 ##### Case \#3 (General case): $y' + p(x)y = g(x)$
 
 $$y = \mu(x)^{-1} (\int^{x} \mu(t) g(t) dt + C)$$
 $$\mu(x) = e^{\int^{x} p(t) dt}$$
+
+> [!example]
+> Find the general and particular solutions of $y' - 2xy = 2x$ ($y(0) = 2$).
+> 
+> $p(x) = -2x$
+> $g(x) = 2x$
+> 
+> General solution:
+> $\mu(x) = e^{\int_{x_0}^{x} p(t) dt} = e^{\int_0^x (-2t) dt} = e^{-x^2}$
+> $y = \mu(x)^{-1} (\int_{x_0}^{x} \mu(t) g(t) dt + C)$
+> $\hspace{3.75mm} = e^{x^2} (\int_0^x (e^{-t^2}) (2t) dt + C)$
+> $\hspace{3.75mm} = e^{x^2} (-e^{-x^2} + 1 + C)$
+> $\hspace{3.75mm} = -1 + e^{x^2} + Ce^{x^2}$
+> $\hspace{3.75mm} = -1 + e^{x^2}(1 + C)$
+> $\hspace{3.75mm} = Ce^{x^2} - 1$
+> 
+> Particular solution:
+> $y(0) = Ce^{(0)^2} - 1 = 2 \rightarrow C = 3$
+> $y = 3e^{x^2} - 1$
 
 ### Uniqueness of Solution
 
@@ -99,6 +137,22 @@ If we can find the antiderivatives of $M$ and $N$, the solution can be obtained 
 	- Substitute the given initial condition to determine the arbitrary constant
 	- Solve for $y$ to determine the solution, and make sure it satisfies the initial condition
 
-> [!info] General Solution of Separable Equations
+> [!info] General Solutions of Separable Equations
 > $$\int N(y) dy = \int M(x) dx + C$$
 > $$\int_{x_0}^{x} M(t) dt = \int_{y_0}^{y} -N(t) dt + C$$
+
+> [!example]
+> Find the general and particular solutions of $y' - 2xy = 0$ ($y(0) = 3$).
+> 
+> General solution:
+> $y' = 2xy$
+> $\frac{dy}{dx} = 2xy$
+> $\frac{1}{y} dy = 2x dx$
+> $\int \frac{1}{y} dy = \int 2x dx$
+> $\ln|y| = x^2 + C$
+> $y = e^{x^2 + C} = (e^{x^2})(e^C)$
+> $y = Ce^{x^2}$
+> 
+> Particular solution:
+> $y(0) = Ce^{(0)^2} = 3 \rightarrow C = 3$
+> $y = 3e^{x^2}$
