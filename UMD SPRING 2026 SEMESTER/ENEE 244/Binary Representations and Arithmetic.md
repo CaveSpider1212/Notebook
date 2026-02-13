@@ -28,9 +28,9 @@ Also, $(15)_{16}$ can be written as $0x15$. The $0x$ prefix denotes hexadecimal 
 
 **Hexadecimal numbers** are very useful for representing binary numbers. They yield very simple conversion without the need for arithmetic.
 
-Groups of 4 consecutive bits (short for *binary digits*) in a binary number can just be written down in hex.
+Groups of 4 consecutive bits (short for *binary digits*) from the *right* in a binary number can just be written down in hex.
 
-For example, $(11010011)_2$ can be written as $0xD3$. $1101$ represents $D$, and $0011$ represents $3$.
+For example, $(11010011)_2$ can be written as $0xD3$. $1101$ (which is 13) represents $D$, and $0011$ represents $3$.
 
 Hexadecimal numbers are useful for humans to write down binary numbers in short hand, which is shorter and less error-prone (but not very useful for computers).
 
@@ -38,7 +38,7 @@ This is often used to show memory dumps (contents of memory).
 
 **Octal numbers** are also similarly useful. Groups of 3 bits can be written in octal.
 
-For example, $(101010)_2 = 52_8$
+For example, $(101010)_2$ can be separated as $(101)_2$ and $(010)_2$, which equal $5$ and $2$, so the answer is $52_8$
 
 ### Binary arithmetic
 

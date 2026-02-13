@@ -80,3 +80,69 @@ Assigning an array name to a pointer sets the pointer value to the address of th
 - Adding 1 to an integer pointer points to the next `int`, add 4 bytes
 - Adding 1 to a double pointer points to the next `double`, add 8 bytes
 
+### Allocating Memory
+
+Most C data has a fixed size, being single variables or arrays with sizes specified at compile time.
+
+`malloc(nbytes)` is used to manually allocate memory, while `free()` is used to release memory.
+
+`sizeof()` is commonly used with `malloc()` . It's more useful for getting the size of data types and structs and less useful for finding array sizes.
+
+### The 4 Logical Regions of Program Memory
+
+1. **Stack**: Automatic, push/pop with function calls
+2. **Heap**: `malloc()` and `free()`
+3. **Global**: Variables outside of functions, `static` variables
+4. **Text**: Program instructions in binary
+
+The stack grows towards the heap, and a collision results in *stack overflow*.
+
+The global and text regions are usually fixed in size.
+
+### `struct`
+
+`struct`s are heterogeneous groupings of data, where each **field** can be of a different type
+
+Each instance of a `struct` has all of its fields.
+
+Access elements with "dot" notation.
+
+Example:
+```
+typedef struct {
+	int an_int;
+	double a_doub;
+	char the_car;
+	int my_arr[6];
+}
+
+thing_t a_thing;
+a_thing.an_int;
+a_thing.a_doub;
+a_thing.the_char;
+a_thing.my_arr[2];
+```
+
+`struct`s can have pointers to their same kind. In that case, to access fields, we need to use the `->` operator (Note: for an *actual* struct, not a *pointer to a struct*, then we would use the "dot" operator).
+
+Use `sizeof()` to dynamically allocate memory for structs.
+
+### Reading into Variables
+
+`scanf()` is used to take user input.
+
+Use `%s`, `%d`, and `%lf`/`%f` for strings, integers, and doubles respectively.
+
+Need `&` operator for integers/characters/doubles, but not for strings.
+
+### File Input and Output
+
+`FILE *fopen(char *fname, char *mode)`: opens a file (returns NULL if unsuccessful)
+
+`int fclose(FILE *fh)`: closes a file and frees memory
+
+`int fscanf(FILE *fh, char *format, addr, addr2, ...`: reads data from a file (returns EOF if end of file is reached)
+
+`int fprintf(FILE *fh, char *format, arg1, arg2, ...`: prints data to a file
+
+`void rewind(FILE *fh)`: returns the given open file handle to the beginning of the file

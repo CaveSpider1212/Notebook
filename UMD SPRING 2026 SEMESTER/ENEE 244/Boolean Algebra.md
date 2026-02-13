@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-2-2
-description: 2/2, 2/4 notes (Slide set 3)
+description: 2/2, 2/4, 2/9 notes (Slide set 3)
 ---
 
 ### Motivation
@@ -61,3 +61,16 @@ For example, $x + x = x$ and $x \cdot x = x$ are both true, and $x + 1 = 1$ and 
 In whole number algebra, the acronym PEMDAS is used for operator precedence.
 
 In Boolean algebra, the order of precedence is Parentheses, NOT, AND, OR.
+
+### Boolean functions
+
+A **Boolean function** is any expression using Boolean variables and operators.
+
+We can construct a truth table from the function by filling in the different possible values for each variable (0 or 1).
+
+Using the results of a truth table, we can also derive a Boolean function by taking the values of the input variables when the output variable is true (1).
+
+### Boolean simplification
+
+1. Algebraic manipulation: Using algebra (distribution, commutative, etc.)
+2. Boolean manipulation: More systematic and guaranteed to reach minimum size expression

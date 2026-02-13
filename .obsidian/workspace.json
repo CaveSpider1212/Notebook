@@ -4,51 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "aa93ab784bbb3310",
+        "id": "3033134802f61e63",
         "type": "tabs",
         "children": [
           {
-            "id": "4f0c22b626b4f1e5",
+            "id": "ff2b6c11742f71d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
-                "mode": "preview",
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "First-Order Differential Equations"
+              "title": "C Basics"
             }
           },
           {
-            "id": "b0babb4f5c715256",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
-            }
-          },
-          {
-            "id": "411bf9762c5f65bf",
+            "id": "f85f8c24dd8b026c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "Second-Order Differential Equations"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Inheritance"
+              "title": "Backlinks"
             }
           },
           {
@@ -197,40 +183,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0babb4f5c715256",
+  "active": "ff2b6c11742f71d8",
   "lastOpenFiles": [
     "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 NOT Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 AND Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 OR Gate.png",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
+    "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
+    "WSU FALL 2024 SEMESTER/CPT_S 121/Dynamic Data Structures.md",
+    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
+    "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD SPRING 2026 SEMESTER/INAG 110 1-27 and 1-29 temporary notes.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
     "WSU FALL 2024 SEMESTER/CPT_S 121/Modular Programming.md",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/Dynamic Data Structures.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290",
     "UMD SPRING 2026 SEMESTER/CMSC 216",
     "UMD SPRING 2026 SEMESTER/INAG 110",
     "UMD SPRING 2026 SEMESTER/ENEE 244",
     "UMD SPRING 2026 SEMESTER",
     "Untitled.base",
-    "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Relations.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Set Theory.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Algorithm Analysis.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Java IO.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Design Patterns.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
@@ -240,10 +230,6 @@
     "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
     "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
     "UMD FALL 2025 SEMESTER/ENES 100",
-    "UMD FALL 2025 SEMESTER/CHEM 134",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png",
-    "WSU SPRING 2025 SEMESTER/PSYCH 105/Images/4.20.25 Abnormal Disorder Diagnosis Table.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolved.png",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.18.25 Resolution.png"
+    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png"
   ]
 }
