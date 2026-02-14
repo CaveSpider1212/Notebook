@@ -1,38 +1,20 @@
 {
   "main": {
-    "id": "d484157ee009c761",
+    "id": "8d1388f3bbc8faa9",
     "type": "split",
     "children": [
       {
-        "id": "3033134802f61e63",
+        "id": "9aaee8767c1cc2e3",
         "type": "tabs",
         "children": [
           {
-            "id": "ff2b6c11742f71d8",
+            "id": "50ffb17d5a0aa78b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "C Basics"
-            }
-          },
-          {
-            "id": "f85f8c24dd8b026c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Second-Order Differential Equations"
+              "title": "New tab"
             }
           }
         ]
@@ -41,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3d127e7f73e36b12",
+    "id": "fb1de4dceb74d4e6",
     "type": "split",
     "children": [
       {
-        "id": "31f39693db74094e",
+        "id": "0173415367b2bf62",
         "type": "tabs",
         "children": [
           {
-            "id": "28870461f586f32b",
+            "id": "771ee3a17d9b1965",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +44,7 @@
             }
           },
           {
-            "id": "4c74d269d9edb04b",
+            "id": "7d7ced1b66174d2a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +61,7 @@
             }
           },
           {
-            "id": "06a36ee8ef143a5a",
+            "id": "8c69b3d72005c735",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,19 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "e5b66465cf66f15d",
+    "id": "6a0b5092193403a4",
     "type": "split",
     "children": [
       {
-        "id": "6e5da242d77e49ef",
+        "id": "e4cdfa8e4ff47e50",
         "type": "tabs",
         "children": [
           {
-            "id": "8648657a3c19bd99",
+            "id": "20c0371bedc5a2bb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for C Basics"
             }
           },
           {
-            "id": "6d356d477ba3de3b",
+            "id": "debacd685ce6cd0e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Inheritance"
+              "title": "Outgoing links from C Basics"
             }
           },
           {
-            "id": "c199a3f05738ca18",
+            "id": "b4d3a4eb2ce19c4b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,18 +133,18 @@
             }
           },
           {
-            "id": "ac05cd5ae9148e90",
+            "id": "ab00cc9b4a5a63fb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "WSU SPRING 2025 SEMESTER/CPT_S 122/Inheritance.md",
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Inheritance"
+              "title": "Outline of C Basics"
             }
           }
         ]
@@ -173,63 +156,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ff2b6c11742f71d8",
+  "active": "50ffb17d5a0aa78b",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 NOT Gate.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 AND Gate.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.11.26 OR Gate.png",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Sorting.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/CMSC 131 Review.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Hashing, Sets, and Maps.md",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Heaps and Priority Queues.md",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/Dynamic Data Structures.md",
-    "WSU SPRING 2025 SEMESTER/CPT_S 122/Linked Lists.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Induction Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Intro to First Order Logic.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
-    "UMD SPRING 2026 SEMESTER/INAG 110 1-27 and 1-29 temporary notes.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
-    "WSU FALL 2024 SEMESTER/CPT_S 121/Modular Programming.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290",
-    "UMD SPRING 2026 SEMESTER/CMSC 216",
-    "UMD SPRING 2026 SEMESTER/INAG 110",
-    "UMD SPRING 2026 SEMESTER/ENEE 244",
-    "UMD SPRING 2026 SEMESTER",
-    "Untitled.base",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Probability and Combinatorics.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Functions.md",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Relations.md",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Images/11.25.25 Structural Formula.png",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.8.25 Rules of Inference.png",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.7.25 Laws of Equivalence.png",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Images",
-    "UMD FALL 2025 SEMESTER/CMSC 132/Images/11.2.25 Collections Hierarchy.png",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Images",
-    "UMD FALL 2025 SEMESTER/CHEM 134/Images/9.30.25 Elementary Steps Table.png",
-    "UMD FALL 2025 SEMESTER/CMSC 250/Images/9.17.25 Closure Table.png",
-    "UMD FALL 2025 SEMESTER/ENES 100",
-    "WSU SPRING 2025 SEMESTER/PHYSICS 202/Drawings and Images/4.21.25 Reference Frames.png"
+    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md"
   ]
 }
