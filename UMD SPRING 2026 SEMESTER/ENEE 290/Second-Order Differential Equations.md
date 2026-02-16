@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-2-4
-description: 2/4, 2/9 notes (Lecture 3, 4)
+description: 2/4, 2/9, 2/11, 2/16 notes (Lecture 3, 4, 5, 6)
 ---
 
 $$y'' = f(x, y, y')$$ 
@@ -136,9 +136,21 @@ If we know one solution, we can find the second linearly independent solution by
 
 We could determine a function $v$ such that $y = v \cdot y_1$ is a solution to $y'' + p(x) y' + q(x) y = 0$.
 
+Take the 1st and 2nd derivatives of $y = v \cdot y_1$, substitute into $y'' + p(x) y' + q(x) y = 0$, and simplify to get an equation in the following format:
+
 $$v'(2 y'_1 + py_1) + v'' y_1 = 0$$
 
-Integrate the above equation to get $v$ and substitute it into $y = v \cdot y_1$ along with $y_1$ (which is already known) to get $y$, the second solution.
+Divide by $y_1$ to get:
+
+$$v'' + (p + 2 \frac{y_1'}{y_1})v' = 0$$
+
+Let $w = v'$. Now we have:
+
+$$w' + (p + 2 \frac{y_1'}{y_1})w = 0$$
+
+Separate the variables and integrate to get $w$, then use $w = v'$ to get $v'$, and integrate that to get $v$.
+
+Substitute $v$ into $y = v \cdot y_1$ along with $y_1$ (which is already known) to get $y$, the second solution.
 
 ### Non-homogenous Problem
 
@@ -156,3 +168,42 @@ The general solution of the homogenous equation is often called the **complement
 A solution of the non-homogenous equation, $y_p$, is called a **particular solution**.
 
 The general solution is $y = y_c + y_p$.
+
+### Method of Superposition
+
+If $g$ can be written as a *sum of a finite number of functions*
+
+$$g(x) = g_1(x) + ... + g_m(x)$$
+
+we can write it as
+
+$$L[y] = y'' + p(x)y' + q(x)y = g_i(x), i = 1, ..., m$$
+
+A particular solution of the above can be obtained as a sum:
+
+$$y_p(x) = y_{p_1}(x) + ... + y_{p_m}(x)$$
+
+The general solution would be given by $y = y_c(x) + y_{p_1}(x) + ... + y_{p_m}(x)$, where $y_c$ is the complementary solution.
+
+### Method of Undetermined Coefficients
+
+Approach: Guess the form of a particular solution with unknown coefficients and substitute in the differential equation.
+
+Caveat: Finding the correct form of a particular solution for a general differential equation is difficult
+
+Special case: $ay'' + by' + cy = g(x)$
+- $a, b, c \in R$ - constant coefficients
+- $g(x)$ is a product of
+	- a) Exponential function
+	- b) Polynomial
+	- c) Sinusoid
+
+$$g(x) = e^{ax} (a_0 x^n + a_1 x^{n - 1} + ... + a_n) {}$$
+
+### Method of Variation of Parameters
+
+Replace the constants $c_1$ and $c_2$ in the equation $y_c(x) = c_1 y_1(x) + c_2 y_2(x)$ with some functions $\phi_1$ and $\phi_2$ such that
+
+$$y_p(x) = \phi_1 (x) y_1(x) + \phi_2 (x) y_2(x)$$
+
+satisfies the non-homogenous differential equation $y'' + p(x) y' + q(x) y = g(x)$.

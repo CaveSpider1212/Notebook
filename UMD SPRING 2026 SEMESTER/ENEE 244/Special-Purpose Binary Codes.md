@@ -76,7 +76,7 @@ For binary numbers: Add an extra bit to the data word being transmitted, called 
 
 We can have an odd or even parity:
 - Odd parity: Add bit that makes \# of 1's odd before transmission
-- Even parity: Add bit that makes \# of 1's even before transmission
+- Even parity: Add bit that makes \# of 1's even before transmission ^55455f
 
 Then the data word along with the parity bit is transmitted.
 

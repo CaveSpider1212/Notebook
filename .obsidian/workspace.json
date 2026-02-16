@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9aaee8767c1cc2e3",
+        "id": "7987cc32190b752c",
         "type": "tabs",
         "children": [
           {
-            "id": "50ffb17d5a0aa78b",
+            "id": "d4551b2e078a6a0b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,11 +166,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "50ffb17d5a0aa78b",
+  "active": "d4551b2e078a6a0b",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 AND Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 Exclusive-NOR Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 XOR Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 NOR Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 NAND Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 Buffer Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 NOT Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 OR Gate.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md"
   ]
 }
