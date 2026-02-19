@@ -57,7 +57,10 @@ For example, $(101010)_2$ can be separated as $(101)_2$ and $(010)_2$, which equ
 > [!info] Binary Multiplication
 > Exactly the same as multiplication of decimal numbers, with the only difference being doing [[Binary Representations and Arithmetic#^facd10|binary addition]] in the end.
 
-### Convert decimal to non-decimal
+### Convert decimal and non-decimal
+
+> [!info] Base Numbers
+> Numbers in base $x$ means each digit represents a different power of $x$ ($x^0, x^1, x^2, ...x^n$).
 
 Take the decimal number, and divide repeatedly by the base. Repeat with each quotient until we get a quotient of 0.
 

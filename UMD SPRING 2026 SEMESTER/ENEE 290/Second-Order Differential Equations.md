@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-2-4
-description: 2/4, 2/9, 2/11, 2/16 notes (Lecture 3, 4, 5, 6)
+description: 2/4, 2/9, 2/11, 2/16, 2/18 notes (Lecture 3, 4, 5, 6, 7)
 ---
 
 $$y'' = f(x, y, y')$$ 
@@ -207,3 +207,27 @@ Replace the constants $c_1$ and $c_2$ in the equation $y_c(x) = c_1 y_1(x) + c_2
 $$y_p(x) = \phi_1 (x) y_1(x) + \phi_2 (x) y_2(x)$$
 
 satisfies the non-homogenous differential equation $y'' + p(x) y' + q(x) y = g(x)$.
+
+Assuming $y_1$ and $y_2$ are known linearly independent solutions of the equation:
+
+$$\phi_1' y_1 + \phi_2' y_2 = 0$$
+$$\phi_1' y_1 + \phi_2' y_2' = g$$
+
+$$\phi_1' = \frac{-y_2 g}{W(y_1, y_2)}$$
+$$\phi_2' = \frac{y_1 g}{W(y_1, y_2)}$$
+
+Integrating the above 2 equations yields a particular solution of the non-homogenous equation $y'' + p(x) y' + q(x) y = g(x)$.
+
+### Summary
+
+$$y'' + p(x) y' + q(x) y = g(x)$$
+
+When $p$ and $q$ are constants:
+- Always possible to find two linearly independent solutions of the homogenous equation (by using the characteristic equations)
+- A particular solution can be obtained by the *method of variation of parameters* (more general method)
+- When $g$ is of an appropriate form, the *method of undetermined coefficients* can be used to find a particular solution
+
+When $p$ and $q$ are not constants:
+- There is no general way to solve the non-homogenous differential equation
+- If one solution of the homogenous equation can be found (somehow), a second solution can be obtained using the *method of reduction of order*
+- A particular solution can be found by the *method of variation of parameters*

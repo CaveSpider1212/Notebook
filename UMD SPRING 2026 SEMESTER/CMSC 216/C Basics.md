@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-2-3
-description: 2/3, 2/5 notes
+description: 2/3, 2/5, 2/10, 2/12, 2/17 notes
 ---
 
 Every programming language should have:
@@ -146,3 +146,28 @@ Need `&` operator for integers/characters/doubles, but not for strings.
 `int fprintf(FILE *fh, char *format, arg1, arg2, ...`: prints data to a file
 
 `void rewind(FILE *fh)`: returns the given open file handle to the beginning of the file
+
+### Binary Data I/O Functions
+
+Files are opened/closed the same way.
+
+`size_t fread(void *dest, size_t byte_size, size_t count, FILE *fh)` attempts to read a number of bytes (`byte` \* `count`) from a file into a buffer, and returns the number of bytes read.
+
+`size_t fwrite(void *src, size_t byte_size, size_t count, FILE *fh)` writes binary data to a function.
+
+Binary files are usually smaller than text files and can be directly read into memory, but is not very readable.
+
+Text data is more readable and verbose, but must be parsed and converted into binary numbers. 
+
+### A Program is Born
+
+Write some C code in a file and compile it using `gcc -o`.
+
+- Compilation is a multi-step process
+	- Check syntax for correctness/errors
+	- Perform optimizations on the code if possible
+	- Translate result to **Assembly** language for a specific target processor (Intel, ARM)
+	- **Assemble** the code into **object code**, binary format (ELF) which the target CPU understands
+	- **Link** the binary code to any required libraries (e.g. printing) to make an **executable**
+
+An executable program is created this way, but we need a **loader** program to run it. A loader program copies executable into memory, initializes any shared library/memory references required parts, sets up memory to refer to initial instruction.
