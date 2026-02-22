@@ -30,6 +30,8 @@ Take the sum of all the terms (minterms) whose function output value is 1.
 
 This would be called the **minterm canonical form** and is unique to the function.
 
+The number for the midterm corresponds to the value of each variable (for example, $m_2$ would be $x' y z'$ since $2$ in binary is $010$).
+
 ### Representing Boolean functions using maxterms
 
 Take the product of all the terms (maxterms) whose function output value is 0.

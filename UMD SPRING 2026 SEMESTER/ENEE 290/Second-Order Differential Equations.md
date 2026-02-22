@@ -119,7 +119,7 @@ $$y = c_1 e^{rx} + c_2 x e^{rx}$$
 ##### Case 3: $b^2 < 4ac$
 
 $$\lambda = -\frac{b}{2a}$$
-$$$\mu = \frac{\sqrt{4ac - b^2}}{2a}$$
+$$\mu = \frac{\sqrt{4ac - b^2}}{2a}$$
 
 $$y_1 = e^{\lambda x} (\cos(\mu x) + j \sin(\mu x))$$
 $$y_2 = e^{\lambda x} (\cos(\mu x) - j \sin(\mu x))$$
@@ -198,7 +198,14 @@ Special case: $ay'' + by' + cy = g(x)$
 	- b) Polynomial
 	- c) Sinusoid
 
-$$g(x) = e^{ax} (a_0 x^n + a_1 x^{n - 1} + ... + a_n) {}$$
+> [!info] Table of Particular Solutions
+> |$g(x)$|$y_p(x)$
+> |-|-
+> |$a_0 x^n + a_1 x^{n - 1} + ... + a_n =: P_n(x)$|$x^s (A_0 x^{n} + A_1 x^{n - 1} + ... + A_n)$
+> |$e^{\alpha x} P_n(x)$|$x^s (A_0 x^{n} + A_1 x^{n - 1} + ... + A_n) e^{\alpha x}$
+> |$e^{\alpha x} P_n(x) \sin(\beta x)$ or $e^{\alpha x} P_n(x) \cos(\beta x)$|$x^s [(A_0 x^{n} + A_1 x^{n - 1} + ... + A_n) \cos(\beta x) + (B_0 x^{n} + B_1 x^{n - 1} + ... + B_n) \sin(\beta x)] e^{\alpha x}$
+> 
+> $n$ is the degree of the polynomial and $s$ is the number of times our choice/guess for $y_p$ is a solution of the corresponding homogenous equation (general solution)
 
 ### Method of Variation of Parameters
 

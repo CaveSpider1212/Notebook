@@ -78,6 +78,8 @@ We can have an odd or even parity:
 - Odd parity: Add bit that makes \# of 1's odd before transmission
 - Even parity: Add bit that makes \# of 1's even before transmission ^55455f
 
+If there are an odd number of 1's in the transmission, then the even parity is 1 while the odd parity is 0. If there are an even number of 1's in the transmission, then the even parity is 0 while the odd parity is 1.
+
 Then the data word along with the parity bit is transmitted.
 
 ### Error check with parity bit codes

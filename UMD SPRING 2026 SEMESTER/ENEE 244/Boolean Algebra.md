@@ -50,6 +50,9 @@ Logical operators have [[Truth Tables|truth tables]], which define what those op
 - AND and OR have no inverses, while NOT is its own inverse
 - Both AND and OR distribute over the other
 
+> [!info] Distributive Law of OR over AND
+> $$X + YZ = (X + Y)(X + Z)$$
+
 ### Duality
 
 **Duality**: Replace $+$, $\cdot$ by the other, and flip $0, 1$, then the result remains true
