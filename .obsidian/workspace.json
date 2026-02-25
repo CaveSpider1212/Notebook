@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2878f7acd42a9f57",
+        "id": "4126a73282b774fe",
         "type": "tabs",
         "children": [
           {
-            "id": "5d336688dc78f275",
+            "id": "c62605778540f972",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,8 +166,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d336688dc78f275",
+  "active": "c62605778540f972",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Map Math.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
@@ -177,12 +183,8 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 AND Gate.png",

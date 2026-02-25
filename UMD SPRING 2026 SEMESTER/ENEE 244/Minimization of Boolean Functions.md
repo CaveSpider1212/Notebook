@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-2-12
-description: 2/16 notes (Slide set 6)
+description: 2/16, 2/18, 2/23 notes (Slide set 6)
 ---
 
 ### Boolean simplification

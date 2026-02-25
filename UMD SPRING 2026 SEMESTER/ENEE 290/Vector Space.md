@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-2-18
-description: 2/18 notes (Lecture 7)
+description: 2/18, 2/23 notes (Lecture 7, 8)
 ---
 
 ### Field
@@ -41,3 +41,10 @@ Additional properties of vector spaces $V$ over field $F$:
 - For all $u \in V$, $-u = (-1)u$, where -1 is the additive inverse of the multiplicative identity in the field $F$
 - If $k$ is a scalar in $F$ and $u \in V$ such that $ku = 0$, then either $k = 0$ or $u = 0$
 
+### Subspaces
+
+> [!info] Subspace
+> A nonempty set $W$ of vector space $V$ (over a field $F$) is called a **subspace** of $V$ if $W$ is a vector space (over $F$) under the operations of vector addition and scalar multiplication defined on $V$
+
+> [!tip] Theorem
+> Suppose $W$ is a nonempty subset of $V$. Then, $W$ is a subspace of $V$ if and only if $W$ is closed under the operations of vector addition and scalar multiplication.
