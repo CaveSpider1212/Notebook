@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4126a73282b774fe",
+        "id": "565875a413374a93",
         "type": "tabs",
         "children": [
           {
-            "id": "c62605778540f972",
+            "id": "b4d71da8f616bdd9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/K-Map Math.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "K-Map Math"
             }
           }
         ]
@@ -166,14 +170,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c62605778540f972",
+  "active": "b4d71da8f616bdd9",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Map Math.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Map Math.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
@@ -184,7 +189,6 @@
     "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 AND Gate.png",

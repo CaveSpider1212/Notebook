@@ -66,6 +66,8 @@ Take the decimal number, and divide repeatedly by the base. Repeat with each quo
 
 Write the remainders in reverse order (starting from the last quotient all the way to the original decimal number). This is the number is non-decimal form.
 
+To write numbers in decimal form, multiply each digit by the corresponding base and add them together (see the above note).
+
 ### Converting fractions
 
 Similar method as above, but keep multiplying.
