@@ -25,7 +25,7 @@ Elements of a field are called **scalars**.
 > 3. Vector addition is associative
 > 4. There is a "zero vector" $0 \in V$ such that $v + 0 = v$
 > 5. Each element $v \in V$ has additive inverse $w \in V$, i.e. $v + w = 0$
-> 6. Closed under scalar multiplication ($r \cdot v \in V$)
+> 6. Closed under scalar multiplication ($r \cdot v \in V$ for some $r \in F$)
 > 7. Addition of scalars distributes over scalar multiplication
 > 8. Scalar multiplication distributes over vector addition
 > 9. Ordinary multiplication of scalars associates with scalar multiplication

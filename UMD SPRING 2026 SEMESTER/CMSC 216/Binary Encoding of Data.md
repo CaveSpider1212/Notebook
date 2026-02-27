@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-2-17
-description: 2/17 notes
+description: 2/17, 2/29, 2/24, 2/26 notes
 ---
 
 See [[Binary Representations and Arithmetic]] and [[Special-Purpose Binary Codes]]
@@ -84,3 +84,23 @@ x = y >> k; // right shift y by k bits, store in x
 ### Shifty Arithmetic Tricks
 
 Shifting a number $x$ left by $k$ bits multiplies it by $2^k$. Shifting a number $x$ right by $k$ bits divides it by $2^k$.
+
+### Checking/Setting Bits
+
+Check if bit at position `i` is set in `x` by saying `x & (1 << i)`.
+
+Set a bit at position `i` (set to 1) in `x` by saying `x | (1 << i)`.
+
+Clear a bit at position `i` (set to 0) in `x` by saying `x & ~(1 << i)`.
+
+### Byte ordering in Memory
+
+Single bytes like ASCII characters lay out sequentially in memory in increasing address.
+
+Multi-byte entities like 4-byte `int`s require decisions on byte ordering.
+
+Two options for ordering multi-byte data in memory
+- **Little Endian**: Least significant byte at low address
+- **Big Endian**: Most significant byte at low address
+
+Most modern machines use Little Endian ordering by default.

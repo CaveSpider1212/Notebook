@@ -13,10 +13,14 @@ description: 2/23, 2/25 notes (Lecture 8, 9)
 > 
 > Similarly, a finite nonempty set of vectors $\{ v_1, v_2, ..., v_m \} \subset V$ is said to be **linearly independent** if only $c_1 = c_2 = ... = c_m = 0$ satisfy the equality above.
 
+If at least one of the vectors in the set can be written as a linear combination of the other vectors in the set, then the set is linearly dependent.
+
 ### Spanning Set
 
 > [!info] Spanning Set
 > Considering a set of vectors $\{ v_1, v_2, ..., v_m \}$. If every vector in a vector space $V$ can be written as a linear combination of the vectors in the set, we say that $V$ is *spanned* or *generated* by the set, and call the set $\{ v_1, v_2, ..., v_m \}$ a **spanning set** for $V$. Also, we say that $\{ v_1, v_2, ..., v_m \}$ *spans* $V$.
+> 
+> If it is a $n$-dimensional space but the set does not have $n$ vectors in it, then it does not span the vector space.
 
 ### Linear Span
 
@@ -41,7 +45,7 @@ description: 2/23, 2/25 notes (Lecture 8, 9)
 > 
 > $$B = \{ b_1, b_2, ..., b_m \}$$
 > 
-> in $V$, which is *linearly independent* and *spans the vector space $V$*
+> in $V$, which is *linearly independent* and *spans the vector space $V$*.
 
 $B$ spans $V$ if and only if any vector $v \in V$ can be written as a linear combination of the vectors in $B$
 
