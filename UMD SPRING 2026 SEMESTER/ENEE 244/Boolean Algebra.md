@@ -51,7 +51,7 @@ Logical operators have [[Truth Tables|truth tables]], which define what those op
 - Both AND and OR distribute over the other
 
 > [!info] Distributive Law of OR over AND
-> $$X + YZ = (X + Y)(X + Z)$$
+> $$X + YZ = X + (Y \cdot Z) = (X + Y)(X + Z)$$
 
 ### Duality
 
@@ -76,4 +76,4 @@ Using the results of a truth table, we can also derive a Boolean function by tak
 ### Boolean simplification
 
 1. Algebraic manipulation: Using algebra (distribution, commutative, etc.)
-2. Boolean manipulation: More systematic and guaranteed to reach minimum size expression
+2. Boolean minimization: More systematic and guaranteed to reach minimum size expression

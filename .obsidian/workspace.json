@@ -4,53 +4,81 @@
     "type": "split",
     "children": [
       {
-        "id": "565875a413374a93",
+        "id": "3e65941acbd16b2d",
         "type": "tabs",
         "children": [
           {
-            "id": "b4d71da8f616bdd9",
+            "id": "321d9bda8aabf566",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Vector Space"
+              "title": "Binary Representations and Arithmetic"
             }
           },
           {
-            "id": "c6111fc75f16294c",
+            "id": "96d14f04223d1ef2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Basis, Linear Independence, and Span"
+              "title": "Special-Purpose Binary Codes"
             }
           },
           {
-            "id": "0b4883ea6f9bc818",
+            "id": "6189f4e52d24ffc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-                "mode": "source",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Assembly Basics and x86-64"
+              "title": "Boolean Algebra"
+            }
+          },
+          {
+            "id": "1f811f6de087f1ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Normal and Canonical Forms"
+            }
+          },
+          {
+            "id": "fd7072ae34761d01",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Other Binary Functions and Don't Care Conditions"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,18 +227,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c6111fc75f16294c",
+  "active": "fd7072ae34761d01",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/K-Map Math.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Truth Tables.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Proofs.md",
@@ -218,10 +249,7 @@
     "UMD FALL 2025 SEMESTER/CMSC 250/Introduction to Propositional Logic.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Conditionals and Biconditional Statements.md",
     "UMD FALL 2025 SEMESTER/CMSC 250/Arguments.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 AND Gate.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 Exclusive-NOR Gate.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/2.16.26 XOR Gate.png",

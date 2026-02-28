@@ -19,10 +19,10 @@ This means there are $2^{2^n}$ functions of $n$ variables since each number in t
 > |OR|![[2.16.26 OR Gate.png]]|$F = x + y$|True when either input is true
 > |Inverter (NOT)|![[2.16.26 NOT Gate.png]]|$F = x'$|True when input is false
 > |Buffer|![[2.16.26 Buffer Gate.png]]|$F = x$|True when input is true
-> |NAND ("Not AND")|![[2.16.26 NAND Gate.png]]|$F = (xy)'$|True when either input is false
+> |NAND ("Not AND")|![[2.16.26 NAND Gate.png]]|$F = (xy)'$|True when at least one input is false
 > |NOR ("Not OR")|![[2.16.26 NOR Gate.png]]|$F = (x + y)'$|True when both inputs are false
 > |XOR (Exclusive-OR)|![[2.16.26 XOR Gate.png]]|$F = xy' + x'y = x \oplus y$|True when only one input is true
-> |Exclusive-NOR|![[2.16.26 Exclusive-NOR Gate.png]]|$F = xy + x'y' = (x \oplus y)'$|True when both inputs are either both true or both false
+> |Exclusive-NOR|![[2.16.26 Exclusive-NOR Gate.png]]|$F = xy + x'y' = (x \oplus y)'$|True when the inputs are either both true or both false
 
 ### Universality of NOR and NAND
 
@@ -40,6 +40,7 @@ The intuition for a multi-input XOR gate is that, regardless of the number of in
 - This is the definition of [[Special-Purpose Binary Codes#^55455f|even party]], making XOR useful for calculating EVEN parity bits
 - XNOR is good for a parity bit for ODD parity
 
+So we could either have a multi-input XOR/XNOR gate or have multiple two-input XOR/XNOR gates which would do the same thing.
 
 ### Don't-care Conditions
 

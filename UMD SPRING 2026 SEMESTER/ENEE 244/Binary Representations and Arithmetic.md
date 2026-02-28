@@ -131,7 +131,7 @@ There are two cases (both of which are correct);
 > 
 > The two's complement of $111010$ is $000110$, or $00110$, so the answer is $-00110$ (which equals -6).
 
-### Representation of numbers in computers
+### Representation of numbers in computers (2's complement representation)
 
 All modern computers use 2's complement representation, so all negative numbers are represented by the 2's complement of their absolute values.
 
@@ -142,3 +142,14 @@ For numbers with $n$-bit absolute values, use $n + 1$ bits int he computer. The 
 Overflow check: If the carry-in to the $n+1$th bit $\neq$ carry-out, then there is overflow.
 
 In an $n$-bit computer, 2's complement numbers represent the number range $[-2^{n-1} ... 2^{n-1} - 1]$.
+
+### Signed magnitude representation
+
+The first bit on the left is the sign bit, while the remaining bits are the magnitude bits.
+
+Disadvantages:
+- Need separate subtraction hardware
+- Two zeros: 00000 and 10000
+- One less number ($-(2^{n - 1} - 1)$ to $2^{n - 1} - 1$)
+
+Not used in computers due to these drawbacks.
