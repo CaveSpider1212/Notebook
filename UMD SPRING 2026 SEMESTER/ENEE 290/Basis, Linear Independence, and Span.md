@@ -83,12 +83,3 @@ Suppose that $V$ is a vector space of dimension $n$ and $S = \{ v_1, v_2, ..., v
 
 > [!tip] Theorem
 > Suppose that $S$ is a subspace of a vector space $V$ of dimension $n$. Then, $\text{dim}(S) \leq \text{dim}(V)$. Moreover, if $\text{dim}(V) = \text{dim}(S)$, then $S = V$
-
-### Inner Product
-
-> [!info] Inner Product
-> Suppose that $V$ is a vector space over $F$. An **inner product** on $V$ is a function that assigns to each ordered pair of vectors $v$ and $w$ in $V$ a scalar in $F$, denoted by $\langle v, w \rangle$, such that for all $u, v, w$ in $V$ and all $r$ in $F$, we have
-> 1. $\langle u + v, w \rangle = \langle u, w \rangle + \langle v, w \rangle$
-> 2. $\langle rv, w \rangle = r\langle v, w \rangle$
-> 3. $\bar{\langle v, w \rangle} = \langle w, v \rangle$, where the overline denotes complex conjugation
-> 4. $\langle v, v \rangle > 0$ if $v \neq 0$

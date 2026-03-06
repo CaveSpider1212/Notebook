@@ -70,11 +70,13 @@ To write numbers in decimal form, multiply each digit by the corresponding base 
 
 ### Converting fractions
 
-Similar method as above, but keep multiplying.
+To convert decimal fractions to binary, it is a similar method as above, but keep multiplying (until the fractional part is 0) instead of dividing. Write the remainders in the order that you did the calculations (opposite of non-fractions).
 
 Multiply the fractional number by the base. You will likely get a number that is a fraction, so take either 0 or 1 and add the fractional part to it. Repeat with the fractional part, and keep going until the carry-over fraction is zero. Finally, read out the 0 or 1 from top to bottom.
 
 (see slides)
+
+To convert from binary to decimal fractions, convert the whole part as normal and for each digit in the fractional part, multiply it by $2^x$, where $x$ starts from $-1$ (the tenths digit) and goes down.
 
 ### Complements of numbers
 
@@ -86,6 +88,11 @@ There are two kinds of complements of a number $N$ for a radix (base) $r$:
 ### Radix complements
 
 The radix complement is simply the diminished radix complement + 1.
+
+> [!tip] Radix and Diminished Radix Complements (Easy)
+> Diminished Radix Complement: $(r - 1)^n - N$, where $n$ is the number of times to repeat $(r - 1)$ and $N$ is the original number, which we are subtracting normally from $(r - 1)^n$
+> 
+> Radix Complement: $(r - 1)^n - N + 1$, which is the diminished radix complement + 1
 
 If the number is a fraction, then remove the radix point, convert, then restore the fraction point.
 

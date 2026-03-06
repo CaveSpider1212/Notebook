@@ -10,7 +10,7 @@ description: 2/2, 2/4, 2/9 notes (Slide set 3)
 
 It is the foundation behind designing all binary digital circuits. The two types are:
 - Combinational circuits: Those whose output depends only on the current inputs
-- Sequential circuits: Those whose output depends on current and past inputs
+- Sequential circuits: Those whose output depends on current and past inputs ^ab8de8
 	- Circuits that remember
 
 Computers require both types of circuits. Combinational circuits are in charge of math and logic functions, while sequential circuits handle registers and memory.

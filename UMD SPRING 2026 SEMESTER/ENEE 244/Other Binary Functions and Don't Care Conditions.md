@@ -13,22 +13,42 @@ This means there are $2^{2^n}$ functions of $n$ variables since each number in t
 ### Logic gate circuit symbols
 
 > [!info] Logic Gates
-> |Name|Graphic symbol|Algebraic function|Truth table description
+> |Name|Graphic symbol|Algebraic function|Truth table description (2 variables)
 > |-|-|-|-
 > |AND|![[2.16.26 AND Gate.png]]|$F = x \cdot y$|True when both inputs are true
-> |OR|![[2.16.26 OR Gate.png]]|$F = x + y$|True when either input is true
+> |OR|![[2.16.26 OR Gate.png]]|$F = x + y$|True when at least one input is true
 > |Inverter (NOT)|![[2.16.26 NOT Gate.png]]|$F = x'$|True when input is false
 > |Buffer|![[2.16.26 Buffer Gate.png]]|$F = x$|True when input is true
 > |NAND ("Not AND")|![[2.16.26 NAND Gate.png]]|$F = (xy)'$|True when at least one input is false
 > |NOR ("Not OR")|![[2.16.26 NOR Gate.png]]|$F = (x + y)'$|True when both inputs are false
 > |XOR (Exclusive-OR)|![[2.16.26 XOR Gate.png]]|$F = xy' + x'y = x \oplus y$|True when only one input is true
-> |Exclusive-NOR|![[2.16.26 Exclusive-NOR Gate.png]]|$F = xy + x'y' = (x \oplus y)'$|True when the inputs are either both true or both false
+> |XNOR (Exclusive-NOR)|![[2.16.26 Exclusive-NOR Gate.png]]|$F = xy + x'y' = (x \oplus y)'$|True when the inputs are either both true or both false
 
 ### Universality of NOR and NAND
 
 AND, OR, and NOT can all be replaced in terms of NOR. The same goes for NAND.
 
 This means both NOR and NAND are **universal gates**, meaning that they alone can be used to build all Boolean circuits.
+
+> [!info] Representing functions in terms of NOR
+> **AND**:
+> x AND y = (x' OR y')' = ((x NOR x) OR (y NOR y))' = (x NOR x) NOR (y NOR y)
+> 
+> **OR**:
+> x OR y = ((x OR y)')' = (x NOR y)' = (x NOR y) NOR (x NOR y)
+> 
+> **NOT**:
+> x' = x NOR x
+
+> [!info] Representing functions in terms of NAND
+> **AND**:
+> x AND y = ((x AND y)')' = (x NAND y)' = (x NAND y) NAND (x NAND y)
+> 
+> **OR**:
+> x OR y = (x' AND y')' = (x' NAND y') = ((x NAND x) NAND (y NAND y))
+> 
+> **NOT**:
+> x' = x NAND x
 
 ### Multi-input gates
 
@@ -46,4 +66,6 @@ So we could either have a multi-input XOR/XNOR gate or have multiple two-input X
 
 In certain problems, some outputs are not specified, and they can be either 1 or 0. They are called **don't care conditions**, denoted by "X" or sometimes "d."
 
-Such functions are represented separately in the minterm canonical form
+Such functions are represented separately in the minterm canonical form.
+
+Advantage: we can make circuits smaller this way

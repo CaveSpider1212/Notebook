@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-2-23
-description: 2/23, 2/25 notes (Slide set 7)
+description: 2/23, 2/25, 3/4 notes (Slide set 7, 8)
 ---
 
 ### Implies and Subsumes
@@ -60,3 +60,17 @@ Find all essential prime implicants by drawing all prime implicants and find the
 How to generate all possible minimum expressions:
 - Essential prime implicants are contained in all minimum expressions (because they are essential)
 - Combine a minimum number of non-essential prime implicants in all possible ways to include all the minterms
+
+### Minimized product of sums with K-maps
+
+To obtain the minimized product of sums with K-maps, do the following:
+1. Combine zeros to obtain minimum $F'$
+2. Complement $F'$ using DeMorgan's Law to get minimum $F$
+
+### Minimizing functions with don't care conditions
+
+To minimize a function with don't care conditions:
+1. Draw the K-map in the usual way, but with X's for the don't care input combinations
+2. Combine 1's to yield rectangles, while considering each X value to be either a 0 or 1, whichever yields the minimum number of maximum-size rectangles
+
+If we want to derive product-of-sums, we need to combine the zeros (see previous section), but this may mean we need to choose different values for some X. This means that the resulting function could be different from the sum-of-product result, but both are correct.

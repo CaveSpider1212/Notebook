@@ -12,6 +12,8 @@ $$\frac{dy}{dx} = xy$$
 
 **Ordinary differential equations** are when the unknown function depends only on a *single* independent variable (like the example above).
 
+**Partial differential equations** involve partial derivatives of unknown functions of *two or more independent variables* (not in the course).
+
 The **order** of a differential equation is the order of the *highest derivative*.
 
 > [!info] Linear Differential Equations
@@ -20,6 +22,8 @@ The **order** of a differential equation is the order of the *highest derivative
 > $$a_0 (x) y^{(n)} + a_1 (x) y^{(n - 1)} + ... + a_n (x) y = F(x)$$
 > 
 > where $a_0, a_1, ..., a_n$ and $F$ are functions of $x$ only.
+> 
+> Equations that are not of this form (for example, $\frac{d^2 y}{dx^2} + y^2 = 0$) are **nonlinear differential equations**.
 
 ### General and Particular Solutions
 
@@ -112,7 +116,7 @@ $$\mu(x) = e^{\int^{x} p(t) dt}$$
 
 ^7633b7
 
-> [!tip] Uniqueness of a Solution Theorem
+> [!tip] Existence and Uniqueness of a Solution Theorem
 > Suppose that the functions $p$ and $g$ are continuous on an open interval $(a, b)$ containing $x_0$. Then, there exists a *unique* solution $y = u(x)$ that satisfies the equation
 > 
 > $$y' + p(x)y = g(x)$$
