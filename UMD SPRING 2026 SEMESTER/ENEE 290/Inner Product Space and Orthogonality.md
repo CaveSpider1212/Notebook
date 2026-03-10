@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-3-2
-description: 3/2 notes (Lecture 10)
+description: 3/2, 3/9 notes (Lecture 10, 12)
 ---
 
 ### Inner Product
@@ -84,3 +84,26 @@ A vector $v$ is called a **unit vector** if $||v|| = 1$.
 
 > [!tip] Theorem
 > Suppose $\{ v_1, v_2, ..., v_m \}$ is an *orthogonal set* of nonzero vectors in an inner product space. Then, $\{ v_1, v_2, ..., v_m \}$ is *linearly independent*.
+
+If $B = \{ v_1, v_2, ..., v_m \}$ is an orthogonal basis for inner product space $V$, then any vector $u \in V$ can be written *uniquely* as
+
+$$u = c_1 v_1 + ... + c_n v_n$$ 
+
+$$c_i = \frac{\langle u, v_i \rangle}{||v_i||^2}$$
+
+If $B = \{ v_1, v_2, ..., v_m \}$ is an *orthonormal* basis, then the length/norm is equal to 1, so:
+
+$$u = \langle u, v_1 \rangle v_1 + ... + \langle u, v_n \rangle v_n$$
+
+### Gram-Schmidt Process
+
+> [!info] Gram-Schmidt Process
+> $$u_n = v_n - \sum\limits_{k = 1}^{n - 1} \frac{\langle v_n, u_k \rangle}{||u_k||^2} u_k$$
+
+### Projection
+
+> [!info] Projection
+> Suppose that $W \subseteq V$ is a subspace of an inner product space $V$ and that $V \in V \backslash W$. Then, the vector $v$ can be *uniquely* written as a sum $v_W + v_{\perp}$, where $v_W \in W$ and $\langle w, v_{\perp} \rangle = 0$ for all $w \in W$.
+> 
+> $v_W$ is called the **projection** of $v$ onto $W$, $v_W = \text{proj}_W (v)$.
+

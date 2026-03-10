@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-3-4
-description: 3/4 notes (Slide set 9)
+description: 3/4, 3/9 notes (Slide set 9)
 ---
 
 ### Combinational circuits
@@ -59,3 +59,30 @@ $S = x'y'z + x'yz' + xy'z' + xyz$
 $C = xy + xz + yz$
 
 Unfortunately, the resulting circuits are large.
+
+### 4-bit full adder (ripple carry adder)
+
+We can implement a N-bit adder by cascading N full adders.
+
+The reason this works is that we are adding $A_i + B_i + C_i$ at each stage with the full adder at that stage. We can build larger adders by cascading 4-bit ripple carry adders (for example, 8 4-bit adders yields a 32-bit adder).
+
+### Why ripple carry adders are slow
+
+The propagation time for a ripple-carry adder is N x D, where N is the number of bits and D is the propagation delay of a single full adder. This can be far too slow for large values of N, like 32 or 64, used in modern computers.
+
+### How to build a faster adder: mathematics
+
+We can build a faster adder by calculating the carries for each stage directly from the inputs, instead of from the previous stage.
+
+$C_{i + 1} = G_i + P_i C_i$, where $P_i = A_i \oplus B_i$ and $G_i = A_i \cdot B_i$
+
+$P_i$ and $G_i$ can be computed at each bit very quickly, without using the input carry from the previous stage.
+
+Now we can express $C_1, C_2, ...$ directly by expanding the carry equation above successively. These are two-level circuits, which are a faster way of computing carries directly from available inputs without using previous carries.
+
+This is called **carry look ahead**, which results in a faster circuit for addition.
+
+Carry look ahead (CLA) adders are often used in circuits, but if it is used directly for a large number of bits like 32, then a lot of logic and therefore silicon area is needed, so 4-bit or 8-bit CLA modules are common to reduce the amount of logic.
+
+
+
