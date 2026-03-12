@@ -55,7 +55,7 @@ multstore:
 Most instructions involve registers, access or change register value.
 
 There are some "general purpose" registers:
-![[3.5.25 Registers.png]]
+![[3.5.26 Registers.png]]
 
 ### Basic Instruction Classes
 

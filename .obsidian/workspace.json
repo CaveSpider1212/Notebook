@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fcd41b416f6736eb",
+        "id": "48139bbf7341688b",
         "type": "tabs",
         "children": [
           {
-            "id": "d95284a43a380360",
+            "id": "6a3264efd9d802d5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,21 +163,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d95284a43a380360",
+  "active": "6a3264efd9d802d5",
   "lastOpenFiles": [
     "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Images",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Images/3.5.25 Registers.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.11.26 Magnitude Comparator.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Images",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Images/3.5.26 Registers.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.4.26 Half Adder.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md"
   ]
 }
