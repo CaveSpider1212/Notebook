@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-3-2
-description: 3/2, 3/9 notes (Lecture 10, 12)
+description: 3/2, 3/9 notes (Lecture 10, 12, 13)
 ---
 
 ### Inner Product
@@ -10,7 +10,7 @@ description: 3/2, 3/9 notes (Lecture 10, 12)
 > Suppose that $V$ is a vector space over $F$. An **inner product** on $V$ is a function that assigns to each ordered pair of vectors $v$ and $w$ in $V$ a scalar in $F$, denoted by $\langle v, w \rangle$, such that for all $u, v, w$ in $V$ and all $r$ in $F$, we have
 > 1. $\langle u + v, w \rangle = \langle u, w \rangle + \langle v, w \rangle$
 > 2. $\langle rv, w \rangle = r\langle v, w \rangle$
-> 3. $\bar{\langle v, w \rangle} = \langle w, v \rangle$, where the overline denotes complex conjugation
+> 3. $\bar{\langle v, w \rangle} = \langle w, v \rangle$, where the overline denotes complex conjugation (flipping the sign of the imaginary part)
 > 4. $\langle v, v \rangle > 0$ if $v \neq 0$
 
 Special case: $F = R$ and $V = R^n$
@@ -31,6 +31,14 @@ Special case: $F = C$ and $V = C^n$
 
 > [!info] Norm
 > Let $V$ be an inner product space. For $v \in V$, we define the **norm** (length) of $v$ by $||v|| = \sqrt{\langle v, v \rangle}$.
+
+If $V = R^n (n \geq 1)$, then
+
+$$||v|| = \sqrt{\sum\limits_{i = 1}^{n} v_i^2}$$
+
+If $V = C^n (n \geq 1)$ then
+
+$$||v|| = \sqrt{\sum\limits_{i = 1}^{n} |v_i|^2}$$
 
 A vector $v$ is called a **unit vector** if $||v|| = 1$.
 
@@ -58,6 +66,8 @@ A vector $v$ is called a **unit vector** if $||v|| = 1$.
 > 
 > for all $i \neq j$.
 
+^04e6f7
+
 ### Orthonormal Sets
 
 > [!info] Orthonormal Set
@@ -78,7 +88,7 @@ A vector $v$ is called a **unit vector** if $||v|| = 1$.
 ### Orthogonal/Orthonormal Bases
 
 > [!info] Orthogonal and Orthonormal Bases
-> A basis $B = \{ v_1, v_2, ..., v_m \}$ for a (finite-dimensional) inner product space is called an **orthogonal basis** if the basis $B$ is an orthogonal set.
+> A basis $B = \{ v_1, v_2, ..., v_m \}$ for a (finite-dimensional) inner product space is called an **orthogonal basis** if the basis $B$ is an [[Inner Product Space and Orthogonality#^04e6f7|orthogonal set]].
 > 
 > Moreover, if the basis is orthonormal, i.e., $||v_i|| = 1$ for all $i = 1, ..., m$, it is called an **orthonormal basis**.
 
@@ -97,6 +107,8 @@ $$u = \langle u, v_1 \rangle v_1 + ... + \langle u, v_n \rangle v_n$$
 
 ### Gram-Schmidt Process
 
+If $B$ is a basis that is not necessarily orthogonal, we can find an orthogonal basis from $B$ using the Gram-Schmidt Process.
+
 > [!info] Gram-Schmidt Process
 > $$u_n = v_n - \sum\limits_{k = 1}^{n - 1} \frac{\langle v_n, u_k \rangle}{||u_k||^2} u_k$$
 
@@ -107,3 +119,6 @@ $$u = \langle u, v_1 \rangle v_1 + ... + \langle u, v_n \rangle v_n$$
 > 
 > $v_W$ is called the **projection** of $v$ onto $W$, $v_W = \text{proj}_W (v)$.
 
+Suppose $\{ w_1, w_2, ..., w_k \}$ is an *orthogonal* basis for $W$. Then,
+
+$$v_W = \frac{\langle v, w_1 \rangle}{||w_1||^2} w_1 + ... + \frac{\langle v, w_k \rangle}{||w_k||^2} w_k$$

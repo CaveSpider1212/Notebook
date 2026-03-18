@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-3-9
-description: 3/11 notes
+description: 3/11 notes (Lecture 13)
 ---
 
 ### Matrices
