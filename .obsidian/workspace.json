@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "48139bbf7341688b",
+        "id": "edc0fc6f403658ef",
         "type": "tabs",
         "children": [
           {
-            "id": "6bdd41584cf682bc",
+            "id": "419547000acbcb7c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Assembly Basics and x86-64"
-            }
-          },
-          {
-            "id": "6a3264efd9d802d5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "x86-64 Control Flow"
-            }
-          },
-          {
-            "id": "be438a025decc779",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Inner Product Space and Orthogonality"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,16 +163,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "be438a025decc779",
+  "active": "419547000acbcb7c",
   "lastOpenFiles": [
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Mux.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Priority Encoder Circuit.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Regular Encoder.png",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",

@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-3-9
-description: 3/11 notes (Lecture 13)
+description: 3/11, 3/23 notes (Lecture 13, 14)
 ---
 
 ### Matrices
@@ -51,8 +51,22 @@ A $n \times n$ square matrix $A$ is said to be **symmetric** if $A = A^T$.
 > 
 > $AC \in R^{m \times p}$, meaning it has $m$ rows and $p$ columns.
 
+$AC$ would be a linear combination of the columns of $A$.
+
 > [!example] Matrix Multiplication Example
 > $\begin{bmatrix} 3&1&2\\5&4&7 \end{bmatrix} \times \begin{bmatrix} 4&2\\3&5\\1&4 \end{bmatrix}$ = ?
 > 
 > $\begin{bmatrix} (3 \times 4) + (1 \times 3) + (2 \times 1) & (3 \times 2) + (1 \times 5) + (2 \times 4) \\ (5 \times 4) + (4 \times 3) + (7 \times 1) & (5 \times 2) + (4 \times 5) + (7 \times 4) \end{bmatrix}$
 > $= \begin{bmatrix} 17&19\\39&58 \end{bmatrix}$
+
+
+
+### Properties of Matrix Operations
+
+> [!tip] Theorem
+> Suppose $A, B, C$ are matrices of appropriate dimensions. THe matrix multiplication satisfies the following properties:
+> - Associativity
+> - Left distributivity
+> - Right distributivity
+
+Matrix multiplication is *not* commutative, even when the two matrices are both square matrices.
