@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-3-5
-description: 3/5, 3/10, 3/12 notes
+description: 3/5, 3/10, 3/12, 3/24 notes
 ---
 
 ### Control Flow in Assembly and the Instruction Pointer
@@ -85,7 +85,9 @@ A single if-statement usually has a single jump, but having else statements may 
 
 Must align `rsp` (stack pointer) to 16-byte boundaries when calling functions.
 
-`rsp` changes must be undone prior to return (so if it was changed using `subq`, must be removed using `addq`)
+`rsp` changes must be undone prior to return (so if it was changed using `subq`, must be removed using `addq`; same thing for pushing and popping).
+
+`call` pushes 8-byte return address on the stack, so to align stack to 16-bytes, we need to grow the stack by another 8 bytes.
 
 ### x86-64 Register/Procedure Convention
 
@@ -99,7 +101,7 @@ Arg 7, 8: Push into the stack
 **Callee save** registers: *must* restore these before returning
 - `rbx`, `rbp`, `r12`, `r13`, `r14`, `r15`
 
-**Stack pointer**
+**Stack pointer**: allocate space when calling functions and creating local variables
 - `rsp`
 
 ### Caller and Callee Save Register Mechanics
@@ -114,4 +116,14 @@ Callee save registers: Have the same values in them after a function call
 
 If local variables or callee save registers are needed on the stack, can use `push`/`pop` for these.
 
-Push and pop instructions are compound: they manipulate `%rsp` and move data in a single instruction
+Push and pop instructions are compound: they manipulate `%rsp` and move data in a single instruction.
+
+`pushX data` grows the stack and stores data at the top. For example, `pushq %rax` is the same as `subq $8, %rsp; movq %rax, (%rsp)`.
+
+`popX data` shrinks the stack and restores data from it. For example, `popl %edi` is the same thing as `movl (%rsp), %edi; addl $4, %rsp`.
+
+### Local Variables
+
+If we need an address, local variables must be stored in the stack pointer because memory has addresses, not registers. Otherwise, they can be stored in registers.
+
+If we want to pass local variables into functions, store it in the corresponding argument registers then call the function.

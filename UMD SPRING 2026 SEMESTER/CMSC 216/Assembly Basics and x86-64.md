@@ -98,6 +98,8 @@ This moves data from
 - Register to main memory
 - Immediate value (constant) to another location
 
+Note: memory to memory movement is NOT allowed
+
 - Variations:
 	- `movq`: 64-bit (8-byte)
 	- `movl`: 32-bit (4-bit)
@@ -115,6 +117,8 @@ This moves data from
 |`(%rax, %rbx)`|Indexed|`*(rax + rbx) or char_arr[rbx]`|Base plus offset in given register, the actual value of `rbx` is used, NOT multiplied by `sizeof()`
 |`(%rax, %rbx, 4) or (%rax, %rbx, 8)`|Scaled index|`rax[rbx]`|Like array access multiplied by `sizeof()`
 |`1024`|Absolute|...|Absolute address `#1024`, rarely used
+
+^640e3f
 
 ### Register Size and Data Movement
 

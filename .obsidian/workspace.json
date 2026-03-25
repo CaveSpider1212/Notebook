@@ -4,20 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "edc0fc6f403658ef",
+        "id": "beb1461a11f465f0",
         "type": "tabs",
         "children": [
           {
-            "id": "419547000acbcb7c",
+            "id": "5dd55a34f85972ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Assembly Basics and x86-64"
+            }
+          },
+          {
+            "id": "735e270dca321809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "x86-64 Control Flow"
+            }
+          },
+          {
+            "id": "231786834535259c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Extras.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Assembly Extras"
+            }
+          },
+          {
+            "id": "f786a02dab2378dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "C Basics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,20 +210,23 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "419547000acbcb7c",
+  "active": "735e270dca321809",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Extras.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Mux.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Priority Encoder Circuit.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Regular Encoder.png",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
     "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
