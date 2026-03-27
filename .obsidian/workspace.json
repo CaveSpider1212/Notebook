@@ -1,84 +1,37 @@
 {
   "main": {
-    "id": "12fd61b0cca709a2",
+    "id": "cd4fcfe462b7a838",
     "type": "split",
     "children": [
       {
-        "id": "beb1461a11f465f0",
+        "id": "fce20f388dacb3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "5dd55a34f85972ca",
+            "id": "5d8551548942b66e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Assembly Basics and x86-64"
-            }
-          },
-          {
-            "id": "735e270dca321809",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "x86-64 Control Flow"
-            }
-          },
-          {
-            "id": "231786834535259c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Extras.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Assembly Extras"
-            }
-          },
-          {
-            "id": "f786a02dab2378dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "C Basics"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "f804f6ff43e0852c",
+    "id": "b15657c93a85ddcb",
     "type": "split",
     "children": [
       {
-        "id": "fbebc84394bf1d6a",
+        "id": "78c5715d07d72687",
         "type": "tabs",
         "children": [
           {
-            "id": "1aa663b677df7bd5",
+            "id": "300fb0b802e03efd",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -91,7 +44,7 @@
             }
           },
           {
-            "id": "8deb55fae2aef334",
+            "id": "2595a48bd8d4c50e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -108,7 +61,7 @@
             }
           },
           {
-            "id": "6f5b7c1c59f45379",
+            "id": "c17e424e83247f5e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -124,19 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "cf2f9fbf54d5e469",
+    "id": "1e4150d3640195ee",
     "type": "split",
     "children": [
       {
-        "id": "d682e31f30340b28",
+        "id": "e6f2fbf250c00790",
         "type": "tabs",
         "children": [
           {
-            "id": "5d417f0dd56a6674",
+            "id": "f4bc6eaebc48a425",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Elementary Row Operations and Row Echelon Matrix"
             }
           },
           {
-            "id": "1751a054fc24aa08",
+            "id": "74fa3226a8e2af6b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Elementary Row Operations and Row Echelon Matrix"
             }
           },
           {
-            "id": "5103ca665aaee8dd",
+            "id": "3deeab9abd8594a5",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,17 +133,18 @@
             }
           },
           {
-            "id": "b34e0424895befcb",
+            "id": "9a27ca10c664c41c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Elementary Row Operations and Row Echelon Matrix"
             }
           }
         ]
@@ -210,34 +166,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "735e270dca321809",
+  "active": "5d8551548942b66e",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/C Basics.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Extras.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Row Reduction and Echelon Forms.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
+    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Solution Sets of Linear Systems.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Mux.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Priority Encoder Circuit.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.23.26 Regular Encoder.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 6/Orthogonal Sets.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.11.26 Magnitude Comparator.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Images",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Images/3.5.26 Registers.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.4.26 Half Adder.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.25.26 Basic Sequential Circuit.png"
   ]
 }

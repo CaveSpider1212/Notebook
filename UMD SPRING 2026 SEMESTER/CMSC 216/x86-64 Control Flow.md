@@ -89,6 +89,10 @@ Must align `rsp` (stack pointer) to 16-byte boundaries when calling functions.
 
 `call` pushes 8-byte return address on the stack, so to align stack to 16-bytes, we need to grow the stack by another 8 bytes.
 
+To know how much to subtract from the stack pointer, add up the size of all local variables needed with the number of bytes of the return address, and add extra padding to make the number divisible by 16.
+
+For example, if there are 9 integer local variables, and we call functions, then the number is (9 * 4) + 8 + 4 = 48 since integers are 4 bytes each, 8 bytes are needed for the return address, and 4 bytes are for padding to make the number divisible by 16.
+
 ### x86-64 Register/Procedure Convention
 
 ![[3.5.26 Registers.png]]

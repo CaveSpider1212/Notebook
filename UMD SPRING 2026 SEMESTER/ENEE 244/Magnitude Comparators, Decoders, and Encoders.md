@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-3-11
-description: 3/11, 3/23 notes (Slide set 10)
+description: 3/11, 3/23, 3/25 notes (Slide set 10)
 ---
 
 ### Magnitude comparators
@@ -44,6 +44,7 @@ Possible uses:
 1. When there is an N-bit encoding used to activate 2^N possible actions
 2. Decoders can be used to implement any function
 	1. Simply OR together the minterms present in the function's sum of products canonical form
+		1. K-maps are still better since it yields a smaller circuit, but it can be useful when no custom silicon is available as decoders could be purchases, so this yields cheaper and smaller electronics
 	2. Alternatively, take NOR of minterms not in function
 
 ### A 2 to 4 reverse output decoder with enable input
@@ -100,4 +101,61 @@ It has the following output:
 
 It sends the $S$th data input to the output. This is abbreviated as "mux."
 
+Muxes act as electronic selectors, and are useful for that purpose in a variety of circuits.
+
 ![[3.23.26 Mux.png]]
+
+### Multi-bit multiplexers
+
+A *multi-bit* mux selects among groups of several bits (called words) using the *same* select inputs. It outputs one word instead of one bit.
+
+It outputs the $S$th input word, where $S$ is the shared select input.
+
+### Implementing a Boolean function with a mux
+
+A mux can also be used to implement any Boolean function like decoders
+- Advantage: muxes need no extra hardware (unlike decoders, which need extra OR gates at the output)
+- Disadvantage: A mux can implement only one Boolean function of the same inputs at one time, unlike a decoder
+
+This is done by making the function inputs the select bits, and the output values of the function the data inputs into the mux.
+
+### Demultiplexers
+
+A **demultiplexer** is the opposite of a multiplexer.
+
+Inputs:
+- A single data bit $D$
+- A $n$-bit select input $S$
+
+Outputs:
+- $2^n$ data outputs
+
+A demux outputs bit $D$ to the $S$th output.
+
+A demux is identical to a decoder with enable input, where the enable input is called the data input instead. If $E = 1$, then it outputs 1 to the $S$th output. If $E = 0$, then it outputs 0 instead.
+
+### MSI Logic Blocks
+
+MSI stands for medium scale integration.
+
+Blocks like adders, comparators, decoders, multiplexers, and flip-flops can be used in two ways:
+- Inside a larger custom chip
+- As standalone MSI logic chips bought from a vendor
+
+These are real commercial parts, not just textbook ideas.
+
+Why use MSI chips?
+- If only a small fixed logic function is needed, a standard chip is much cheaper and faster than custom silicon.
+- Custom silicon can have a very high one-time design cost, so using MSI chips avoids that expense.
+
+### Why MSI chips are still used today
+
+MSI chips are still used as glue logic around processors, memories, sensors, and peripheral devices, helping connect and coordinate parts of a digital system.
+
+They are also used in small embedded products, older legacy systems, labs, and prototypes, where one simple standard chip may solve the problem at lower cost and lower risk than custom silicon.
+
+A full mother board is usually not needed.
+
+For labs and early prototypes, these chips can be placed on a breadboard or a simple printed circuit board.
+
+For a real product, a custom printed circuit board is actually used, and it is much cheaper than creating custom silicon.
