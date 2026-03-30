@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "cd4fcfe462b7a838",
+    "id": "09ebe36ff1e8e7e0",
     "type": "split",
     "children": [
       {
-        "id": "fce20f388dacb3e8",
+        "id": "3de43d44254e0014",
         "type": "tabs",
         "children": [
           {
-            "id": "5d8551548942b66e",
+            "id": "566d3e2216ef0dc4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b15657c93a85ddcb",
+    "id": "5e27b0181409d21d",
     "type": "split",
     "children": [
       {
-        "id": "78c5715d07d72687",
+        "id": "df610d643aeb9fda",
         "type": "tabs",
         "children": [
           {
-            "id": "300fb0b802e03efd",
+            "id": "2b4f210c26042350",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "2595a48bd8d4c50e",
+            "id": "316887caee46cb85",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "c17e424e83247f5e",
+            "id": "4fdd9efba6233dc0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "1e4150d3640195ee",
+    "id": "27c87bc3717c5719",
     "type": "split",
     "children": [
       {
-        "id": "e6f2fbf250c00790",
+        "id": "becb1c2a0e5199bc",
         "type": "tabs",
         "children": [
           {
-            "id": "f4bc6eaebc48a425",
+            "id": "d988257ed9289c70",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Elementary Row Operations and Row Echelon Matrix"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "74fa3226a8e2af6b",
+            "id": "17f20d029f996672",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Elementary Row Operations and Row Echelon Matrix"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "3deeab9abd8594a5",
+            "id": "cae8ca25463bafb3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,18 +131,17 @@
             }
           },
           {
-            "id": "9a27ca10c664c41c",
+            "id": "46f8c7fbb478cb4c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Elementary Row Operations and Row Echelon Matrix"
+              "title": "Outline"
             }
           }
         ]
@@ -166,16 +163,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d8551548942b66e",
+  "active": "566d3e2216ef0dc4",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Row Reduction and Echelon Forms.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
-    "WSU FALL 2024 SEMESTER/MATH 220/Chapter 1/Solution Sets of Linear Systems.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/3.25.26 Basic Sequential Circuit.png"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md"
   ]
 }

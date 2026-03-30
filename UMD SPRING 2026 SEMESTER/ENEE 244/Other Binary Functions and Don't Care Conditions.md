@@ -54,7 +54,7 @@ This means both NOR and NAND are **universal gates**, meaning that they alone ca
 
 AND and OR gates can have multiple inputs with no problem since they are commutative and associative.
 
-NOR and NAND are not associative, so to have multiple input NOR/NAND gates, we need to define them something like $F = (x + y + z)'$ and $F = (xyz)$ respectively.
+NOR and NAND are not associative, so to have multiple input NOR/NAND gates, we need to define them something like $F = (x + y + z)'$ and $F = (xyz)'$ respectively.
 
 The intuition for a multi-input XOR gate is that, regardless of the number of inputs, if the number of inputs true is odd, it is *true*.
 - This is the definition of [[Special-Purpose Binary Codes#^55455f|even party]], making XOR useful for calculating EVEN parity bits
