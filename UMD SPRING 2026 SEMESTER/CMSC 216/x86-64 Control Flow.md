@@ -126,6 +126,8 @@ Push and pop instructions are compound: they manipulate `%rsp` and move data in 
 
 `popX data` shrinks the stack and restores data from it. For example, `popl %edi` is the same thing as `movl (%rsp), %edi; addl $4, %rsp`.
 
+Note, `subX` moves the address of the top of the stack DOWN, while `addX` moves it UP
+
 ### Local Variables
 
 If we need an address, local variables must be stored in the stack pointer because memory has addresses, not registers. Otherwise, they can be stored in registers.

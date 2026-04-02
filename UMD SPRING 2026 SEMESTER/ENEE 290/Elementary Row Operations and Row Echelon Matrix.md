@@ -73,13 +73,13 @@ Any matrix can be reduced to a row-equivalent row-echelon matrix by a finite seq
 
 > [!info] Reduced Row-Echelon Matrix
 > An $m \times n$ matrix is called a **reduced row-echelon matrix** if it satisfies the following conditions:
-> 6. It is a row-echelon matrix
-> 7. Any *column* that contains a leading 1 has zeros everywhere else
+> 1. It is a row-echelon matrix
+> 2. Any *column* that contains a leading 1 has zeros everywhere else
 
 Suppose $A$ is an $m \times n$ matrix. Its row-echelon form is not unique, but its *reduced* row-echelon form is.
 
 > [!tip] Gaussian Elimination
-> Using row-echelon or reduced row-echelon matrices to solve a system of linear equations
+> Using row-echelon to solve a system of linear equations
 > 
 > Steps:
 > 1. Construct an augmented matrix of the system

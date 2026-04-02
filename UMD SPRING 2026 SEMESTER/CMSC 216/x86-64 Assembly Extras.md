@@ -44,7 +44,7 @@ Passing pointers to structs is "normal": registers contain addresses to main mem
 
 Passing actual structs may result in *packed structs* where several fields are in a single register.
 
-Assembly must *unpack* these through shifts and masking (shift a number of bits to the right to get to the field, then say `andX $0xFFF` or something similar to clear all bits except for the field's bits).
+Assembly must *unpack* these through shifts and masking (shift a number of bits to the right to get to the field, then say `andX $0xFFF...` or something similar to clear all bits except for the field's bits).
 
 If a packed struct is large, it can be packed across several argument registers. At a certain size, the compiler stores very large structs in the stack and passes it as pointers to it to functions.
 
@@ -72,3 +72,11 @@ If a packed struct is large, it can be packed across several argument registers.
 - Counter-measures
 	- Stack protection is default in `gcc`
 	- Insert "canary" values on the stack near return address, and prior to the function return, check that the canary values remain unchanged
+
+### Stack Smashing
+
+**Stack smashing** is when the program writes more data to a buffer on the call stack than it can hold.
+
+For example, if the program fills an array off the end, it causes stack smashing.
+
+Stack protection exists on GCC by default, with lines such as `movq %fs:40, %rax` (adds canary values) and placing a value in the stack beneath the return address in compiled code.

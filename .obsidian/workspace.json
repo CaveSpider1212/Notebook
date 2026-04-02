@@ -1,37 +1,84 @@
 {
   "main": {
-    "id": "09ebe36ff1e8e7e0",
+    "id": "bf4f6fa2f2013bdc",
     "type": "split",
     "children": [
       {
-        "id": "3de43d44254e0014",
+        "id": "872ca9c48b443e35",
         "type": "tabs",
         "children": [
           {
-            "id": "566d3e2216ef0dc4",
+            "id": "1a110d9dc133a566",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Binary Encoding of Data"
+            }
+          },
+          {
+            "id": "6091a7f7c185baad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Assembly Basics and x86-64"
+            }
+          },
+          {
+            "id": "66069575cbe5b559",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "x86-64 Control Flow"
+            }
+          },
+          {
+            "id": "2c8ecb1e38993d21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "x86-64 Assembly Extras"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "5e27b0181409d21d",
+    "id": "e426d3cf595903c0",
     "type": "split",
     "children": [
       {
-        "id": "df610d643aeb9fda",
+        "id": "d7668a06338d4211",
         "type": "tabs",
         "children": [
           {
-            "id": "2b4f210c26042350",
+            "id": "58993bbcd65ce7eb",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +91,7 @@
             }
           },
           {
-            "id": "316887caee46cb85",
+            "id": "25eb196f61f15b50",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +108,7 @@
             }
           },
           {
-            "id": "4fdd9efba6233dc0",
+            "id": "f3a3872b1ff672aa",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +124,20 @@
     "width": 300
   },
   "right": {
-    "id": "27c87bc3717c5719",
+    "id": "63e5a6782489f99d",
     "type": "split",
     "children": [
       {
-        "id": "becb1c2a0e5199bc",
+        "id": "e9b549a9f8056076",
         "type": "tabs",
         "children": [
           {
-            "id": "d988257ed9289c70",
+            "id": "cae37bd05d21a46b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +147,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for x86-64 Assembly Extras"
             }
           },
           {
-            "id": "17f20d029f996672",
+            "id": "b1dd9c8ff5f51557",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from x86-64 Assembly Extras"
             }
           },
           {
-            "id": "cae8ca25463bafb3",
+            "id": "b1ae1e40cd8e0c8d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +180,18 @@
             }
           },
           {
-            "id": "46f8c7fbb478cb4c",
+            "id": "b1c5bf7ea0b60cef",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of x86-64 Assembly Extras"
             }
           }
         ]
@@ -163,15 +213,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "566d3e2216ef0dc4",
+  "active": "6091a7f7c185baad",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Control Flow.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/x86-64 Assembly Extras.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Binary Encoding of Data.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.1.26 JK Flip Flop.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.1.26 D Flip Flop.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.1.26 Master-Slave Flip Flop.png",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md"
   ]
 }
