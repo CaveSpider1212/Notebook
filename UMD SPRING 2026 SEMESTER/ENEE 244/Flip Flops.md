@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-4-1
-description: 4/1 notes (Slide set 12)
+description: 4/1, 4/8 notes (Slide set 12)
 ---
 
 ### Why we need flip flops
@@ -29,6 +29,8 @@ The master enable is the clock signal (CLK), and the slave enable is the CLK', m
 
 Uses 9-11 gates total (4-5 for each latch)
 
+![[4.8.26 D Flip Flop Negative Edge.png]]
+
 ### An alternate (smaller) edge-triggered D flip-flop
 
 ![[4.1.26 D Flip Flop.png]]
@@ -46,6 +48,8 @@ This is a *positive-edge triggered* FF.
 	- Any changes in D while CLK = 1 does not affect the output
 
 All memory is designed using this circuit.
+
+![[4.8.26 D Flip Flop Positive Edge.png]]
 
 ### Setup and hold times
 
@@ -86,3 +90,29 @@ Characteristic table:
 - Synchronous sequential circuits only
 - Enumerate all possible inputs, and shows next state in terms of current state
 - May also show any outputs of the circuits, but not present for flip flops
+
+### T flip flops
+
+A **T flip flop** supports the complement function, but not the set and reset functions. T stands for "toggle", meaning "change the state to the complement of the current state".
+
+![[4.8.26 T Flip Flop Table.png]]
+
+A T flip flop can be build using either a JK flip flop or a D flip flop. The latter is more area-efficient.
+
+![[4.8.26 T Flip Flop.png]]
+
+### Characteristic equations
+
+A **characteristic equation** expresses the output(s) of a sequential circuit as a Boolean expression of the current state and the inputs, based on what is on the characteristic table.
+
+For D flip flops: $Q(t + 1) = D$
+
+For JK flip flops: $Q(t + 1) = JQ' + K'Q$
+
+For T flip flops: $Q(t + 1) = TQ' + T'Q$
+
+### D flip flop with asynchronous reset
+
+A flip flop may have an asynchronous reset, meaning it has an input which resets the state at any time independent of the clock.
+
+It is useful to initialize a circuit upon its first startup (otherwise, a flip flop will have an undefined value at startup).

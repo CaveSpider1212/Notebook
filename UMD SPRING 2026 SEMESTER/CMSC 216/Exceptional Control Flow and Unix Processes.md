@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-3-31
-description: 3/31 notes
+description: 3/31, 4/7 notes
 ---
 
 ### Traditional vs. Modern Computing Devices
@@ -81,6 +81,7 @@ OS code is usually in the **kernel**, a program that starts running when a compu
 - Wait for any child to finish (`wait`)
 - Wait for a specific child to finish (`waitpid`)
 - Get return status of child
+- Return PID of the child that finished
 
 `fork()`:
 - Create a child process
@@ -91,4 +92,67 @@ OS code is usually in the **kernel**, a program that starts running when a compu
 - Replace currently running process with a different program image
 - Process becomes something else losing previous code
 - Focus on `execvp()`
+
+### Effects of `fork()`
+
+A single process becomes 2 processes. The sole difference between the two is the return value from `fork()`, but all other aspects of the process are copied.
+
+### Effects of `exec()`
+
+The entire memory image of the process is replaced/reset.
+
+The original process text/code is replaced, begin new `main()`.
+
+Successful `exec()` does not return to original code
+
+### Child Wait Status
+
+```
+int status;
+wait(&status); // sets a status variable that indicates the fate of a child (if it exited or not, for example)
+
+if (WIFEXITED(status)) {
+	// checks if the child actually exited
+}
+
+// Get the return value of the program
+int retVal = WEXITSTATUS(status);
+```
+
+### Normal Processes Exit
+
+- Normal exit for a C program results from
+	- `main()` executes `return` code
+	- Program calls the `exit(code)`; standard function
+- `WIFEXITED(status)` is "truthy" in parent
+- An "error" may have occurred but the child process detects, handles, and bails "gracefully" in these cases
+
+### Abnormal Process Exit
+
+- Abnormal exit can happen for a variety of reasons including
+	- Attempts to access out-of-bounds memory causing a segmentation fault or memory bus error
+	- Divides an integer by 0 triggering a floating point exception
+	- Executes an illegal instruction
+- `WIFEXITED(status)` is "falsey" in parent process in these cases
+- Usually `WIFSIGNALLED(status)` is "truthy" in parent process
+
+### Blocking vs. Nonblocking Activities
+
+Blocking:
+- A call to `wait()` or `waitpid()` may cause calling process to **block** (hang, stall, pause, etc.)
+	- Blocking is associated with other activities as well (I/O, obtaining a lock, getting a signal, etc.)
+- Generally creates *synchronous* situations: waiting for something to finish means the next action *always* happens next
+
+Non-blocking:
+- **Non-blocking** (asynchronous) activities: calling process goes ahead even if something isn't finished yet
+
+`wait()` is always blocking, but `waitpid()` can be blocking or non-blocking
+
+### Polling vs. Interrupts
+
+- **Polling**: Checking on something repeatedly until it achieves a ready state
+	- Easy to program, but generally inefficient
+- **Interrupt**: Rest until notified of a change
+	- Closer to `wait()` and `waitpid()` without `WNOHANG`
+	- Usually requires cooperation with OS/hardware which must wake up process when stuff is ready
 

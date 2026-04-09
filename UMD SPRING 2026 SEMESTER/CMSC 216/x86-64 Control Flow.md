@@ -6,7 +6,7 @@ description: 3/5, 3/10, 3/12, 3/24 notes
 
 ### Control Flow in Assembly and the Instruction Pointer
 
-`%rip` is the **Instruction Pointer** which contains the main memory address of next assembly instruction to execute.
+`%rip` is the **Instruction Pointer** or **Program Counter** which contains the main memory address of next assembly instruction to execute.
 
 After executing an instruction, `%rip` automatically updates to the subsequent instruction
 
@@ -87,7 +87,7 @@ Must align `rsp` (stack pointer) to 16-byte boundaries when calling functions.
 
 `rsp` changes must be undone prior to return (so if it was changed using `subq`, must be removed using `addq`; same thing for pushing and popping).
 
-`call` pushes 8-byte return address on the stack, so to align stack to 16-bytes, we need to grow the stack by another 8 bytes.
+`call` pushes 8-byte return address on the stack, so to align stack to 16-bytes, we need to grow the stack by another 8 bytes. This isn't counting any space for local variables.
 
 To know how much to subtract from the stack pointer, add up the size of all local variables needed with the number of bytes of the return address, and add extra padding to make the number divisible by 16.
 

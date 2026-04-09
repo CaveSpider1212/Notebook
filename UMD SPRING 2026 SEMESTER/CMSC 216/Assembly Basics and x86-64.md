@@ -113,9 +113,9 @@ Note: memory to memory movement is NOT allowed
 |`$21`|Immediate|`21`|Value of constant
 |`%rax`|Register|`rax`|To/from register contents
 |`(%rax)`|Indirect|`*rax`|Register holds a memory address, so dereference it
-|`8(%rax)`|Displaced|`*(rax + 2)`|Base plus constant offset, often used for struct field dereferences
-|`(%rax, %rbx)`|Indexed|`*(rax + rbx) or char_arr[rbx]`|Base plus offset in given register, the actual value of `rbx` is used, NOT multiplied by `sizeof()`
-|`(%rax, %rbx, 4) or (%rax, %rbx, 8)`|Scaled index|`rax[rbx]`|Like array access multiplied by `sizeof()`
+|`8(%rax)` or `4(%rdx)`|Displaced|`*(rax + 2)` or `rdx->field`|Base plus constant offset, often used for struct field dereferences
+|`(%rax, %rbx)`|Indexed|`*(rax + rbx)` or `char_arr[rbx]`|Base plus offset in given register, the actual value of `rbx` is used, NOT multiplied by `sizeof()`
+|`(%rax, %rbx, 4) or (%rax, %rbx, 8)`|Scaled index|`rax[rbx]`|Like array access multiplied by `sizeof()` (multiply `rbx` by the size to get the bits)
 |`1024`|Absolute|...|Absolute address `#1024`, rarely used
 
 ^640e3f

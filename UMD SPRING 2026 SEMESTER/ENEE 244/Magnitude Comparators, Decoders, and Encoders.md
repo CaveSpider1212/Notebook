@@ -29,7 +29,7 @@ The inputs are $A = a_n ... a_1$ and $B = b_n ... b_1$.
 
 ### Cascade (ripple) comparator
 
-The above circuit for calculating $G_i$ using $G_{i - 1}$ is slow, so we need to directly calculate $G_i$.
+The above circuit for calculating $G_i$ using $G_{i - 1}$ is slow (just like a ripple-carry adder), so we need to directly calculate $G_i$.
 
 $(A > B) = a_3 b_3' + x_3 a_2 b_2' + x_3 x_2 a_1 b_1' + x_3 x_2 x_1 a_0 b_0'$
 $(A < B) = a_3 ' b_3 + x_3 a_2' b_2 + x_3 x_2 a_1' b_1 + x_3 x_2 x_1 a_0' b_0$

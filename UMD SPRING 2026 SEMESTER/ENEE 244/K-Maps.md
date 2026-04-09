@@ -53,7 +53,9 @@ In general, there can be multiple resulting minimum-size results possible from K
 
 A prime implicant is **essential** if there exists some minterm in it that is contained in only that prime implicant.
 
-Find all essential prime implicants by drawing all prime implicants and find the cells (on the K-map) covered by only one prime implicant.
+Find all essential prime implicants by drawing *all* prime implicants (maximum-size rectangles) and find the cells (on the K-map) covered by only one prime implicant.
+
+The remaining prime implicants are non-essential prime implicants.
 
 ### Finding all the minimum formulas
 
