@@ -146,7 +146,7 @@ Blocking:
 Non-blocking:
 - **Non-blocking** (asynchronous) activities: calling process goes ahead even if something isn't finished yet
 
-`wait()` is always blocking, but `waitpid()` can be blocking or non-blocking
+`wait()` is always blocking, but `waitpid()` can be blocking or non-blocking (instead of saying `0` in the 3rd parameter, say `WNOHANG` for non-blocking)
 
 ### Polling vs. Interrupts
 

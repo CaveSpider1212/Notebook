@@ -1,56 +1,37 @@
 {
   "main": {
-    "id": "b7d331a429aa2656",
+    "id": "3c865ef2e0d02d1c",
     "type": "split",
     "children": [
       {
-        "id": "41e2a98d211bb628",
+        "id": "cc7cf8b6086ca81a",
         "type": "tabs",
         "children": [
           {
-            "id": "55d0f0a355e14f3a",
+            "id": "fe6faea2345666eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Exceptional Control Flow and Unix Processes"
-            }
-          },
-          {
-            "id": "459be98ffa918997",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File Input-Output.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "UNIX File Input-Output"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "14bb49ca8da703a0",
+    "id": "5945a1e202b934f6",
     "type": "split",
     "children": [
       {
-        "id": "d8342376d1c139ed",
+        "id": "3ab5fd853055b607",
         "type": "tabs",
         "children": [
           {
-            "id": "3500c19fca6fac3d",
+            "id": "f3797f3263c49250",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +44,7 @@
             }
           },
           {
-            "id": "bd3a7218bdd85d4c",
+            "id": "c1afd33a110ae53c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +61,7 @@
             }
           },
           {
-            "id": "a2ad6d3efc79603d",
+            "id": "f505ab981a01865b",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "f4076a28f5b9ac57",
+    "id": "d5819646aeed5d50",
     "type": "split",
     "children": [
       {
-        "id": "ed98b7c524194c48",
+        "id": "f23ceb91f3737786",
         "type": "tabs",
         "children": [
           {
-            "id": "4689ac05f154329c",
+            "id": "cb939f547ee90f97",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -122,7 +103,7 @@
             }
           },
           {
-            "id": "fccc55d48bede5fb",
+            "id": "6ab9143a6f0d7960",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -135,7 +116,7 @@
             }
           },
           {
-            "id": "ccdebe75f9dc399f",
+            "id": "2b2bf4a2f3e78090",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -150,7 +131,7 @@
             }
           },
           {
-            "id": "5aa9d2a7b3d016b5",
+            "id": "aa9ed8d1d9ffd27a",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -182,10 +163,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "459be98ffa918997",
+  "active": "fe6faea2345666eb",
   "lastOpenFiles": [
     "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File Input-Output.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md"
   ]
 }
