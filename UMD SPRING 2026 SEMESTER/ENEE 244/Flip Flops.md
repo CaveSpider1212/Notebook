@@ -15,7 +15,7 @@ Synchronous circuits rarely use latches. Instead, we design **flip flops**, whic
 - The flip flop captures the value of the input that was present just before the rising edge or just below the falling edge, for positive- and negative-edge triggered flip flops respectively
 - The inputs to each stage are held steady for the next stages throughout the cycle, so this behavior is ideal
 
-### Master-slave flip flop
+### Master-slave flip flop (D flip flop)
 
 A **master-slave** flip flop is a *negative-edge triggered* FF.
 

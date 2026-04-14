@@ -11,10 +11,84 @@
             "id": "fe6faea2345666eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Inner Product Space and Orthogonality"
+            }
+          },
+          {
+            "id": "c5c14ba57b2241ba",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Matrices"
+            }
+          },
+          {
+            "id": "445bac4562a08533",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Elementary Row Operations and Row Echelon Matrix"
+            }
+          },
+          {
+            "id": "36554d4913fe5052",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Range and Null Space"
+            }
+          },
+          {
+            "id": "44156c8a5c010b4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Inverse Matrix and Determinants"
+            }
+          },
+          {
+            "id": "c76ced6d4ee08a42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Eigenvalues and Eigenvectors"
             }
           }
         ]
@@ -166,10 +240,16 @@
   "active": "fe6faea2345666eb",
   "lastOpenFiles": [
     "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md"
   ]

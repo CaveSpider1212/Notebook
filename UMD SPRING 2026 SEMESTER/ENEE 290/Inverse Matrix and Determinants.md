@@ -20,6 +20,8 @@ description: 4/1, 4/6, 4/8 notes (Lecture 17, 18, 19)
 
 > [!info] Matrix Transformation
 > The **matrix transformation** associated with matrix $A$ is the transformation $T : \mathbb{R}^n \rightarrow \mathbb{R}^m$ defined by $T(v) = Av \in \mathbb{R}^m$.
+> 
+> $$T_A (v)$$
 
 > [!info] Linear Transformation
 > A transformation $T : \mathbb{R}^n \rightarrow \mathbb{R}^m$ is a **linear transformation** if it satisfies the following: for all vectors $u, v \in \mathbb{R}^n$ and scalar $c \in \mathbb{R}$

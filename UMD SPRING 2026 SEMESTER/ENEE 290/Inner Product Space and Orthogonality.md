@@ -72,7 +72,7 @@ A vector $v$ is called a **unit vector** if $||v|| = 1$.
 
 > [!info] Orthonormal Set
 > An orthogonal set of *unit vectors* is called an **orthonormal set** of vectors (i.e. $\{ v_1, v_2, ..., v_m \}$ is orthonormal) if and only if
-> 1. $\langle v_i, v_j \rangle$ for all $i \neq j$
+> 1. $\langle v_i, v_j \rangle = 0$ for all $i \neq j$
 > 2. $\langle v_i, v_i \rangle = ||v_i||^2 = 1$ for all $i = 1, ..., m$
 
 > [!info] Unit Vectors
