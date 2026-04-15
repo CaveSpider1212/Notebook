@@ -38,6 +38,10 @@ Once the eigenvalues $\lambda_i, i = 1, ..., n$ are found, then the equation $(A
 
 For each $i$, $E_i$ is a subspace of $C^n$.
 
+If $n_i = \text{dim} (E_i)$, then $1 \leq n_i \leq m_i$, where $m_i$ is the multiplicity of $\lambda_i$.
+
+Sometimes $m_i$ and $n_i$ are called the algebraic and geometric multiplicities of $\lambda_i$, respectively.
+
 > [!tip] Theorem
 > Eigenvectors corresponding to *distinct* eigenvalues are linearly independent.
 

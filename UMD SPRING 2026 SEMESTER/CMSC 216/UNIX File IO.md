@@ -37,7 +37,7 @@ description: 4/9 notes
 - Show errors using the `perror()` function
 - Use of `|` to bitwise-OR several options
 
-### `read()` from File Description
+### `read()` from File Descriptor
 
 `read()`:
 - Read up to `SIZE` (defined constant) from an open file descriptor
@@ -47,3 +47,9 @@ description: 4/9 notes
 Caution:
 - Bad things happen if `buffer` is actually smaller than `SIZE`
 - `read()` does NOT null terminate, so add `\0` manually if needed
+
+### `write()` to File Descriptor
+
+- Write up to `SIZE` bytes to an open file descriptor
+- Bytes taken from buffer, leave it intact
+- Return value is the number of bytes written, -1 for error

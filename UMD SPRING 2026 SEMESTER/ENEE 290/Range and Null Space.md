@@ -43,7 +43,7 @@ Finding a basis for the row space $\mathcal{R} (A^T)$:
 > [!tip] Theorem
 > Suppose matrices $A$ and $B$ are row equivalent. Then, $\mathcal{R}(A^T) = \mathcal{R} (B^T)$.
 
-If $B$ is row equivalent to $A$, then $B$ can be obtained from $A$ using reversible elementary row operations, meaning the rows of $B$ can be obtained as linear combinations of the rows of $A$ and vice versa.
+If $B$ is row equivalent to $A$, then $B$ can be obtained from $A$ using reversible elementary row operations, meaning the rows of $B$ can be obtained as linear combinations of the rows of $A$ and vice versa. A basis for the row space of $A$ would be the nonzero rows of $B$.
 
 > [!tip] Theorem
 > Suppose that $C$ is a row-echelon form of $A$. Then, the nonzero rows of $C$ are linearly independent.

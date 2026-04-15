@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-4-8
-description: 4/8, 4/13 notes (Slide set 13, part of 14)
+description: 4/8 notes (Slide set 13)
 ---
 
 Analysis of a clocked synchronous sequential circuit is the process of understanding what a given circuit of this type does.
@@ -41,19 +41,3 @@ From each state, the number of outgoing edges = the number of input value combin
 ![[4.8.26 D Flip Flop Example State Diagram.png|400]]
 
 This circuit outputs a 1 in the cycle when it sees a 0 in the input that follows at least one 1.
-
-### Mealy and Moore machines
-
-Mealy and Moore machines are two types of clocked sequential circuits:
-- In a **Mealy machine**, the output is a function only of the current state and input
-	- In a state diagram, the output is shown on the edges, because it depends on the current input shown on that edge
-- In a **Moore machine**, the output is a function of the current state only
-	- In a state diagram, the output is invariant of the inputs, and hence can be shown inside of the states
-
-### An advantage of Moore circuits
-
-In Mealy machines:
-- If inputs are used to calculate next state, then there may be momentary false outputs.
-- Solution: The circuit should sample outputs only during when we know they are correct. We also need to synchronize input changes with the clock. Finally, we may need to sample the output only at an edge trigger.
-
-Moore machines do not have this problem.

@@ -51,7 +51,7 @@ A $n \times n$ square matrix $A$ is said to be **symmetric** if $A = A^T$.
 > 
 > $AC \in R^{m \times p}$, meaning it has $m$ rows and $p$ columns.
 
-$AC$ would be a linear combination of the columns of $A$.
+Each column of $AC$ would be a different linear combination of the columns of $A$.
 
 > [!example] Matrix Multiplication Example
 > $\begin{bmatrix} 3&1&2\\5&4&7 \end{bmatrix} \times \begin{bmatrix} 4&2\\3&5\\1&4 \end{bmatrix}$ = ?
