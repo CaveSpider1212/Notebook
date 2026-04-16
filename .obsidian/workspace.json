@@ -11,10 +11,14 @@
             "id": "36e920eaa416208b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "UNIX File IO"
             }
           }
         ]
@@ -165,6 +169,8 @@
   },
   "active": "36e920eaa416208b",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
@@ -174,11 +180,9 @@
     "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md"
   ]
 }
