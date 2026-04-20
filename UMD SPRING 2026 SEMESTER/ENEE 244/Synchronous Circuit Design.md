@@ -1,7 +1,7 @@
 ---
 tags: ENEE_244
 created: 2026-4-13
-description: 4/13, 4/15 notes (Slide set 14)
+description: 4/13, 4/15, 4/20 notes (Slide set 14)
 ---
 
 ### Mealy and Moore machines
@@ -34,3 +34,13 @@ Moore machines do not have this problem.
 10. Obtain flip flop input and circuit output functions
 11. Minimize flip flop input and circuit output functions
 12. Draw the circuit
+
+### Obtaining FF input and circuit output functions (for D flip flops)
+
+The equations for the flip flop inputs and circuit outputs (in terms of the current state and inputs) can be derived from the state table by listing the minterms which are 1 for that next state or output column.
+
+### Excitation Tables
+
+For flip flops other than D flip flops, the FF input functions are not directly available from the state table, so we need an **excitation table**, where the states (current and next states) are the inputs and the values of the FF inputs are the outputs.
+
+![[4.20.26 Excitation Tables.png]]

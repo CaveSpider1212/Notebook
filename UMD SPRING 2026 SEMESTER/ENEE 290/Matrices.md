@@ -38,7 +38,7 @@ Suppose $A$ is an $m \times n$ matrix. Then, its **transpose** ($A^T$) is an $n 
 
 ### Symmetric Matrices
 
-A $n \times n$ square matrix $A$ is said to be **symmetric** if $A = A^T$.
+A $n \times n$ square matrix $A$ is said to be **symmetric** if $A = A^T$. ^f4413d
 
 ### Matrix Multiplication
 

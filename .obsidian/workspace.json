@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65ebda94b953e481",
+        "id": "6b7101fb4e198419",
         "type": "tabs",
         "children": [
           {
-            "id": "5bd5dc934536d618",
+            "id": "8980a59313b7b14b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -163,15 +163,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5bd5dc934536d618",
+  "active": "8980a59313b7b14b",
   "lastOpenFiles": [
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.20.26 Excitation Tables.png",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",

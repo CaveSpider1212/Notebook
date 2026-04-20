@@ -1,7 +1,7 @@
 ---
 tags: ENEE_290
 created: 2026-4-8
-description: 4/8 notes (Lecture 19)
+description: 4/8, 4/13, 4/20 notes (Lecture 19, 20, 22)
 ---
 
 ### Eigenvalues and Eigenvectors
@@ -66,3 +66,59 @@ Relationship between determinant and eigenvalues:
 > An $n \times n$ matrix $A$ is diagonalizable if and only if $A$ is non-defective.
 > 
 > If $A$ has $n$ distinct eigenvalues, it is diagonalizable.
+
+> [!info] Eigenvalue Decomposition
+> Suppose that an $n \times n$ matrix $A$ is diagonalizable and that $v_1, ..., v_n$ are $n$ linearly independent eigenvectors. Then, the factorization
+> 
+> $$A = S \Lambda S^{-1}$$
+> 
+> where $S = \begin{bmatrix} v_1&...&v_n \end{bmatrix}$ and $\Lambda$ is a diagonal matrix with corresponding eigenvalues $\lambda_i$ as the $i$-th diagonal element, is called the **spectral decomposition** or **eigenvalue decomposition**.
+
+### Symmetric Matrices
+
+See [[Matrices#^f4413d]].
+
+Useful facts:
+- Eigenvalues of a symmetric real matrix are real
+- Eigenvectors of a symmetric real matrix corresponding to two distinct eigenvalues are *orthogonal*
+- $A$ is non-defective and has a complete set of *orthonormal eigenvectors*
+
+### Orthogonal Matrix
+
+> [!info] Orthogonal Matrix
+> A real $n \times n$ matrix is said to be **orthogonal** if $A^{-1} = A^T$.
+
+> [!tip] Theorem
+> $$A = S \Lambda S^T = \sum\limits_{i = 1}^{n} \lambda_i v_i v_i^T$$
+
+### Positive Semidefinite and Positive Definite Matrices
+
+> [!info] Positive Semidefinite
+> An $n \times n$ symmetric matrix $A$ is said to be **positive semidefinite** if, for all $x \in R^n$,
+> 
+> $$x^T Ax \geq 0$$
+
+1. A real symmetric matrix is positive semidefinite if and only if its eigenvalues are real and nonnegative
+2. Determinant is nonnegative
+3. Trace is nonnegative
+
+> [!info] Positive Definite
+> An $n \times n$ symmetric matrix $A$ is said to be **positive definite** if, for all nonzero vector $x \in R^n \backslash \{ 0 \}$,
+> 
+> $$x^T Ax > 0$$
+
+1. A real symmetric matrix is positive semidefinite if and only if its eigenvalues are *strictly positive*
+2. Determinant is *strictly positive* and the matrix is invertible
+3. Trace is strictly positive
+
+### Principal Component Analysis (PCA)
+
+Centered dataset: $Y = X - 1x_{\text{avg}}$
+
+Covariance matrix: Real, positive semidefinite matrix
+
+$$C = \frac{1}{n - 1} Y^T Y = VDV^T \in S^m_+$$
+
+The columns of $V$ are eigenvectors associated with $m$ eigenvalues and form an *orthonormal basis* for $R^m$.
+
+Approximate samples using: $y_i^r = \sum\limits_{k = 1}^{r} \langle y_i, v_k \rangle v_k = \sum\limits_{k = 1}^{r} \hat{y}_{i, k} v_k$
