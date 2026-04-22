@@ -56,3 +56,55 @@ Accessing memory at an address may involve several levels of cache memory on the
 |L2 cache reference|7 ns|Neighbor's desk
 |DRAM memory reference|100 ns|This room
 |Disk seek|10,000,000 ns|Salt Lake City
+
+### Flavors of Permanent Storage
+
+Memories like cache are fast, small, and ephemeral (meaning when powered down, all bits become 0).
+
+There are other memories that are slow but large, and may contain copies of what is in higher parts of the memory pyramid.
+
+These are **persistent**, meaning when they are powered off, they retain information.
+
+Permanent storage is often referred to as a "drive".
+
+##### Hard Disk Drives (HDDs)
+
+- Rotating disk
+- Store bits "permanently" as magnetized areas on special platters
+- Magnetic disks: moving parts, so HDDs are slow
+- Cheap per GB of space
+
+> [!info] Features of Interest of HDDs
+> Measures of Quality:
+> - Capacity: Bigger is usually better
+> - Seek time: Delay before a head assembly reaches an arbitrary track of the disk that contains data
+> - Rotational latency: Time for disk to spin around to correct position (faster rotation = lower latency)
+> - Transfer rate: Once correct read/write position is found, how fast data moves between disk and RAM
+> 
+> Sequential vs. random access
+> - Sequential reads/writes comparatively fast
+> - Random reads/writes comparatively very slow
+
+##### Solid State Drives (SSDs)
+
+- No moving parts, so SSDs are faster
+- Most use "flash" memory, non-volatile circuitry
+- Major drawback: Limited number of *writes*, disk wears out eventually
+- Reads faster than writes
+- Sequential somewhat faster than random access
+- Expensive
+
+##### Tape Drives
+
+- Slowest (store bits as a magnetic field on a piece of "tape")
+- Extremely cheap per GB so mostly used in backup systems
+
+### Terminology
+
+**Bus**: Collection of wires which allow communication between parts of the computer
+
+**Bus speed**: Frequency of the clock signal on a particular bus, usually different between components/buses requiring interface chips
+
+**Interface/Bridge**: Computing chips that manage communications across the bus possibly routing signals to correct part of the computer and adapting to differing speeds of components
+
+**Motherboard**: A printed circuit board connects to connect the CPU to RAM chips and peripherals, and has buses present on it to allow communication between parts
