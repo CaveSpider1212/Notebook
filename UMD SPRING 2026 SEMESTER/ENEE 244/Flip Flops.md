@@ -29,11 +29,11 @@ The master enable is the clock signal (CLK), and the slave enable is the CLK', m
 
 Uses 9-11 gates total (4-5 for each latch)
 
-![[4.8.26 D Flip Flop Negative Edge.png]]
+![[4.8.26 D Flip Flop Negative Edge.png|300]]
 
 ### An alternate (smaller) edge-triggered D flip-flop
 
-![[4.1.26 D Flip Flop.png]]
+![[4.1.26 D Flip Flop.png|400]]
 
 This has 6 gates, which is less than the master-slave FF, and has 3 SR latches.
 
@@ -49,7 +49,10 @@ This is a *positive-edge triggered* FF.
 
 All memory is designed using this circuit.
 
-![[4.8.26 D Flip Flop Positive Edge.png]]
+![[4.8.26 D Flip Flop Positive Edge.png|300]]
+
+Characteristic table for D flip flops:
+![[4.22.26 D Flip Flop Table.png]]
 
 ### Setup and hold times
 

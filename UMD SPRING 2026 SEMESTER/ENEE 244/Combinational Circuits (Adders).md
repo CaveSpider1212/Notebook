@@ -82,7 +82,7 @@ Now we can express $C_1, C_2, ...$ directly by expanding the carry equation abov
 
 This is called **carry look ahead**, which results in a faster circuit for addition.
 
-Carry look ahead (CLA) adders are often used in circuits, but if it is used directly for a large number of bits like 32, then a lot of logic and therefore silicon area is needed, so 4-bit or 8-bit CLA modules are common to reduce the amount of logic.
+Carry look ahead (CLA) adders are often used in circuits, but if it is used directly for a large number of bits like 32, then a lot of logic and therefore silicon area is needed, so 4-bit or 8-bit CLA modules are common to reduce the amount of logic. ^70fff9
 
 
 

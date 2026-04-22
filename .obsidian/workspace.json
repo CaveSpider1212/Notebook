@@ -4,53 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "6b7101fb4e198419",
+        "id": "2382827bacafe947",
         "type": "tabs",
         "children": [
           {
-            "id": "8980a59313b7b14b",
+            "id": "1edb5eb1b857a8e9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Memory Systems"
-            }
-          },
-          {
-            "id": "7c40b8ce96b6d28a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "UNIX File IO"
-            }
-          },
-          {
-            "id": "a39ed5c60d175bdb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Exceptional Control Flow and Unix Processes"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,15 +163,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7c40b8ce96b6d28a",
+  "active": "1edb5eb1b857a8e9",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Shift Register.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Universal Shift Register Mode Table.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Universal Shift Register.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Universal Shift Register Mode Table.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Universal Shift Register.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Serial Adder.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Shift Register.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Register with Load Enable.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Register with Reset.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 D Flip Flop Table.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.20.26 Excitation Tables.png",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",

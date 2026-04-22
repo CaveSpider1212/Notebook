@@ -25,7 +25,7 @@ The superposition principle suggests that infinitely many solutions of the above
 
 The superposition principle doesn't hold in general for non-linear differential equations.
 
-Two solutions $y_1$ and $y_2$ are said to form a *fundamental set of solutions* if *every* solution of $y'' + p(x) y' + q(x) y = 0$ can be expressed as a linear combination of $y_1$ and $y_2$.
+Two solutions $y_1$ and $y_2$ are said to form a *fundamental set of solutions* if *every* solution of $y'' + p(x) y' + q(x) y = 0$ can be expressed as a linear combination of $y_1$ and $y_2$. ^7d27c6
 
 > [!tip] Theorem
 > Suppose the functions $p$ and $q$ are continuous on the interval $(a, b)$ and $y_1$ and $y_2$ are solutions of the above equation satisfying
@@ -62,6 +62,8 @@ When $y_1$ and $y_2$ satisfy the above condition, the linear combination $y = c_
 > is not identically zero on $(a, b)$, then $f$ and $g$ are linearly independent on the interval $(a, b)$. Furthermore, if $f$ and $g$ are linearly dependent, then $W(f, g)$ is identically zero on $(a, b)$.
 > 
 > Suppose that $y_1$ and $y_2$ are solutions of the above homogenous equation with $p$ and $q$ continuous on $(a, b)$. Then, $y_1$ and $y_2$ are linearly dependent *if and only if* $W(y_1, y_2)$ is identically zero on $(a, b)$. In addition, $y_1$ and $y_2$ are linearly independent on $(a, b)$ *if and only if* $W(y_1, y_2)$ is not identically zero, i.e. there exists some $x_0 \in (a, b)$ such that $W(y_1, y_2)(x_0) \neq 0$.
+
+^64a058
 
 > [!info] Summary of Second-Order Homogenous Differential Equations
 > Suppose that $y_1$ and $y_2$ are solutions of
