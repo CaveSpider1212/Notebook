@@ -48,6 +48,8 @@ Sometimes $m_i$ and $n_i$ are called the algebraic and geometric multiplicities 
 > [!info] Non-defective
 > Suppose that $\text{dim}(E_i) = m_i$ for all $i = 1, ..., k$, where $m_i$ is the multiplicity of $\lambda_i$. Then, $A$ is said to be **non-defective** and to have a *complete set of eigenvalues)*
 
+^699211
+
 When $A$ is non-defective, we can find a basis for $E_i$ with $m_i$ vectors. Therefore, since the eigenvectors associated with distinct eigenvalues are linearly independent, we can find a basis for $C^n$. Such a basis is called an **eigenbasis** of $A$.
 
 Relationship between determinant and eigenvalues:
@@ -88,7 +90,9 @@ Useful facts:
 > [!info] Orthogonal Matrix
 > A real $n \times n$ matrix is said to be **orthogonal** if $A^{-1} = A^T$.
 
-> [!tip] Theorem
+> [!tip] Spectral Decomposition with Orthonormal Eigenvectors
+> Assume $S$ contains $n$ distinct orthonormal eigenvectors.
+> 
 > $$A = S \Lambda S^T = \sum\limits_{i = 1}^{n} \lambda_i v_i v_i^T$$
 
 ### Positive Semidefinite and Positive Definite Matrices

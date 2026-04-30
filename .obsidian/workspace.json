@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "3c865ef2e0d02d1c",
+    "id": "8ad95cb9ebfbf64d",
     "type": "split",
     "children": [
       {
-        "id": "2382827bacafe947",
+        "id": "1afaabf75ef27a77",
         "type": "tabs",
         "children": [
           {
-            "id": "1edb5eb1b857a8e9",
+            "id": "0a4050a9a0da4555",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "5945a1e202b934f6",
+    "id": "04a35773f1895c32",
     "type": "split",
     "children": [
       {
-        "id": "3ab5fd853055b607",
+        "id": "4702ea3566255525",
         "type": "tabs",
         "children": [
           {
-            "id": "f3797f3263c49250",
+            "id": "22375a0c64e43ffe",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "c1afd33a110ae53c",
+            "id": "c4c9f9364d8f2a93",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "f505ab981a01865b",
+            "id": "a1a1b3da56aec182",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,19 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "d5819646aeed5d50",
+    "id": "28625cbed389fc2b",
     "type": "split",
     "children": [
       {
-        "id": "f23ceb91f3737786",
+        "id": "2f4d4bee00a6f631",
         "type": "tabs",
         "children": [
           {
-            "id": "cb939f547ee90f97",
+            "id": "615cda082a5ea3c7",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,24 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Higher Order Differential Equations"
             }
           },
           {
-            "id": "6ab9143a6f0d7960",
+            "id": "9f0cd48b67c366e7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Higher Order Differential Equations"
             }
           },
           {
-            "id": "2b2bf4a2f3e78090",
+            "id": "b0fe36313a1008e4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,17 +133,18 @@
             }
           },
           {
-            "id": "aa9ed8d1d9ffd27a",
+            "id": "7ad962ca486843f6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Higher Order Differential Equations"
             }
           }
         ]
@@ -163,36 +166,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1edb5eb1b857a8e9",
+  "active": "0a4050a9a0da4555",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Shift Register.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Universal Shift Register Mode Table.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.25 Universal Shift Register.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Universal Shift Register Mode Table.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Universal Shift Register.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Serial Adder.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Shift Register.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Register with Load Enable.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 Register with Reset.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/4.22.26 D Flip Flop Table.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalue Method and Matrix Exponential.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Virtual Memory.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Range and Null Space.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Matrices.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Basis, Linear Independence, and Span.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Vector Space.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md"
   ]
 }

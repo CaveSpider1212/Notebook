@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-4-17
-description: 4/14, 4/16 notes
+description: 4/14, 4/16, 4/21 notes
 ---
 
 ### Measuring Time in Code
@@ -15,6 +15,8 @@ The `gettimeofday()` function measures the wall (real) time by filling a `struct
 The total time to complete a function is simply just the CPU time (measured using the `clock()` function).
 
 The **throughput** is the rate of production per unit of time, calculated by dividing the work in progress by the cycle time.
+
+The larger the memory stride (distance between accessed memory locations), the slower the time and lower the throughput. This is because the data may be on different cache lines, so it is not accessed as efficiently as a unit stride (contiguous data, on the same cache line).
 
 ### CPU vs. Memory Speed
 
@@ -59,7 +61,7 @@ Accessing memory at an address may involve several levels of cache memory on the
 
 ### Flavors of Permanent Storage
 
-Memories like cache are fast, small, and ephemeral (meaning when powered down, all bits become 0).
+Memories like cache are fast, small, and **ephemeral** (meaning when powered down, all bits become 0).
 
 There are other memories that are slow but large, and may contain copies of what is in higher parts of the memory pyramid.
 

@@ -54,6 +54,8 @@ When $y_1$ and $y_2$ satisfy the above condition, the linear combination $y = c_
 > 
 > Two functions $f$ and $g$ are said to be **linearly independent** on an interval if they are not linearly dependent on it.
 
+^3dca20
+
 > [!tip] Wronskian
 > Suppose $f$ and $g$ are differentiable functions. If the Wronskian
 > 
@@ -208,6 +210,8 @@ Special case: $ay'' + by' + cy = g(x)$
 > |$e^{\alpha x} P_n(x) \sin(\beta x)$ or $e^{\alpha x} P_n(x) \cos(\beta x)$|$x^s [(A_0 x^{n} + A_1 x^{n - 1} + ... + A_n) \cos(\beta x) + (B_0 x^{n} + B_1 x^{n - 1} + ... + B_n) \sin(\beta x)] e^{\alpha x}$
 > 
 > $n$ is the degree of the polynomial and $s$ is the number of times our choice/guess for $y_p$ is a solution of the corresponding homogenous equation (general solution)
+
+^0af63f
 
 ### Method of Variation of Parameters
 

@@ -86,7 +86,7 @@ OS code is usually in the **kernel**, a program that starts running when a compu
 `fork()`:
 - Create a child process
 - Identical to parent except for return value of `fork` call
-- Determines child/parent
+- Determines child/parent (when `child_pid`, return value of `fork`, is 0, the child is currently executing)
 
 `exec()` family:
 - Replace currently running process with a different program image
