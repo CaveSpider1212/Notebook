@@ -1,7 +1,7 @@
 ---
 tags: CMSC_216
 created: 2026-4-30
-description: 4/30 notes
+description: 4/30, 5/5 notes
 ---
 
 ### Processes vs. Threads
@@ -51,3 +51,55 @@ int pthread_join(pthread_t thread, void **retval);
 - `attr` may be `NULL` for default attributes
 - Pass arguments `arg` to the function
 - Wait for thread to finish, put return in `retval`
+
+### Motivation for Threads
+
+Improve execution efficiency
+
+Assign independent tasks in a program to different threads
+
+1. Parallel execution
+	1. Each thread/task computes part of an answer, and then results are combined to form the total solution
+	2. Requires multiple CPUs
+2. Hide latency of slow tasks
+	1. Slow tasks block a thread, but fast tasks can proceed independently allowing program to stay busy while running
+	2. Does not require multiple CPUs
+
+### Mutex Locks
+
+Access to shared data must be coordinated among threads.
+
+A **mutex** allows *mutual exclusion*.
+
+Locking a mutex is an *atomic operation*, meaning it is a system call to the OS, it's guaranteed by the OS to complete wholly, and won't interleave with other threads.
+
+Threads will *block* until granted a mutex by the OS.
+
+```
+pthread_mutex_t lock;
+
+int main() {
+	// Initialize a lock
+	pthread_mutex_init(&lock, NULL);
+	
+	...
+	
+	// Release lock resources
+	pthread_mutex_destroy(&lock);
+}
+
+void *thread_work(void *arg) {
+	...
+	// Block until lock acquired
+	pthread_mutex_lock(&lock);
+	
+	// Do critical stuff here
+	...
+	
+	// Unlock for others
+	pthread_mutex_unlock(&lock);
+	...
+}
+```
+
+Since locking/unlocking mutexes is a system call, it takes time for the OS to coordinate threads. Avoiding repeated lock/unlock cycles saves time.
