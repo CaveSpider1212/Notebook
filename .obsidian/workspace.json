@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1afaabf75ef27a77",
+        "id": "8e7d2b3d81f2dd00",
         "type": "tabs",
         "children": [
           {
-            "id": "0a4050a9a0da4555",
+            "id": "c1d8be5b393bab4f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,14 +166,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a4050a9a0da4555",
+  "active": "c1d8be5b393bab4f",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalue Method and Matrix Exponential.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Non-homogenous System of Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Mealy and Moore Machines, Synchronous Circuit Design.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Virtual Memory.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Synchronous Circuit Design.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",

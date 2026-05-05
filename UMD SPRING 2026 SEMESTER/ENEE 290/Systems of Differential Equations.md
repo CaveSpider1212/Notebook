@@ -15,6 +15,8 @@ $$x_n' = p_{n,1}(t) x_1 + p_{n,2}(t) x_2 + ... + p_{n,n} x_n + g_n(t)$$
 
 The system is *homogenous* if $g_1 = g_2 = ... = g_n = 0$. Otherwise, it is *non-homogenous*.
 
+A solution of the above system is an $n$-tuple of functions $(x_1, x_2, ..., x_n)$ which satisfies the differential equations in the system.
+
 Matrix equation: $\dot{x} = Px + g$, where $\dot{x} = \begin{bmatrix} x_1' & ... & x_n' \end{bmatrix}^T$ is the first derivative with respect to time.
 
 $x = \begin{bmatrix} x_1 & ... & x_n \end{bmatrix}^T, g = \begin{bmatrix} g_1& ... & g_n \end{bmatrix}^T, P = \begin{bmatrix} p_{i,j}; i, j = 1, ..., n \end{bmatrix}$
@@ -25,6 +27,8 @@ $x = \begin{bmatrix} x_1 & ... & x_n \end{bmatrix}^T, g = \begin{bmatrix} g_1& .
 > Suppose that the functions $p_{i, j}, i, j = 1, ..., n$ and $g_i, i = 1, ..., n$ are continuous over the interval $I = (\alpha, \beta)$. Then, given initial conditions $x_1(t_0) = x_0^1, x_2(t_0) = x_0^2, ..., x_n(t_0) = x_0^n, t_0 \in I$, there is a unique solution $(x_1, x_2, ..., x_n)$ that satisfies the system of equations and the given initial conditions.
 
 We need $n$ initial conditions, one for each function, for the uniqueness of a solution.
+
+Initial conditions can be written as $x(t_0) = x_0$.
 
 ### General Solutions
 
