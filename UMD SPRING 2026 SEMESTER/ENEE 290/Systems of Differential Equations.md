@@ -17,9 +17,10 @@ The system is *homogenous* if $g_1 = g_2 = ... = g_n = 0$. Otherwise, it is *non
 
 A solution of the above system is an $n$-tuple of functions $(x_1, x_2, ..., x_n)$ which satisfies the differential equations in the system.
 
-Matrix equation: $\dot{x} = Px + g$, where $\dot{x} = \begin{bmatrix} x_1' & ... & x_n' \end{bmatrix}^T$ is the first derivative with respect to time.
-
-$x = \begin{bmatrix} x_1 & ... & x_n \end{bmatrix}^T, g = \begin{bmatrix} g_1& ... & g_n \end{bmatrix}^T, P = \begin{bmatrix} p_{i,j}; i, j = 1, ..., n \end{bmatrix}$
+> [!info] Matrix Equation
+> $$\dot{x} = Px + g$$
+> 
+> where $\dot{x} = \begin{bmatrix} x_1' & ... & x_n' \end{bmatrix}^T$ is the first derivative with respect to time and $x = \begin{bmatrix} x_1 & ... & x_n \end{bmatrix}^T, g = \begin{bmatrix} g_1& ... & g_n \end{bmatrix}^T, P = \begin{bmatrix} p_{i,j}; i, j = 1, ..., n \end{bmatrix}$.
 
 ### Existence and Uniqueness of a Solution
 

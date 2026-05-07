@@ -45,6 +45,8 @@ converges for any $n \times n$ matrix and fixed $t$.
 
 ### Matrix Exponential Method
 
+$$e^{\mathbf{A}t} = \sum\limits_{k = 0}^{\infty} \frac{\mathbf{A}^k t^k}{k!} = I + \mathbf{A}t + \frac{\mathbf{A}^2 t^2}{2!} + ...$$
+
 > [!tip] Theorem
 > Suppose $A$ is an $n \times n$ matrix. Then, the unique solution of the initial value problem
 > 
@@ -64,3 +66,7 @@ $$e^{At} = \hat{X}(t) \hat{X}(0)^{-1}$$
 > The matrix $A$ satisfies
 > 
 > $$p(A) = (-1)^n A^n + c_1 A^{n - 1} + ... + c_{n - 1}A + c_n I = 0$$
+> 
+> $$e^{\mathbf{A} t} = \sum\limits_{k = 0}^{\infty} \frac{t^k}{k!} \mathbf{A}^k = \sum\limits_{k = 0}^{n - 1} \alpha_k^t \lambda^k = \sum\limits_{k = 0}^{n - 1} \alpha_k^t \mathbf{A}^k$$
+> 
+> Find the coefficients $\alpha_k$ by substituting in the $\lambda$ values for each eigenvalue (or for $\mathbf{A}$).
