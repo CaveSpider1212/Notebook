@@ -63,3 +63,34 @@ Very useful in the arithmetic and logic unit (ALU) of a general-purpose CPU in w
 ![[4.22.25 Universal Shift Register.png|400]]
 
 ![[4.22.25 Universal Shift Register Mode Table.png|400]]
+
+### Binary Ripple Counter
+
+This is an *asynchronous counter*, as the clocks for each flip flop come from the outputs of the previous flip flops.
+
+Problem: These intercept the clock, so they are asynchronous circuits. They don't even have a clock input, so they aren't suitable for synchronous circuits.
+
+To make a synchronous counter, have a global clock and feed it to each flip flop.
+
+### 4-bit Up/Down Counter
+
+This counter can count up, down, or remain unchanged depending on the inputs/mode bits.
+
+- Up = 0, Down = 0: Value remains unchanged
+- Up = 0, Down = 1: Count down
+- Up = 1, Down = 0: Count up
+- Up = 1, Down = 1: Count up (up gets priority)
+
+It also uses an active-low "clear" input.
+
+### 4-bit Binary Counter with Parallel Load
+
+We can build a counter with parallel load (loading inputs into the counter), but we can only count up with this circuit.
+
+### Building a BCD counter with a regular binary counter
+
+We can build a BCD counter with a regular binary counter by repurposing either its load or clear inputs.
+
+![[5.13.26 BCD Counter Load.png]]
+
+![[5.13.26 BCD Counter Clear.png]]

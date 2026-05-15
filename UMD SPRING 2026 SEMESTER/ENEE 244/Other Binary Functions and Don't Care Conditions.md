@@ -32,20 +32,20 @@ This means both NOR and NAND are **universal gates**, meaning that they alone ca
 
 > [!info] Representing functions in terms of NOR
 > **AND**:
-> x AND y = (x' OR y')' = ((x NOR x) OR (y NOR y))' = (x NOR x) NOR (y NOR y)
+> x AND y = (x' OR y')' = ((x NOR x) OR (y NOR y))' = (x NOR x) NOR (y NOR y) = NOR(NOR(x, x), NOR(y, y))
 > 
 > **OR**:
-> x OR y = ((x OR y)')' = (x NOR y)' = (x NOR y) NOR (x NOR y)
+> x OR y = ((x OR y)')' = (x NOR y)' = (x NOR y) NOR (x NOR y) = NOR(NOR(x, y), NOR(x, y))
 > 
 > **NOT**:
 > x' = x NOR x
 
 > [!info] Representing functions in terms of NAND
 > **AND**:
-> x AND y = ((x AND y)')' = (x NAND y)' = (x NAND y) NAND (x NAND y)
+> x AND y = ((x AND y)')' = (x NAND y)' = (x NAND y) NAND (x NAND y) = NAND(NAND(x, y), NAND(x, y))
 > 
 > **OR**:
-> x OR y = (x' AND y')' = (x' NAND y') = ((x NAND x) NAND (y NAND y))
+> x OR y = (x' AND y')' = (x' NAND y') = (x NAND x) NAND (y NAND y) = NAND(NAND(x, x), NAND(y, y))
 > 
 > **NOT**:
 > x' = x NAND x
@@ -57,7 +57,7 @@ AND and OR gates can have multiple inputs with no problem since they are commuta
 NOR and NAND are not associative, so to have multiple input NOR/NAND gates, we need to define them something like $F = (x + y + z)'$ and $F = (xyz)'$ respectively.
 
 The intuition for a multi-input XOR gate is that, regardless of the number of inputs, if the number of inputs true is odd, it is *true*.
-- This is the definition of [[Special-Purpose Binary Codes#^55455f|even party]], making XOR useful for calculating EVEN parity bits
+- This is the definition of [[Special-Purpose Binary Codes#^55455f|even parity]], making XOR useful for calculating EVEN parity bits
 - XNOR is good for a parity bit for ODD parity
 
 So we could either have a multi-input XOR/XNOR gate or have multiple two-input XOR/XNOR gates which would do the same thing.

@@ -61,6 +61,8 @@ Using AND gates instead of NAND would have produced a regular decoder, so a NAND
 
 We can build a decoder with $N + 1$ inputs using two decoders each with $N$ inputs.
 
+We take $n = N + 1$ input bits $A, B, C, ...$ and have the most significant bit ($A$) be connected to the enable inputs of the decoders (either as $A'$ or $A$). The remaining input bits are inputs for all of the decoders.
+
 ### Encoders
 
 An **encoder** performs the inverse operation of a decoder.

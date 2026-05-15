@@ -64,6 +64,8 @@ Unfortunately, the resulting circuits are large.
 
 We can implement a N-bit adder by cascading N full adders.
 
+![[5.8.26 Ripple Carry Adder.png]]
+
 The reason this works is that we are adding $A_i + B_i + C_i$ at each stage with the full adder at that stage. We can build larger adders by cascading 4-bit ripple carry adders (for example, 8 4-bit adders yields a 32-bit adder).
 
 ### Why ripple carry adders are slow

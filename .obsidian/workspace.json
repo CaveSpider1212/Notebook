@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "835c18f9ab93e8e9",
+        "id": "347023c895abecda",
         "type": "tabs",
         "children": [
           {
-            "id": "576808e965564d70",
+            "id": "edeed96b8fae7990",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -166,27 +166,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "576808e965564d70",
+  "active": "edeed96b8fae7990",
   "lastOpenFiles": [
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalue Method and Matrix Exponential.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Non-homogenous System of Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inner Product Space and Orthogonality.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Inverse Matrix and Determinants.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Elementary Row Operations and Row Echelon Matrix.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Assembly Basics and x86-64.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Mealy and Moore Machines, Synchronous Circuit Design.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Virtual Memory.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Non-homogenous System of Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalue Method and Matrix Exponential.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.13.26 BCD Counter Clear.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.13.26 BCD Counter Load.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Mealy and Moore Machines, Synchronous Circuit Design.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
+    "UMD SPRING 2026 SEMESTER/CMSC 216/Virtual Memory.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Exceptional Control Flow and Unix Processes.md"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.8.26 Ripple Carry Adder.png"
   ]
 }

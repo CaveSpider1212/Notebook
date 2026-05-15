@@ -90,9 +90,9 @@ There are two kinds of complements of a number $N$ for a radix (base) $r$:
 The radix complement is simply the diminished radix complement + 1.
 
 > [!tip] Radix and Diminished Radix Complements (Easy)
-> Diminished Radix Complement: $(r - 1)^n - N$, where $n$ is the number of times to repeat $(r - 1)$ and $N$ is the original number, which we are subtracting normally from $(r - 1)^n$
+> Diminished Radix Complement: $(r - 1)^n - N$, where $r$ is the base of the number, $n$ is the number of times to repeat $(r - 1)$, and $N$ is the original number, which we are subtracting normally from $(r - 1)^n$
 > 
-> Radix Complement: $(r - 1)^n - N + 1$, which is the diminished radix complement + 1
+> Radix Complement: $(r - 1)^n - N + 1$, which is the diminished radix complement + 1. Alternatively, $r^n - N$ is another formula.
 
 If the number is a fraction, then remove the radix point, convert, then restore the fraction point.
 

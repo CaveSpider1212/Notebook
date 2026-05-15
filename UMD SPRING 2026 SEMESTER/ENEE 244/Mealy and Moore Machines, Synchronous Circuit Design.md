@@ -30,7 +30,7 @@ Moore machines do not have this problem.
 6. Assign the states to bit patterns (**state assignment**)
 7. Draw state table
 8. Choose the type of flip flops to use (D when inputs become the state, T when toggling is required, JK for general, more complex circuits)
-9. From state table, derive the excitation table using the flip flop excitation tables
+9. From state table, derive the excitation table using the flip flop excitation tables (for JK and T flip flops, not D flip flops)
 10. Obtain flip flop input and circuit output functions
 11. Minimize flip flop input and circuit output functions
 12. Draw the circuit
