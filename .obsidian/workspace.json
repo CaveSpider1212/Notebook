@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "347023c895abecda",
+        "id": "a5602368bb9d864b",
         "type": "tabs",
         "children": [
           {
-            "id": "edeed96b8fae7990",
+            "id": "48adf18eb36f863b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "OCaml"
             }
           }
         ]
@@ -37,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -166,8 +172,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "edeed96b8fae7990",
+  "active": "48adf18eb36f863b",
   "lastOpenFiles": [
+    "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Untitled.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330",
+    "UMD FALL 2026 SEMESTER",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Non-homogenous System of Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
@@ -193,9 +204,6 @@
     "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
     "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Memory Systems.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Virtual Memory.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/UNIX File IO.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.8.26 Ripple Carry Adder.png"
   ]
 }
