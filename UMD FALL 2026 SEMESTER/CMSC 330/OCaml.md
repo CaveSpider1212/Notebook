@@ -76,6 +76,11 @@ let area l w = l * w
 (* int -> int -> int *)
 ```
 
+```
+let f a b = a ^ b in f (* string -> string -> string *)
+let f a b = a ^ b in f "hi" (* string -> string, since one of them was taken up by the argument *)
+```
+
 ### Let Expressions
 
 ```
@@ -86,9 +91,12 @@ let x = e1 in e2
 
 `e1` is the binding expression, and `e2` is the body expression, so the entire `let` expression evaluates to the result of `e2`.
 
+> [!info] `in`
+> The `in` keyword is used to define a local variable binding, or a local function. It restricts the scope of a variable so that it is only accessible in what comes after the `in` keyword.
+
 Let expressions can be nested and used for local variables.
 
-Variables in nested let expressions are overshadowed, meaning if the same variable is declared in an inner let expression that variable's value is used in the remaining expression.
+Variables in nested let expressions are overshadowed, meaning if the same variable is declared in an inner let expression that variable's value is used in the remaining expression (note that they are 2 different variables though).
 
 ```
 let x = 3 in let y = 4 in x + y (* 7 *)
@@ -118,6 +126,8 @@ e1::e2::[]
 
 `[]` means an empty list (nil)
 
+`h` means "head", while `t` means tail
+
 ##### Pattern Matching
 
 **Pattern matching** is the way to deconstruct any data structure in OCaml, using the `match` expression.
@@ -141,6 +151,7 @@ A `match` expression takes in an expression or value and then checks to see if i
 > [!info] Tuples
 > ```
 > (1, 2)
+> (* int * int *)
 > ```
 > 
 > Surrounded by `()` and separated with commas.
