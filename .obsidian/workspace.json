@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "8ad95cb9ebfbf64d",
+    "id": "e6ac1fe38e51151f",
     "type": "split",
     "children": [
       {
-        "id": "a5602368bb9d864b",
+        "id": "151c545c3056422b",
         "type": "tabs",
         "children": [
           {
-            "id": "48adf18eb36f863b",
+            "id": "a12867315a8f9992",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "04a35773f1895c32",
+    "id": "9573e6e7f2f04feb",
     "type": "split",
     "children": [
       {
-        "id": "4702ea3566255525",
+        "id": "2bd6c5be1a0405de",
         "type": "tabs",
         "children": [
           {
-            "id": "22375a0c64e43ffe",
+            "id": "e4c7bb6a2a8ef26f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "c4c9f9364d8f2a93",
+            "id": "52cbe276e853b3a5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -67,11 +67,14 @@
             }
           },
           {
-            "id": "a1a1b3da56aec182",
+            "id": "d1bdfeae3983ccc4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
@@ -83,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "28625cbed389fc2b",
+    "id": "075816e4eab1bba0",
     "type": "split",
     "children": [
       {
-        "id": "2f4d4bee00a6f631",
+        "id": "11f9e0bc6d99180c",
         "type": "tabs",
         "children": [
           {
-            "id": "615cda082a5ea3c7",
+            "id": "37a549c70aeb1449",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,25 +109,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Higher Order Differential Equations"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "9f0cd48b67c366e7",
+            "id": "6018648188ef0366",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Higher Order Differential Equations"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "b0fe36313a1008e4",
+            "id": "2a20c2545d8d6778",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -139,18 +142,18 @@
             }
           },
           {
-            "id": "7ad962ca486843f6",
+            "id": "8b959c6e31909361",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
+                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Higher Order Differential Equations"
+              "title": "Outline"
             }
           }
         ]
@@ -172,38 +175,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48adf18eb36f863b",
+  "active": "a12867315a8f9992",
   "lastOpenFiles": [
-    "UMD FALL 2025 SEMESTER/CHEM 134/Acids and Bases.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Untitled.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330",
-    "UMD FALL 2026 SEMESTER",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalues and Eigenvectors.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Non-homogenous System of Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Systems of Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Eigenvalue Method and Matrix Exponential.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Higher Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/Second-Order Differential Equations.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 290/First-Order Differential Equations.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.13.26 BCD Counter Clear.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.13.26 BCD Counter Load.png",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Binary Representations and Arithmetic.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Other Binary Functions and Don't Care Conditions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Magnitude Comparators, Decoders, and Encoders.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Mealy and Moore Machines, Synchronous Circuit Design.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Minimization of Boolean Functions.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Normal and Canonical Forms.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Threads and Concurrency.md",
-    "UMD SPRING 2026 SEMESTER/CMSC 216/Introduction to C.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Images/5.8.26 Ripple Carry Adder.png"
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md"
   ]
 }

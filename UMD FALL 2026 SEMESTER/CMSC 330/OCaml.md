@@ -1,7 +1,7 @@
 ---
 tags: CMSC_330
 created: 2026-9-3
-description: 9/3, 9/8 notes
+description: 9/3, 9/8, 9/10 video, 9/15 notes
 ---
 
 ### Functional Programming
@@ -76,6 +76,8 @@ let area l w = l * w
 (* int -> int -> int *)
 ```
 
+The `'a` data type represents a **polymorphic** type, used when OCaml cannot determine the type of the input used for a function.
+
 ```
 let f a b = a ^ b in f (* string -> string -> string *)
 let f a b = a ^ b in f "hi" (* string -> string, since one of them was taken up by the argument *)
@@ -128,6 +130,12 @@ e1::e2::[]
 
 `h` means "head", while `t` means tail
 
+> [!example] List Creation Example
+> ```
+> 1::2::3::[4;5;6];;
+> (* [1;2;3;4;5;6] *)
+> ```
+
 ##### Pattern Matching
 
 **Pattern matching** is the way to deconstruct any data structure in OCaml, using the `match` expression.
@@ -162,3 +170,45 @@ A `match` expression takes in an expression or value and then checks to see if i
 
 Tuples have a type based on size, and can pattern match.
 
+##### Records
+
+> [!info] Records
+> ```
+> type data = { month: string; dat: int; year: int };;
+> let today = { day = 29; year = 2020; month = "feb" };;
+> 
+> print_string today.month (* prints "feb" *)
+> ```
+
+Records are kind of like `structs` in C, and can pattern match.
+
+##### User-Defined Types
+
+> [!info] User-Defined Types
+> ```
+> type ilist = int list;;
+> let f x:list = [1;2;3;4];;
+> ```
+> 
+> The `type` keyword allows for an alias.
+> 
+> Like a `typedef`
+
+In the above form, it isn't really useful. Variant types are more useful.
+
+```
+type parity = Even | Odd
+
+let swap x = match x with
+Even -> Odd
+|Odd -> Even
+```
+
+These types can hold data and be pattern matched, and they can hold different data types, be recursive, or be generic.
+
+> [!example] User-Defined Types Example
+>```
+>type parity = Even of int | Odd of int (* "of" means takens in a value of that type *)
+>
+>type shape = Rect of int * int | Circle of float
+>```
