@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "OCaml"
+            }
+          },
+          {
+            "id": "15531468c0a5a67b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "UMD FALL 2026 SEMESTER/CMSC 330/Functions.md",
                 "mode": "preview",
                 "source": true
@@ -177,8 +191,9 @@
   },
   "active": "a12867315a8f9992",
   "lastOpenFiles": [
-    "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
     "UMD FALL 2026 SEMESTER/CMSC 330/Functions.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
     "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md"
   ]

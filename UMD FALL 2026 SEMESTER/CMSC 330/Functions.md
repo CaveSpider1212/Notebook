@@ -52,3 +52,26 @@ apply_to_int add3 4;; (* 7 *)
 > [] -> []
 > |h::t -> (f h)::(map f t)
 > ```
+
+> [!info] Fold
+> A `fold` aggregates a list to a single value, going from left to right in the list.
+> 
+> ```
+> let rec fold f a l = match l with
+> |[] -> a
+> |h::t -> f (f a h) t;;
+> ```
+> 
+> `a` is the **accumulator**, a running value updated at each step of the field.
+> 
+> `f` is the function that takes in the current accumulator and the current element (or vice versa) and returns a new accumulator.
+> 
+> `l` is the list.
+> 
+> Reduces stack frames.
+
+In `foldr`, the order of evaluation is reversed.
+
+Fold left is tail-recursive, starts from the left, and is memory safe.
+
+Fold right is not tail-recursive or memory safe and has a risk of stack overflow on large lists, and starts from the end.

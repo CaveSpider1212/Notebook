@@ -119,7 +119,7 @@ let x = 3 in let z = 4 + x in let x = 1 in x + z (* 8 *)
 > 
 > There is no indexing, but has a head and a tail.
 > 
-> Homogenous: All elements must be the same data type
+> Homogenous: All elements must be the same data type (the above is of type `int list`)
 
 ```
 (* List creation *)
@@ -193,6 +193,8 @@ Records are kind of like `structs` in C, and can pattern match.
 > The `type` keyword allows for an alias.
 > 
 > Like a `typedef`
+> 
+> Kind of like a "custom type" which uses already-existing types (whether they are default in OCaml or user-defined)
 
 In the above form, it isn't really useful. Variant types are more useful.
 
@@ -202,6 +204,7 @@ type parity = Even | Odd
 let swap x = match x with
 Even -> Odd
 |Odd -> Even
+(* Type is "parity", value is either Even or Odd *)
 ```
 
 These types can hold data and be pattern matched, and they can hold different data types, be recursive, or be generic.
