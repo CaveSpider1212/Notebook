@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "e6ac1fe38e51151f",
+    "id": "77c6a411d12f9f13",
     "type": "split",
     "children": [
       {
-        "id": "d85f3b8e3cbf86ef",
+        "id": "41d5c158d4acda8d",
         "type": "tabs",
         "children": [
           {
-            "id": "fb35821d6b79aa70",
+            "id": "69fbdcef6daabfe7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,37 +20,22 @@
               "icon": "lucide-file",
               "title": "Finite State Machines"
             }
-          },
-          {
-            "id": "42412ca3a0052c58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Regular Expressions"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "9573e6e7f2f04feb",
+    "id": "13cabff4e4467a3e",
     "type": "split",
     "children": [
       {
-        "id": "2bd6c5be1a0405de",
+        "id": "a682f30e349f6b0e",
         "type": "tabs",
         "children": [
           {
-            "id": "e4c7bb6a2a8ef26f",
+            "id": "fd64edfb59c092b5",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,7 +50,7 @@
             }
           },
           {
-            "id": "52cbe276e853b3a5",
+            "id": "b94b31b074fe9ea6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,7 +67,7 @@
             }
           },
           {
-            "id": "d1bdfeae3983ccc4",
+            "id": "680b545d05a16269",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -101,20 +86,20 @@
     "width": 300
   },
   "right": {
-    "id": "075816e4eab1bba0",
+    "id": "5256159d30faebad",
     "type": "split",
     "children": [
       {
-        "id": "11f9e0bc6d99180c",
+        "id": "7642e937ceec00b3",
         "type": "tabs",
         "children": [
           {
-            "id": "37a549c70aeb1449",
+            "id": "bc980b634337b451",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,12 +113,12 @@
             }
           },
           {
-            "id": "6018648188ef0366",
+            "id": "5a7a57154f7c2276",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +127,7 @@
             }
           },
           {
-            "id": "2a20c2545d8d6778",
+            "id": "fe44eb3eaab22a75",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,12 +142,12 @@
             }
           },
           {
-            "id": "8b959c6e31909361",
+            "id": "41828906bae830fb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,19 +175,8 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "42412ca3a0052c58",
+  "active": "69fbdcef6daabfe7",
   "lastOpenFiles": [
-    "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Flip Flops.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Combinational Circuits (Adders).md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Boolean Algebra.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Registers and Counters.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Special-Purpose Binary Codes.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Sequential Circuits Introduction and Latches.md",
-    "UMD SPRING 2026 SEMESTER/ENEE 244/Mealy and Moore Machines, Synchronous Circuit Design.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Functions.md"
+    "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md"
   ]
 }
