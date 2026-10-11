@@ -6,6 +6,8 @@ description: 9/17 notes
 
 ### Higher Order Programming
 
+**Higher-order function**: A function either taking in another function as an argument or returning a function.
+
 > [!info] Anonymous Functions
 > **Anonymous function**: Function not bound to a variable
 > 
@@ -39,8 +41,12 @@ apply_to_int sub3 4;; (* 1 *)
 apply_to_int add3 4;; (* 7 *)
 ```
 
+**Currying**: Converting a function with multiple arguments to a sequence of functions with one argument each
+
 > [!tip]
 > When we write a regular function, like `let f x y z = x + y * z`, OCaml sees it as a bunch of nested anonymous functions, like `let f = (fun x -> (fun y -> (fun z -> x + y * z)))`.
+
+**Closure**: A function bundled together with its referencing environment
 
 ### Map and Fold
 
