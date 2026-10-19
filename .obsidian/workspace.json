@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "baa31a398d03bebe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "OCaml"
-            }
-          },
-          {
-            "id": "f049aa4054da81b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Functions.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Functions"
-            }
-          },
-          {
-            "id": "880509991bd828c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
-                "mode": "preview",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Regular Expressions"
-            }
-          },
-          {
             "id": "69fbdcef6daabfe7",
             "type": "leaf",
             "state": {
@@ -61,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Finite State Machines"
+            }
+          },
+          {
+            "id": "72bc199b5594cdc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Regular Expressions"
             }
           }
         ]
@@ -217,12 +189,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "baa31a398d03bebe",
+  "active": "69fbdcef6daabfe7",
   "lastOpenFiles": [
+    "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.15.26 RegEx Concat to NFA.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.18.26 NFA to DFA Result.png",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/Analysis of Clocked Sequential Circuits.md",
+    "UMD SPRING 2026 SEMESTER/ENEE 244/K-Maps.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.18.26 NFA to DFA Example.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.15.26 RegEx Star to NFA.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.15.26 RegEx Union to NFA.png",
     "UMD FALL 2026 SEMESTER/CMSC 330/Functions.md",
     "UMD FALL 2026 SEMESTER/CMSC 330/OCaml.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Regular Expressions.md",
     "UMD FALL 2026 SEMESTER/CMSC 330/Images",
     "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.4.26 FSM.png"
   ]
