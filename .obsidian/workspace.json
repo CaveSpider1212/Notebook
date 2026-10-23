@@ -4,25 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2eb58f776e7efa2a",
+        "id": "11527c7156f58878",
         "type": "tabs",
         "children": [
           {
-            "id": "13c542cbcb648bf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Grammars.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Grammars"
-            }
-          },
-          {
-            "id": "f2c98153e9ccc030",
+            "id": "834560e2c9bff3bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,6 +19,20 @@
               },
               "icon": "lucide-file",
               "title": "Finite State Machines"
+            }
+          },
+          {
+            "id": "a5fcea90ee620b77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UMD FALL 2026 SEMESTER/CMSC 330/Grammars.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Grammars"
             }
           }
         ]
@@ -189,9 +189,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "13c542cbcb648bf8",
+  "active": "834560e2c9bff3bf",
   "lastOpenFiles": [
+    "UMD FALL 2026 SEMESTER/CMSC 330/Grammars.md",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Midpoint End.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Concat Start.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Concat End.png",
     "UMD FALL 2026 SEMESTER/CMSC 330/Finite State Machines.md",
-    "UMD FALL 2026 SEMESTER/CMSC 330/Grammars.md"
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Midpoint Start.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Union End.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Union Start.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Star End.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Images/10.22.26 DFA to RegEx Star Start.png",
+    "UMD FALL 2026 SEMESTER/CMSC 330/Compilers.md"
   ]
 }

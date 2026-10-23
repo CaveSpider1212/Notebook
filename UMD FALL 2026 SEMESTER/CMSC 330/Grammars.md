@@ -1,7 +1,7 @@
 ---
 tags: CMSC_330
 created: 2026-10-20
-description: 10/20 notes
+description: 10/20, 10/22 notes
 ---
 
 ### Compilers/Interpreters
@@ -80,3 +80,15 @@ CFGs can describe programming languages.
 An Abstract Syntax Tree (AST) is the backend data structure parsers use.
 
 Parse trees show how things should be parsed, and ASTs are the abstraction of a parse tree.
+
+### Compilers/Interpreters
+
+**Compiler**: Language to language
+**Interpreter**: Language to value
+
+3 steps:
+1. Figure out the "words"
+	1. Are they a valid word?
+2. Are the words in right order?
+	1. Is sentence grammatically correct?
+3. Do words make sense together?

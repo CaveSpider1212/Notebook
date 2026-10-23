@@ -113,3 +113,37 @@ Keep repeating the process of processing states and adding new states to the lis
 > 
 > Result:
 > ![[10.18.26 NFA to DFA Result.png]]
+
+### DFA --> Regular Expression
+
+The idea is to take one state out of the machine at a time while replacing the input and output 
+
+> [!info] State Between Two Transitions (Concatenation)
+> ![[10.22.26 DFA to RegEx Concat Start.png]]
+> 
+> We can take out the `S1` state, then concatenate input `a` with output `b` to get a single transition `ab` from `S0` to `S2`.
+> 
+> ![[10.22.26 DFA to RegEx Concat End.png]]
+
+> [!info] State with Self-Cycle (Kleene Star)
+> ![[10.22.26 DFA to RegEx Star Start.png]]
+> 
+> If a state has a self-cycle (transition looping to itself), then we can modify the transition with the Kleene star and remove the state.
+> 
+> ![[10.22.26 DFA to RegEx Star End.png]]
+
+> [!info] Multiple Edges Between Two States (Union)
+> ![[10.22.26 DFA to RegEx Union Start.png]]
+> 
+> If there are multiple transitions from one state to another, we can OR them together, since there are multiple ways to get from that state to the next.
+> 
+> ![[10.22.26 DFA to RegEx Union End.png]]
+
+> [!info] Multiple Inputs/Outputs Going to Different Places
+> ![[10.22.26 DFA to RegEx Midpoint Start.png]]
+> 
+> We need to treat each combination of input and output transitions as a new transition we make..
+> 
+> ![[10.22.26 DFA to RegEx Midpoint End.png]]
+
+We need to wrap the new DFA in a new starting state and a singular final state (from all of the DFA's final state) by an epsilon transition, then remove every internal state (that is not the start or final) until we have only one transition left. That transition is the regular expression.
